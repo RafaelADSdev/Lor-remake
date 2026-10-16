@@ -95,7 +95,8 @@ function fixture(owner, kind = "mixed") {
         return result;
       };
     });
-    if (sound) await page.locator("#sound-toggle").click();
+    if (await page.evaluate(() => ArenaMotion.soundEnabled) !== sound)
+      await page.locator("#sound-toggle").click();
     return { page, context };
   }
   async function resolveCombat(page) {

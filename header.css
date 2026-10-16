@@ -1,4 +1,11 @@
 /* Shared header, with a compact form while the battlefield is open. */
+.header-more { position: relative; }
+.header-more > summary { display: flex; align-items: center; min-height: 44px; padding: 8px 12px; cursor: pointer; color: #e5c789; list-style: none; }
+.header-more > summary::-webkit-details-marker { display: none; }
+.header-more > summary::after { content: ""; width: 6px; height: 6px; margin: -3px 0 0 10px; border-right: 1px solid currentColor; border-bottom: 1px solid currentColor; transform: rotate(45deg); }
+.header-more-menu { position: absolute; z-index: 50; top: 100%; right: 0; min-width: 210px; padding: 8px; border: 1px solid #786644; background: #101b22; box-shadow: 0 10px 28px #0008; }
+.app-header .header-more-menu button { width: 100%; justify-content: flex-start; min-height: 44px; white-space: nowrap; }
+.in-duel .header-more { display: none; }
 body > .app-header {
   min-width: 0;
   gap: 24px;
@@ -343,9 +350,12 @@ body.in-duel > .app-header {
   }
   .app-header .header-links {
     width: 100%;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 6px;
   }
+  .header-more > summary { padding-inline: 8px; font-size: 11px; }
+  .header-more-menu { left: 0; right: auto; }
   .app-header .header-links button {
     font-size: 11px;
     gap: 6px;

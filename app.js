@@ -771,7 +771,10 @@ function render() {
       render();
     },
     confirm() {
-      run(() => E.mulligan(state, [...selected]));
+      run(() => {
+        E.mulligan(state, [...selected]);
+        window.Campaign?.afterMulligan(state);
+      });
     },
     inspect,
     render,
@@ -821,6 +824,7 @@ async function finish() {
   const endingState = state,
     epoch = motionEpoch;
   finishedState = state;
+  window.CampaignUI?.recordResult(state);
   $("result-title").textContent =
     state.winner === "draw"
       ? "Empate"
@@ -890,7 +894,11 @@ async function run(action) {
     notify(e.message);
   }
 }
-function start(training = false) {
+function start(training = false, campaignEncounter = null, campaignDeck = null) {
+  if (campaignEncounter) {
+    try { window.CampaignUI.canStart(campaignEncounter, campaignDeck); }
+    catch (error) { notify(error.message); return false; }
+  }
   motionEpoch++;
   DuelOutcome.cancel();
   busy = false;
@@ -899,7 +907,7 @@ function start(training = false) {
   window.CardPresentation?.cancel();
   ArenaChrome.cancel();
   clearTimeout(timer);
-  const choice = $("deck").value;
+  const choice = campaignDeck || $("deck").value;
   if (E.validateDeck(data.cards, data.decks[choice]).length) {
     notify("Monte um deck válido de 40 cartas antes de começar.");
     return;
@@ -914,9 +922,11 @@ function start(training = false) {
   try {
     last = localStorage.getItem("lor-last-opponent");
   } catch {}
-  const opponent =
-    fixed || ArenaDecks.pick(data.opponents, data.decks[choice], last);
+  const opponent = campaignEncounter
+    ? { id: "campaign-" + campaignEncounter, name: Campaign.get(campaignEncounter).name, cards: Campaign.deck(campaignEncounter, data) }
+    : fixed || ArenaDecks.pick(data.opponents, data.decks[choice], last);
   const other = opponent.id;
+  const opponentCards = campaignEncounter ? opponent.cards : data.decks[other];
   try {
     localStorage.setItem("lor-last-opponent", other);
   } catch {}
@@ -924,7 +934,7 @@ function start(training = false) {
     state = E.training(
       data.cards,
       data.decks[choice],
-      data.decks[other],
+      opponentCards,
       Date.now(),
       hero,
       { faithful: true },
@@ -933,7 +943,7 @@ function start(training = false) {
     state = E.create(
       data.cards,
       data.decks[choice],
-      data.decks[other],
+      opponentCards,
       Date.now(),
       { faithful: true },
     );
@@ -942,9 +952,11 @@ function start(training = false) {
   state.players[0].deckName = ArenaDecks.playerName(data, state.players[0]);
   state.players[1].deckName = opponent.name;
   state.opponentKey = other;
-  ArenaView.prepare(state, [data.decks[choice], data.decks[other]]);
+  if (campaignEncounter) Campaign.prepare(state, campaignEncounter);
+  ArenaView.prepare(state, [data.decks[choice], opponentCards]);
   showGame();
   save();
+  return true;
 }
 function showGame() {
   ArenaView.enter(state);
@@ -952,6 +964,7 @@ function showGame() {
   document.body.classList.add("in-duel");
   resetSelection();
   $("welcome").hidden = true;
+  $("campaign").hidden = true;
   $("game").hidden = false;
   render();
   schedule();
@@ -976,7 +989,10 @@ $("menu").onclick = () => {
   clearTimeout(timer);
   if (state) save();
   $("welcome").hidden = false;
+  $("welcome").classList.remove("choosing-duel");
+  $("choose-duel").setAttribute("aria-expanded", "false");
   $("game").hidden = true;
+  $("campaign").hidden = true;
 };
 $("help").onclick = () => $("help-dialog").showModal();
 $("close-help").onclick = () => $("help-dialog").close();
@@ -1007,7 +1023,11 @@ $("pass").onclick = () =>
   );
 $("again").onclick = () => {
   $("result-dialog").close();
-  start();
+  if (state?.campaign && Campaign.get(state.campaign.encounterId)) {
+    const key = state.players[0].deckKey;
+    if (data.decks[key]) start(false, state.campaign.encounterId, key);
+    else { $("menu").click(); window.CampaignUI?.open(); }
+  } else start();
 };
 $("view-result").onclick = () => {
   $("result-dialog").close();
@@ -1054,13 +1074,39 @@ $("motion-toggle").onclick = () => {
   if (state && !$("game").hidden) ArenaChrome.render(state);
   motionLabel();
 };
-$("sound-toggle").onclick = () => {
-  const on = ArenaMotion.toggleSound();
+function soundLabel() {
+  const on = ArenaMotion.soundEnabled;
   $("sound-toggle").textContent = on ? "Som: ativado" : "Som: desligado";
   $("sound-toggle").setAttribute("aria-pressed", String(on));
   $("sound-toggle").setAttribute("aria-label", $("sound-toggle").textContent);
   $("sound-toggle").title = $("sound-toggle").textContent + " · clique para alternar";
+}
+soundLabel();
+$("sound-toggle").onclick = () => {
+  ArenaMotion.toggleSound();
+  soundLabel();
 };
+$("choose-duel").onclick = () => {
+  $("welcome").classList.add("choosing-duel");
+  $("choose-duel").setAttribute("aria-expanded", "true");
+  $("deck").focus({ preventScroll: true });
+  $("duel-setup").scrollIntoView({ block: "start" });
+};
+$("back-to-modes").onclick = () => {
+  $("welcome").classList.remove("choosing-duel");
+  $("choose-duel").setAttribute("aria-expanded", "false");
+  $("choose-duel").focus();
+};
+const moreMenu = document.querySelector(".header-more");
+moreMenu.addEventListener("click", (event) => {
+  if (event.target.closest("button")) moreMenu.open = false;
+});
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && moreMenu.open) {
+    moreMenu.open = false;
+    moreMenu.querySelector("summary").focus();
+  }
+});
 $("journal").onclick = () => {
   const on = document.body.classList.toggle("journal-open");
   $("journal").setAttribute("aria-expanded", String(on));
@@ -1112,3 +1158,8 @@ for (const target of [
     render();
   });
 }
+window.CampaignBridge = {
+  saved: () => saved,
+  start: (id, deck) => start(false, id, deck),
+  leave: () => $("menu").click(),
+};

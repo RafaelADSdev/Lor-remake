@@ -5,6 +5,7 @@ const path = require('node:path');
 const http = require('node:http');
 const root = path.resolve(__dirname, '..');
 let originAvailable = true;
+let activeDownloads = 0, maxDownloads = 0;
 const mime = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.webmanifest': 'application/manifest+json', '.png': 'image/png', '.svg': 'image/svg+xml', '.ttf': 'font/ttf', '.webp': 'image/webp' };
 const server = http.createServer((req, res) => {
   if (!originAvailable) return req.socket.destroy();
@@ -13,6 +14,10 @@ const server = http.createServer((req, res) => {
   if (!file.startsWith(root + path.sep)) return res.writeHead(403).end();
   fs.stat(file, (error, stat) => {
     if (error || !stat.isFile()) return res.writeHead(404).end();
+    if (req.headers['x-pwa-artwork']) {
+      maxDownloads = Math.max(maxDownloads, ++activeDownloads);
+      res.on('close', () => activeDownloads--);
+    }
     res.writeHead(200, { 'Content-Type': mime[path.extname(file)] || 'application/octet-stream', 'Cache-Control': 'no-cache' });
     fs.createReadStream(file).pipe(res);
   });
@@ -45,12 +50,15 @@ const server = http.createServer((req, res) => {
       await page.locator('#pwa-panel summary').click();
       assert.equal(await page.locator('#pwa-install-help').isVisible(), true);
       if (name === 'android') {
+        const started = Date.now();
         await page.locator('#pwa-download').click();
         await page.waitForFunction(() => document.querySelector('#pwa-progress').value >= 3);
         await page.locator('#pwa-cancel').click();
         await page.waitForFunction(() => document.querySelector('#pwa-download-status').textContent.includes('pausado'));
         await page.locator('#pwa-download').click();
         await page.waitForFunction(() => document.querySelector('#pwa-download-status').textContent.includes('todas'), null, { timeout: 120000 });
+        assert.ok(maxDownloads >= 2 && maxDownloads <= 4, 'artwork downloads use bounded parallel requests');
+        console.log(`Artwork download: ${((Date.now() - started) / 1000).toFixed(1)} seconds; up to ${maxDownloads} concurrent requests.`);
       }
       await page.screenshot({ path: path.join(root, `test-results/pwa-${name}.png`), fullPage: true });
       // Playwright WebKit rejects SW navigations with setOffline(true): #42775.
@@ -58,6 +66,40 @@ const server = http.createServer((req, res) => {
       if (engine === webkit) originAvailable = false;
       else await context.setOffline(true);
       await page.reload();
+      await page.locator('#open-campaign').click();
+      assert.equal(await page.locator('.campaign-destinations button').count(), 10);
+      for (const id of ['demacia', 'noxus', 'freljord', 'ionia', 'piltover-zaun', 'bilgewater', 'shurima', 'targon', 'ixtal', 'shadow-isles']) {
+        await page.locator(`.campaign-destinations [data-region="${id}"]`).click();
+        assert.equal(await page.locator(`[data-encounter="${id}-patrol"]`).isEnabled(), true);
+        await page.locator('.campaign-region-hero > img').evaluate(image => image.decode());
+        assert.equal(await page.locator('.campaign-territory.is-active').getAttribute('data-region'), id, 'frontier geometry is available offline');
+      }
+      const allSymbolsLoaded = await page.locator('#campaign .campaign-region-symbol').evaluateAll(async images => {
+        await Promise.all(images.map(image => image.decode()));
+        return images.length === 21 && images.every(image => image.naturalWidth > 0);
+      });
+      assert.equal(allSymbolsLoaded, true, 'ten map emblems, ten destination emblems and panel emblem work on first offline visit');
+      await page.locator('.campaign-destinations [data-region="demacia"]').click();
+      assert.equal(await page.locator('.campaign-route-map button').count(), 7);
+      await page.locator('[data-encounter="demacia-patrol"]').click();
+      assert.equal(await page.evaluate(() => state.campaign.encounterId), 'demacia-patrol');
+      await page.locator('#confirm-opening').click();
+      // A prepared result verifies PWA persistence/rewards, not deck balance.
+      await page.evaluate(async () => {
+        clearTimeout(timer); state.round = 6; state.players[1].nexus = 0;
+        state.winner = 0; state.phase = 'over'; render(); save(); await finish();
+      });
+      await page.locator('#result-dialog').waitFor({ state: 'visible' });
+      assert.match(await page.locator('#campaign-result').textContent(), /40 XP/);
+      await page.locator('#campaign-return').click();
+      await page.goto(url + '?mode=campaign');
+      await page.locator('#campaign').waitFor({ state: 'visible' });
+      assert.equal(await page.locator('[data-route="demacia-patrol"]').getAttribute('data-completed'), 'true');
+      assert.equal(await page.locator('[data-encounter="demacia-road"]').isEnabled(), true);
+      await page.locator('#campaign-close').click();
+      // Keep the ordinary home as the launch URL for the free-duel regression.
+      await page.goto(url);
+      if (!(await page.locator('#start').isVisible())) await page.locator('#choose-duel').click();
       await page.locator('#start').click();
       assert.equal(await page.locator('#opening-cards button').count(), 4);
       await page.locator('#confirm-opening').click();
@@ -90,11 +132,12 @@ const server = http.createServer((req, res) => {
       assert.ok((await page.locator('.arena').boundingBox()).height >= 500);
       // Reopening offline must retain the saved duel.
       await page.reload();
+      if (!(await page.locator('#resume').isVisible())) await page.locator('#choose-duel').click();
       await page.locator('#resume').click();
       assert.equal(await page.locator('#game').isVisible(), true);
       assert.deepEqual(errors, []);
       await context.close();
-      console.log(`${name}: scoped install, offline reload, touch, save and responsive checks passed`);
+      console.log(`${name}: scoped install, all ten campaign symbols/chapters offline, touch, save and responsive checks passed`);
     } finally { await browser.close(); }
   }
 })().catch(error => { console.error(error); process.exitCode = 1; }).finally(() => server.close());

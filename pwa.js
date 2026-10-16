@@ -5,6 +5,14 @@
   const base = new URL('./', location.href);
   const prefix = `lor-pwa-${encodeURIComponent(base.pathname)}-`;
   let installPrompt, downloadController;
+  const coreProgress = $('pwa-core-progress');
+  navigator.serviceWorker?.addEventListener('message', event => {
+    const message = event.data;
+    if (message?.type !== 'LOR_OFFLINE_PROGRESS' || message.scope !== base.pathname) return;
+    coreProgress.max = message.total; coreProgress.value = message.completed;
+    coreProgress.hidden = message.completed === message.total;
+    if (!coreProgress.hidden) $('pwa-status').textContent = `Preparando campanha e duelo offline: ${message.completed} de ${message.total} arquivos.`;
+  });
   const standalone = () => navigator.standalone || matchMedia('(display-mode: standalone)').matches;
   const installed = () => {
     $('pwa-install').hidden = true;
@@ -46,20 +54,29 @@
       await navigator.storage?.persist?.().catch(() => false);
       progress.max = files.length;
       progress.value = 0;
-      for (const file of files) {
-        signal.throwIfAborted();
-        const url = new URL(file, base);
-        if (!saved.has(url.href)) {
-          const art = await fetch(url, { signal, cache: 'no-store', headers: { 'X-PWA-Artwork': 'download' } });
-          if (!art.ok) throw Error('Uma arte não pôde ser baixada.');
-          await cache.put(url, art);
+      let cursor = 0, failure = null;
+      const update = () => { $('pwa-download-status').textContent = `${progress.value} de ${files.length} artes salvas. Mantenha o app aberto; você pode pausar e continuar depois.`; };
+      await Promise.allSettled(Array.from({ length: 4 }, async () => {
+        try {
+          while (cursor < files.length && !signal.aborted) {
+            const file = files[cursor++], url = new URL(file, base);
+            if (!saved.has(url.href)) {
+              const art = await fetch(url, { signal, cache: 'no-store', headers: { 'X-PWA-Artwork': 'download' } });
+              if (!art.ok) throw Error('Uma arte não pôde ser baixada.');
+              await cache.put(url, art);
+            }
+            progress.value++;
+            if (progress.value % 10 === 0 || progress.value === files.length) update();
+          }
+        } catch (error) {
+          if (!signal.aborted) { failure = error; downloadController.abort(); }
         }
-        progress.value++;
-        $('pwa-download-status').textContent = `${progress.value} de ${files.length} artes salvas. Mantenha o app aberto; você pode pausar e continuar depois.`;
-      }
+      }));
+      if (failure) throw failure;
+      signal.throwIfAborted();
       $('pwa-download-status').textContent = 'Artes de todas as cartas jogáveis salvas para offline. Vídeos e áudios continuam online.';
     } catch (error) {
-      $('pwa-download-status').textContent = signal.aborted
+      $('pwa-download-status').textContent = error.name === 'AbortError'
         ? 'Download pausado. Toque em baixar para continuar de onde parou.'
         : 'Download interrompido por conexão ou falta de espaço. As artes já salvas foram mantidas; toque em baixar para tentar continuar.';
     } finally {
@@ -69,6 +86,8 @@
     }
   };
   async function prepare() {
+    $('pwa-retry').hidden = true;
+    coreProgress.hidden = true;
     if (!isSecureContext || !('serviceWorker' in navigator) || !/^https?:$/.test(location.protocol)) {
       $('pwa-status').textContent = 'Para instalar no celular, abra o jogo por um endereço HTTPS. A pasta local continua funcionando no computador.';
       return;
@@ -97,7 +116,8 @@
           check();
         }),
       ]);
-      $('pwa-status').textContent = 'Jogo pronto para abrir offline. Artes podem ser baixadas abaixo.';
+      $('pwa-status').textContent = 'Campanha e duelo prontos para abrir offline. Artes podem ser baixadas abaixo.';
+      coreProgress.hidden = true;
       showUpdate();
       const response = await fetch(new URL('pwa-artwork.json', base));
       if (response.ok) {
@@ -107,8 +127,14 @@
       $('pwa-download').disabled = false;
     } catch {
       $('pwa-status').textContent = 'Não foi possível preparar o acesso offline. Verifique a conexão e o espaço disponível e abra o app novamente.';
+      coreProgress.hidden = true;
+      $('pwa-retry').hidden = false;
     }
   }
+  $('pwa-retry').onclick = prepare;
+  const mode = new URLSearchParams(location.search).get('mode');
+  if (mode === 'campaign') $('open-campaign').click();
+  else if (mode === 'duel') $('choose-duel').click();
   if (document.readyState === 'complete') prepare();
   else addEventListener('load', prepare, { once: true });
 })();

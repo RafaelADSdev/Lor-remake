@@ -1,12 +1,42 @@
-# Runeterra · Arena offline — v0.30
+# Runeterra · Arena offline — v0.32
 
 Abra **JOGAR.cmd** ou **index.html**. Não requer internet, conta, Riot Client, Node ou Python para jogar. Todo o jogo e as artes estão nesta pasta. Você pode copiá-la para outro computador.
 
+## Campanha de Runeterra — v0.32
+
+O fim do duelo usa malhas, texturas e movimentos originais dos banners e da ruptura do Nexus do LoR. A reprodução web adapta câmera e materiais; iluminação, erosão e partículas Unity ainda têm diferenças. Sem WebGL, o banner usa a pose final original como imagem. **Pular animação**, efeitos desligados e movimento reduzido continuam disponíveis. Fontes e limites em `research/REA_OUTCOME.md`.
+
+Os botões dos dois modos ficam alinhados na mesma linha e com a mesma altura no computador. **Mais**, no menu superior, reúne **Minha coleção** e **Explorar animações**; treino e continuação da partida salva ficam dentro de **Preparar duelo**.
+
+Na entrada, escolha **Explorar campanha** (ou **Continuar campanha**, após a primeira vitória). A tela inicial apresenta Campanha e Duelo livre lado a lado, com mapa e campeão. **Preparar duelo** abre a seleção de deck e adversário; **Voltar aos modos** retorna ao menu. No celular, os modos ficam empilhados. O painel da campanha mostra seu nível e encontros concluídos. Os efeitos sonoros começam ativados por padrão; o botão **Som** guarda sua preferência para as próximas visitas. A música mantém seu controle independente.
+
+O atlas usa a textura, as posições e os **dez símbolos oficiais das regiões** do [mapa da Riot](https://map.leagueoflegends.com/pt_BR), preservados localmente. Demacia, Noxus, Freljord, Ionia, Piltover e Zaun, Águas de Sentina, Shurima, Targon, Ixtal e Ilhas das Sombras podem ser visitadas desde o nível 1; os níveis recomendados não bloqueiam regiões. Arraste o mapa, use os controles de ampliação ou deslize a lista de destinos abaixo dele. Escolher um destino revela seu emblema no mapa; o símbolo também aparece no painel regional.
+
+Clique no símbolo ou no nome de uma região para selecioná-la sem mover o mapa. Arrastar o fundo continua movendo o atlas; os controles de zoom e **Recentrar** ficam abaixo dele, sem encobrir os emblemas.
+
+Passe o mouse pelo terreno, pelos emblemas ou pela lista de destinos para revelar o contorno territorial e uma prévia com nível recomendado e chefe, sem selecionar a região. O contorno aparece suavemente e o painel faz uma transição curta ao selecionar. No toque, a região selecionada mantém seu realce. **Efeitos desligados** e a preferência de movimento reduzido tornam as mudanças imediatas. Os nove contornos territoriais derivam das máscaras do mapa oficial; Piltover e Zaun usam um halo urbano. A geometria é vetorial, leve e funciona offline.
+
+São **70 encontros**, sete por região: patrulha, duas rotas alternativas, um encontro opcional, elite, chefe e desafio avançado. Uma das duas rotas basta para chegar à elite; vencer o chefe abre o desafio avançado. Chefes começam com sua carta de liderança na mão após a troca inicial e mana de feitiço, conforme a regra exibida no encontro. Essa carta mantém custo e habilidades normais. Os novos capítulos enfrentam Yone, Dragão Quimtec, Xerife Lariette Rose, Raz Sanguescama, Vovô Rumul, Capitão Farron e Comandante Ledros; o desafio avançado de Ionia garante Minah. São cartas já automatizadas, sem atribuir regras de campeão às unidades que não são campeões em LoR.
+
+Ixtal é uma expedição contra tropas noxianas invasoras, com deck de Noxus; a região geográfica não é apresentada como uma região de cartas de LoR. Os seis novos decks da campanha ficam separados da biblioteca pessoal. Os níveis, encontros e a história desta campanha são originais do protótipo.
+
+Cada primeira vitória concede XP; a cada 100 XP você ganha um nível de campanha. Maestria registra os encontros concluídos e vencer um chefe concede um título permanente. Repetir encontros melhora o recorde de rodadas, sem repetir a recompensa. Derrotas e empates não apagam conquistas. Os níveis indicam sua jornada e não concedem atributos extras ao deck. Elites e chefes liberam decks completos; não há recompensas de cartas avulsas.
+
+Na campanha, escolha um deck inicial, um deck conquistado ou um deck salvo que use as cartas dos decks conquistados. **Montar ou editar deck** abre o editor com essa coleção. A aliança libera combinações de até duas regiões; o duelo livre mantém a coleção completa.
+
+O progresso fica em `runeterra-campaign-v1`, separado dos decks e do salvamento de duelo. **Exportar progresso** cria `runeterra-campanha.json`; **Importar progresso** combina conquistas sem apagar vitórias atuais e preserva o melhor recorde. O backup da campanha contém conquistas; exporte seus decks e sua partida separadamente nos controles existentes. Se houver partida em andamento, iniciar outro encontro exige escolher entre continuar, substituir a partida ou cancelar. O resultado registra a recompensa antes da apresentação de vitória e permite **Voltar ao mapa** ou **Repetir encontro**.
+
+O mapa, seus dez emblemas e os módulos da campanha entram no cache essencial do PWA. Progresso e backups v0.31 continuam compatíveis: XP, recordes, títulos e maestria das três regiões iniciais são preservados. As mesmas limitações de armazenamento por navegador/endereço descritas abaixo se aplicam ao progresso. Detalhes da implementação em `docs/campaign.md`.
+
 ## PWA para iOS e Android
+
+A campanha agora tem um **diagrama de caminhos** em cada região: patrulha, estrada ou rio, desvio opcional, elite, chefe e desafio avançado. Os nós mostram bloqueios, conclusão, XP e decks como recompensa. Toque ou use o teclado para ir aos detalhes da etapa, sem iniciar uma batalha automaticamente. Os 70 encontros e o progresso atual são preservados.
+
+O preparo offline mostra uma barra de progresso e permite tentar novamente se a conexão falhar. Depois da primeira instalação desta versão, atualizações futuras reaproveitam os arquivos essenciais cujo conteúdo não mudou; uma instalação incompleta não substitui a versão funcionando. O download opcional das artes usa até quatro requisições simultâneas, com pausa e retomada. Imagens já presentes no cache de artes não são duplicadas no cache automático. Os atalhos do aplicativo oferecem **Campanha** e **Duelo**, nos sistemas que exibem atalhos de PWA; `?mode=campaign` e `?mode=duel` também abrem diretamente cada modo.
 
 O mesmo jogo agora pode ser instalado na tela inicial. Publique o conteúdo desta pasta em uma hospedagem estática **HTTPS**, preservando os caminhos de `assets/`. Funciona também em uma subpasta. No iPhone/iPad, abra o endereço no Safari e escolha **Compartilhar → Adicionar à Tela de Início**. No Android, use **Instalar aplicativo** na seção **Instalar e jogar offline**, ou a opção equivalente do navegador. O ZIP/pasta aberto diretamente no celular não registra o PWA; é necessário o endereço HTTPS. Para testar no computador: `python -m http.server 8765 --bind 127.0.0.1` e abra `http://localhost:8765/`.
 
-Espere a mensagem **Jogo pronto para abrir offline** antes de desconectar. A preparação salva HTML, estilos, scripts, fontes, ícones e fundos essenciais (cerca de 26 MB sem compressão de transporte). Artes visitadas são guardadas em um cache automático limitado a 48 imagens de até 2 MB cada. **Baixar artes para offline** salva também todas as artes usadas pelas cartas jogáveis e pela coleção; o botão mostra o tamanho real. O download é opcional, pode ser pausado e retomado e exige manter o app aberto. Se o sistema suspender o app, toque novamente para continuar. Sem uma arte disponível, as cartas do duelo mostram nome, custo e atributos sobre uma imagem de reserva.
+Espere a mensagem **Campanha e duelo prontos para abrir offline** antes de desconectar. A preparação salva HTML, estilos, scripts, fontes, ícones e fundos essenciais (cerca de 32 MB sem compressão de transporte). Artes visitadas são guardadas em um cache automático limitado a 48 imagens de até 2 MB cada. **Baixar artes para offline** salva também todas as artes usadas pelas cartas jogáveis e pela coleção; o botão mostra o tamanho real. O download é opcional, pode ser pausado e retomado e exige manter o app aberto. Se o sistema suspender o app, toque novamente para continuar. Sem uma arte disponível, as cartas do duelo mostram nome, custo e atributos sobre uma imagem de reserva.
 
 Áudios, vídeos e a galeria completa de efeitos continuam dependendo de conexão; não são baixados pelo PWA. Respostas parciais de mídia não passam pelo cache, para preservar a reprodução com byte ranges no Safari. Partidas e decks continuam salvos no navegador/dispositivo em uso. A instalação, outro navegador ou outro endereço podem ter armazenamento separado. O navegador pode negar persistência ou liberar o cache por falta de espaço; os arquivos exportados continuam sendo o backup portátil dos decks.
 
@@ -293,3 +323,9 @@ Testes do motor e composição: `node --test tests/engine.test.cjs tests/champio
 Testes de navegador: `node tests/browser.cjs`, `node tests/deck-builder.cjs`, `node tests/duel-ui.cjs`, `node tests/champions-browser.cjs`, `node tests/motion.cjs` e `node tests/fidelity.cjs`, com Playwright disponível e Chrome instalado. O último grava vídeo e requer o FFmpeg do Playwright; esse vídeo é uma gravação do protótipo em teste. Empacotamento: `python tools/package.py`, que produz um manifesto SHA-256 e verifica o CRC do ZIP.
 
 Artes, nomes e personagens pertencem à Riot Games, preservados aqui como referência local. Protótipo de estudo não oficial. A autoria do motor não implica direitos sobre os recursos para publicação comercial.
+
+## Progressão dos decks na campanha
+
+Comece com três decks: agressivo de Noxus, defensivo de Demacia e controle das Ilhas das Sombras. Qualquer deck liberado pode enfrentar qualquer região. Vença a elite para conquistar o deck intermediário e o chefe para conquistar o deck principal: dois decks completos por região, sem cartas avulsas como recompensa.
+
+Vença um chefe e três fases distintas de outra região para liberar **Aliança entre Regiões** e combinar cartas dos decks conquistados de até duas regiões. Repetir fases não conta novamente. O editor aberto pelo mapa mostra apenas cartas desses decks; o duelo livre continua com a coleção completa. Progresso antigo e importado recebe os decks correspondentes automaticamente. As listas reutilizam cartas e recursos já presentes no jogo.

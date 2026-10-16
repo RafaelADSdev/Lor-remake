@@ -11,7 +11,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
     <link rel="icon" type="image/png" href="assets/pwa/icon-192.png" />
-    <title>Runeterra • Mesa offline</title>
+    <title>Runeterra • Campanha e Arena</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="arena.css" />
     <link rel="stylesheet" href="lor-motion.css" />
@@ -28,12 +28,14 @@
     <link rel="stylesheet" href="arena-scene.css?v=0.25" />
     <link rel="stylesheet" href="nexus-hud.css?v=0.25" />
     <link rel="stylesheet" href="duel-outcome.css?v=0.24" />
-    <link rel="stylesheet" href="welcome.css?v=0.30.2" />
+    <link rel="stylesheet" href="welcome.css?v=0.33" />
     <link rel="stylesheet" href="header.css?v=2" />
     <link rel="stylesheet" href="card-effects.css?v=0.29" />
     <link rel="stylesheet" href="animation-gallery.css?v=0.29" />
     <link rel="stylesheet" href="attack-token.css?v=5" />
     <link rel="stylesheet" href="mobile-pwa.css" />
+    <link rel="stylesheet" href="campaign.css?v=0.34.1" />
+    <link rel="stylesheet" href="campaign-map.css?v=0.34" />
   </head>
   <body>
     <header class="app-header">
@@ -52,7 +54,7 @@
         <button id="motion-toggle" data-label="Efeitos" aria-label="Efeitos: ativados" aria-pressed="true" title="Alternar efeitos visuais">
           Efeitos: ativados
         </button>
-        <button id="sound-toggle" data-label="Som" aria-label="Som: desligado" aria-pressed="false" title="Alternar efeitos sonoros">Som: desligado</button>
+        <button id="sound-toggle" data-label="Som" aria-label="Som: ativado" aria-pressed="true" title="Alternar efeitos sonoros">Som: ativado</button>
         <button
           id="music-toggle"
           data-label="Música"
@@ -73,6 +75,13 @@
         /></label>
         </div>
         <nav class="header-links" aria-label="Navegação do jogo">
+        <details class="header-more">
+          <summary>Mais</summary>
+          <div class="header-more-menu">
+            <button id="build-deck" type="button">Minha coleção</button>
+            <button id="open-animations" type="button">Explorar animações</button>
+          </div>
+        </details>
         <button id="journal" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 6C9 4 5 4 3 5v14c3-1 6-1 9 1 3-2 6-2 9-1V5c-2-1-6-1-9 1Zm0 0v14"/></svg>Grimório</button>
         <button id="help"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-1 .7-1.5 1.2-1.5 2.5M12 16v1"/></svg>Como jogar</button>
         <button id="menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 3 14 14M3 5l14 14M3 3l1 4 3-3-4-1Zm11 11 5-5m-4 11 5-5M4 20l6-6m4-4L20 4m0 0-4 1 3 3 1-4Z"/></svg>Nova partida</button>
@@ -81,23 +90,31 @@
     </header>
     <main>
       <section id="welcome" class="welcome" aria-labelledby="welcome-title">
-        <div class="welcome-hero">
+        <div class="welcome-modes">
+        <div class="welcome-journey">
+          <img class="welcome-world" src="assets/campaign/runeterra-map.jpg" alt="" aria-hidden="true" fetchpriority="high" />
+          <div class="welcome-journey-copy">
+            <h2 id="welcome-title">Campanha<em>Explore Runeterra.</em></h2>
+            <p>Viaje por 10 regiões, enfrente seus chefes e conquiste títulos. Cada vitória faz parte da sua história.</p>
+            <div class="welcome-mode-actions">
+              <button id="open-campaign" class="primary"><span id="welcome-campaign-action">Explorar campanha</span><span aria-hidden="true">→</span></button>
+            </div>
+            <p id="welcome-campaign-progress" class="welcome-campaign-progress"></p>
+          </div>
+          <div class="welcome-world-caption" aria-hidden="true"><span>R U N E T E R R A</span><small>Um mundo. Sua jornada.</small></div>
+        </div>
+        <div class="welcome-hero" id="duel-setup" role="region" aria-labelledby="duel-setup-title">
         <div class="welcome-art" aria-hidden="true">
           <img id="welcome-champion-art" src="assets/01DE012.png" alt="" draggable="false" fetchpriority="high" />
         </div>
         <div class="welcome-copy">
-          <div class="welcome-mode">
-            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true">
-              <g class="duel-blade-left"><path d="m5 3 4 1 17 19-3 3L4 7 5 3Z"/><path d="m19 25 6-6m-3 6 5 5m-2-3 3-3"/></g>
-              <g class="duel-blade-right"><path d="m27 3-4 1L6 23l3 3L28 7l-1-4Z"/><path d="m13 25-6-6m3 6-5 5m2-3-3-3"/></g>
-            </svg>
-            <span>Duelo contra bot</span>
-          </div>
-          <h2 id="welcome-title">Escolha seu deck.<em>Domine a arena.</em></h2>
+          <button id="back-to-modes" type="button">← Voltar aos modos</button>
+          <h2 id="duel-setup-title">Duelo livre</h2>
           <p class="welcome-intro">
-            Prepare sua estratégia e enfrente o bot.<br />Seu próximo duelo começa aqui.
+            Seu deck, seu adversário, suas regras. Prepare uma partida contra o bot.
           </p>
-          <div class="match-setup">
+          <button id="choose-duel" class="primary" type="button" aria-controls="duel-options" aria-expanded="false">Preparar duelo <span aria-hidden="true">→</span></button>
+          <div class="match-setup" id="duel-options">
           <label for="deck-card-filter">Encontrar decks com uma carta</label>
           <div class="deck-card-search">
             <input id="deck-card-filter" type="search" list="deck-card-options" autocomplete="off" placeholder="Digite o nome da carta…" aria-describedby="deck-card-status" />
@@ -120,6 +137,10 @@
           <button id="start" class="primary">
             Jogar contra o bot <span aria-hidden="true">→</span></button>
           <button id="resume" hidden>Continuar partida salva</button>
+          <div class="welcome-training">
+            <button id="train">Treinar com Garen <span aria-hidden="true">→</span></button>
+            <p class="fine" id="training-description">Comece com Garen na mão e mana para invocá-lo.</p>
+          </div>
           </div>
         </div>
         <div class="welcome-showcase">
@@ -129,6 +150,7 @@
             <p id="welcome-deck-name">Vanguarda de Demacia</p>
           </div>
           <div id="welcome-deck-cards" class="welcome-deck-cards" aria-label="Cartas do deck selecionado"></div>
+        </div>
         </div>
         </div>
         <div class="welcome-lower">
@@ -172,23 +194,11 @@
           </div>
           </div>
         </details>
-        <div class="welcome-shortcuts">
-          <button id="build-deck" class="welcome-shortcut">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="8" y="3" width="12" height="16" rx="1"/><path d="M5 6H3v15h12v-2M11 8h6m-6 4h6"/></svg>
-            <span><strong>Minha coleção</strong><small>Explore as cartas e monte seu deck</small></span>
-            <svg class="shortcut-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg>
-          </button>
-          <div class="welcome-training">
-          <button id="train">Treinar com Garen <span aria-hidden="true">→</span></button>
-          <p class="fine" id="training-description">
-            Comece com Garen na mão e mana para invocá-lo.
-          </p>
-          </div>
-        </div>
-        <button id="open-animations" class="animation-card-preview">Explorar animações</button>
         <details id="pwa-panel" class="pwa-panel">
           <summary>Instalar e jogar offline</summary>
           <p id="pwa-status" role="status" aria-live="polite">Preparando acesso offline…</p>
+          <progress id="pwa-core-progress" value="0" max="1" aria-label="Preparação da campanha e do duelo offline" hidden></progress>
+          <button id="pwa-retry" type="button" hidden>Tentar preparar offline novamente</button>
           <button id="pwa-install" type="button" hidden>Instalar aplicativo</button>
           <p id="pwa-install-help">No iPhone/iPad, abra no Safari e use Compartilhar → Adicionar à Tela de Início. No Android, use Instalar aplicativo ou Adicionar à tela inicial no menu do navegador.</p>
           <p class="fine">O jogo e seus decks ficam disponíveis offline após a preparação. Artes visitadas são guardadas; baixe as demais abaixo. Áudios, vídeos e a galeria completa precisam de conexão. O navegador pode liberar o armazenamento se faltar espaço.</p>
@@ -198,8 +208,32 @@
           <p id="pwa-download-status" class="fine" role="status" aria-live="polite"></p>
         </details>
           <p class="fine welcome-version">
-            Arena v0.30 · Minha coleção · Decks com as cartas novas
+            Arena v0.32 · Campanha de Runeterra
           </p>
+        </div>
+      </section>
+      <section id="campaign" hidden aria-labelledby="campaign-title">
+        <div class="campaign-heading">
+          <div><span class="eyebrow">SUA JORNADA POR RUNETERRA</span><h2 id="campaign-title" tabindex="-1">O mundo espera por você.</h2><p>Escolha seu destino. Escreva sua história.</p></div>
+          <button id="campaign-close" type="button">← Voltar à arena</button>
+        </div>
+        <div class="campaign-progress" aria-label="Progresso da campanha">
+          <strong id="campaign-level"></strong><progress id="campaign-xp" max="100" value="0" aria-label="Experiência até o próximo nível"></progress><span id="campaign-xp-label"></span><span id="campaign-total"></span>
+        </div>
+        <div class="campaign-layout">
+          <div class="campaign-atlas-column">
+            <div class="campaign-map" id="campaign-map" aria-label="Mapa de Runeterra. Selecione uma região ou use os destinos abaixo.">
+              <div class="campaign-world" id="campaign-world"><img src="assets/campaign/runeterra-map.jpg" alt="Mapa geográfico de Runeterra" draggable="false" loading="lazy" /><div id="campaign-pins"></div></div>
+              <span class="campaign-map-caption" aria-hidden="true">R U N E T E R R A</span>
+            </div>
+            <div class="campaign-map-controls" role="group" aria-label="Ampliação do mapa"><button id="campaign-zoom-out" aria-label="Diminuir mapa">−</button><button id="campaign-zoom-reset">Recentrar</button><button id="campaign-zoom-in" aria-label="Ampliar mapa">+</button></div>
+            <nav id="campaign-destinations" class="campaign-destinations" aria-label="Regiões da campanha"></nav>
+            <p class="campaign-map-note">10 regiões abertas, em qualquer nível. Arraste o mapa ou deslize a lista de destinos para escolher sua próxima jornada.</p>
+            <div class="campaign-preparation"><div><span class="eyebrow">PREPARE SUA JORNADA</span><h3>Seu deck, seu caminho.</h3></div><p id="campaign-deck-progress"></p><label for="campaign-deck">Deck para a campanha</label><select id="campaign-deck"></select><p id="campaign-alliance" role="status"></p><button id="campaign-collection">Montar ou editar deck</button><button id="campaign-resume" hidden>Continuar partida salva</button></div>
+            <div class="campaign-journal"><span class="eyebrow">CONQUISTAS PERMANENTES</span><p id="campaign-titles"></p><div class="campaign-backups"><button id="campaign-export">Exportar progresso</button><button id="campaign-import">Importar progresso</button><input id="campaign-import-file" type="file" accept=".json,application/json" hidden /></div><p id="campaign-storage" role="status"></p></div>
+            <a class="campaign-source" href="https://map.leagueoflegends.com/pt_BR" target="_blank" rel="noopener noreferrer">Cartografia: mapa oficial de Runeterra · Riot Games ↗</a>
+          </div>
+          <aside id="campaign-region-panel" class="campaign-region-panel" aria-label="Encontros da região"></aside>
         </div>
       </section>
       <section id="game" hidden>
@@ -403,54 +437,19 @@
       aria-describedby="result-copy"
     >
       <div class="result-rays" aria-hidden="true"></div>
-      <div class="result-crest" aria-hidden="true">
-        <svg viewBox="0 0 180 150" fill="none">
-          <path
-            class="crest-wing crest-wing-left"
-            d="M72 42 31 35 47 54 9 50 35 70 20 77 63 91"
-            fill="#172b36"
-            stroke="currentColor"
-            stroke-width="2"
-          />
-          <path
-            class="crest-wing crest-wing-right"
-            d="M108 42 149 35 133 54 171 50 145 70 160 77 117 91"
-            fill="#172b36"
-            stroke="currentColor"
-            stroke-width="2"
-          />
-          <path
-            d="m90 10 40 45-11 53-29 30-29-30-11-53Z"
-            fill="#10202b"
-            stroke="currentColor"
-            stroke-width="3"
-          />
-          <path
-            class="crest-core"
-            d="m90 26 27 34-8 39-19 22-19-22-8-39Z"
-            fill="#467e9f"
-            stroke="currentColor"
-          />
-          <path
-            d="m90 26-8 44 8 51 9-51Zm-27 34 19 10-11 29m46-39-18 10 10 29"
-            stroke="#e6f3ff"
-            stroke-opacity=".55"
-          />
-          <path
-            class="crest-crack"
-            d="m96 34-13 23 18 15-22 23 7 15"
-            stroke="#211223"
-            stroke-width="6"
-          />
-        </svg>
+      <div class="result-content">
+      <div class="result-banner">
+        <div id="result-native-art" aria-hidden="true"></div>
+        <h2 id="result-title"></h2>
       </div>
-      <span class="eyebrow">FIM DO DUELO</span>
-      <h2 id="result-title"></h2>
       <div class="result-rule" aria-hidden="true"></div>
       <p id="result-copy"></p>
+      <p id="campaign-result" class="campaign-result" hidden role="status"></p>
       <div class="result-actions">
+        <button id="campaign-return" hidden>Voltar ao mapa</button>
         <button id="again" class="primary">Jogar novamente</button
         ><button id="view-result">Ver campo</button>
+      </div>
       </div>
     </dialog>
     <div id="toast" role="alert" hidden></div>
@@ -672,6 +671,9 @@
     <script src="initiative-token-data.js"></script>
     <script src="initiative-token.js?v=5"></script>
     <script src="arena-chrome.js?v=3"></script>
+    <script src="native-nexus-end-data.js"></script>
+    <script src="native-outcome-data.js"></script>
+    <script src="native-outcome.js"></script>
     <script src="duel-outcome.js?v=0.19"></script>
     <script src="champion-cinematic.js?v=0.30.1"></script>
     <script src="champion-presentation.js?v=0.30.1"></script>
@@ -687,14 +689,20 @@
     <script src="regional-audio.js"></script>
     <script src="game-audio.js"></script>
     <script src="combat-view.js"></script>
-    <script src="app.js?v=0.29"></script>
+    <script src="campaign-data.js?v=0.32"></script>
+    <script src="campaign.js?v=0.32"></script>
+    <script src="app.js?v=0.31"></script>
     <script src="deck-tools.js?v=0.30"></script>
     <script src="riot-deck-code.js"></script>
-    <script src="collection.js?v=0.30.3"></script>
+    <script src="collection.js?v=0.32"></script>
     <script src="animation-gallery.js?v=0.29"></script>
     <script src="welcome-settings-motion.js?v=0.27"></script>
-    <script src="arena-view.js?v=0.23"></script>
+    <script src="arena-view.js?v=0.34.2"></script>
     <script src="arena-scene.js?v=0.18"></script>
+    <script src="campaign-map-data.js?v=0.34"></script>
+    <script src="campaign-map.js?v=0.34"></script>
+    <script src="campaign-routes.js"></script>
+    <script src="campaign-ui.js?v=0.34"></script>
     <script src="pwa.js"></script>
   </body>
 </html>

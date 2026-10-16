@@ -1,0 +1,2872 @@
+[
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_NexusDark_MD.fbx",
+    "path_id": 7977820784231428697,
+    "type": "GameObject",
+    "bundle": "0b/1a289c551d2aa5f9de45c9d0021819.bbq",
+    "sha256": "6b3de61f86bc41708197f51bb1c07288f48f07cb38c5356e232ab98fec1affd1"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_NexusDark_MD.fbx",
+    "path_id": 7977820786729288817,
+    "type": "GameObject",
+    "bundle": "0b/1a289c551d2aa5f9de45c9d0021819.bbq",
+    "sha256": "6b3de61f86bc41708197f51bb1c07288f48f07cb38c5356e232ab98fec1affd1"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_NexusDark_MD.fbx",
+    "path_id": 7977820785768279293,
+    "type": "Mesh",
+    "bundle": "0b/1a289c551d2aa5f9de45c9d0021819.bbq",
+    "sha256": "6b3de61f86bc41708197f51bb1c07288f48f07cb38c5356e232ab98fec1affd1"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Anims/Card_RG@Nexus.fbx",
+    "path_id": 178896703725467129,
+    "type": "GameObject",
+    "bundle": "0e/d92efca02fa6fcc40293927e757cae.bbq",
+    "sha256": "c650936e1c3962b59688b240277469c8d59b5d54a082848c2c67266393815a2a"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Anims/Card_RG@Nexus.fbx",
+    "path_id": 178896702299203545,
+    "type": "GameObject",
+    "bundle": "0e/d92efca02fa6fcc40293927e757cae.bbq",
+    "sha256": "c650936e1c3962b59688b240277469c8d59b5d54a082848c2c67266393815a2a"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Anims/Card_RG@Nexus.fbx",
+    "path_id": 178896702835510035,
+    "type": "AnimationClip",
+    "bundle": "0e/d92efca02fa6fcc40293927e757cae.bbq",
+    "sha256": "c650936e1c3962b59688b240277469c8d59b5d54a082848c2c67266393815a2a"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Anims/Card_RG@Nexus.fbx",
+    "path_id": 178896702901270658,
+    "type": "Avatar",
+    "bundle": "0e/d92efca02fa6fcc40293927e757cae.bbq",
+    "sha256": "c650936e1c3962b59688b240277469c8d59b5d54a082848c2c67266393815a2a"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_Bokeh_MAT.mat",
+    "path_id": 3022170231165208492,
+    "type": "Material",
+    "bundle": "11/77fbbe3197ad143f65bf0e1865626e.bbq",
+    "sha256": "b25ae4da0cd29488c974603e3667345b117c137cd94e341dc220c2a0b595c6ee"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_Crystal_Beam1_MAT.mat",
+    "path_id": -6961846052025677446,
+    "type": "Material",
+    "bundle": "11/77fbbe3197ad143f65bf0e1865626e.bbq",
+    "sha256": "b25ae4da0cd29488c974603e3667345b117c137cd94e341dc220c2a0b595c6ee"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_Flare2_MAT.mat",
+    "path_id": 7819697492014884902,
+    "type": "Material",
+    "bundle": "11/77fbbe3197ad143f65bf0e1865626e.bbq",
+    "sha256": "b25ae4da0cd29488c974603e3667345b117c137cd94e341dc220c2a0b595c6ee"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_Shards_MAT.mat",
+    "path_id": -6765830915754330963,
+    "type": "Material",
+    "bundle": "11/77fbbe3197ad143f65bf0e1865626e.bbq",
+    "sha256": "b25ae4da0cd29488c974603e3667345b117c137cd94e341dc220c2a0b595c6ee"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Vortex_Clouds_Trails_MAT.mat",
+    "path_id": -1789192297490039738,
+    "type": "Material",
+    "bundle": "11/77fbbe3197ad143f65bf0e1865626e.bbq",
+    "sha256": "b25ae4da0cd29488c974603e3667345b117c137cd94e341dc220c2a0b595c6ee"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Vortex_DarkCore_MAT.mat",
+    "path_id": 2023359748772961941,
+    "type": "Material",
+    "bundle": "11/77fbbe3197ad143f65bf0e1865626e.bbq",
+    "sha256": "b25ae4da0cd29488c974603e3667345b117c137cd94e341dc220c2a0b595c6ee"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Vortex_Nexus_MAT.mat",
+    "path_id": -37744916655641225,
+    "type": "Material",
+    "bundle": "11/77fbbe3197ad143f65bf0e1865626e.bbq",
+    "sha256": "b25ae4da0cd29488c974603e3667345b117c137cd94e341dc220c2a0b595c6ee"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Vortex_Wisp1_MAT.mat",
+    "path_id": -2166371589947585107,
+    "type": "Material",
+    "bundle": "11/77fbbe3197ad143f65bf0e1865626e.bbq",
+    "sha256": "b25ae4da0cd29488c974603e3667345b117c137cd94e341dc220c2a0b595c6ee"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Vortex_Wisp2_MAT.mat",
+    "path_id": 7267830502605659506,
+    "type": "Material",
+    "bundle": "11/77fbbe3197ad143f65bf0e1865626e.bbq",
+    "sha256": "b25ae4da0cd29488c974603e3667345b117c137cd94e341dc220c2a0b595c6ee"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Prefabs/EndOfGame_Tie_LocalNexusEffect.prefab",
+    "path_id": 6541743372823414545,
+    "type": "GameObject",
+    "bundle": "1f/7a36dd5917536e702c6748b8c59539.bbq",
+    "sha256": "a6cc09f4c321bbdf1bb3e5c113dd487b6b9946b7fe53d927edd4274a02fbcc70"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Timelines/EndOfGame_Tie_LocalNexusEffect_Activate_Timeline.playable",
+    "path_id": -5855675421228907709,
+    "type": "MonoBehaviour",
+    "bundle": "1f/7a36dd5917536e702c6748b8c59539.bbq",
+    "sha256": "a6cc09f4c321bbdf1bb3e5c113dd487b6b9946b7fe53d927edd4274a02fbcc70"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Timelines/EndOfGame_Tie_LocalNexusEffect_Activate_Timeline.playable",
+    "path_id": -5855675422560199052,
+    "type": "AnimationClip",
+    "bundle": "1f/7a36dd5917536e702c6748b8c59539.bbq",
+    "sha256": "a6cc09f4c321bbdf1bb3e5c113dd487b6b9946b7fe53d927edd4274a02fbcc70"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/Nexus/EOG_Victory_Nexus_Crystal_MAT.mat",
+    "path_id": 307809345343199626,
+    "type": "Material",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666203638613,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665449249199,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966668239932737,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664812450515,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665026857213,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966668595327251,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666836663393,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667044188445,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664744298884,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966668220376665,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666094432137,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665751731014,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667937544595,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665782392617,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667878248903,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666595736617,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664969086302,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667811000933,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667591914776,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664347028645,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666525127420,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664756024126,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667838707736,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665035958231,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667526611761,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665321739412,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665637126795,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666971209714,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665129200743,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667600348944,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667553303643,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966668568968971,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665833766145,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666969716325,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666632528020,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664835115712,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664673728122,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666422046674,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666199580651,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665344916630,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666617058171,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666600575562,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667239432943,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665970242484,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664869483880,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666894603735,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665872451720,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666954285747,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667674942488,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664508733741,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665558601308,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666470055434,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667131973832,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667846525947,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966668339370800,
+    "type": "GameObject",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666193821694,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666210678781,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666622216700,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664350209687,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666565160783,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665901431544,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667160244202,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665655957412,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666005275953,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665128253076,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664825512007,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664796460887,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667465256836,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667407699321,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667308580046,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667360696416,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666495705062,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665113975193,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664668567871,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665404644529,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666071087222,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966668138473711,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665418156005,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667329681409,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664525166122,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665072237296,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667404665094,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667068339091,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665559005784,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666691917304,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665485344238,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667546756883,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664687572943,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666659731748,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667120798170,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966668009096668,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966668105731720,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665510408708,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665529597994,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667938792717,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666299097198,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666599827782,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664698006706,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664326584444,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667947807783,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666192892278,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664561339518,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665745434600,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966666415336164,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665070939079,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667093207746,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665405055727,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664991102415,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966667570521182,
+    "type": "Mesh",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966665724754187,
+    "type": "AnimationClip",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/EOG_Victory_Nexus_Explode_AN.FBX",
+    "path_id": -6811966664420748194,
+    "type": "Avatar",
+    "bundle": "39/e4efe9c280b79c01abf16fce9cd59d.bbq",
+    "sha256": "7572f294439b0141978ba87671967baed6c33c5a5cbdf17bca0b77a9ed90dcf2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427479809587,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430564489115,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429018697579,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427540888790,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428772637573,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427728025922,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429967705888,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430284563423,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429484550353,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428571790654,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427745602409,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427042334612,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038426595161906,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428880505738,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427145155348,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427247502763,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428414448245,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429234403513,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429708689140,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427933542494,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430390227098,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430659155864,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428529797913,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429828651314,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430486938970,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427597174568,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429272231217,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430518715531,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427483696878,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429692435034,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428107249724,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429666751569,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428849457346,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429656217324,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428706621314,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428373443836,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427576878286,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427316942283,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427037746067,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429330605799,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430411653824,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427085090446,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429826678376,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038426724853530,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430005072889,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429407642160,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038426471679701,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427178109928,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429555352235,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429339502088,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428681024603,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427481814539,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427693200317,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428434859291,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038426580197931,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428191999019,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428931448163,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427253190141,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429943932777,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429842759678,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428766632202,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428334844317,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427528949883,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427603086385,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430623840479,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038426494864247,
+    "type": "GameObject",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038426856305784,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427101179274,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428349560551,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427180223156,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427876932040,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038426487402899,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429183675397,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428591641184,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429876031654,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427103904013,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428898933796,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428404932912,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427139238346,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427896336338,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429273132539,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428586029395,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427915294499,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429601838533,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427799636132,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428350527362,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428882692935,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428044362610,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429272996893,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427753197519,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429784730167,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427529044672,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429471724408,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428889806266,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038426917738333,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430642960572,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430309753729,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038426751716457,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428272563581,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427471733843,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038426938436960,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429774102578,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430144659269,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428871322763,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430347191777,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427344054459,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428781263610,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430033750826,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038426653543142,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427016009088,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038426418277387,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427590644293,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430162895400,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430545576008,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428570481692,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430089032699,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428632784785,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428566497568,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429431317094,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428840173877,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430120887382,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429310840403,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429391317512,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429043215773,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429861986204,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430280961310,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427531730139,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038426721525338,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038430620650546,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427463717102,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038428779291970,
+    "type": "Mesh",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038429985625360,
+    "type": "AnimationClip",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/EOG_Defeat_Nexus_Explode_AN.FBX",
+    "path_id": 7916038427171632776,
+    "type": "Avatar",
+    "bundle": "3b/3b5678e1ca33b802ad2168ed1ee478.bbq",
+    "sha256": "8beaef8a3dcb04bf50d751fffdaa0e23aa88f29428a56a42c5efb8c76c034ef2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Vortex_Background_Pull_MAT.mat",
+    "path_id": -4909002563323300164,
+    "type": "Material",
+    "bundle": "3e/b8d89aa7ed182b690a71c8e347ad4f.bbq",
+    "sha256": "3915c3cffd6cd0f199b37644b3bea1bda724af0c38e61e615c5ac20a4dee73cd"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Vortex_CustomBackground_Outro_MAT.mat",
+    "path_id": -9068335052895747956,
+    "type": "Material",
+    "bundle": "3e/b8d89aa7ed182b690a71c8e347ad4f.bbq",
+    "sha256": "3915c3cffd6cd0f199b37644b3bea1bda724af0c38e61e615c5ac20a4dee73cd"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/Nexus/EOG_Defeat_Nexus_Crystal_MAT.mat",
+    "path_id": -6904443436452735379,
+    "type": "Material",
+    "bundle": "50/feba2a1a1d6b3d2a96e2589c342c30.bbq",
+    "sha256": "f62f9b5d03eca29c8c208a5c90559ca22e2b5b4b73adae2c6e04bb11ae6f8999"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/Victory_Banner_Cubemap_TX.png",
+    "path_id": -7831908747158709815,
+    "type": "Cubemap",
+    "bundle": "5f/93779db7d4584ed024e57cd1a7c069.bbq",
+    "sha256": "c613f1a3834c8b739fbcf03a93a3ff83e02a645691120299613ee698405f10aa"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/Wisp_Gradient_Clamp_TX_nomip.png",
+    "path_id": 5490057111234738770,
+    "type": "Texture2D",
+    "bundle": "6e/8945b1edba34bdcc09c7716fc91413.bbq",
+    "sha256": "5e1da8e592a82617e8a3a316ae68e9b7346ed1b6275af4af8727459c12ce6083"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_Crystal_MAT.mat",
+    "path_id": -3304190383987289565,
+    "type": "Material",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_Erode_MAT.mat",
+    "path_id": -3283417820883977006,
+    "type": "Material",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_MAT.mat",
+    "path_id": 6502862219723316058,
+    "type": "Material",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_Sparkles_MAT.mat",
+    "path_id": 3356719020473576822,
+    "type": "Material",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_WingsBottom1_MAT.mat",
+    "path_id": 8196739211006441095,
+    "type": "Material",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_WingsBottom2_MAT.mat",
+    "path_id": -4086254563956441034,
+    "type": "Material",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_Wings_Casutic_MAT.mat",
+    "path_id": 8587807844109649035,
+    "type": "Material",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_Wings_MAT.mat",
+    "path_id": -6667591210249291966,
+    "type": "Material",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Vortex_Cloud1_MAT.mat",
+    "path_id": 4691805570296480978,
+    "type": "Material",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Vortex_Cloud2_MAT.mat",
+    "path_id": -8573075311627856922,
+    "type": "Material",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Prefabs/EndOfGame_Victory_PlaymatEffect.prefab",
+    "path_id": -5993820368459039877,
+    "type": "GameObject",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Rigs/Victory_Banner_RG.fbx",
+    "path_id": -1048907677654039426,
+    "type": "GameObject",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Rigs/Victory_Banner_RG.fbx",
+    "path_id": -1048907676983374157,
+    "type": "GameObject",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Rigs/Victory_Banner_RG.fbx",
+    "path_id": -1048907677951671566,
+    "type": "Mesh",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Rigs/Victory_Banner_RG.fbx",
+    "path_id": -1048907675964159157,
+    "type": "Mesh",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Rigs/Victory_Banner_RG.fbx",
+    "path_id": -1048907676669063458,
+    "type": "Avatar",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Rigs/Victory_Banner_RG.prefab",
+    "path_id": -4248904017956720846,
+    "type": "GameObject",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Timelines/EndOfGame_Victory_PlaymatEffect_Activate_Timeline.playable",
+    "path_id": 7281560504188961414,
+    "type": "MonoBehaviour",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Timelines/EndOfGame_Victory_PlaymatEffect_Activate_Timeline.playable",
+    "path_id": 7281560501166539750,
+    "type": "AnimationClip",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Timelines/EndOfGame_Victory_PlaymatEffect_Deactivate_Timeline.playable",
+    "path_id": 7408642899917148041,
+    "type": "MonoBehaviour",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Timelines/EndOfGame_Victory_PlaymatEffect_Deactivate_Timeline.playable",
+    "path_id": 7408642896192407187,
+    "type": "AnimationClip",
+    "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+    "sha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Prefabs/EndOfGame_Victory_NexusEffect.prefab",
+    "path_id": -3405422091397707509,
+    "type": "GameObject",
+    "bundle": "75/a0333edea7c1a7f15c6635db1b648d.bbq",
+    "sha256": "2ce024abc4dcb9a8cc6edc397c9e7281e419d8d02e52d734ecba494f1d4c8ce2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Timelines/EndOfGame_Victory_NexusEffect_Activate_Timeline.playable",
+    "path_id": 5576781781004124410,
+    "type": "MonoBehaviour",
+    "bundle": "75/a0333edea7c1a7f15c6635db1b648d.bbq",
+    "sha256": "2ce024abc4dcb9a8cc6edc397c9e7281e419d8d02e52d734ecba494f1d4c8ce2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Timelines/EndOfGame_Victory_NexusEffect_Activate_Timeline.playable",
+    "path_id": 5576781782273686305,
+    "type": "AnimationClip",
+    "bundle": "75/a0333edea7c1a7f15c6635db1b648d.bbq",
+    "sha256": "2ce024abc4dcb9a8cc6edc397c9e7281e419d8d02e52d734ecba494f1d4c8ce2"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_Erode_MAT.mat",
+    "path_id": -795085314152415056,
+    "type": "Material",
+    "bundle": "78/731d7bf795457806e8d1b441d3d50b.bbq",
+    "sha256": "6ed42fd0e06ac1cd60e63b22a079e26bc858d1905adcd6eac46cc55ce8d5ce76"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Models/Defeat_Banner_Erode_Color_TX_crispmip.png",
+    "path_id": 8844902630940110111,
+    "type": "Texture2D",
+    "bundle": "78/731d7bf795457806e8d1b441d3d50b.bbq",
+    "sha256": "6ed42fd0e06ac1cd60e63b22a079e26bc858d1905adcd6eac46cc55ce8d5ce76"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Rigs/Defeat_Banner_RG.fbx",
+    "path_id": -5496488440524547995,
+    "type": "GameObject",
+    "bundle": "78/731d7bf795457806e8d1b441d3d50b.bbq",
+    "sha256": "6ed42fd0e06ac1cd60e63b22a079e26bc858d1905adcd6eac46cc55ce8d5ce76"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Rigs/Defeat_Banner_RG.fbx",
+    "path_id": -5496488439959224595,
+    "type": "GameObject",
+    "bundle": "78/731d7bf795457806e8d1b441d3d50b.bbq",
+    "sha256": "6ed42fd0e06ac1cd60e63b22a079e26bc858d1905adcd6eac46cc55ce8d5ce76"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Rigs/Defeat_Banner_RG.fbx",
+    "path_id": -5496488439795928820,
+    "type": "Mesh",
+    "bundle": "78/731d7bf795457806e8d1b441d3d50b.bbq",
+    "sha256": "6ed42fd0e06ac1cd60e63b22a079e26bc858d1905adcd6eac46cc55ce8d5ce76"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Rigs/Defeat_Banner_RG.fbx",
+    "path_id": -5496488441281660648,
+    "type": "Mesh",
+    "bundle": "78/731d7bf795457806e8d1b441d3d50b.bbq",
+    "sha256": "6ed42fd0e06ac1cd60e63b22a079e26bc858d1905adcd6eac46cc55ce8d5ce76"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Rigs/Defeat_Banner_RG.fbx",
+    "path_id": -5496488439411670609,
+    "type": "Avatar",
+    "bundle": "78/731d7bf795457806e8d1b441d3d50b.bbq",
+    "sha256": "6ed42fd0e06ac1cd60e63b22a079e26bc858d1905adcd6eac46cc55ce8d5ce76"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Rigs/Defeat_Banner_RG.prefab",
+    "path_id": 2189918903853023743,
+    "type": "GameObject",
+    "bundle": "78/731d7bf795457806e8d1b441d3d50b.bbq",
+    "sha256": "6ed42fd0e06ac1cd60e63b22a079e26bc858d1905adcd6eac46cc55ce8d5ce76"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_Bokeh_MAT.mat",
+    "path_id": 8574115444642101631,
+    "type": "Material",
+    "bundle": "8b/2fdaecff7200e1ee7b60708b19794b.bbq",
+    "sha256": "8e32c53c49af6d2f24053c3003bc2468a2b34f5dbb532189404f8a69dc989ff0"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_Crystal_Beam1_MAT.mat",
+    "path_id": 8556711115502537268,
+    "type": "Material",
+    "bundle": "8b/2fdaecff7200e1ee7b60708b19794b.bbq",
+    "sha256": "8e32c53c49af6d2f24053c3003bc2468a2b34f5dbb532189404f8a69dc989ff0"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_Flare1_MAT.mat",
+    "path_id": 6238381218425355333,
+    "type": "Material",
+    "bundle": "8b/2fdaecff7200e1ee7b60708b19794b.bbq",
+    "sha256": "8e32c53c49af6d2f24053c3003bc2468a2b34f5dbb532189404f8a69dc989ff0"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_Flare2_MAT.mat",
+    "path_id": 5616818706278418844,
+    "type": "Material",
+    "bundle": "8b/2fdaecff7200e1ee7b60708b19794b.bbq",
+    "sha256": "8e32c53c49af6d2f24053c3003bc2468a2b34f5dbb532189404f8a69dc989ff0"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_Motes_MAT.mat",
+    "path_id": -3463395912617612293,
+    "type": "Material",
+    "bundle": "8b/2fdaecff7200e1ee7b60708b19794b.bbq",
+    "sha256": "8e32c53c49af6d2f24053c3003bc2468a2b34f5dbb532189404f8a69dc989ff0"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_Shards_MAT.mat",
+    "path_id": -2811158306318883873,
+    "type": "Material",
+    "bundle": "8b/2fdaecff7200e1ee7b60708b19794b.bbq",
+    "sha256": "8e32c53c49af6d2f24053c3003bc2468a2b34f5dbb532189404f8a69dc989ff0"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Vortex_Background_Pull_MAT.mat",
+    "path_id": 5713926825519533634,
+    "type": "Material",
+    "bundle": "8b/2fdaecff7200e1ee7b60708b19794b.bbq",
+    "sha256": "8e32c53c49af6d2f24053c3003bc2468a2b34f5dbb532189404f8a69dc989ff0"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Vortex_Clouds_Trails_MAT.mat",
+    "path_id": 1162774196662978957,
+    "type": "Material",
+    "bundle": "8b/2fdaecff7200e1ee7b60708b19794b.bbq",
+    "sha256": "8e32c53c49af6d2f24053c3003bc2468a2b34f5dbb532189404f8a69dc989ff0"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Vortex_CustomBackground_Outro_MAT.mat",
+    "path_id": 6460019975011243800,
+    "type": "Material",
+    "bundle": "8b/2fdaecff7200e1ee7b60708b19794b.bbq",
+    "sha256": "8e32c53c49af6d2f24053c3003bc2468a2b34f5dbb532189404f8a69dc989ff0"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Vortex_DarkCore_MAT.mat",
+    "path_id": 4512978812666098120,
+    "type": "Material",
+    "bundle": "8b/2fdaecff7200e1ee7b60708b19794b.bbq",
+    "sha256": "8e32c53c49af6d2f24053c3003bc2468a2b34f5dbb532189404f8a69dc989ff0"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Vortex_Wisp1_MAT.mat",
+    "path_id": -5004975000629923673,
+    "type": "Material",
+    "bundle": "8b/2fdaecff7200e1ee7b60708b19794b.bbq",
+    "sha256": "8e32c53c49af6d2f24053c3003bc2468a2b34f5dbb532189404f8a69dc989ff0"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Vortex_Wisp2_MAT.mat",
+    "path_id": 6399671271348381209,
+    "type": "Material",
+    "bundle": "8b/2fdaecff7200e1ee7b60708b19794b.bbq",
+    "sha256": "8e32c53c49af6d2f24053c3003bc2468a2b34f5dbb532189404f8a69dc989ff0"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Anims/Victory_Banner_RG@Victory_Banner.fbx",
+    "path_id": -2335169208361885664,
+    "type": "GameObject",
+    "bundle": "8c/d75e76b3c5df3f222740674323aebf.bbq",
+    "sha256": "0790b79ccc54fb73538d28b959372e172c2e29668406260c317f3fce04a5eb1b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Anims/Victory_Banner_RG@Victory_Banner.fbx",
+    "path_id": -2335169206700649346,
+    "type": "GameObject",
+    "bundle": "8c/d75e76b3c5df3f222740674323aebf.bbq",
+    "sha256": "0790b79ccc54fb73538d28b959372e172c2e29668406260c317f3fce04a5eb1b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Anims/Victory_Banner_RG@Victory_Banner.fbx",
+    "path_id": -2335169206498055647,
+    "type": "AnimationClip",
+    "bundle": "8c/d75e76b3c5df3f222740674323aebf.bbq",
+    "sha256": "0790b79ccc54fb73538d28b959372e172c2e29668406260c317f3fce04a5eb1b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Anims/Victory_Banner_RG@Victory_Banner.fbx",
+    "path_id": -2335169205556861333,
+    "type": "Avatar",
+    "bundle": "8c/d75e76b3c5df3f222740674323aebf.bbq",
+    "sha256": "0790b79ccc54fb73538d28b959372e172c2e29668406260c317f3fce04a5eb1b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/Victory_Banner_CrystalHolderL_MD.fbx",
+    "path_id": 3341354679020432955,
+    "type": "GameObject",
+    "bundle": "8c/d75e76b3c5df3f222740674323aebf.bbq",
+    "sha256": "0790b79ccc54fb73538d28b959372e172c2e29668406260c317f3fce04a5eb1b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/Victory_Banner_CrystalHolderL_MD.fbx",
+    "path_id": 3341354680198507476,
+    "type": "Mesh",
+    "bundle": "8c/d75e76b3c5df3f222740674323aebf.bbq",
+    "sha256": "0790b79ccc54fb73538d28b959372e172c2e29668406260c317f3fce04a5eb1b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/Victory_Banner_Crystal_MD.fbx",
+    "path_id": 7419368402467002755,
+    "type": "GameObject",
+    "bundle": "8c/d75e76b3c5df3f222740674323aebf.bbq",
+    "sha256": "0790b79ccc54fb73538d28b959372e172c2e29668406260c317f3fce04a5eb1b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/Victory_Banner_Crystal_MD.fbx",
+    "path_id": 7419368400948650538,
+    "type": "Mesh",
+    "bundle": "8c/d75e76b3c5df3f222740674323aebf.bbq",
+    "sha256": "0790b79ccc54fb73538d28b959372e172c2e29668406260c317f3fce04a5eb1b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/Victory_Banner_HotEdge_MD.fbx",
+    "path_id": 3911029949962147128,
+    "type": "GameObject",
+    "bundle": "8c/d75e76b3c5df3f222740674323aebf.bbq",
+    "sha256": "0790b79ccc54fb73538d28b959372e172c2e29668406260c317f3fce04a5eb1b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/Victory_Banner_HotEdge_MD.fbx",
+    "path_id": 3911029948462232737,
+    "type": "Mesh",
+    "bundle": "8c/d75e76b3c5df3f222740674323aebf.bbq",
+    "sha256": "0790b79ccc54fb73538d28b959372e172c2e29668406260c317f3fce04a5eb1b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/Victory_Banner_Pieces_Weld_MD.fbx",
+    "path_id": 5403813286550500435,
+    "type": "GameObject",
+    "bundle": "8c/d75e76b3c5df3f222740674323aebf.bbq",
+    "sha256": "0790b79ccc54fb73538d28b959372e172c2e29668406260c317f3fce04a5eb1b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/Victory_Banner_Pieces_Weld_MD.fbx",
+    "path_id": 5403813285508597782,
+    "type": "Mesh",
+    "bundle": "8c/d75e76b3c5df3f222740674323aebf.bbq",
+    "sha256": "0790b79ccc54fb73538d28b959372e172c2e29668406260c317f3fce04a5eb1b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/Nexus/EOG_Victory_Nexus_Caustics_MAT.mat",
+    "path_id": -4681793848408895765,
+    "type": "Material",
+    "bundle": "8d/98ead115c03f5832f93ca31745af0e.bbq",
+    "sha256": "5b87bfffa778dd67766ceace02cf19aae7656bc1c23a6357c41c0bf2575a914b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/Nexus/EOG_Victory_Nexus_Explode_Black_MAT.mat",
+    "path_id": 4314642569328210146,
+    "type": "Material",
+    "bundle": "8d/98ead115c03f5832f93ca31745af0e.bbq",
+    "sha256": "5b87bfffa778dd67766ceace02cf19aae7656bc1c23a6357c41c0bf2575a914b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/Nexus/EOG_Victory_Nexus_Explode_ParticleBits_MAT.mat",
+    "path_id": 541775355084254089,
+    "type": "Material",
+    "bundle": "8d/98ead115c03f5832f93ca31745af0e.bbq",
+    "sha256": "5b87bfffa778dd67766ceace02cf19aae7656bc1c23a6357c41c0bf2575a914b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/Nexus/EOG_Victory_Nexus_Flare_001_MAT.mat",
+    "path_id": -7652487258172688479,
+    "type": "Material",
+    "bundle": "8d/98ead115c03f5832f93ca31745af0e.bbq",
+    "sha256": "5b87bfffa778dd67766ceace02cf19aae7656bc1c23a6357c41c0bf2575a914b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/Nexus/EOG_Victory_Nexus_Shockwave_MAT.mat",
+    "path_id": 624387222921194387,
+    "type": "Material",
+    "bundle": "8d/98ead115c03f5832f93ca31745af0e.bbq",
+    "sha256": "5b87bfffa778dd67766ceace02cf19aae7656bc1c23a6357c41c0bf2575a914b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_WingsBottom_MD.fbx",
+    "path_id": -5692038651966888045,
+    "type": "GameObject",
+    "bundle": "92/f86c1c19fae623756dde22e55c1175.bbq",
+    "sha256": "42ca614052fe1e86ae62756f3943033878cf7021e33986a31a6a43329e3cdd4b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_WingsBottom_MD.fbx",
+    "path_id": -5692038653207968044,
+    "type": "Mesh",
+    "bundle": "92/f86c1c19fae623756dde22e55c1175.bbq",
+    "sha256": "42ca614052fe1e86ae62756f3943033878cf7021e33986a31a6a43329e3cdd4b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/Victory_Banner_Color_TX_crispmip.png",
+    "path_id": -6341164921213191011,
+    "type": "Texture2D",
+    "bundle": "92/f86c1c19fae623756dde22e55c1175.bbq",
+    "sha256": "42ca614052fe1e86ae62756f3943033878cf7021e33986a31a6a43329e3cdd4b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/Victory_Banner_WingsBottom_Alpha_TX_crispmip.png",
+    "path_id": 6733485349568457114,
+    "type": "Texture2D",
+    "bundle": "92/f86c1c19fae623756dde22e55c1175.bbq",
+    "sha256": "42ca614052fe1e86ae62756f3943033878cf7021e33986a31a6a43329e3cdd4b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/Victory_Clouds_Color_TX.png",
+    "path_id": 10203460823771994,
+    "type": "Texture2D",
+    "bundle": "92/f86c1c19fae623756dde22e55c1175.bbq",
+    "sha256": "42ca614052fe1e86ae62756f3943033878cf7021e33986a31a6a43329e3cdd4b"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/Nexus/EOG_Defeat_Nexus_Flare_002_MAT.mat",
+    "path_id": -5409869677181633940,
+    "type": "Material",
+    "bundle": "98/d77dfb16cf806612110bad11d9eb23.bbq",
+    "sha256": "2fc813451e291e0352b12dda96fc85cccfea8da2f170ecb35804f8744024a8fe"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Prefabs/EndOfGame_Defeat_NexusEffect.prefab",
+    "path_id": -371749419397504655,
+    "type": "GameObject",
+    "bundle": "9b/4ba851668cd7c051d9a404ba432748.bbq",
+    "sha256": "f139674764ec2af8a9f0aaf3d0bd2921cc57d0e15a42cc3e075e9d29e3c2f20a"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Timelines/EndOfGame_Defeat_NexusEffect_Activate_Timeline.playable",
+    "path_id": 9217704126727016865,
+    "type": "MonoBehaviour",
+    "bundle": "9b/4ba851668cd7c051d9a404ba432748.bbq",
+    "sha256": "f139674764ec2af8a9f0aaf3d0bd2921cc57d0e15a42cc3e075e9d29e3c2f20a"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Timelines/EndOfGame_Defeat_NexusEffect_Activate_Timeline.playable",
+    "path_id": 9217704124580707611,
+    "type": "AnimationClip",
+    "bundle": "9b/4ba851668cd7c051d9a404ba432748.bbq",
+    "sha256": "f139674764ec2af8a9f0aaf3d0bd2921cc57d0e15a42cc3e075e9d29e3c2f20a"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_Flare1_MAT.mat",
+    "path_id": -17898317213394048,
+    "type": "Material",
+    "bundle": "a4/39da1928783a2ac8a12c5ffc73fe8b.bbq",
+    "sha256": "82d8afec1a78d6f8dcc73d4d6346c8303fe014d25b61e33ae90380981f862029"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/Victory_Banner_GemBeams_Mask_TX.png",
+    "path_id": -732865509942654997,
+    "type": "Texture2D",
+    "bundle": "a6/d7659cf2c64fe47f8be1802fcc5501.bbq",
+    "sha256": "3910e3fb45c51c2b911e806e1a141a979921e16f961acc83907410c5630b9dee"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Vortex_CustomBackground_Solid_MAT.mat",
+    "path_id": -3830782526834941902,
+    "type": "Material",
+    "bundle": "aa/f8893e9eb15fdcdb249992aa8d40e5.bbq",
+    "sha256": "a30fdfdfb224e914052237959bd07971b1498f52ed762725729802f4dc6117d9"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Vortex_CustomBackground_Fade_MAT.mat",
+    "path_id": -7879750938263148638,
+    "type": "Material",
+    "bundle": "ab/218ba40c2b1f733ecec07565772c48.bbq",
+    "sha256": "fc963e98477753e26edc4765c9ea8f981482f1f7e5a958eff80907dca8578413"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_Wisps_MD.fbx",
+    "path_id": 7043130330346858072,
+    "type": "GameObject",
+    "bundle": "af/f14920d3890e196a1326e6af0cdf3a.bbq",
+    "sha256": "fe453577e03391ac7e92c2fac6b1754672c2a36e19aa53dc6bb7efb393e85919"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_Wisps_MD.fbx",
+    "path_id": 7043130332485860600,
+    "type": "GameObject",
+    "bundle": "af/f14920d3890e196a1326e6af0cdf3a.bbq",
+    "sha256": "fe453577e03391ac7e92c2fac6b1754672c2a36e19aa53dc6bb7efb393e85919"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_Wisps_MD.fbx",
+    "path_id": 7043130333725945899,
+    "type": "GameObject",
+    "bundle": "af/f14920d3890e196a1326e6af0cdf3a.bbq",
+    "sha256": "fe453577e03391ac7e92c2fac6b1754672c2a36e19aa53dc6bb7efb393e85919"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_Wisps_MD.fbx",
+    "path_id": 7043130332900782290,
+    "type": "GameObject",
+    "bundle": "af/f14920d3890e196a1326e6af0cdf3a.bbq",
+    "sha256": "fe453577e03391ac7e92c2fac6b1754672c2a36e19aa53dc6bb7efb393e85919"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_Wisps_MD.fbx",
+    "path_id": 7043130331017496780,
+    "type": "GameObject",
+    "bundle": "af/f14920d3890e196a1326e6af0cdf3a.bbq",
+    "sha256": "fe453577e03391ac7e92c2fac6b1754672c2a36e19aa53dc6bb7efb393e85919"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_Wisps_MD.fbx",
+    "path_id": 7043130329975494605,
+    "type": "Mesh",
+    "bundle": "af/f14920d3890e196a1326e6af0cdf3a.bbq",
+    "sha256": "fe453577e03391ac7e92c2fac6b1754672c2a36e19aa53dc6bb7efb393e85919"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_Wisps_MD.fbx",
+    "path_id": 7043130330672565126,
+    "type": "Mesh",
+    "bundle": "af/f14920d3890e196a1326e6af0cdf3a.bbq",
+    "sha256": "fe453577e03391ac7e92c2fac6b1754672c2a36e19aa53dc6bb7efb393e85919"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_Wisps_MD.fbx",
+    "path_id": 7043130333754161383,
+    "type": "Mesh",
+    "bundle": "af/f14920d3890e196a1326e6af0cdf3a.bbq",
+    "sha256": "fe453577e03391ac7e92c2fac6b1754672c2a36e19aa53dc6bb7efb393e85919"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Models/EOG_Wisps_MD.fbx",
+    "path_id": 7043130332024102997,
+    "type": "Mesh",
+    "bundle": "af/f14920d3890e196a1326e6af0cdf3a.bbq",
+    "sha256": "fe453577e03391ac7e92c2fac6b1754672c2a36e19aa53dc6bb7efb393e85919"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_Motes_MAT.mat",
+    "path_id": -5639238511950355588,
+    "type": "Material",
+    "bundle": "alwaysloaded.bbq",
+    "sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/Victory_Banner_Erosion_TXU.png",
+    "path_id": 8040592967963979512,
+    "type": "Texture2D",
+    "bundle": "alwaysloaded.bbq",
+    "sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/VFX/Victory_Banner_Wings_Alpha_TX_crispmip.png",
+    "path_id": -7008942018497603942,
+    "type": "Texture2D",
+    "bundle": "b2/59685934b35e71adf22d92e875c19a.bbq",
+    "sha256": "43e9b8eb3c4a2a70368af4473e04626c507506b2951dee87c5583d1f30ff2390"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/Nexus/EOG_Defeat_Nexus_Caustics_MAT.mat",
+    "path_id": -1454073423791064510,
+    "type": "Material",
+    "bundle": "b5/af59bbe3221d9f482fc3a6c66cca8d.bbq",
+    "sha256": "d9ae767547b02d5783f982558b6609302c1ed6ae9210b1d411f534d3551c25b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/Nexus/EOG_Defeat_Nexus_Explode_Black_MAT.mat",
+    "path_id": 6131504250707173122,
+    "type": "Material",
+    "bundle": "b5/af59bbe3221d9f482fc3a6c66cca8d.bbq",
+    "sha256": "d9ae767547b02d5783f982558b6609302c1ed6ae9210b1d411f534d3551c25b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/Nexus/EOG_Defeat_Nexus_Explode_ParticleBits_MAT.mat",
+    "path_id": 3765527222471637268,
+    "type": "Material",
+    "bundle": "b5/af59bbe3221d9f482fc3a6c66cca8d.bbq",
+    "sha256": "d9ae767547b02d5783f982558b6609302c1ed6ae9210b1d411f534d3551c25b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/Nexus/EOG_Defeat_Nexus_Flare_001_MAT.mat",
+    "path_id": 4639749601502872653,
+    "type": "Material",
+    "bundle": "b5/af59bbe3221d9f482fc3a6c66cca8d.bbq",
+    "sha256": "d9ae767547b02d5783f982558b6609302c1ed6ae9210b1d411f534d3551c25b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/Nexus/EOG_Defeat_Nexus_Shockwave_MAT.mat",
+    "path_id": 1900666490477654696,
+    "type": "Material",
+    "bundle": "b5/af59bbe3221d9f482fc3a6c66cca8d.bbq",
+    "sha256": "d9ae767547b02d5783f982558b6609302c1ed6ae9210b1d411f534d3551c25b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_BackgroundIllustration_Erosion_MAT.mat",
+    "path_id": -109603532344764451,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_Background_Solid_MAT.mat",
+    "path_id": -1981448027129582775,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_Bokeh_MAT.mat",
+    "path_id": -6981715416234865373,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_Crystal_Beam1_MAT.mat",
+    "path_id": 1618833436613632910,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_Crystal_MAT.mat",
+    "path_id": -4190532269598374850,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_Flare1_MAT.mat",
+    "path_id": 2982597741973924057,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_Flare2_MAT.mat",
+    "path_id": 3465839065726971819,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_HotEdge_MAT.mat",
+    "path_id": 6174660453872976458,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_MAT.mat",
+    "path_id": -7127215891789616679,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_Motes_MAT.mat",
+    "path_id": -676181690014026773,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_Pieces_Weld_MAT.mat",
+    "path_id": 3113162882294117858,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_WingsBottom1_MAT.mat",
+    "path_id": 8557226412297262141,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_WingsBottom2_MAT.mat",
+    "path_id": -5161315803808358276,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_Wings_Casutic_MAT.mat",
+    "path_id": -8667479693415818543,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Banner_Wings_MAT.mat",
+    "path_id": 8981129267930266022,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Vortex_Cloud1_MAT.mat",
+    "path_id": 3417492101750219686,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Vortex_Cloud2_MAT.mat",
+    "path_id": 8116605138680452857,
+    "type": "Material",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Models/Tie_Banner_Color_TX_crispmip.png",
+    "path_id": -5978023231602664267,
+    "type": "Texture2D",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Prefabs/EndOfGame_Tie_PlaymatEffect.prefab",
+    "path_id": 3229795171439010325,
+    "type": "GameObject",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Timelines/EndOfGame_Tie_PlaymatEffect_Activate_Timeline.playable",
+    "path_id": -5409792938477952913,
+    "type": "MonoBehaviour",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Timelines/EndOfGame_Tie_PlaymatEffect_Activate_Timeline.playable",
+    "path_id": -5409792938700752417,
+    "type": "AnimationClip",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Timelines/EndOfGame_Tie_PlaymatEffect_Deactivate_Timeline.playable",
+    "path_id": 8079307817140504251,
+    "type": "MonoBehaviour",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Timelines/EndOfGame_Tie_PlaymatEffect_Deactivate_Timeline.playable",
+    "path_id": 8079307819438640952,
+    "type": "AnimationClip",
+    "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+    "sha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_AtmosphereParticles_MAT.mat",
+    "path_id": 8837595404608643009,
+    "type": "Material",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_Background_Solid_MAT.mat",
+    "path_id": -1691327837250152586,
+    "type": "Material",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_Clouds_Lightning_MAT.mat",
+    "path_id": 9043198796697923177,
+    "type": "Material",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_Clouds_Overlay_MAT.mat",
+    "path_id": 4631942875541895920,
+    "type": "Material",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_Crystal_MAT.mat",
+    "path_id": -3629106614394664281,
+    "type": "Material",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_MAT.mat",
+    "path_id": 5429648358520269226,
+    "type": "Material",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_Wings_Casutic_MAT.mat",
+    "path_id": 2967697153254710738,
+    "type": "Material",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Banner_Wings_MAT.mat",
+    "path_id": -7871312690609813329,
+    "type": "Material",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Vortex_Cloud1_MAT.mat",
+    "path_id": -689833171734779590,
+    "type": "Material",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Vortex_Cloud2_MAT.mat",
+    "path_id": 7727057344136398319,
+    "type": "Material",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Models/Defeat_Banner_Color_TX_crispmip.png",
+    "path_id": -60259011829992443,
+    "type": "Texture2D",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Prefabs/EndOfGame_Defeat_PlaymatEffect.prefab",
+    "path_id": -8834553485975523491,
+    "type": "GameObject",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Timelines/EndOfGame_Defeat_PlaymatEffect_Activate_Timeline.playable",
+    "path_id": -3608649492655499194,
+    "type": "MonoBehaviour",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Timelines/EndOfGame_Defeat_PlaymatEffect_Activate_Timeline.playable",
+    "path_id": -3608649492627485415,
+    "type": "AnimationClip",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Timelines/EndOfGame_Defeat_PlaymatEffect_Deactivate_Timeline.playable",
+    "path_id": -2277452770339073535,
+    "type": "MonoBehaviour",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Timelines/EndOfGame_Defeat_PlaymatEffect_Deactivate_Timeline.playable",
+    "path_id": -2277452768947746383,
+    "type": "AnimationClip",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/Defeat_Banner_Wings_Alpha_TX_crispmip.png",
+    "path_id": 6885511441038631402,
+    "type": "Texture2D",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/VFX/Defeat_Clouds_Color_TX.png",
+    "path_id": 5340193495779747882,
+    "type": "Texture2D",
+    "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+    "sha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_Background_Solid_MAT.mat",
+    "path_id": 5385767563414440685,
+    "type": "Material",
+    "bundle": "c9/f60b43af60e5d58fbb58c58bf8b077.bbq",
+    "sha256": "30eef33048d29dc88facdbe8ccd027f8bd8a36ba07584589a51ebc3cf7c3c535"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_HotEdge_MAT.mat",
+    "path_id": -6170770803717924795,
+    "type": "Material",
+    "bundle": "c9/f60b43af60e5d58fbb58c58bf8b077.bbq",
+    "sha256": "30eef33048d29dc88facdbe8ccd027f8bd8a36ba07584589a51ebc3cf7c3c535"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Victory/Materials/EOG_Victory_Banner_Pieces_Weld_MAT.mat",
+    "path_id": 3956727938814143503,
+    "type": "Material",
+    "bundle": "c9/f60b43af60e5d58fbb58c58bf8b077.bbq",
+    "sha256": "30eef33048d29dc88facdbe8ccd027f8bd8a36ba07584589a51ebc3cf7c3c535"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Defeat/Materials/EOG_Defeat_Vortex_Nexus_MAT.mat",
+    "path_id": -7313144303094288757,
+    "type": "Material",
+    "bundle": "de/90a48c7b50a7f30d8ce21899f90bda.bbq",
+    "sha256": "0d1379f28f483ce32f14b1720830d8450b3dd0f9366f0a80585ad6c73db808f4"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Vortex_Background_Pull_MAT.mat",
+    "path_id": 4643941469480479470,
+    "type": "Material",
+    "bundle": "ee/685f0e33b48bded4f259039c22af58.bbq",
+    "sha256": "a2346415b0cbd9c151b7237f9134228ebb7071533d62f98bc908d33cfa1a5823"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Vortex_CustomBackground_Outro_MAT.mat",
+    "path_id": -7435860554617501889,
+    "type": "Material",
+    "bundle": "ee/685f0e33b48bded4f259039c22af58.bbq",
+    "sha256": "a2346415b0cbd9c151b7237f9134228ebb7071533d62f98bc908d33cfa1a5823"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Vortex_DarkCore_MAT.mat",
+    "path_id": 7245861725880229738,
+    "type": "Material",
+    "bundle": "ee/685f0e33b48bded4f259039c22af58.bbq",
+    "sha256": "a2346415b0cbd9c151b7237f9134228ebb7071533d62f98bc908d33cfa1a5823"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Vortex_Nexus_MAT.mat",
+    "path_id": -9161470581570068326,
+    "type": "Material",
+    "bundle": "ee/685f0e33b48bded4f259039c22af58.bbq",
+    "sha256": "a2346415b0cbd9c151b7237f9134228ebb7071533d62f98bc908d33cfa1a5823"
+  },
+  {
+    "path": "Assets/AssetLibrary/EndOfGame/Tie/Materials/EOG_Tie_Vortex_Wisp1_MAT.mat",
+    "path_id": 4076820003894601203,
+    "type": "Material",
+    "bundle": "ee/685f0e33b48bded4f259039c22af58.bbq",
+    "sha256": "a2346415b0cbd9c151b7237f9134228ebb7071533d62f98bc908d33cfa1a5823"
+  }
+]

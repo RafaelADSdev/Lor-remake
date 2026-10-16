@@ -1,0 +1,86 @@
+{
+  "clip": {
+    "bundle": "8c/d75e76b3c5df3f222740674323aebf.bbq",
+    "bundleSha256": "0790b79ccc54fb73538d28b959372e172c2e29668406260c317f3fce04a5eb1b",
+    "type": "AnimationClip",
+    "pathId": "-2335169206498055647",
+    "name": "Victory_Banner",
+    "file": "AnimationClip_-2335169206498055647.json",
+    "sha256": "add37185f8e0b0dac04dfd17ca12644cbb0129ee7b2aed6479c6b74032a4acc7"
+  },
+  "models": {
+    "victory": {
+      "mesh": {
+        "bundle": "73/41f5eabb4499af5e6aefbb181f2a1b.bbq",
+        "bundleSha256": "10d7ac4f26005c67024f8f913328f2fe459557b207145b7fd0541565dfb24284",
+        "type": "Mesh",
+        "pathId": "-1048907677951671566",
+        "name": "Banner_Shiny",
+        "file": "Mesh_-1048907677951671566.json",
+        "sha256": "5ffb46926dbf10f4799cd3fd8a0cf0d82bfe194c0124bdfbb06ac8a55f39dbca"
+      },
+      "texture": {
+        "bundle": "92/f86c1c19fae623756dde22e55c1175.bbq",
+        "bundleSha256": "42ca614052fe1e86ae62756f3943033878cf7021e33986a31a6a43329e3cdd4b",
+        "type": "Texture2D",
+        "pathId": "-6341164921213191011",
+        "name": "Victory_Banner_Color_TX_crispmip",
+        "file": "Texture2D_-6341164921213191011.json",
+        "sha256": "351c6b8d324d126ce7821770d447f1f27909c86907a275e20fe59b43cfb9a6f0"
+      },
+      "textureSha256": "b402bc2b48d288c758dc7f4f01741a949994b852f13172352b2b3df6bf788c01",
+      "vertices": 4113,
+      "frames": 64,
+      "bannerStart": 2.35
+    },
+    "defeat": {
+      "mesh": {
+        "bundle": "78/731d7bf795457806e8d1b441d3d50b.bbq",
+        "bundleSha256": "6ed42fd0e06ac1cd60e63b22a079e26bc858d1905adcd6eac46cc55ce8d5ce76",
+        "type": "Mesh",
+        "pathId": "-5496488439795928820",
+        "name": "Banner_Shiny",
+        "file": "Mesh_-5496488439795928820.json",
+        "sha256": "e5d871fc8df9ceb162d31694d20e42dce43ed7e8bc8938d6da2494506abfe94f"
+      },
+      "texture": {
+        "bundle": "c4/a3f0c61bf00af479e09b8deab1c177.bbq",
+        "bundleSha256": "f712a13dc1dfa6fbe839a2e2dafa72e1681c5b1d043f3178ae3a18741090f69f",
+        "type": "Texture2D",
+        "pathId": "-60259011829992443",
+        "name": "Defeat_Banner_Color_TX_crispmip",
+        "file": "Texture2D_-60259011829992443.json",
+        "sha256": "ece37d1734c3ddd36b24b17c5d21ee809e72b0a671cd2a5131a23fc703b183b1"
+      },
+      "textureSha256": "d709f724e0985d6035fd93fffdfee79b080977c8c33b542528545a52c00b3ee4",
+      "vertices": 4325,
+      "frames": 64,
+      "bannerStart": 1.85
+    },
+    "draw": {
+      "mesh": {
+        "bundle": "78/731d7bf795457806e8d1b441d3d50b.bbq",
+        "bundleSha256": "6ed42fd0e06ac1cd60e63b22a079e26bc858d1905adcd6eac46cc55ce8d5ce76",
+        "type": "Mesh",
+        "pathId": "-5496488439795928820",
+        "name": "Banner_Shiny",
+        "file": "Mesh_-5496488439795928820.json",
+        "sha256": "e5d871fc8df9ceb162d31694d20e42dce43ed7e8bc8938d6da2494506abfe94f"
+      },
+      "texture": {
+        "bundle": "c2/41c6d1c874e896d889f2edc53dc201.bbq",
+        "bundleSha256": "b9fc73c5bfeaf26275437a5abf48be287af1589fc6f2054e94056502d44f87b8",
+        "type": "Texture2D",
+        "pathId": "-5978023231602664267",
+        "name": "Tie_Banner_Color_TX_crispmip",
+        "file": "Texture2D_-5978023231602664267.json",
+        "sha256": "09659dc1b3fd3e15d203a40e95e33e3e11c0bb4ed71c57be4cf03dbffc579aaa"
+      },
+      "textureSha256": "a66d55eaa3a949fdf11cb446d532695a0659bcb57a4df9735e3be8d62dc86ee3",
+      "vertices": 4325,
+      "frames": 64,
+      "bannerStart": 2.35
+    }
+  },
+  "limits": "Native banner geometry, UV, rigid bone binding, cubic clip samples and source timeline start times. Browser unlit projection; Unity material erosion, particles and Nexus fracture shaders are not reproduced by this banner renderer."
+}

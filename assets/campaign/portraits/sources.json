@@ -1,0 +1,102 @@
+[
+  {
+    "region": "demacia",
+    "source": "assets/01DE012.png",
+    "sourceSha256": "de81dcc592ebe11ba06bc1d435d460c4bd950cb973970c571bfb2c7c587d739a",
+    "file": "demacia.webp",
+    "sha256": "8d9b5fc7e958938e23fbba86ccf2de286d5e51a3cae4bb3c6384b3d56a10b42b",
+    "bytes": 26760,
+    "width": 640,
+    "height": 320
+  },
+  {
+    "region": "noxus",
+    "source": "assets/01NX038.png",
+    "sourceSha256": "4df5eb6aa8f3cf939b3d02eed595988a044ade3cbd4270d52c83df9a2a7be4e7",
+    "file": "noxus.webp",
+    "sha256": "ca70090abe35ddc88fdc328fa2b7b0a30e462ff512e5b602cdce6076f161499a",
+    "bytes": 23612,
+    "width": 640,
+    "height": 320
+  },
+  {
+    "region": "freljord",
+    "source": "assets/playable-art/01FR039.webp",
+    "sourceSha256": "62c61f4453363e30c2cb3e64d270eb9044b6d8f52c612b39f3ab17ed60c27f7a",
+    "file": "freljord.webp",
+    "sha256": "283779e7ceb458d9c3c465c2f8c0be2fc5f0ae2161fd3c32505eb03987ced8a8",
+    "bytes": 27106,
+    "width": 640,
+    "height": 320
+  },
+  {
+    "region": "ionia",
+    "source": "assets/playable-art/01IO056.webp",
+    "sourceSha256": "6fc73ded0195413ae87e3a93f3eb1c11f2992366c9d55adaf48d3f7f4a76838e",
+    "file": "ionia.webp",
+    "sha256": "5862c07d318f1b509f65d2ebe9400e2c161a8462b5bcaddfadbf7cf3212050cc",
+    "bytes": 19052,
+    "width": 640,
+    "height": 320
+  },
+  {
+    "region": "piltover-zaun",
+    "source": "assets/playable-art/08PZ028.webp",
+    "sourceSha256": "00891cc5b02b35c3b33b63999f37175df640a06d36bd68ec7ffe567f0bd79e6b",
+    "file": "piltover-zaun.webp",
+    "sha256": "2dbca6c6e8e78ab6be766b30bc60252cadcd956ee7b21d78363de654f9561b89",
+    "bytes": 17598,
+    "width": 640,
+    "height": 320
+  },
+  {
+    "region": "bilgewater",
+    "source": "assets/playable-art/02BW035.webp",
+    "sourceSha256": "9acce5ca24dfad7eea506211850fe5a1a1f233ca1025131db0af7115b3f916ab",
+    "file": "bilgewater.webp",
+    "sha256": "6cfccf77a48eb73369b51f5636410cb6c3ffd60cab650b7eb1621a170cbf17f6",
+    "bytes": 21100,
+    "width": 640,
+    "height": 320
+  },
+  {
+    "region": "shurima",
+    "source": "assets/playable-art/04SH015.webp",
+    "sourceSha256": "bde0e40bba21650facbe46f1bcd50f6cf6a8a582b34e7a2ca32e3cdf19cb7ed3",
+    "file": "shurima.webp",
+    "sha256": "a8db3a4f038f772d2b0b0a0dc612b74931b00257630fb2f2f2c0d08e23de711a",
+    "bytes": 21004,
+    "width": 640,
+    "height": 320
+  },
+  {
+    "region": "targon",
+    "source": "assets/playable-art/03MT033.webp",
+    "sourceSha256": "e98e51d4300185efc1943b8adc01d44ce7321cef072199b196c74ae92d0947c2",
+    "file": "targon.webp",
+    "sha256": "1f91cf40c8873174c09d1e01b222bf85be8d510a62c67095b612aa5ed8497e46",
+    "bytes": 27298,
+    "width": 640,
+    "height": 320
+  },
+  {
+    "region": "ixtal",
+    "source": "assets/playable-art/01NX051.webp",
+    "sourceSha256": "7d479c99c8cd69070c2de3cf53c1223d0598da6b3edeadad1c3bc936c25b256d",
+    "file": "ixtal.webp",
+    "sha256": "6bceaeea591129c5847f87a8212b0972bd75cec66ac8faaee68b113020073d60",
+    "bytes": 21790,
+    "width": 640,
+    "height": 320
+  },
+  {
+    "region": "shadow-isles",
+    "source": "assets/playable-art/01SI033.webp",
+    "sourceSha256": "34f81816a960f6db09d96864539b47fe32f8c305a66a79baf56b1de3bf7b0e1b",
+    "file": "shadow-isles.webp",
+    "sha256": "c51dd06b3c5e25b82773a2322830586b9a59a84220506ea7a896aa053b4b5b45",
+    "bytes": 27666,
+    "width": 640,
+    "height": 320
+  }
+]

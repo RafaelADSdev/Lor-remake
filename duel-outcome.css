@@ -10,6 +10,7 @@
   inset: 0;
   background: #02081388;
 }
+.outcome-native-nexus { position: absolute; pointer-events: none; }
 .outcome-shard,
 .outcome-nexus-burst {
   position: absolute;
@@ -59,126 +60,129 @@
   color: #f5e5bf;
   padding: 12px 20px;
 }
+/* Full-screen result stage: the field stays behind a single cinematic banner. */
 #result-dialog {
-  --result-accent: #e5c789;
-  --result-glow: #d9aa4d44;
-  width: min(650px, 92vw);
-  max-width: 92vw;
-  max-height: calc(100dvh - 32px);
-  padding: 40px 28px 38px;
-  isolation: isolate;
-  text-align: center;
+  --result-accent: #ead5a4;
+  --result-metal: #243a46;
+  --result-energy: #7edcf0;
+  --result-glow: #3292bd40;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  height: 100dvh;
+  max-height: 100dvh;
+  margin: 0;
+  padding: max(24px, env(safe-area-inset-top)) max(18px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom)) max(18px, env(safe-area-inset-left));
   border: 0;
   border-radius: 0;
+  isolation: isolate;
   overflow: auto;
-  background: radial-gradient(ellipse at 50% 35%, #173345ee, #08151bf5 65%);
-  box-shadow:
-    0 18px 80px #0009,
-    inset 0 1px var(--result-accent),
-    inset 0 -1px #c0a06888;
+  text-align: center;
+  color: #e4d9c3;
+  background: radial-gradient(ellipse at 50% 43%, #163c4b99, transparent 65%);
+  box-shadow: none;
+  scrollbar-color: #8a7651 #0a161d;
 }
-.result-rays {
-  position: absolute;
-  z-index: -1;
-  pointer-events: none;
-  left: 50%;
-  top: -110px;
-  width: min(620px, 85%);
-  height: 500px;
-  opacity: 0.3;
-  transform: translateX(-50%);
-  background: repeating-conic-gradient(from 5deg at 50% 47%, transparent 0deg 14deg, var(--result-glow) 16deg 18deg, transparent 22deg 36deg);
-  mask-image: radial-gradient(ellipse, #000 8%, transparent 68%);
-}
-.crest-wing {
-  transform-box: fill-box;
-}
-.crest-wing-left { transform-origin: right center; }
-.crest-wing-right { transform-origin: left center; }
-.result-rule {
-  width: min(280px, 75%);
-  height: 1px;
-  margin: 18px auto;
-  background: linear-gradient(90deg, transparent, var(--result-accent), transparent);
-}
+#result-dialog[open] { display: grid; place-items: center; }
+#result-dialog::backdrop { background: #02080de8; }
 #result-dialog[data-outcome="defeat"] {
-  --result-accent: #d6a6a9;
-  --result-glow: #bc3a4e44;
-  background: radial-gradient(ellipse at 50% 35%, #3b202fee, #140f1cf5 65%);
+  --result-accent: #e4a79b;
+  --result-metal: #3a252c;
+  --result-energy: #dc6d67;
+  --result-glow: #a72c3d40;
+  background: radial-gradient(ellipse at 50% 43%, #501e2c88, transparent 65%);
 }
 #result-dialog[data-outcome="draw"] {
-  --result-accent: #b5cbd9;
-  --result-glow: #6c9db344;
+  --result-accent: #c7d5df;
+  --result-metal: #2b353f;
+  --result-energy: #a5bbc8;
+  --result-glow: #718b9e40;
 }
-#result-dialog::backdrop {
-  background: #020912b8;
-}
-.result-crest {
-  width: 160px;
-  height: 136px;
-  margin: 0 auto 4px;
-  color: var(--result-accent);
-  filter: drop-shadow(0 0 15px var(--result-glow));
-}
-.result-crest svg {
-  width: 100%;
-  height: 100%;
-}
-#result-dialog .eyebrow {
-  color: var(--result-accent);
-  letter-spacing: 0.24em;
-}
+.result-content { position: relative; width: min(100%, 1040px); margin: auto; padding: 32px 0; }
+.result-banner { position: relative; padding: 0 0 38px; overflow: clip; }
+.result-frame { position: absolute; left: 0; top: 66px; width: 100%; height: auto; pointer-events: none; }
+.result-metal { fill: var(--result-metal); }
+.result-edge { stroke: var(--result-accent); stroke-width: 1.6; }
+.result-energy { fill: var(--result-energy); opacity: .75; }
+.result-frame-rail { stroke: var(--result-accent); stroke-width: 1; opacity: .65; transform-origin: center; }
+.result-frame-wing { transform-origin: 0 0; }
+.result-rays { position: absolute; z-index: -1; inset: 0; pointer-events: none; opacity: .5; background: radial-gradient(ellipse at 50% 45%, var(--result-glow), transparent 64%); }
+.result-crest { width: 108px; height: 90px; margin: 0 auto 20px; color: var(--result-accent); }
+.result-crest svg { width: 100%; height: 100%; }
+.crest-wing { transform-box: fill-box; }
+.crest-wing-left { transform-origin: right center; }
+.crest-wing-right { transform-origin: left center; }
+#result-dialog .crest-core { fill: var(--result-energy); }
+#result-dialog[data-outcome="defeat"] .crest-crack { opacity: 1; }
+.crest-crack { opacity: 0; }
 #result-dialog #result-title {
-  margin: 8px 0 12px;
-  font:
-    700 clamp(46px, 7vw, 82px) / 1.05 Beaufort,
-    serif;
+  position: relative;
+  margin: 0;
+  padding-left: .08em;
+  font: 700 clamp(46px, 7.2vw, 96px)/1.15 Beaufort, Georgia, serif;
+  letter-spacing: .08em;
+  text-transform: uppercase;
   color: var(--result-accent);
-  text-shadow: 0 2px 16px var(--result-glow);
+  text-shadow: 0 3px 20px #000b;
 }
-#result-copy {
-  margin: 0 auto;
-  max-width: 430px;
-  color: #c9d4d9;
-  line-height: 1.55;
-}
-.result-actions {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 28px;
-}
+.result-rule { width: 48px; height: 1px; margin: 28px auto 22px; background: var(--result-accent); opacity: .7; }
+#result-copy { max-width: 460px; margin: 0 auto; color: #c4cbd0; line-height: 1.7; font-size: 15px; font-weight: 400; text-wrap: pretty; }
+#result-dialog .campaign-result { max-width: 620px; margin: 18px auto 0; color: #d9c9ab; line-height: 1.65; }
+.result-actions { display: flex; justify-content: center; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
 #result-dialog .result-actions button {
   margin: 0;
-  padding: 12px 22px;
-  min-width: 140px;
+  padding: 14px 28px;
+  min-width: 170px;
+  min-height: 50px;
+  color: #e6d7ba;
+  border: 1px solid #78694e;
+  border-radius: 0;
+  background: #101c25;
+  box-shadow: inset 0 0 0 3px #101c25, inset 0 0 0 4px #78694e55;
+  transition: background-color 160ms, border-color 160ms;
 }
-#result-dialog[data-outcome="defeat"] .result-crest .crest-core {
-  fill: #9c526b;
-}
-#result-dialog[data-outcome="defeat"] .crest-crack {
-  opacity: 1;
-}
-.crest-crack {
-  opacity: 0;
-}
+#result-dialog .result-actions button.primary { background: #1b3542; border-color: #bea16a; color: #f5dfb5; box-shadow: inset 0 0 0 3px #1b3542, inset 0 0 0 4px #bea16a55; }
+#result-dialog[data-outcome="defeat"] .result-actions button.primary { background: #36232a; box-shadow: inset 0 0 0 3px #36232a, inset 0 0 0 4px #bea16a55; }
+#result-dialog .result-actions button:hover { border-color: #f0d6a0; background-color: #2a3b43; }
+#result-dialog .result-actions button:focus-visible { outline: 2px solid #f2d494; outline-offset: 5px; }
+#result-dialog::selection { color: #0a171d; background: #e6c98f; }
 @media (max-width: 700px) {
-  #result-dialog {
-    padding: 24px 18px;
-  }
-  .result-crest {
-    width: 125px;
-    height: 106px;
-  }
-  .result-actions {
-    gap: 8px;
-    margin-top: 20px;
-  }
+  .result-content { padding: 12px 0; }
+  .result-banner { padding-bottom: 26px; }
+  .result-frame { top: 90px; width: 146%; left: -23%; }
+  .result-frame-wing { opacity: .65; }
+  .result-crest { width: 94px; height: 78px; margin-bottom: 26px; }
+  #result-dialog #result-title { font-size: clamp(40px, 10.4vw, 70px); }
+  #result-copy { max-width: 330px; font-size: 14px; }
+  .result-rule { margin: 18px auto; }
+  .result-actions { gap: 10px; margin-top: 26px; }
+  #result-dialog .result-actions button { min-width: 140px; padding: 12px 18px; }
+}
+@media (max-height: 520px) and (min-width: 701px) {
+  .result-content { padding: 0; }
+  .result-crest { width: 78px; height: 65px; margin-bottom: 8px; }
+  .result-banner { padding-bottom: 16px; }
+  .result-frame { top: 12px; }
+  #result-dialog #result-title { font-size: 60px; }
+  .result-rule { margin: 12px auto; }
+  .result-actions { margin-top: 18px; }
 }
 @media (prefers-reduced-motion: reduce) {
-  #duel-ending {
-    display: none;
-  }
-  .result-rays { display: none; }
+  #duel-ending, .result-rays { display: none; }
+  #result-dialog .result-actions button { transition: none; }
+}
+
+/* Original client artwork replaces the authored SVG crest and wings. */
+.result-banner { width: min(100%, 840px); aspect-ratio: 2; padding: 0; margin: 0 auto; overflow: clip; }
+#result-native-art { position: absolute; inset: 0; pointer-events: none; }
+.result-native-canvas, .result-native-fallback { display: block; width: 100%; height: 100%; object-fit: contain; }
+#result-dialog .result-banner #result-title { position: absolute; top: 27%; left: 0; width: 100%; box-sizing: border-box; font-size: clamp(32px, 4.4vw, 66px); line-height: 1.15; }
+.result-rule { margin: 4px auto 20px; }
+@media (max-width: 700px) {
+  #result-dialog .result-banner #result-title { font-size: clamp(27px, 7.4vw, 48px); }
+  .result-content { padding: 0; }
+}
+@media (max-height: 520px) and (min-width: 701px) {
+  .result-banner { max-width: 450px; }
+  #result-dialog .result-banner #result-title { font-size: 34px; }
 }

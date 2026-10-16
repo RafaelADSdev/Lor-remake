@@ -18,6 +18,88 @@ body:not(.in-duel) main {
 .welcome[hidden] {
   display: none;
 }
+.welcome-journey {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, .8fr);
+  min-height: 440px;
+  overflow: hidden;
+  background: #101a20;
+  border-bottom: 1px solid #78664480;
+}
+.welcome-world {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 65% 48%;
+}
+.welcome-journey::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(90deg, #0a151bf5 5%, #0a151be8 30%, #0a151b55 70%), linear-gradient(0deg, #101a20, transparent 35%);
+}
+.welcome-journey-copy {
+  padding: 48px clamp(28px, 3.5vw, 52px) 32px;
+}
+.welcome .welcome-journey h2 {
+  margin: 0 0 20px;
+  font-size: clamp(38px, 4.2vw, 62px);
+}
+.welcome .welcome-journey-copy > p {
+  max-width: 43ch;
+  color: #d0d9d9;
+  font-size: 15px;
+  line-height: 1.65;
+  margin: 0 0 26px;
+}
+.welcome-mode-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.welcome-mode-actions button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 52px;
+  margin: 0;
+  padding: 14px 20px;
+  font-size: 16px;
+}
+.welcome #choose-duel { background: #101a20cc; border-color: #a68b5380; }
+.welcome #choose-duel:hover { background: #23333b; border-color: #e5c789; }
+.welcome .welcome-journey-copy .welcome-campaign-progress {
+  margin: 22px 0 0;
+  color: #c7cdbd;
+  font-size: 12px;
+}
+.welcome-world-caption {
+  align-self: end;
+  padding: 40px;
+  text-align: right;
+  color: #f1dfb5;
+  text-shadow: 0 2px 8px #000;
+}
+.welcome-world-caption span { font: 700 clamp(18px, 2vw, 28px) Beaufort, Georgia, serif; }
+.welcome-world-caption small { display: block; margin-top: 8px; font-size: 13px; }
+.welcome #duel-setup-title { font-size: 34px; margin: 0 0 12px; }
+#duel-setup { scroll-margin-top: 20px; }
+@media (max-width: 700px) {
+  .welcome-journey { grid-template-columns: minmax(0, 1fr); min-height: 480px; }
+  .welcome-journey-copy { padding: 40px 24px 28px; }
+  .welcome-world { object-position: 60% center; }
+  .welcome-journey::after { background: linear-gradient(90deg, #0a151be8, #0a151ba8), linear-gradient(0deg, #101a20, transparent); }
+  .welcome-world-caption { display: none; }
+  .welcome-mode-actions { flex-direction: column; }
+  .welcome-mode-actions button { width: 100%; }
+}
 .welcome-hero {
   position: relative;
   display: grid;
@@ -651,4 +733,55 @@ body:has(#motion-toggle[aria-pressed="false"]) .welcome *::after {
   .welcome .welcome-version {
     line-height: 1.7;
   }
+}
+/* Mode selection precedes match configuration. Both illustrations stay visible. */
+.welcome-modes { display: grid; grid-template-columns: 1.1fr 1fr; }
+.welcome-modes > * { min-width: 0; }
+.welcome-journey { display: block; min-height: 480px; border-bottom: 0; border-right: 1px solid #78664480; }
+.welcome-journey-copy { padding: 36px; }
+.welcome .welcome-journey h2 { font-size: clamp(36px, 3.5vw, 50px); }
+.welcome-world-caption { padding: 0 36px 28px; text-align: left; }
+.welcome-world-caption span { display: none; }
+.welcome:not(.choosing-duel) .welcome-hero { display: flex; flex-direction: column; min-height: 480px; }
+.welcome:not(.choosing-duel) .welcome-copy { padding: 36px; }
+.welcome:not(.choosing-duel) .match-setup,
+.welcome:not(.choosing-duel) #back-to-modes,
+.welcome:not(.choosing-duel) .welcome-settings { display: none; }
+.welcome:not(.choosing-duel) .welcome-hero .welcome-art::after { background: linear-gradient(180deg, #0b151bd9, #0b151b33 60%, #101a20d9); }
+.welcome:not(.choosing-duel) .welcome-art img { height: 100%; object-position: 68% center; }
+.welcome:not(.choosing-duel) .welcome-showcase { margin-top: auto; padding: 20px 36px 32px; justify-content: flex-start; }
+.welcome:not(.choosing-duel) .welcome-deck-cards { display: none; }
+.welcome:not(.choosing-duel) .champion-caption { border: 0; padding: 0; text-align: left; }
+.welcome #choose-duel { display: flex; align-items: center; justify-content: space-between; gap: 32px; min-height: 52px; margin: 24px 0 0; padding: 14px 20px; font-size: 16px; color: #f5e9cf; background: #101a20eb; border-color: #c8aa68; }
+.welcome #back-to-modes { margin: 0 0 24px; background: transparent; padding: 8px 0; border: 0; min-height: 44px; color: #e5c789; }
+.welcome.choosing-duel .welcome-modes { display: block; }
+.welcome.choosing-duel .welcome-journey,
+.welcome.choosing-duel #choose-duel { display: none; }
+.welcome:not(.choosing-duel) .welcome-shortcuts { padding-top: 24px; }
+.welcome #resume { margin-block: 20px 0; }
+.welcome .match-setup .welcome-training { margin-top: 20px; padding: 16px 0; border: 0; border-top: 1px solid #9c875440; background: transparent; }
+@media (min-width: 801px) {
+  .welcome:not(.choosing-duel) .welcome-journey-copy,
+  .welcome:not(.choosing-duel) .welcome-copy {
+    display: grid;
+    grid-template-rows: 120px 96px 60px auto;
+    align-content: start;
+  }
+  .welcome:not(.choosing-duel) .welcome-journey h2,
+  .welcome:not(.choosing-duel) #duel-setup-title,
+  .welcome:not(.choosing-duel) .welcome-intro,
+  .welcome:not(.choosing-duel) .welcome-journey-copy > p:not(.welcome-campaign-progress) { margin: 0; }
+  .welcome:not(.choosing-duel) #choose-duel { margin: 0; min-height: 60px; }
+  .welcome:not(.choosing-duel) .welcome-mode-actions button { width: 100%; min-height: 60px; }
+}
+@media (max-width: 800px) {
+  .welcome-modes { grid-template-columns: minmax(0, 1fr); }
+  .welcome-journey { border-right: 0; border-bottom: 1px solid #78664480; min-height: 0; }
+  .welcome-journey-copy { padding: 28px 24px; }
+  .welcome-world-caption { display: none; }
+  .welcome:not(.choosing-duel) .welcome-hero { min-height: 340px; }
+  .welcome:not(.choosing-duel) .welcome-copy { padding: 28px 24px 0; }
+  .welcome:not(.choosing-duel) .welcome-showcase { padding: 24px; }
+  .welcome:not(.choosing-duel) .welcome-intro { max-width: 28ch; }
+  .welcome:not(.choosing-duel) .welcome-hero .welcome-art::after { background: linear-gradient(90deg, #0b151be8, #0b151b44), linear-gradient(0deg, #101a20cc, transparent); }
 }

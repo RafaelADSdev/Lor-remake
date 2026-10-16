@@ -13,6 +13,7 @@
     ACTIVE = "runeterra-active-deck-v1",
     DRAFT = "runeterra-deck-draft-v1";
   let draft = [],
+    campaignEditing = false,
     catalogPage = 0,
     library = [],
     editing = "",
@@ -57,7 +58,7 @@
     `${data.opponents.length} decks disponíveis para o bot. No sorteio, evita espelho e o último adversário.`;
   const catalogTotal = D.filter(data.cards).length;
   const version = document.querySelector(".welcome-version");
-  if (version) version.textContent = `Arena v0.30 · ${Object.values(catalog).filter(c => c.collectible).length} cartas na coleção · ${catalogTotal} para duelo · ${data.opponents.length} adversários`;
+  if (version) version.textContent = `Arena v0.32 · Campanha de Runeterra · ${Object.values(catalog).filter(c => c.collectible).length} cartas na coleção · ${catalogTotal} para duelo · ${data.opponents.length} adversários`;
   function regionOptions() {
     const old = $("card-region").value,
       catalog =
@@ -251,6 +252,7 @@
       counts = {};
     for (const code of draft) counts[code] = (counts[code] || 0) + 1;
     const source = $("catalog-source").value;
+    const campaignCards = campaignEditing ? window.CampaignUI.ownedCards() : null;
     const filtered = D.filter(
       source === "new" ? Object.fromEntries(Object.entries(data.cards).filter(([code]) => newCodes.has(code))) : source === "playable" ? data.cards : catalog,
       {
@@ -260,7 +262,7 @@
         type: $("card-type").value,
         cost: $("card-cost").value,
       },
-    );
+    ).filter(c => !campaignCards || campaignCards.has(c.code));
     const pages = Math.max(1, Math.ceil(filtered.length / 48));
     catalogPage = Math.min(catalogPage, pages - 1);
     const choices =
@@ -268,7 +270,8 @@
         ? filtered
         : filtered.slice(catalogPage * 48, catalogPage * 48 + 48);
     $("collection-count").textContent =
-      ["playable", "new"].includes(source)
+      campaignEditing ? `${filtered.length} cartas dos decks conquistados na campanha · Até duas regiões após liberar a Aliança entre Regiões`
+      : ["playable", "new"].includes(source)
         ? `${filtered.length} de ${catalogTotal} cartas jogáveis · selecione a arte para ver detalhes`
         : `${filtered.length} cartas na coleção · ${catalogTotal} disponíveis para duelo · monte e salve seus decks aqui`;
     $("catalog-pagination").hidden = ["playable", "new"].includes(source);
@@ -374,7 +377,7 @@
     }
     if (!draft.length)
       list.textContent = "Seu deck está vazio. Adicione cartas da coleção.";
-    const errors = E.validateDeck(catalog, draft), missing = needsRules(draft);
+    const errors = [...E.validateDeck(catalog, draft), ...(campaignEditing ? window.CampaignUI.deckErrors(draft) : [])], missing = needsRules(draft);
     $("deck-error").textContent = errors.length
       ? errors.join(" ")
       : missing.length ? `Deck pronto para salvar · ${missing.length} carta(s) ainda sem regras de duelo.` : "Deck pronto para jogar.";
@@ -410,6 +413,7 @@
   $("deck").addEventListener("change", summary);
   summary();
   $("build-deck").onclick = () => {
+    campaignEditing = false;
     if (pending)
       load(
         pending.cards,
@@ -420,6 +424,15 @@
     $("collection-dialog").showModal();
   };
   $("close-collection").onclick = () => $("collection-dialog").close();
+  window.DeckCollection = {
+    openDeck(key, options = {}) {
+      if (!data.decks[key]) return;
+      campaignEditing = !!options.campaign;
+      const record = library.find(r => "saved_" + r.id === key || (key === "custom" && JSON.stringify(r.cards) === JSON.stringify(data.decks.custom)));
+      load(data.decks[key], data.deckNames[key] || "Meu deck", record?.id || "");
+      $("collection-dialog").showModal();
+    },
+  };
   $("clear-deck").onclick = () => {
     draft = [];
     remember();
@@ -470,7 +483,7 @@
   };
   $("deck-name").oninput = remember;
   $("save-deck").onclick = () => {
-    const errors = E.validateDeck(catalog, draft);
+    const errors = [...E.validateDeck(catalog, draft), ...(campaignEditing ? window.CampaignUI.deckErrors(draft) : [])];
     if (errors.length) {
       $("deck-error").textContent = errors.join(" ");
       return;
@@ -512,7 +525,10 @@
       return;
     }
     refreshDeckFilter(true);
-    if (ready) $("collection-dialog").close();
+    if (ready) {
+      $("collection-dialog").close();
+      document.dispatchEvent(new CustomEvent("lor-deck-saved", { detail: { key: "custom" } }));
+    }
     else $("deck-error").textContent = "Deck salvo em Meus decks. Aguarda implementação das habilidades para entrar no duelo.";
   };
   $("export-deck").onclick = () => {

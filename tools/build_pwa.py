@@ -9,9 +9,13 @@ html = (game / 'index.html').read_text(encoding='utf-8')
 files = {'index.html', 'manifest.webmanifest', 'pwa-artwork.json',
          'assets/pwa/apple-touch-icon.png', 'assets/pwa/icon-192.png',
          'assets/pwa/icon-512.png', 'assets/pwa/maskable-512.png',
-         'assets/pwa/card-offline.svg', 'assets/01DE012.png'}
+         'assets/pwa/card-offline.svg', 'assets/01DE012.png',
+         'assets/campaign/runeterra-map.jpg'}
 files.update(re.findall(r'<script[^>]+src="([^"]+)"', html))
 files.update(p.relative_to(game).as_posix() for p in (game / 'assets/arenas/token').glob('*.png'))
+files.update(p.relative_to(game).as_posix() for p in (game / 'assets/campaign/regions').glob('*.png'))
+files.update(p.relative_to(game).as_posix() for p in (game / 'assets/campaign/portraits').glob('*.webp'))
+files.update(p.relative_to(game).as_posix() for p in (game / 'assets/outcome').glob('*.png'))
 files.update(re.findall(r'<link[^>]+href="([^"]+\.css(?:\?[^"]*)?)"', html))
 for name in list(files):
     if name.split('?')[0].endswith('.css'):
@@ -39,11 +43,15 @@ art_version = art_hash.hexdigest()[:12]
 
 template = (game / 'tools/pwa-worker.js').read_text(encoding='utf-8')
 digest = hashlib.sha256(template.encode())
+revisions = {}
 for name in sorted(files):
+    raw = (game / name.split('?')[0]).read_bytes()
+    revisions[name] = hashlib.sha256(raw).hexdigest()
     digest.update(name.encode())
-    digest.update((game / name.split('?')[0]).read_bytes())
+    digest.update(raw)
 worker = template.replace('__CORE_VERSION__', json.dumps(digest.hexdigest()[:12]))
 worker = worker.replace('__CORE_FILES__', json.dumps(sorted(files), ensure_ascii=False, indent=2))
+worker = worker.replace('__CORE_REVISIONS__', json.dumps(revisions, ensure_ascii=False, indent=2))
 worker = worker.replace('__ART_VERSION__', json.dumps(art_version))
 (game / 'sw.js').write_text(worker, encoding='utf-8')
 size = sum((game / name.split('?')[0]).stat().st_size for name in files)

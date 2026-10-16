@@ -1,3 +1,82 @@
+# PWA e caminhos da campanha (2026-10-16)
+
+- `node --test tests/*.test.cjs`: 156 testes aprovados. Os cinco cenários do worker cobrem reaproveitamento de arquivos, compatibilidade com o cache antigo, limpeza de preparo incompleto, preservação de outros aplicativos e ausência de cópia redundante de artes já baixadas.
+- `node tests/pwa.cjs`: Chromium/Pixel 7 e WebKit/iPhone 13 aprovados. Conferidos dez capítulos, emblemas e prévias regionais no primeiro acesso offline, início de encontro, resultado preparado com 40 XP, desbloqueio da estrada, recarga com progresso preservado e regressão do duelo livre. Resultados preparados verificam a integração, não a dificuldade dos decks. O teste WebKit corta o servidor para contornar a limitação de emulação offline do Playwright.
+- `node tests/pwa-update.cjs`: falha de instalação, remoção do núcleo incompleto, retentativa sem recarregar, atualização aguardando fechar a janela e preservação do perfil aprovados. No cenário controlado em que apenas o HTML muda, foram baixados 35.524 bytes e reaproveitados 33.513.286 bytes. Versões antigas sem hashes precisam de uma primeira preparação completa.
+- Download opcional de 3.380 artes: pausa e retomada aprovadas, com até quatro requisições simultâneas. A execução local final levou 2,9 segundos; esse tempo é do servidor local e não prevê a velocidade em redes móveis. Núcleo offline: 143 arquivos, aproximadamente 32 MB sem compressão de transporte.
+- Dez prévias WebP de liderança regional somam 228 KB. Fontes e saídas conferidas contra `assets/campaign/portraits/sources.json`; originais preservados. As imagens são carregadas offline sem baixar as artes completas.
+- `tests/campaign-routes.cjs`, `tests/campaign-browser.cjs`, `tests/campaign-progression.cjs` e `tests/campaign-map-interaction.cjs` passaram: diagrama com sete etapas e sete conexões, rotas alternativas, recompensas, desbloqueios, consulta por toque/teclado, áreas de toque de 44 px, regiões, backups e editor. Capturas `test-results/campaign-routes-mobile.png` e `campaign-routes-detail.png` inspecionadas.
+- JavaScript alterado passou em `node --check`. Instalação real na tela inicial e áreas seguras físicas ainda exigem validação em aparelhos; os testes usam perfis móveis de navegador. Não foi realizada publicação externa.
+
+# Arena por região da campanha (2026-10-16)
+
+- Arena determinada pelo local do encontro nos dois lados, com prioridade sobre decks e escolha manual. Retomadas antigas com temas válidos mas incorretos também são corrigidas ao entrar. Piltover/Zaun usa Piltover; Ixtal usa a floresta existente até possuir arte própria.
+- `tests/arena-view.test.cjs` cobre o mapeamento dos 70 encontros. `tests/campaign-arena.cjs` passou no Chrome offline: dez regiões com imagens carregadas, retomada de salvamento antigo e preferência do duelo livre preservada.
+- Suíte `node --test tests/*.test.cjs`: 149 testes aprovados; JavaScript validado com `node --check arena-view.js`.
+
+# Animações originais de fim de duelo (2026-10-16)
+
+- Removidas a moldura SVG autoral e a ruptura com fatias genéricas. Banners agora usam rig, geometria, UV e clipe originais, incluindo cristal e suportes; Nexus vermelho usa 54 fragmentos e azul usa 65, com os clipes nativos de 2,3667 segundos. Tempos de início dos banners preservados: 2,35 segundos em vitória/empate e 1,85 na derrota.
+- `node --test tests/*.test.cjs`: 151 aprovados. Os dois novos testes verificam IDs, durações, hashes das texturas, dados finitos, índices e quantidade de fragmentos. `node tests/result-screen.cjs`: renderização efetiva dos clipes originais, vitória/derrota/empate, controles, cancelamentos, quatro layouts e fallback sem WebGL aprovados. `node tests/campaign-progression.cjs`: aprovado.
+- A importação preserva os movimentos originais, mas a apresentação não é visualmente idêntica à Unity: câmera adaptada, material sem iluminação/cubemap original e shaders de erosão/partículas não reproduzidos. Evidências e reprodução em `research/REA_OUTCOME.md`.
+
+# Tela cinematográfica de resultado (2026-10-16)
+
+- Resultado em tela inteira com moldura vetorial simétrica, brasão, título em Beaufort e tratamento azul/dourado para vitória, vermelho para derrota e prata para empate. A ruptura do Nexus precede a abertura das alas, título e ações. Animações concluídas são liberadas; ocultar a página cancela efeitos pendentes.
+- `node tests/result-screen.cjs`: Chrome offline aprovou os três resultados, animação real, pular, Ver campo, Escape, efeitos desligados, movimento reduzido, revanche, cancelamento pelo menu e layouts 1440×900, 390×844, 320×600 e 800×450. Capturas de desktop/celular inspecionadas. `node tests/campaign-progression.cjs`: recompensas, mapa e aliança preservados na nova tela.
+- `node --test tests/*.test.cjs`: 149 aprovados; cache PWA regenerado (126 recursos essenciais). O teste legado `duel-outcome.cjs` depende da navegação antiga e de uma asserção anterior sobre encaixe da mana; essas etapas impedem que ele chegue ao resultado e não foram alteradas nesta entrega. O fluxo atual é coberto pelo novo teste dedicado acima.
+- A apresentação usa SVG/CSS e Web Animations API, sem novas dependências, imagens ou vídeos. O detector Impeccable não executou por ausência de `scripts/detector/engines/browser/detect-url.mjs` na instalação da skill; verificação visual e de runtime feita no Chrome.
+
+# Recompensas por decks completos (2026-10-16)
+
+- A campanha mantém três decks iniciais e libera dois decks de 40 cartas por região: intermediário na elite e principal no chefe. Fases comuns não ampliam a coleção com cartas avulsas. As cartas disponíveis no editor vêm exclusivamente das listas conquistadas; a aliança mantém o requisito de chefe + três fases distintas de outra região.
+- `node --test tests/*.test.cjs`: 149 testes aprovados, incluindo legalidade e diferenças dos dois decks em cada uma das dez regiões, ausência de recompensas avulsas, repetição sem duplicação e importação v1 com desbloqueios derivados.
+- `node tests/campaign-progression.cjs`: Chrome offline aprovou a entrega do intermediário na elite, seu uso contra o chefe, entrega do principal, desbloqueio da aliança, recarga e início de encontro com deck misto. Os resultados preparados verificam integração; não medem balanceamento.
+- `node tests/campaign-browser.cjs`: capítulos, chefes, XP, backups, editor, duelo livre e layouts 320/390/768/1440 aprovados. `python tools/build_pwa.py`: cache regenerado com 126 recursos essenciais, 26,2 MB. Nenhuma imagem, áudio ou vídeo foi acrescentado para as recompensas.
+
+# Tela inicial e som padrão (2026-10-16)
+
+- Ajuste pelos prints do usuário: ações de campanha/duelo alinhadas verticalmente com 60 px de altura; blocos inferiores removidos. Coleção/animações em **Mais**, treino/retomada em **Preparar duelo**. Teste `home-campaign.cjs` confirma alinhamento, ausência de overflow, abertura dos dois diálogos, Escape e navegação em 320/390/768/1440 px. `campaign-browser.cjs` passou; retorno pelo menu restaura a seleção dos modos. Cache PWA regenerado.
+- Revisão de organização após feedback: Campanha e Duelo livre aparecem lado a lado com as imagens preservadas; em telas estreitas ficam empilhados. Deck/adversário e personalização aparecem somente após **Preparar duelo**; **Voltar aos modos** restaura o menu. Retomada salva continua acessível abaixo dos modos. `home-campaign.cjs` cobre entrada, volta e ambas as telas em 320/390/768/1440 px; `campaign-browser.cjs` passou novamente. Cache PWA regenerado.
+- Campanha promovida ao destaque com mapa local, progresso real e acesso ao duelo livre; identidade existente preservada. Capturas `test-results/home-{1440,768,390,320}.png`, sem transbordamento horizontal. Revisão visual independente aprovada; detector Impeccable indisponível por módulo ausente na instalação da skill.
+- `node tests/home-campaign.cjs`: passou; som ligado em perfil novo, mute/ativação persistentes após recarga, sincronização com áudio regional, navegação campanha/duelo e quatro larguras.
+- `node tests/campaign-browser.cjs` e `node tests/combat-audio.cjs`: passaram. `node --test tests/campaign.test.cjs tests/engine.test.cjs`: 16 testes aprovados. `python tools/build_pwa.py`: cache regenerado (123 recursos essenciais).
+- `node tests/native-assets-integration.cjs`: verificou áudio regional, mute e invocação, mas não concluiu: a etapa legada seleciona `rugged` em `#champion-cinematic`, que atualmente oferece `on`/`off`. Esse contrato antigo não foi alterado nesta tarefa.
+
+# Fronteiras e animações no mapa (2026-10-16)
+
+- Correção do salto ao pressionar: `button:active:not(:disabled)` substituía a translação geográfica por `scale(.97)`. Marcadores agora preservam `translate(-50%, -50%)` durante o clique, sem transição de posição. Regressão reproduziu a falha antes da correção e passou conferindo símbolo e nome com o mouse pressionado nas dez regiões; seleção, arrasto, zoom, teclado, toque WebKit e efeitos de fronteira passaram.
+- `node --test tests/*.test.cjs`: 144 testes aprovados. `node tests/pwa.cjs webkit-iphone`: dez regiões/fronteiras offline, toque e retomada aprovados; navegação do teste adaptada à escolha de modos da nova tela inicial. Cache regenerado com 126 recursos essenciais (26,2 MB).
+- Recuperadas nove máscaras oficiais, com SHA-256 e limites registrados. Contornos vetoriais em `campaign-map-data.js` abaixo de 50 KB, com dez regiões incluindo o halo urbano de Piltover/Zaun. PNGs originais preservados sem edição.
+- `tests/campaign-map-data.test.cjs` valida geometria, identidades, amostras, hashes/fontes, tamanho e camadas sem interceptação de ponteiro.
+- `tests/campaign-map-motion.cjs`: hover em símbolo, lista e terreno; prévia sem seleção; saída restaurando fronteira selecionada; teclado; transição do painel; desligamento de efeitos; movimento reduzido; toque; execução offline sem erros de script ou URLs remotas. Captura `test-results/campaign-map-hover.png` inspecionada.
+- `tests/campaign-map-interaction.cjs` continua aprovando os dez símbolos, o nome das Ilhas das Sombras, pequenos movimentos do mouse, teclado, arrasto, zoom/Recentrar e toque WebKit. Fronteiras não interceptam os cliques.
+
+# Seleção no mapa — v0.32.1 (2026-10-16)
+
+- Reproduzido em Chrome com viewport 1742×1178: o centro do nome das Ilhas das Sombras atingia `campaign-zoom-reset`, não o marcador. O teste falhava com a região não selecionada.
+- Corrigido movendo zoom/Recentrar para uma barra abaixo do mapa e impedindo o deslocamento automático ao selecionar diretamente um marcador. A lista de destinos ainda revela regiões fora do enquadramento.
+- `node tests/campaign-map-interaction.cjs`: passou com todos os dez emblemas, nome das Ilhas das Sombras, pequenos movimentos durante o clique, teclado, arrasto do fundo, zoom e Recentrar; toque também passou em WebKit com perfil iPhone. WebKit usa servidor HTTP isolado porque a navegação `file://` desse motor retornou erro interno.
+- `node tests/campaign-browser.cjs`: regressão completa da campanha aprovada. `node tests/pwa.cjs webkit-iphone`: primeiro acesso offline aos dez capítulos e emblemas, toque e retomada aprovados. `python tools/build_pwa.py`: cache regenerado, 123 arquivos essenciais e 26,2 MB. Captura `test-results/campaign-map-click-fixed.png` inspecionada.
+
+# Expansão da campanha — v0.32 (2026-10-16)
+
+- Dez regiões do mapa jogáveis, 70 encontros (49 novos), seis listas de adversários exclusivas da campanha e sete novas lideranças. Ixtal enfrenta tropas noxianas; nenhuma habilidade de campeão foi inventada para unidades comuns.
+- Dez emblemas oficiais sem edição, com dimensões e SHA-256 verificados contra `assets/campaign/sources.json`; importação reproduzível por `python tools/import_campaign_symbols.py`. Os símbolos aparecem nos marcadores, na lista de destinos e nos painéis, inclusive em capítulos com 100% de maestria.
+- `node --test tests/*.test.cjs`: 142 testes aprovados. A campanha valida 70 decks/duelos, composições distintas nas duas rotas de cada região, custos normais das lideranças, mão inicial após mulligan, retomada JSON, desbloqueios e compatibilidade de XP/recordes com o perfil v1 anterior.
+- `node tests/campaign-browser.cjs`: passou em Chrome isolado e offline, sem requisições remotas ou erros JavaScript. Verifica todos os capítulos, os 21 emblemas visíveis na interface (dez mapa, dez destinos, um painel), sete chefes/títulos novos, desbloqueio avançado, coleção e treino normal. Capturas em 320, 390, 768 e 1440 px inspecionadas; nenhuma rolagem horizontal da página. A lista de destinos tem rolagem própria e a seleção revela o emblema no mapa.
+- `python tools/build_pwa.py`: 123 arquivos essenciais, 26,2 MB, incluindo os dez emblemas. `node tests/pwa.cjs` aprovado em Chromium Android e WebKit iPhone: primeiro acesso aos capítulos/emblemas com a rede já cortada, além dos cenários existentes de instalação em subpasta, salvamento e toque.
+- A falha visual preexistente do teste `duel-outcome.cjs`, registrada abaixo, não foi alterada. Níveis e composições ainda precisam de balanceamento com jogadores; não foram realizados testes em aparelhos físicos.
+
+# Campanha de Runeterra — v0.31 (2026-10-16)
+
+- `node --test tests/*.test.cjs`: 140 testes aprovados, incluindo os quatro grupos de campanha. Os 21 decks de encontros são legais, regionais e completaram duelos pelo motor; garantia de campeão após mulligan, hidratação, desbloqueios alternativos, XP idempotente, derrota/empate e perfis inválidos verificados.
+- `node tests/campaign-browser.cjs`: Chrome isolado em `file://`, offline, sem requisições remotas ou erros JavaScript; mapa, escolha de região acima do nível, deck, aviso de substituição, início/retomada, resultado, chefe/mulligan, derrota sem perder XP, exportação/importação cumulativa, erro de armazenamento, coleção e treino normal. Larguras 320, 390, 768 e 1440 sem overflow horizontal.
+- `node tests/welcome.cjs` e `node tests/deck-card-filter.cjs`: entrada, coleção, filtro de cartas, salvamento e retomada preservados.
+- `node tests/pwa.cjs`: aprovado em Chromium Android e WebKit iPhone, com instalação em subpasta, offline, toque, salvamento e layouts. `python tools/build_pwa.py`: 113 arquivos essenciais, 26,1 MB; mapa incluído no cache essencial.
+- Limitação preexistente: `node tests/duel-outcome.cjs` falha em `all 20 mana marks stay inside the metal housing` (20 fora em vez de zero). A mesma falha foi reproduzida usando `index.html`, `app.js` e `collection.js` originais de HEAD em cópia isolada, sem a campanha. Não foram alterados geometria ou testes da arena.
+- Layout do atlas inspecionado por screenshots em desktop e celular; o modo usa recursos locais. Balanceamento dos níveis e dos decks ainda precisa de partidas com jogadores; não representa níveis oficiais da Riot. Inspeção em aparelhos físicos não foi feita.
+
 # Validação — atualização de 16/10/2026
 
 ## PWA para iOS e Android
@@ -118,3 +197,8 @@ Conferência final v0.29: **138/138 testes Node passaram**, sem testes ignorados
 - v0.2: animação de feitiço verificada com dano real ao Nexus. Campo cheio com seis unidades por lado testado nas larguras 320, 390, 768, 1024, 1100 e 1440 pixels, incluindo os limites internos de cada faixa do campo.
 
 Os testes cobrem o recorte implementado, sem comprovar equivalência a todas as regras de LoR. A IA é heurística, com uma dificuldade.
+# Decks e Aliança entre Regiões (2026-10-16)
+
+- `node --test tests/*.test.cjs`: 148 testes aprovados. Cobertura inclui três decks iniciais legais, cartas por fase, deck de chefe, repetição sem novas recompensas, importação v1 e aliança após chefe + três fases distintas de outra região, em qualquer ordem.
+- `node tests/campaign-progression.cjs`: Chrome offline com perfil isolado; editor filtra cartas conquistadas e bloqueia preset misto antes da aliança, vitória de chefe concede deck, terceira fase da outra região libera aliança, recarga preserva desbloqueio e deck misto inicia encontro. Resultados preparados exercitam o callback real da aplicação, sem medir balanceamento.
+- `node tests/campaign-browser.cjs`, `node tests/home-campaign.cjs` e `node tests/campaign-map-interaction.cjs`: navegação, sete chefes novos, progressão, backups, coleção, duelo livre, layouts 320/390/768/1440 e toque WebKit aprovados. A asserção de enquadramento após redimensionar aguarda a estabilização do layout; capturas mobile verificadas visualmente.

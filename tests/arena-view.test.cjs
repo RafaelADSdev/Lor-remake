@@ -41,3 +41,14 @@ test("doze arenas e texturas preservam SHA-256 e bytes originais registrados", (
     assert.ok(fs.existsSync(path.join(folder, t.file)));
   }
 });
+test("arena da campanha segue o local do encontro, inclusive invasores e cidades", () => {
+  const C = require('../campaign.js');
+  const expected = { demacia: 'demacia', noxus: 'noxus', freljord: 'freljord', ionia: 'ionia', 'piltover-zaun': 'piltover', bilgewater: 'bilgewater', shurima: 'shurima', targon: 'targon', ixtal: 'rift', 'shadow-isles': 'shadowisles' };
+  for (const [region, theme] of Object.entries(expected)) {
+    for (const encounter of C.encounters(region)) {
+      assert.equal(A.campaignTheme({ campaign: { encounterId: encounter.id } }, C), theme, encounter.id);
+    }
+  }
+  assert.equal(A.campaignTheme({}, C), null);
+  assert.equal(A.campaignTheme({ campaign: { encounterId: 'invalid' } }, C), null);
+});

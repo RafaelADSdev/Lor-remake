@@ -2,6 +2,7 @@
 'use strict';
 const VERSION = __CORE_VERSION__;
 const CORE = __CORE_FILES__;
+const REVISIONS = __CORE_REVISIONS__;
 const ART_VERSION = __ART_VERSION__;
 const base = new URL('./', self.location.href);
 const prefix = `lor-pwa-${encodeURIComponent(base.pathname)}-`;
@@ -12,16 +13,37 @@ const corePaths = new Set(CORE.map(file => new URL(file, base).pathname));
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(coreName);
-    // Limit concurrent downloads on mobile; fail the installation if incomplete.
-    let cursor = 0;
-    await Promise.all(Array.from({ length: 4 }, async () => {
-      while (cursor < CORE.length) {
-        const url = new URL(CORE[cursor++], base);
-        const response = await fetch(url, { cache: 'reload' });
-        if (!response.ok) throw Error(`Offline resource unavailable: ${url.pathname}`);
-        await cache.put(url, response);
-      }
+    const metadata = new URL('__pwa__/core-revisions.json', base);
+    const names = (await caches.keys()).filter(name => name.startsWith(prefix + 'core-') && name !== coreName);
+    const previous = names.length ? await caches.open(names[names.length - 1]) : null;
+    const stored = previous && await previous.match(metadata);
+    const oldRevisions = stored ? await stored.json().catch(() => ({})) : {};
+    const controller = new AbortController();
+    let cursor = 0, completed = 0;
+    async function progress() {
+      try {
+        const clients = await self.clients.matchAll({ includeUncontrolled: true, type: 'window' });
+        for (const client of clients)
+          if (client.url.startsWith(base.href)) client.postMessage({ type: 'LOR_OFFLINE_PROGRESS', scope: base.pathname, completed, total: CORE.length });
+      } catch {} // Closing the window cannot invalidate an otherwise complete cache.
+    }
+    const results = await Promise.allSettled(Array.from({ length: 4 }, async () => {
+      try {
+        while (cursor < CORE.length && !controller.signal.aborted) {
+          const file = CORE[cursor++], url = new URL(file, base);
+          const unchanged = previous && oldRevisions[file] === REVISIONS[file];
+          const reused = unchanged && await previous.match(url);
+          const response = reused || await fetch(url, { cache: 'reload', signal: controller.signal });
+          if (!response.ok) throw Error(`Offline resource unavailable: ${url.pathname}`);
+          await cache.put(url, response);
+          completed++;
+          if (completed % 5 === 0 || completed === CORE.length) await progress();
+        }
+      } catch (error) { controller.abort(); throw error; }
     }));
+    const failure = results.find(result => result.status === 'rejected');
+    if (failure) { await caches.delete(coreName); throw failure.reason; }
+    await cache.put(metadata, Response.json(REVISIONS));
   })());
 });
 self.addEventListener('activate', event => {
@@ -61,6 +83,7 @@ self.addEventListener('fetch', event => {
     return;
   }
   if (!url.pathname.startsWith(new URL('assets/', base).pathname) || !/\.(png|webp|jpg|jpeg|svg)$/i.test(url.pathname)) return;
+  let fetchedFromNetwork = false;
   const network = (async () => {
     const art = await caches.open(artName);
     const runtime = await caches.open(runtimeName);
@@ -68,7 +91,7 @@ self.addEventListener('fetch', event => {
     if (cached) return cached;
     try {
       const response = await fetch(request);
-      if (response.ok && response.status === 200) return response;
+      if (response.ok && response.status === 200) { fetchedFromNetwork = true; return response; }
       throw Error('Image unavailable');
     } catch {
       // Let the card view show its live name/cost/stats over the offline artwork.
@@ -79,7 +102,7 @@ self.addEventListener('fetch', event => {
   // Register lifetime work synchronously, even when network/cache lookups await.
   event.waitUntil(network.then(response => {
     const bytes = Number(response.headers.get('content-length'));
-    if (response.ok && bytes > 0 && bytes <= 2 * 1048576)
+    if (fetchedFromNetwork && response.ok && bytes > 0 && bytes <= 2 * 1048576)
       return remember(request, response);
   }).catch(() => {}));
 });

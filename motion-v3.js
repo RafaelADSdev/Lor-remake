@@ -663,9 +663,10 @@
     }
   }
   let enabled = true,
-    sound = false,
+    sound = true,
     audio = null;
   try {
+    sound = localStorage.getItem("lor-sound-enabled") !== "false";
     enabled = localStorage.getItem("arena-motion") !== "off";
     forceFull = localStorage.getItem("arena-motion-explicit") === "full";
     document.body.classList.toggle("full-motion", forceFull);
@@ -1082,6 +1083,7 @@
     },
     toggleSound() {
       sound = !sound;
+      try { localStorage.setItem("lor-sound-enabled", String(sound)); } catch {}
       if (root.RegionalAudio) root.RegionalAudio.enabled = sound;
       if (sound) tone("round");
       return sound;

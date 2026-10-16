@@ -1,0 +1,187 @@
+{
+  "map": "https://map.leagueoflegends.com/assets/images/tiles/terrain_z1.jpg",
+  "positions": "https://map.leagueoflegends.com/loc/pins-pt_br.json",
+  "reference": "https://map.leagueoflegends.com/pt_BR",
+  "retrieved": "2026-10-16",
+  "coordinates": "Official plane is 2048 x 2048; CSS x = 50 + officialX / 2048 * 100; CSS y = 50 - officialY / 2048 * 100.",
+  "copyright": "Riot Games. Campaign encounters, levels and narrative are original to this unofficial prototype.",
+  "symbols": {
+    "demacia": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/demacia.png",
+      "file": "assets/campaign/regions/demacia.png",
+      "sha256": "44ea9be511a7189375e8e911c2d5bb8d9488138ba875eb88e533996cc2fe6d42",
+      "width": 128,
+      "height": 128
+    },
+    "noxus": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/noxus.png",
+      "file": "assets/campaign/regions/noxus.png",
+      "sha256": "93d54b0f9e6c1f8e1fda6ca2e9e9999d1addd50a3bd2d70fbdf59acbe4733f2e",
+      "width": 128,
+      "height": 128
+    },
+    "freljord": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/freljord.png",
+      "file": "assets/campaign/regions/freljord.png",
+      "sha256": "4b6ae6afc5a9a19c8d2eb53b4ff59fe3f39522fb709b2992708429c22bb638dc",
+      "width": 128,
+      "height": 128
+    },
+    "ionia": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/ionia.png",
+      "file": "assets/campaign/regions/ionia.png",
+      "sha256": "b88010e7ec6c099ded3ffe58da09e2fad999a8ee8879fa4094a3ab4a27f22bbb",
+      "width": 128,
+      "height": 128
+    },
+    "piltover-zaun": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/piltover-zaun.png",
+      "file": "assets/campaign/regions/piltover-zaun.png",
+      "sha256": "86c37a135e8fcd7a81c0c4e209e61acb44e8c5ff03fb353883043aef0a759520",
+      "width": 128,
+      "height": 256
+    },
+    "bilgewater": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/bilgewater.png",
+      "file": "assets/campaign/regions/bilgewater.png",
+      "sha256": "56514b4ba324d2b1b47422dd457cdcb5bfa0829ae7164234e69687c151788a7f",
+      "width": 128,
+      "height": 128
+    },
+    "shurima": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/shurima.png",
+      "file": "assets/campaign/regions/shurima.png",
+      "sha256": "159b6d76bdbd596ceb9bf92726815562b1f3fbafcbafe26c30386a98acdfd7c1",
+      "width": 128,
+      "height": 128
+    },
+    "targon": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/targon.png",
+      "file": "assets/campaign/regions/targon.png",
+      "sha256": "14eb969c7c9871f71ceaa209f9b13c9591d990d8fccdaa5c5b7267671690ad90",
+      "width": 128,
+      "height": 128
+    },
+    "ixtal": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/ixtal.png",
+      "file": "assets/campaign/regions/ixtal.png",
+      "sha256": "6ca6f650a1310a1fafd56a3cff5b9804530b14e7887150f79a3d0114eb1e5783",
+      "width": 128,
+      "height": 128
+    },
+    "shadow-isles": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/shadow-isles.png",
+      "file": "assets/campaign/regions/shadow-isles.png",
+      "sha256": "cd941245297a01a86de42d839449cd0615f8950b403836fd3dae0616ba69f53d",
+      "width": 128,
+      "height": 128
+    }
+  },
+  "territories": {
+    "demacia": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/terrain/demacia.png",
+      "file": "assets/campaign/territories/demacia.png",
+      "sha256": "762cf62100914583d72125b1093600baf36548d3293d5de38fc5ab9508ca7ddd",
+      "bounds": [
+        485,
+        885,
+        688,
+        1095
+      ]
+    },
+    "noxus": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/terrain/noxus.png",
+      "file": "assets/campaign/territories/noxus.png",
+      "sha256": "104f161e69496d11e84ed4458119290b04e1d055774b430a903337df39b60636",
+      "bounds": [
+        682,
+        689,
+        1498,
+        1300
+      ]
+    },
+    "freljord": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/terrain/freljord.png",
+      "file": "assets/campaign/territories/freljord.png",
+      "sha256": "e2e226e320125841ed3facdd60eb2f09598bb9c8f4b6038e651bdba94fb51619",
+      "bounds": [
+        292,
+        514,
+        952,
+        948
+      ]
+    },
+    "ionia": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/terrain/ionia.png",
+      "file": "assets/campaign/territories/ionia.png",
+      "sha256": "783dfc297a04e97d03507093131d6e48ebd9fcf667d1290bf2613950d52c8fd8",
+      "bounds": [
+        1344,
+        624,
+        1750,
+        1093
+      ]
+    },
+    "bilgewater": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/terrain/bilgewater.png",
+      "file": "assets/campaign/territories/bilgewater.png",
+      "sha256": "f71eb66a195de2309fa9c1930a902e2dcff60d6ae31de607accbf0b98a3d5305",
+      "bounds": [
+        1509,
+        1147,
+        1569,
+        1239
+      ]
+    },
+    "shurima": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/terrain/shurima.png",
+      "file": "assets/campaign/territories/shurima.png",
+      "sha256": "72fb78685ec74436de68befa5fe223929e27be643da9f9542fc965cbb708af6c",
+      "bounds": [
+        774,
+        1219,
+        1310,
+        1638
+      ]
+    },
+    "targon": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/terrain/targon.png",
+      "file": "assets/campaign/territories/targon.png",
+      "sha256": "d364f5fb80a80c8102a36db4e58a84d82f1bd836b42140ea0cd0acbffa300827",
+      "bounds": [
+        752,
+        1388,
+        897,
+        1499
+      ]
+    },
+    "ixtal": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/terrain/ixtal.png",
+      "file": "assets/campaign/territories/ixtal.png",
+      "sha256": "b16a198501ce0390f8b446638d3d2ba9033d3a49036535db738514c7c9bec3b8",
+      "bounds": [
+        1259,
+        1304,
+        1407,
+        1445
+      ]
+    },
+    "shadow-isles": {
+      "url": "https://map.leagueoflegends.com/assets/images/regions/terrain/shadow-isles.png",
+      "file": "assets/campaign/territories/shadow-isles.png",
+      "sha256": "b5dc9fb8141bf19ac36e0a07f8cd041f1ffca0dd3be19867f82a7958543c3094",
+      "bounds": [
+        1738,
+        1345,
+        1850,
+        1466
+      ]
+    }
+  },
+  "territory_geometry": {
+    "analysis_grid": 512,
+    "alpha_threshold": 24,
+    "simplification": "RDP, 2.8 source pixels",
+    "city_marker": "Piltover/Zaun has a local city halo, not a country border."
+  }
+}

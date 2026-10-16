@@ -26,6 +26,7 @@ const data = JSON.parse(JSON.stringify(ctx.window.CARD_DATA));
     if (/^https?:/.test(r.url())) remote.push(r.url());
   });
   await page.addInitScript(() => {
+    localStorage.setItem("lor-sound-enabled", "false");
     window.playedSounds = [];
     window.nativeClips = [];
     const play = HTMLMediaElement.prototype.play;

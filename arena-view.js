@@ -108,7 +108,14 @@
       ? preference
       : fromDeck(cards, catalog);
   }
-  const api = { themes, fromDeck, selection };
+  function campaignTheme(state, campaign = root.Campaign) {
+    const region = campaign?.get(state.campaign?.encounterId)?.region;
+    if (!region) return null;
+    // Ixtal uses the existing forest scenery until it has its own arena asset.
+    const key = { 'piltover-zaun': 'piltover', 'shadow-isles': 'shadowisles', ixtal: 'rift' }[region] || region;
+    return Object.hasOwn(themes, key) ? key : null;
+  }
+  const api = { themes, fromDeck, selection, campaignTheme };
   if (typeof module !== "undefined") {
     module.exports = api;
     return;
@@ -155,12 +162,14 @@
   });
   preview();
   api.prepare = (s, lists) => {
-    const chosen = preference();
+    const chosen = campaignTheme(s) || preference();
     s.arenaThemes = lists.map((cards) => selection(cards, data.cards, chosen));
   };
   let positions = new Map();
   api.enter = (s) => {
     positions.clear();
+    const location = campaignTheme(s);
+    if (location) s.arenaThemes = [location, location];
     if (
       !s.arenaThemes?.every((key) => Object.hasOwn(themes, key)) ||
       s.arenaThemes.length !== 2
