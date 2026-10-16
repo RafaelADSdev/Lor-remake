@@ -3,6 +3,7 @@ const { chromium } = require("playwright"),
   fs = require("node:fs"),
   path = require("node:path"),
   crypto = require("node:crypto");
+const { selectMatchSetting } = require("../tests/welcome-helpers.cjs");
 (async () => {
   const game = path.resolve(__dirname, ".."),
     folder = path.join(game, "assets/arenas/current");
@@ -20,7 +21,7 @@ const { chromium } = require("playwright"),
     );
     const manifest = [];
     for (const { key, meshSha256, textureSha256 } of sources) {
-      await page.locator("#arena-choice").selectOption(key);
+      await selectMatchSetting(page, "#arena-choice", key);
       await page.locator("#train").click();
       await page.waitForFunction(() => ArenaScene.ready);
       const png = await page.evaluate(() => {

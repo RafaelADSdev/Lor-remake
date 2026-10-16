@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="540" viewBox="0 0 360 540">
+  <rect width="360" height="540" fill="#142327"/>
+  <path d="m180 130 95 42v110l-95 80-95-80V172Z" fill="none" stroke="#dcba70" stroke-width="5"/>
+  <text x="180" y="265" text-anchor="middle" fill="#dcba70" font-size="72" font-family="serif">R</text>
+  <text x="180" y="420" text-anchor="middle" fill="#eee6cf" font-size="20" font-family="sans-serif">Arte disponível online</text>
+</svg>

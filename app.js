@@ -126,7 +126,7 @@ function save() {
 }
 function inspect(c) {
   if (busy) return;
-  if (!state?.combat && mode !== "attack" && !spell)
+  if (!matchMedia("(pointer: coarse)").matches && !state?.combat && mode !== "attack" && !spell)
     document.body.classList.add("peek-open");
   clearTimeout(peekTimer);
   const box = $("inspection");
@@ -213,6 +213,10 @@ function card(c, zone, owner) {
   img.src =
     zone === "hand" ? data.cards[c.code].portrait : data.cards[c.code].image;
   img.alt = "";
+  img.addEventListener("error", () => {
+    btn.classList.add("art-unavailable");
+    img.src = "assets/pwa/card-offline.svg";
+  }, { once: true });
   const cost = document.createElement("span");
   cost.className = "cost";
   cost.textContent = c.cost;
@@ -310,7 +314,7 @@ function card(c, zone, owner) {
       !E.playable(state, 0, c) ||
       busy;
     if (spell) btn.disabled = busy || state.priority !== 0 || !(E.targets(state, 0, spell, spellTargets).includes(c.id) || spellTargets.includes(c.id));
-    btn.draggable = !btn.disabled && !spell;
+    btn.draggable = !matchMedia("(pointer: coarse)").matches && !btn.disabled && !spell;
     btn.addEventListener("dragstart", (event) => {
       if (btn.disabled) return event.preventDefault();
       event.dataTransfer.setData("text/plain", c.id);
@@ -366,7 +370,7 @@ function card(c, zone, owner) {
     !busy &&
     mode !== "spell"
   ) {
-    btn.draggable = !c.stunned && !c.keywords.includes("Immobile");
+    btn.draggable = !matchMedia("(pointer: coarse)").matches && !c.stunned && !c.keywords.includes("Immobile");
     btn.addEventListener("dragstart", (event) => {
       event.dataTransfer.setData("text/plain", "attack:" + c.id);
       event.dataTransfer.effectAllowed = "move";

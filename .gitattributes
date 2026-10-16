@@ -1,0 +1,5 @@
+# Existing Windows sources use CRLF; preserve normal trailing-whitespace checks.
+* whitespace=cr-at-eol
+# These files are verified byte-for-byte by the arena source manifests.
+arena-scene.js -text
+assets/arenas/backgrounds/*.js -text

@@ -10,16 +10,18 @@
     version = 0,
     presentation = 0,
     keys = [],
-    enabled = true;
+    enabled = !matchMedia("(pointer: coarse)").matches;
   const cache = new Map(),
     loading = new Map();
   const choice = document.getElementById("arena-renderer");
   try {
-    enabled = localStorage.getItem("lor-arena-renderer") !== "light";
+    const preference = localStorage.getItem("lor-arena-renderer");
+    enabled = preference ? preference !== "light" : !matchMedia("(pointer: coarse)").matches;
   } catch {}
   choice.value = enabled ? "geometry" : "light";
   choice.onchange = () => {
     enabled = choice.value === "geometry";
+    if (enabled && !gl) initialize();
     try {
       localStorage.setItem("lor-arena-renderer", choice.value);
     } catch {}
@@ -33,44 +35,47 @@
       throw Error("Arena shader");
     return s;
   }
-  try {
-    gl = canvas.getContext("webgl", {
-      alpha: true,
-      antialias: true,
-      premultipliedAlpha: false,
-      // The scene is drawn only on entry/resize, while another canvas animates.
-      preserveDrawingBuffer: true,
-    });
-    if (!gl) throw Error("WebGL unavailable");
-    program = gl.createProgram();
-    gl.attachShader(
-      program,
-      shader(
-        gl.VERTEX_SHADER,
-        // Keep the seam fixed while giving combat half of the board height.
-        // Native bases devote too much of this orthographic view to scenery.
-        "attribute vec3 position;attribute vec2 uv;uniform vec2 flip;varying vec2 vUv;void main(){vUv=uv;float d=-position.y/105.;float t=d<.36?d*(.5/.36):.5+(d-.36)*(.5/.64);gl_Position=vec4(vec2(-position.x/132.,1.-2.*t)*flip,position.z/150.,1.);}",
-      ),
-    );
-    gl.attachShader(
-      program,
-      shader(
-        gl.FRAGMENT_SHADER,
-        "precision mediump float;uniform sampler2D image;varying vec2 vUv;void main(){gl_FragColor=texture2D(image,vUv);}",
-      ),
-    );
-    gl.linkProgram(program);
-    if (!gl.getProgramParameter(program, gl.LINK_STATUS))
-      throw Error("Arena program");
-    gl.useProgram(program);
-    gl.enable(gl.DEPTH_TEST);
-    gl.enable(gl.BLEND);
-    gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
-    gl.clearColor(0, 0, 0, 0);
-  } catch {
-    gl = null;
-    canvas.hidden = true;
+  function initialize() {
+    try {
+      gl = canvas.getContext("webgl", {
+        alpha: true,
+        antialias: true,
+        premultipliedAlpha: false,
+        // The scene is drawn only on entry/resize, while another canvas animates.
+        preserveDrawingBuffer: true,
+      });
+      if (!gl) throw Error("WebGL unavailable");
+      program = gl.createProgram();
+      gl.attachShader(
+        program,
+        shader(
+          gl.VERTEX_SHADER,
+          // Keep the seam fixed while giving combat half of the board height.
+          // Native bases devote too much of this orthographic view to scenery.
+          "attribute vec3 position;attribute vec2 uv;uniform vec2 flip;varying vec2 vUv;void main(){vUv=uv;float d=-position.y/105.;float t=d<.36?d*(.5/.36):.5+(d-.36)*(.5/.64);gl_Position=vec4(vec2(-position.x/132.,1.-2.*t)*flip,position.z/150.,1.);}",
+        ),
+      );
+      gl.attachShader(
+        program,
+        shader(
+          gl.FRAGMENT_SHADER,
+          "precision mediump float;uniform sampler2D image;varying vec2 vUv;void main(){gl_FragColor=texture2D(image,vUv);}",
+        ),
+      );
+      gl.linkProgram(program);
+      if (!gl.getProgramParameter(program, gl.LINK_STATUS))
+        throw Error("Arena program");
+      gl.useProgram(program);
+      gl.enable(gl.DEPTH_TEST);
+      gl.enable(gl.BLEND);
+      gl.blendFunc(gl.SRC_ALPHA, gl.ONE_MINUS_SRC_ALPHA);
+      gl.clearColor(0, 0, 0, 0);
+    } catch {
+      gl = null;
+      canvas.hidden = true;
+    }
   }
+  if (enabled) initialize();
   function fallback() {
     canvas.hidden = true;
     arena.dataset.geometry = "fallback";

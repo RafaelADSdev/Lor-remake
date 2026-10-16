@@ -2,7 +2,15 @@
 <html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="theme-color" content="#0d171b" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Runeterra" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="assets/pwa/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="assets/pwa/icon-192.png" />
     <title>Runeterra • Mesa offline</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="arena.css" />
@@ -25,6 +33,7 @@
     <link rel="stylesheet" href="card-effects.css?v=0.29" />
     <link rel="stylesheet" href="animation-gallery.css?v=0.29" />
     <link rel="stylesheet" href="attack-token.css?v=5" />
+    <link rel="stylesheet" href="mobile-pwa.css" />
   </head>
   <body>
     <header class="app-header">
@@ -177,6 +186,17 @@
           </div>
         </div>
         <button id="open-animations" class="animation-card-preview">Explorar animações</button>
+        <details id="pwa-panel" class="pwa-panel">
+          <summary>Instalar e jogar offline</summary>
+          <p id="pwa-status" role="status" aria-live="polite">Preparando acesso offline…</p>
+          <button id="pwa-install" type="button" hidden>Instalar aplicativo</button>
+          <p id="pwa-install-help">No iPhone/iPad, abra no Safari e use Compartilhar → Adicionar à Tela de Início. No Android, use Instalar aplicativo ou Adicionar à tela inicial no menu do navegador.</p>
+          <p class="fine">O jogo e seus decks ficam disponíveis offline após a preparação. Artes visitadas são guardadas; baixe as demais abaixo. Áudios, vídeos e a galeria completa precisam de conexão. O navegador pode liberar o armazenamento se faltar espaço.</p>
+          <button id="pwa-download" type="button" disabled>Baixar artes para offline</button>
+          <button id="pwa-cancel" type="button" hidden>Pausar download</button>
+          <progress id="pwa-progress" value="0" max="1" aria-label="Download das artes" hidden></progress>
+          <p id="pwa-download-status" class="fine" role="status" aria-live="polite"></p>
+        </details>
           <p class="fine welcome-version">
             Arena v0.30 · Minha coleção · Decks com as cartas novas
           </p>
@@ -660,7 +680,7 @@
       id="duel-music"
       src="assets/audio/patcher-theme.wav"
       loop
-      preload="metadata"
+      preload="none"
     ></audio>
     <script src="regional-audio-data.js"></script>
     <script src="native-sounds-data.js?v=0.28"></script>
@@ -675,5 +695,6 @@
     <script src="welcome-settings-motion.js?v=0.27"></script>
     <script src="arena-view.js?v=0.23"></script>
     <script src="arena-scene.js?v=0.18"></script>
+    <script src="pwa.js"></script>
   </body>
 </html>

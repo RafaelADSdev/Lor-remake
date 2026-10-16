@@ -1,0 +1,45 @@
+html { color-scheme: dark; min-height: 100%; }
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px)
+    env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+}
+button, select, summary, input { touch-action: manipulation; }
+dialog {
+  max-height: calc(100vh - 32px);
+  max-height: calc(100dvh - 32px - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+  overscroll-behavior: contain;
+}
+.pwa-panel { border-top: 1px solid var(--line); padding-block: 20px; }
+.pwa-panel summary { cursor: pointer; color: var(--gold); min-height: 44px; padding-block: 10px; }
+.pwa-panel p { max-width: 72ch; overflow-wrap: anywhere; }
+.pwa-panel button { margin: 4px 8px 4px 0; min-height: 44px; }
+.pwa-panel progress { display: block; width: min(100%, 420px); margin-block: 12px; accent-color: var(--gold); }
+.pwa-panel [hidden] { display: none; }
+.arena #my-hand .card.art-unavailable .card-name { display: flex; bottom: 28px; font-size: 12px; }
+.arena #my-hand .card.art-unavailable .cost { display: grid; }
+.arena #my-hand .card.art-unavailable .stats { display: flex; }
+.arena .hand .card.art-unavailable img { object-fit: cover; }
+.arena :is(#my-board, #enemy-board) .card.art-unavailable .card-name { display: flex; }
+@media (pointer: coarse) {
+  input, select, textarea { font-size: 16px !important; }
+  .app-header button, .action-strip button, #oracle,
+  dialog button, .welcome button, .welcome select { min-height: 44px; }
+  .app-header .header-preferences button, #oracle { min-width: 44px; }
+  .arena .card { -webkit-touch-callout: none; }
+  .arena .card img { -webkit-user-drag: none; user-select: none; }
+  /* Hover lifts can cover another card after a tap on a touch screen. */
+  .arena #my-hand .card:hover:not(.selected) { transform: translateY(var(--fan-y, 0)) rotate(var(--fan-angle, 0deg)); }
+}
+@media (max-width: 700px) {
+  .app-header .header-actions { max-width: 100%; }
+  .pwa-panel button { width: 100%; margin-inline: 0; }
+}
+@media (max-height: 500px) and (pointer: coarse) {
+  /* A short landscape viewport may scroll; keep controls and cards readable. */
+  body.in-duel { height: auto; min-height: 100dvh; }
+  .in-duel main { min-height: 570px; }
+  .in-duel #game > .game-grid > .arena { min-height: 570px; }
+  .opening-hand { overflow-y: auto; max-height: 100%; }
+}

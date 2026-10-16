@@ -1,4 +1,12 @@
-# Validação — atualização de 15/10/2026
+# Validação — atualização de 16/10/2026
+
+## PWA para iOS e Android
+
+136 testes Node aprovados. `tests/pwa.cjs` passou em Chromium com perfil Pixel 7 e WebKit com perfil iPhone 13: service worker instalado em subpasta, núcleo disponível offline, início de duelo, jogada por toque, partida retomada após recarregar e entrada sem overflow em 320, 390, 768 e 844 px. O cenário Chromium baixou as 3.380 artes, pausou e retomou o download e jogou sem conexão com as imagens disponíveis. O cenário WebKit cortou o acesso ao servidor e verificou o conteúdo de reserva, incluindo nome e custo visíveis nas cartas sem arte. A preparação inclui 108 arquivos essenciais (~26 MB sem compressão); o download opcional completo indica 226 MB.
+
+`tests/welcome.cjs` passou em sete larguras e preservou coleção, início, treino e continuação por arquivo local. `tests/arena-geometry.cjs` passou para as 12 arenas, incluindo WebGL, persistência da escolha de modo leve e fallback. Os fundos foram regenerados com o pipeline existente após tornar a inicialização da arena 3D opcional em dispositivos de toque; os hashes dos fundos incorporados passaram na suíte Node. Arquivos JavaScript alterados passaram em `node --check`.
+
+As capturas `test-results/pwa-android.png`, `pwa-webkit-iphone.png`, `pwa-android-duel.png`, `pwa-webkit-iphone-duel.png` e `pwa-fallback-final.png` foram inspecionadas. Instalação real pela tela inicial, áreas seguras físicas e comportamento do armazenamento sob pressão ainda precisam de validação em iPhone/Android físicos. O projeto está preparado localmente; a publicação em HTTPS não foi realizada.
 
 ## v0.30 — Coleção e decks integrados
 
