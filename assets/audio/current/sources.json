@@ -1,0 +1,4194 @@
+{
+  "tools": {
+    "wwiser": "C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-tools\\wwiser-08e937b649bc7007c234bbd59e34a41d5eef3b38\\wwiser.py",
+    "wwiser_sha256": "17c56b7630f95018b64f14cce08e7aba12915685dcfff4c8215c42a91bdb2129",
+    "vgmstream_sha256": "29df08c557ada8269c92a6abfe3886ad2f65849b0b26ba78a0819b363bbc5b85",
+    "ffmpeg_sha256": "2ce797a0f88d7f067180338fb227f7b1928ea727bd9a4d7a1d022f7c52af71a3"
+  },
+  "packages": {
+    "external": 20677,
+    "bank": 530,
+    "media": 10518
+  },
+  "profiles": [
+    {
+      "theme": "shurima",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/RegionShurima_PlaymatProfile.asset",
+      "bundle": "0e/72ae880cf5a877690c55be8b9914f5.bbq",
+      "bundle_sha256": "31acfeebcbf44c2117dd198f162d93407a67a3d8dbc981ec7968918714194f80",
+      "path_id": -6853730656023174423,
+      "profile_raw_sha256": "b8658f66c53be72971db75631da2ea84dffed69ed3f67d853054313e498e353a",
+      "event": "Play_HUD_Shurima",
+      "event_id": 4238606095,
+      "bank_id": 42879729,
+      "action_id": 909714292,
+      "state_group": 1830552893,
+      "state_id": 2753432285
+    },
+    {
+      "theme": "piltover",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Piltover_PlaymatProfile.asset",
+      "bundle": "11/4077118f3fa0a84fa4f1528d9465b0.bbq",
+      "bundle_sha256": "80cf47cac3c8f9bdcdb68d13caa3d5b593f01e979a8ad9dbc3f3558971e1639a",
+      "path_id": 8161278430413860871,
+      "profile_raw_sha256": "eca6167edaebd93125b47ea85b0093b980749359cebfdef0b707a3a8b679bc88",
+      "event": "Play_HUD_Piltover",
+      "event_id": 1718447463,
+      "bank_id": 633463038,
+      "action_id": 228986032,
+      "state_group": 1830552893,
+      "state_id": 534712837
+    },
+    {
+      "theme": "ionia",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Ionia_PlaymatProfile.asset",
+      "bundle": "12/b8342aad752b433c49dd836215060a.bbq",
+      "bundle_sha256": "dc0dd54c7f549a37c780b230f6c50315a86d2a5222e88f12616b7e3d085663e2",
+      "path_id": 7435024491338508761,
+      "profile_raw_sha256": "10d08b2f2078260d83dbddd04d60b7fb8a682c463b44d117972eda8008653c3e",
+      "event": "Play_HUD_Ionia",
+      "event_id": 2169877672,
+      "bank_id": 633463038,
+      "action_id": 585449355,
+      "state_group": 1830552893,
+      "state_id": 162344318
+    },
+    {
+      "theme": "freljord",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Freljord_PlaymatProfile.asset",
+      "bundle": "2c/410f500ea42f84569de37112905dca.bbq",
+      "bundle_sha256": "bf3935a80bd1b284562b346841d066610f53dfd9806610a7f661540ae1748cf7",
+      "path_id": -8796306319448255747,
+      "profile_raw_sha256": "a976c57b36c4517e3ebe862c786dcd724efd59315ae1aecf61da12b8deae4fb6",
+      "event": "Play_HUD_Freljord",
+      "event_id": 1506290272,
+      "bank_id": 774421458,
+      "action_id": 442144942,
+      "state_group": 1830552893,
+      "state_id": 378437374
+    },
+    {
+      "theme": "shadowisles",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/ShadowIsles_PlaymatProfile.asset",
+      "bundle": "36/8c35ef52b9b2ed142041dd85dc8dd3.bbq",
+      "bundle_sha256": "116a889aa9a5f358265bbd87de79f94daf4db6c7659543f31a4baf3c2457223a",
+      "path_id": -5326982542463732753,
+      "profile_raw_sha256": "e91a509f926a5f332470cf8da2ce6f7c1998759449d15bb1b1e89652ceaba5c9",
+      "event": "Play_HUD_ShadowIsles",
+      "event_id": 1428892512,
+      "bank_id": 739328134,
+      "action_id": 1009364476,
+      "state_group": 1830552893,
+      "state_id": 842380666
+    },
+    {
+      "theme": "demacia",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Demacia_PlaymatProfile.asset",
+      "bundle": "61/bb29d34b911bb874dd3621d41d3240.bbq",
+      "bundle_sha256": "b679abca8b597c58789e9064a18e5a8c5d6b5dbb8b936e5a05e8effd13ab42d5",
+      "path_id": -9103954228063077342,
+      "profile_raw_sha256": "e02e895f9b5e17ad9ede2e807089d32262b95a38a16c9e65780c7e13494fac2a",
+      "event": "Play_HUD_Demacia",
+      "event_id": 305558968,
+      "bank_id": 3241737054,
+      "action_id": 17774258,
+      "state_group": 1830552893,
+      "state_id": 1148685586
+    },
+    {
+      "theme": "bandlecity",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/BandleCity_PlaymatProfile.asset",
+      "bundle": "71/4e8c3c9fb4f2ec4729b47e606f73b2.bbq",
+      "bundle_sha256": "478a424d681430949f345afd7f8be23d0b6e00cc00e668b588df356a36b0b308",
+      "path_id": -6254186082911367962,
+      "profile_raw_sha256": "8fc98739db18575d49704ee98d5c80cc4c835136aad017a4c645879c4b8f831e",
+      "event": "Play_HUD_BandleCity",
+      "event_id": 223961301,
+      "bank_id": 2411627679,
+      "action_id": 273231085,
+      "state_group": 1830552893,
+      "state_id": 686697875
+    },
+    {
+      "theme": "bilgewater",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Bilgewater_playmat_PlaymatProfile.asset",
+      "bundle": "79/fbb0cfce86f24c2a062971a3de0076.bbq",
+      "bundle_sha256": "2de52f99f00962647c4cdf0eff206041e20140b7eb877f5b78d0e29b2b042456",
+      "path_id": -4662871896695076170,
+      "profile_raw_sha256": "e50154c14ceead87bfdf244ed2212e9d060f19c1d67136b79baeca21de4101b3",
+      "event": "Play_HUD_Bilgewater",
+      "event_id": 1532700802,
+      "bank_id": 2108223817,
+      "action_id": 231400103,
+      "state_group": 1830552893,
+      "state_id": 2787856876
+    },
+    {
+      "theme": "rift",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/SummonersRift_PlaymatProfile.asset",
+      "bundle": "8b/ab6f8316e5b4337534a6f9705f7a26.bbq",
+      "bundle_sha256": "42cc0f2630588aa9c541983833f0edb7ed3f5bd4bb73b7da81fdba7e1793297f",
+      "path_id": 5514368716641966483,
+      "profile_raw_sha256": "13b9544030c529c0cc01270c48dd857fe3e1857451e2b13fa3766aa15654e155",
+      "event": "Play_HUD_SummonersRift",
+      "event_id": 4229928242,
+      "bank_id": 633463039,
+      "action_id": 464425806,
+      "state_group": 1830552893,
+      "state_id": 2417726620
+    },
+    {
+      "theme": "targon",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/MountTargon_PlaymatProfile.asset",
+      "bundle": "bc/523dd0efd5291230f824a9789d66c6.bbq",
+      "bundle_sha256": "31e9bc3e6ca1ef48c1b41585ea59c2a7da502a5954ddeb9fcebdf515b929a1ee",
+      "path_id": -3672100340168081039,
+      "profile_raw_sha256": "89be387334b71bc556bcd2a5eef8692868178c530a347b54adac7f1b87bb5929",
+      "event": "Play_HUD_Targon",
+      "event_id": 3129981007,
+      "bank_id": 633463038,
+      "action_id": 987040013,
+      "state_group": 1830552893,
+      "state_id": 603613449
+    },
+    {
+      "theme": "zaun",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Zaun_PlaymatProfile.asset",
+      "bundle": "c7/a51254f5b4c457462ac87983d03221.bbq",
+      "bundle_sha256": "dd87c8f3bee27beab646dea4e8cdfaeaedbc224286dc62f6c4261198a0ac74ac",
+      "path_id": 8984911509856777639,
+      "profile_raw_sha256": "bb33a3225ed64a4f608722ae4e035b162ba44280055e5bb2bc8b720769ba657c",
+      "event": "Play_HUD_Zaun",
+      "event_id": 226273674,
+      "bank_id": 379690876,
+      "action_id": 88382894,
+      "state_group": 1830552893,
+      "state_id": 3414048964
+    },
+    {
+      "theme": "noxus",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Noxus_PlaymatProfile.asset",
+      "bundle": "cd/d8416915bed69592ef791a7b4c8694.bbq",
+      "bundle_sha256": "fb973c1604d7734563e557480ece0e8e1d2a984229a610aa65f65f417543ef31",
+      "path_id": 8072489992209115970,
+      "profile_raw_sha256": "580daa0f5d4fbc214fc41c95481567b51ea692ed26b8037c323d449e918d45b2",
+      "event": "Play_HUD_Noxus",
+      "event_id": 717978855,
+      "bank_id": 2447805497,
+      "action_id": 23222543,
+      "state_group": 1830552893,
+      "state_id": 1320912697
+    }
+  ],
+  "exports": [
+    {
+      "theme": "shurima",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/RegionShurima_PlaymatProfile.asset",
+      "bundle": "0e/72ae880cf5a877690c55be8b9914f5.bbq",
+      "bundle_sha256": "31acfeebcbf44c2117dd198f162d93407a67a3d8dbc981ec7968918714194f80",
+      "path_id": -6853730656023174423,
+      "profile_raw_sha256": "b8658f66c53be72971db75631da2ea84dffed69ed3f67d853054313e498e353a",
+      "event": "Play_HUD_Shurima",
+      "event_id": 4238606095,
+      "bank_id": 42879729,
+      "action_id": 909714292,
+      "state_group": 1830552893,
+      "state_id": 2753432285,
+      "kind": "regional-music",
+      "file": "assets/audio/current/shurima.ogg",
+      "sha256": "d5ead50a7a725855a0b5ec366f5a538e69e57c02adfc4eb4972dbbab3ccc1c13",
+      "bytes": 7300945,
+      "seconds": 486.89647916666667,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 754265417,
+          "offset": 457853685,
+          "bytes": 2129240,
+          "language": 0,
+          "sha256": "4055213aad99fcee3aee049f55e6a849ef2ddbe77adcf70c83875e5258ed7bd6"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 807631314,
+          "offset": 255986122,
+          "bytes": 1977387,
+          "language": 0,
+          "sha256": "201dac923559dcaa5742d26e34851867c19f1a48d4b18e226cd5d1cd568449cc"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 957723385,
+          "offset": 236114340,
+          "bytes": 2161187,
+          "language": 0,
+          "sha256": "31c3ea4e918d8ceab99d6aad8db17524dfc250c892892383e5920060b87af4a8"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_GameMusic (3075839197=733168346)(1830552893=2753432285).txtp",
+      "txtp_sha256": "c2ec017ca2bc4624b3074436aa4c9f1fe55701048669edba9cdfd782cc1a6e15",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_GameMusic (3075839197=733168346)(1830552893=2753432285).txtp\nsample rate: 48000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nlooping: disabled\nloop start: 17092720 samples (5:56.098 seconds)\nloop end: 23371031 samples (8:06.896 seconds)\nstream total samples: 23371031 (8:06.896 seconds)\nencoding: Custom Vorbis\nlayout: mixed (S4[S1S1])\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 178 kbps\nsample type: float\nplay duration: 23371031 samples (8:06.896 seconds)\n"
+    },
+    {
+      "theme": "piltover",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Piltover_PlaymatProfile.asset",
+      "bundle": "11/4077118f3fa0a84fa4f1528d9465b0.bbq",
+      "bundle_sha256": "80cf47cac3c8f9bdcdb68d13caa3d5b593f01e979a8ad9dbc3f3558971e1639a",
+      "path_id": 8161278430413860871,
+      "profile_raw_sha256": "eca6167edaebd93125b47ea85b0093b980749359cebfdef0b707a3a8b679bc88",
+      "event": "Play_HUD_Piltover",
+      "event_id": 1718447463,
+      "bank_id": 633463038,
+      "action_id": 228986032,
+      "state_group": 1830552893,
+      "state_id": 534712837,
+      "kind": "regional-music",
+      "file": "assets/audio/current/piltover.ogg",
+      "sha256": "1ab2fcaf7af963fbb0b9c322699997f64a52403d92754969163031ac9d0a267e",
+      "bytes": 9957710,
+      "seconds": 687.5,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 36313393,
+          "offset": 26044402,
+          "bytes": 3012093,
+          "language": 0,
+          "sha256": "d3f4d9bd549213455062a69743732fdcad4ecc440a5c82258466c09406a001a4"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 102471246,
+          "offset": 137041235,
+          "bytes": 3166714,
+          "language": 0,
+          "sha256": "aba955de147622fda607912eaeb4293418a923e12991f235cc8d19543a5f8e96"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 203165530,
+          "offset": 103978867,
+          "bytes": 3016070,
+          "language": 0,
+          "sha256": "8fc7b5a4400dc7e8b4a11a574217005f1c6c1ddf0a982398ed8d5e32eb099ccc"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_GameMusic (3075839197=733168346)(1830552893=534712837).txtp",
+      "txtp_sha256": "0b496e6b5bf0e8a54e1bb5a61408f1e10bd7082306d96b364872922d1e4b1aac",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_GameMusic (3075839197=733168346)(1830552893=534712837).txtp\nsample rate: 48000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nlooping: disabled\nloop start: 22740000 samples (7:53.750 seconds)\nloop end: 33000000 samples (11:27.500 seconds)\nstream total samples: 33000000 (11:27.500 seconds)\nencoding: Custom Vorbis\nlayout: mixed (S3[S1S1])\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 307 kbps\nsample type: float\nplay duration: 33000000 samples (11:27.500 seconds)\n"
+    },
+    {
+      "theme": "ionia",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Ionia_PlaymatProfile.asset",
+      "bundle": "12/b8342aad752b433c49dd836215060a.bbq",
+      "bundle_sha256": "dc0dd54c7f549a37c780b230f6c50315a86d2a5222e88f12616b7e3d085663e2",
+      "path_id": 7435024491338508761,
+      "profile_raw_sha256": "10d08b2f2078260d83dbddd04d60b7fb8a682c463b44d117972eda8008653c3e",
+      "event": "Play_HUD_Ionia",
+      "event_id": 2169877672,
+      "bank_id": 633463038,
+      "action_id": 585449355,
+      "state_group": 1830552893,
+      "state_id": 162344318,
+      "kind": "regional-music",
+      "file": "assets/audio/current/ionia.ogg",
+      "sha256": "a5632507485af1402dadd3fbbafa3a7e4cc50f45da699adaae6ecc0c4350e3c1",
+      "bytes": 10367189,
+      "seconds": 708.5,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 218562345,
+          "offset": 352264335,
+          "bytes": 2835556,
+          "language": 0,
+          "sha256": "aff6697d413def33bc2e2654353be88a348d93650f05a4a3140989a838883768"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 406795871,
+          "offset": 399446326,
+          "bytes": 3209267,
+          "language": 0,
+          "sha256": "16361ca64091fc06eed3beebeb4086f7a444acd9977f6a0351a682bf98c3b2a1"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 659627183,
+          "offset": 334292986,
+          "bytes": 2914367,
+          "language": 0,
+          "sha256": "afab1ed934a9c6ee730925f23f95ae66a0fbcbe389be6ccf8f0c9bbabfba40a0"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_GameMusic (3075839197=733168346)(1830552893=162344318).txtp",
+      "txtp_sha256": "9c35524c2327d294f8a60145755864aa85d30dcb0063c59d8da2671e59ee144d",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_GameMusic (3075839197=733168346)(1830552893=162344318).txtp\nsample rate: 48000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nlooping: disabled\nloop start: 23640000 samples (8:12.500 seconds)\nloop end: 34008000 samples (11:48.500 seconds)\nstream total samples: 34008000 (11:48.500 seconds)\nencoding: Custom Vorbis\nlayout: mixed (S3[S1S1])\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 290 kbps\nsample type: float\nplay duration: 34008000 samples (11:48.500 seconds)\n"
+    },
+    {
+      "theme": "freljord",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Freljord_PlaymatProfile.asset",
+      "bundle": "2c/410f500ea42f84569de37112905dca.bbq",
+      "bundle_sha256": "bf3935a80bd1b284562b346841d066610f53dfd9806610a7f661540ae1748cf7",
+      "path_id": -8796306319448255747,
+      "profile_raw_sha256": "a976c57b36c4517e3ebe862c786dcd724efd59315ae1aecf61da12b8deae4fb6",
+      "event": "Play_HUD_Freljord",
+      "event_id": 1506290272,
+      "bank_id": 774421458,
+      "action_id": 442144942,
+      "state_group": 1830552893,
+      "state_id": 378437374,
+      "kind": "regional-music",
+      "file": "assets/audio/current/freljord.ogg",
+      "sha256": "e201a47310dcb36ea2b0fc3d4d8005142635613b86ee49139381152940a941fd",
+      "bytes": 8905916,
+      "seconds": 666.4,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 643553522,
+          "offset": 326479334,
+          "bytes": 3868968,
+          "language": 0,
+          "sha256": "9591c4202184e1a39dc4589d5d8463a06aeb7328560fc7f06e135b5c08ad55a7"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 800739772,
+          "offset": 201133421,
+          "bytes": 2369601,
+          "language": 0,
+          "sha256": "c3e4b1e078f64b4417c227d19cdb79738096f1fad0c4ecceab474589ac111361"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 923496210,
+          "offset": 33957495,
+          "bytes": 2515269,
+          "language": 0,
+          "sha256": "ad218cd1b294aa21856ce72687daf9aa35a931bf29ab4a074fb52f8adba7b8f7"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_GameMusic (3075839197=733168346)(1830552893=378437374).txtp",
+      "txtp_sha256": "3f758fa7f590ed551c4b73186be182b8c5d97327540c7fb6f4c65b2f3b31c219",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_GameMusic (3075839197=733168346)(1830552893=378437374).txtp\nsample rate: 48000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nlooping: disabled\nloop start: 23385600 samples (8:07.200 seconds)\nloop end: 31987200 samples (11:06.400 seconds)\nstream total samples: 31987200 (11:06.400 seconds)\nencoding: Custom Vorbis\nlayout: mixed (S3[S1S1])\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 291 kbps\nsample type: float\nplay duration: 31987200 samples (11:06.400 seconds)\n"
+    },
+    {
+      "theme": "shadowisles",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/ShadowIsles_PlaymatProfile.asset",
+      "bundle": "36/8c35ef52b9b2ed142041dd85dc8dd3.bbq",
+      "bundle_sha256": "116a889aa9a5f358265bbd87de79f94daf4db6c7659543f31a4baf3c2457223a",
+      "path_id": -5326982542463732753,
+      "profile_raw_sha256": "e91a509f926a5f332470cf8da2ce6f7c1998759449d15bb1b1e89652ceaba5c9",
+      "event": "Play_HUD_ShadowIsles",
+      "event_id": 1428892512,
+      "bank_id": 739328134,
+      "action_id": 1009364476,
+      "state_group": 1830552893,
+      "state_id": 842380666,
+      "kind": "regional-music",
+      "file": "assets/audio/current/shadowisles.ogg",
+      "sha256": "64ef7a54ee447dac7ea833db5024f829008513cd3ce8ac009ffe9a72028584a8",
+      "bytes": 8768955,
+      "seconds": 1137.2727916666668,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 685894854,
+          "offset": 190729781,
+          "bytes": 1669428,
+          "language": 0,
+          "sha256": "7c4f6c9f514b685e05f4fc4591ded62faba5691768fd77f6d4dbe07b2443b947"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 691087172,
+          "offset": 422229198,
+          "bytes": 1298344,
+          "language": 0,
+          "sha256": "013dd45ef9d293017feabc8231cd80c701b0f7a9dca391a96940c91aff4a2228"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 987593990,
+          "offset": 86474988,
+          "bytes": 1218886,
+          "language": 0,
+          "sha256": "0ecc2c538f4e99ea78253c3908d9c89807a47ba288e224c17baf0e9ba5521f10"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_GameMusic (3075839197=733168346)(1830552893=842380666).txtp",
+      "txtp_sha256": "401bfbf42fb311b108916f30caa6d86bc155fa9f9b4d53175df77dcd92c90209",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_GameMusic (3075839197=733168346)(1830552893=842380666).txtp\nsample rate: 24000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nlooping: disabled\nloop start: 22634183 samples (15:43.091 seconds)\nloop end: 27294547 samples (18:57.273 seconds)\nstream total samples: 27294547 (18:57.273 seconds)\nencoding: Custom Vorbis\nlayout: mixed (S4[S1[S1]S1[S1]S1])\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 190 kbps\nsample type: float\nplay duration: 27294547 samples (18:57.273 seconds)\n"
+    },
+    {
+      "theme": "demacia",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Demacia_PlaymatProfile.asset",
+      "bundle": "61/bb29d34b911bb874dd3621d41d3240.bbq",
+      "bundle_sha256": "b679abca8b597c58789e9064a18e5a8c5d6b5dbb8b936e5a05e8effd13ab42d5",
+      "path_id": -9103954228063077342,
+      "profile_raw_sha256": "e02e895f9b5e17ad9ede2e807089d32262b95a38a16c9e65780c7e13494fac2a",
+      "event": "Play_HUD_Demacia",
+      "event_id": 305558968,
+      "bank_id": 3241737054,
+      "action_id": 17774258,
+      "state_group": 1830552893,
+      "state_id": 1148685586,
+      "kind": "regional-music",
+      "file": "assets/audio/current/demacia.ogg",
+      "sha256": "e3167e0f43621cba6927c11e684f3068c63091e0cb25e46c7d842c9261762046",
+      "bytes": 9508528,
+      "seconds": 699.8571458333333,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 435852726,
+          "offset": 506680136,
+          "bytes": 2797287,
+          "language": 0,
+          "sha256": "1fe8854d102eb163f0e640d3eca02b57515c0e65029c7b5fa1bc9cc4ab0f6e1f"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 777249950,
+          "offset": 52294962,
+          "bytes": 2911149,
+          "language": 0,
+          "sha256": "a286eed31799a1d0e5ab90ed85c9aab87f3f2a43d5dd6f407c2351984827f1d7"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 841947892,
+          "offset": 383066642,
+          "bytes": 2796286,
+          "language": 0,
+          "sha256": "aae4ecdc4fb07d0c6c85f05d22332175e5806a514418380fb7418ff9c2af3831"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_GameMusic (3075839197=733168346)(1830552893=1148685586).txtp",
+      "txtp_sha256": "292a1ac386f8ca4f1fcff267f4358acbc2b4f77366be1f370f93457ee985c1af",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_GameMusic (3075839197=733168346)(1830552893=1148685586).txtp\nsample rate: 48000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nlooping: disabled\nloop start: 22073143 samples (7:39.857 seconds)\nloop end: 33593143 samples (11:39.857 seconds)\nstream total samples: 33593143 (11:39.857 seconds)\nencoding: Custom Vorbis\nlayout: mixed (S3[S1S1])\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 283 kbps\nsample type: float\nplay duration: 33593143 samples (11:39.857 seconds)\n"
+    },
+    {
+      "theme": "bandlecity",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/BandleCity_PlaymatProfile.asset",
+      "bundle": "71/4e8c3c9fb4f2ec4729b47e606f73b2.bbq",
+      "bundle_sha256": "478a424d681430949f345afd7f8be23d0b6e00cc00e668b588df356a36b0b308",
+      "path_id": -6254186082911367962,
+      "profile_raw_sha256": "8fc98739db18575d49704ee98d5c80cc4c835136aad017a4c645879c4b8f831e",
+      "event": "Play_HUD_BandleCity",
+      "event_id": 223961301,
+      "bank_id": 2411627679,
+      "action_id": 273231085,
+      "state_group": 1830552893,
+      "state_id": 686697875,
+      "kind": "regional-music",
+      "file": "assets/audio/current/bandlecity.ogg",
+      "sha256": "e53c362f391d34319304f4cd2b3a47760c78eca8c70308fbe40a35ffc8aa8af1",
+      "bytes": 5297626,
+      "seconds": 387.61325,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 471645863,
+          "offset": 355210564,
+          "bytes": 1208792,
+          "language": 0,
+          "sha256": "ffdf5b51b37123f5b116c864a66762defec320db56ff8f361e5a6f72dde56e08"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 873077661,
+          "offset": 228318146,
+          "bytes": 1734212,
+          "language": 0,
+          "sha256": "a4e235b5eef015c5b75f711ae18aae1341d305b51c065d8ee7639b9d11d08d6c"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 942385269,
+          "offset": 291130785,
+          "bytes": 1809685,
+          "language": 0,
+          "sha256": "88c12bba7e8f9b96f8bd584bb3fcf2af00783749ab96234251d577348d82c632"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_GameMusic (3075839197=733168346)(1830552893=686697875).txtp",
+      "txtp_sha256": "a1fe5154f44706ea3ae17f9fbcbd5bf55d257cb9a19497efb6866d6f4d2ea9fc",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_GameMusic (3075839197=733168346)(1830552893=686697875).txtp\nsample rate: 48000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nlooping: disabled\nloop start: 11049985 samples (3:50.208 seconds)\nloop end: 18605436 samples (6:27.613 seconds)\nstream total samples: 18605436 (6:27.613 seconds)\nencoding: Custom Vorbis\nlayout: segmented (4 segments)\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 85 kbps\nsample type: float\nplay duration: 18605436 samples (6:27.613 seconds)\n"
+    },
+    {
+      "theme": "rift",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/SummonersRift_PlaymatProfile.asset",
+      "bundle": "8b/ab6f8316e5b4337534a6f9705f7a26.bbq",
+      "bundle_sha256": "42cc0f2630588aa9c541983833f0edb7ed3f5bd4bb73b7da81fdba7e1793297f",
+      "path_id": 5514368716641966483,
+      "profile_raw_sha256": "13b9544030c529c0cc01270c48dd857fe3e1857451e2b13fa3766aa15654e155",
+      "event": "Play_HUD_SummonersRift",
+      "event_id": 4229928242,
+      "bank_id": 633463039,
+      "action_id": 464425806,
+      "state_group": 1830552893,
+      "state_id": 2417726620,
+      "kind": "regional-music",
+      "file": "assets/audio/current/rift.ogg",
+      "sha256": "a59f1c62e8a461212eb9d89b3a9d6b73246c00cd58a4e3620867f9c78c5d17e9",
+      "bytes": 16335742,
+      "seconds": 1109.3584375,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 215994522,
+          "offset": 44196992,
+          "bytes": 308919,
+          "language": 0,
+          "sha256": "e928ffe9b4702db99f22d9f9a7deaaddeaae56b41a19ecb4755fac1be3463d71"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 235621516,
+          "offset": 4255428,
+          "bytes": 427639,
+          "language": 0,
+          "sha256": "dc2ed59c035eee411d157bf225d1dd99287d2aeadbb35127fcae43ca5c6bb4db"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 372125444,
+          "offset": 26404277,
+          "bytes": 6114163,
+          "language": 0,
+          "sha256": "b9a1eca814ffcf3a45c0069cead4dd3569025ae27e385b4ac174ed4c735c8ac2"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 843882753,
+          "offset": 20569511,
+          "bytes": 2220133,
+          "language": 0,
+          "sha256": "020112f4363c41999d399c0fb505fbb174a35a18d792a6127f8ca9035cc944eb"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 1046827571,
+          "offset": 9409828,
+          "bytes": 2701145,
+          "language": 0,
+          "sha256": "03b7947f987a38825d2e1c933f15239bab65f6b9a4d08c7da581a9a9a1dd7f76"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_GameMusic (3075839197=733168346)(1830552893=2417726620).txtp",
+      "txtp_sha256": "996ca73192bb5fdce8fc14a8d7c9351500f2080a92f02dacf83210d4a0fd2e41",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_GameMusic (3075839197=733168346)(1830552893=2417726620).txtp\nsample rate: 48000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nlooping: disabled\nloop start: 45263751 samples (15:42.995 seconds)\nloop end: 53249205 samples (18:29.358 seconds)\nstream total samples: 53249205 (18:29.358 seconds)\nencoding: Custom Vorbis\nlayout: mixed (S5[S1S1[S1]S1S1])\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 476 kbps\nsample type: float\nplay duration: 53249205 samples (18:29.358 seconds)\n"
+    },
+    {
+      "theme": "targon",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/MountTargon_PlaymatProfile.asset",
+      "bundle": "bc/523dd0efd5291230f824a9789d66c6.bbq",
+      "bundle_sha256": "31e9bc3e6ca1ef48c1b41585ea59c2a7da502a5954ddeb9fcebdf515b929a1ee",
+      "path_id": -3672100340168081039,
+      "profile_raw_sha256": "89be387334b71bc556bcd2a5eef8692868178c530a347b54adac7f1b87bb5929",
+      "event": "Play_HUD_Targon",
+      "event_id": 3129981007,
+      "bank_id": 633463038,
+      "action_id": 987040013,
+      "state_group": 1830552893,
+      "state_id": 603613449,
+      "kind": "regional-music",
+      "file": "assets/audio/current/targon.ogg",
+      "sha256": "6d15ab7790ccc2f7b77f89f10302c94df65247ea787df994cf45d18334d83288",
+      "bytes": 7019908,
+      "seconds": 517.020375,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 201117599,
+          "offset": 460039107,
+          "bytes": 2309963,
+          "language": 0,
+          "sha256": "a7c0c089cb710d66a13cc589143d4db039d68db886360975cc2a7872e9d01caf"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 293068975,
+          "offset": 102365259,
+          "bytes": 1279884,
+          "language": 0,
+          "sha256": "3cc6366daa800d208fee9c6d1d1af535294f39352ad1bb3774a95d3c2bf64194"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 942987762,
+          "offset": 127426891,
+          "bytes": 2257270,
+          "language": 0,
+          "sha256": "dd5e3f3a6f5ec7bdd4ac108ef88d80f00822f975806a6247b6c3b5b48a10e1d9"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_GameMusic (3075839197=733168346)(1830552893=603613449).txtp",
+      "txtp_sha256": "95d54c6149d0339b9389ebd9be8d08d5f7bfd2b0d5a0d3cf37cc239653277a7f",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_GameMusic (3075839197=733168346)(1830552893=603613449).txtp\nsample rate: 32000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nlooping: disabled\nloop start: 10606047 samples (5:31.439 seconds)\nloop end: 16544652 samples (8:37.020 seconds)\nstream total samples: 16544652 (8:37.020 seconds)\nencoding: Custom Vorbis\nlayout: mixed (S3[S1S1])\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 228 kbps\nsample type: float\nplay duration: 16544652 samples (8:37.020 seconds)\n"
+    },
+    {
+      "theme": "zaun",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Zaun_PlaymatProfile.asset",
+      "bundle": "c7/a51254f5b4c457462ac87983d03221.bbq",
+      "bundle_sha256": "dd87c8f3bee27beab646dea4e8cdfaeaedbc224286dc62f6c4261198a0ac74ac",
+      "path_id": 8984911509856777639,
+      "profile_raw_sha256": "bb33a3225ed64a4f608722ae4e035b162ba44280055e5bb2bc8b720769ba657c",
+      "event": "Play_HUD_Zaun",
+      "event_id": 226273674,
+      "bank_id": 379690876,
+      "action_id": 88382894,
+      "state_group": 1830552893,
+      "state_id": 3414048964,
+      "kind": "regional-music",
+      "file": "assets/audio/current/zaun.ogg",
+      "sha256": "7735a77bcda39258283632e8a1e1b241a4a615525b12bb78b05c55edff80c3a8",
+      "bytes": 7490301,
+      "seconds": 538.9285208333333,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 140812740,
+          "offset": 339589541,
+          "bytes": 2267942,
+          "language": 0,
+          "sha256": "ab07ac3b8c30d36c9ddd1b60983fe773f9ae84d75b8219b1ba0560a497a133c8"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 707154849,
+          "offset": 204289700,
+          "bytes": 2595019,
+          "language": 0,
+          "sha256": "4f7b5a2e706db67e5cb28f5192934b58fdd6df67efc3ef6c1e7eefa1801c423c"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 931408961,
+          "offset": 541009978,
+          "bytes": 2339822,
+          "language": 0,
+          "sha256": "965f47defcb27dd4ea70cdb8e1f89d12c6ae514dd56ca03cb46d96014e5bf6cc"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_GameMusic (3075839197=733168346)(1830552893=3414048964).txtp",
+      "txtp_sha256": "0939638577ec7394117917e77e59c0951bd56e76ef35ae72fdc0c345cc5cae1f",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_GameMusic (3075839197=733168346)(1830552893=3414048964).txtp\nsample rate: 48000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nlooping: disabled\nloop start: 17898169 samples (6:12.879 seconds)\nloop end: 25868569 samples (8:58.929 seconds)\nstream total samples: 25868569 (8:58.929 seconds)\nencoding: Custom Vorbis\nlayout: mixed (S3[S1S1])\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 304 kbps\nsample type: float\nplay duration: 25868569 samples (8:58.929 seconds)\n"
+    },
+    {
+      "theme": "noxus",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Noxus_PlaymatProfile.asset",
+      "bundle": "cd/d8416915bed69592ef791a7b4c8694.bbq",
+      "bundle_sha256": "fb973c1604d7734563e557480ece0e8e1d2a984229a610aa65f65f417543ef31",
+      "path_id": 8072489992209115970,
+      "profile_raw_sha256": "580daa0f5d4fbc214fc41c95481567b51ea692ed26b8037c323d449e918d45b2",
+      "event": "Play_HUD_Noxus",
+      "event_id": 717978855,
+      "bank_id": 2447805497,
+      "action_id": 23222543,
+      "state_group": 1830552893,
+      "state_id": 1320912697,
+      "kind": "regional-music",
+      "file": "assets/audio/current/noxus.ogg",
+      "sha256": "5bee12f3980d693ed542724495b0f9c427d4f80bd754d7caba0a369c21f9d925",
+      "bytes": 9425722,
+      "seconds": 667.3043541666667,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 306672576,
+          "offset": 232443346,
+          "bytes": 3466125,
+          "language": 0,
+          "sha256": "880f49e9a61d2d6fb1adc91028995a4398c9e6ce4dbf637b3cdce46a0f37a335"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 801879926,
+          "offset": 430583226,
+          "bytes": 2542667,
+          "language": 0,
+          "sha256": "24c45adab67d2d9542bec4222c2c4d7b533a4bff8703894cba14f72bc1802ec1"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 949513608,
+          "offset": 529892978,
+          "bytes": 2541580,
+          "language": 0,
+          "sha256": "3fca796e49423955ca44fed9c50b33d204bd0f121cd9139494322d0daab5e78a"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_GameMusic (3075839197=733168346)(1830552893=1320912697).txtp",
+      "txtp_sha256": "df49eac58ecdf15d7dc9199e766f42e60c58caf59503a1b699aee76517306ebf",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_GameMusic (3075839197=733168346)(1830552893=1320912697).txtp\nsample rate: 48000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nlooping: disabled\nloop start: 22413913 samples (7:46.957 seconds)\nloop end: 32030609 samples (11:07.304 seconds)\nstream total samples: 32030609 (11:07.304 seconds)\nencoding: Custom Vorbis\nlayout: mixed (S3[S1S1])\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 294 kbps\nsample type: float\nplay duration: 32030609 samples (11:07.304 seconds)\n"
+    },
+    {
+      "theme": "bilgewater",
+      "profile": "Assets/AssetLibrary/PlaymatProfiles/Bilgewater_playmat_PlaymatProfile.asset",
+      "bundle": "79/fbb0cfce86f24c2a062971a3de0076.bbq",
+      "bundle_sha256": "2de52f99f00962647c4cdf0eff206041e20140b7eb877f5b78d0e29b2b042456",
+      "path_id": -4662871896695076170,
+      "profile_raw_sha256": "e50154c14ceead87bfdf244ed2212e9d060f19c1d67136b79baeca21de4101b3",
+      "event": "Play_HUD_Bilgewater",
+      "event_id": 1532700802,
+      "bank_id": 2108223817,
+      "action_id": 231400103,
+      "state_group": 1830552893,
+      "state_id": 2787856876,
+      "kind": "regional-music",
+      "file": "assets/audio/current/bilgewater.ogg",
+      "sha256": "98695c30f4833f15f8646a2683a04a2cb10aa80bb2f68e0c4ac7985640aa0bdb",
+      "bytes": 7895861,
+      "seconds": 550.8205416666667,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 383536935,
+          "offset": 176458098,
+          "bytes": 2702221,
+          "language": 0,
+          "sha256": "cb0f418738f3aff66fbf7241205d951ee815f0977537e06973a636db5672259d"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 763434310,
+          "offset": 20874833,
+          "bytes": 2032939,
+          "language": 0,
+          "sha256": "51452ffab22fcd86aa441dce3f2ae9e7fd52a260228728f7457d55dd4f206cb4"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 948457654,
+          "offset": 58378178,
+          "bytes": 2216670,
+          "language": 0,
+          "sha256": "6dd60168f3a2d8c1822c7eb7689bafd00e93ffd4292c689aa21e65dfe7674819"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_GameMusic (3075839197=733168346)(1830552893=2787856876).txtp",
+      "txtp_sha256": "c72a7ef3c67060e84c367889cabee8086535b3bdb4b6be950878f44ee3e0fde7",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_GameMusic (3075839197=733168346)(1830552893=2787856876).txtp\nsample rate: 48000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nlooping: disabled\nloop start: 17962362 samples (6:14.216 seconds)\nloop end: 26439386 samples (9:10.821 seconds)\nstream total samples: 26439386 (9:10.821 seconds)\nencoding: Custom Vorbis\nlayout: mixed (S4[S1S1S1])\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 379 kbps\nsample type: float\nplay duration: 26439386 samples (9:10.821 seconds)\n"
+    }
+  ],
+  "sounds": [
+    {
+      "kind": "sound-effect",
+      "key": "draw",
+      "event": "Play_CARD_draw_to_center_player",
+      "event_id": 1404298463,
+      "banks": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "bank",
+          "id": 3290525096,
+          "offset": 6134094,
+          "bytes": 811225,
+          "language": 0,
+          "sha256": "81a416b2bb05eb7b4832e87297854139f57f1ce4fead6b0488adbf1065aa3b4b"
+        }
+      ],
+      "unity_references": [
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -7329636780990031815,
+          "raw_sha256": "9874d77e0c55cb87351703a292a6080aa0a8b29cd174ab90d96fd0b7ec4679dd",
+          "strings": [
+            "Play_CARD_draw_to_center_player"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3073170392965073268,
+          "raw_sha256": "9874d77e0c55cb87351703a292a6080aa0a8b29cd174ab90d96fd0b7ec4679dd",
+          "strings": [
+            "Play_CARD_draw_to_center_player"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -292565109690240434,
+          "raw_sha256": "9874d77e0c55cb87351703a292a6080aa0a8b29cd174ab90d96fd0b7ec4679dd",
+          "strings": [
+            "Play_CARD_draw_to_center_player"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 869929469555226,
+          "raw_sha256": "9874d77e0c55cb87351703a292a6080aa0a8b29cd174ab90d96fd0b7ec4679dd",
+          "strings": [
+            "Play_CARD_draw_to_center_player"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3403762877314612573,
+          "raw_sha256": "9874d77e0c55cb87351703a292a6080aa0a8b29cd174ab90d96fd0b7ec4679dd",
+          "strings": [
+            "Play_CARD_draw_to_center_player"
+          ]
+        }
+      ],
+      "file": "assets/audio/current/sfx-draw.ogg",
+      "bytes": 23408,
+      "sha256": "51f1c143367591ee6fabcae736d9627b1bdde76a05a0b6ab33916d3bd8ac7644",
+      "seconds": 2.6205625,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 300759182,
+          "offset": 15618004,
+          "bytes": 16071,
+          "language": 0,
+          "sha256": "63ca5376c9068295892aa342a5a71e8c592c295ac6cfb86bb8fe056354920fda"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 310927712,
+          "offset": 43219517,
+          "bytes": 4004,
+          "language": 0,
+          "sha256": "3e9a8d1e054010eaae84abbc0bae41ea666703636dc5e58589d252963accc1b9"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 739071914,
+          "offset": 7975585,
+          "bytes": 9621,
+          "language": 0,
+          "sha256": "541acca82e4928233b882d4d8f9fa39d2f4fa0bf3423a41791443f0d08d968d9"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 895051976,
+          "offset": 3905831,
+          "bytes": 7902,
+          "language": 0,
+          "sha256": "36ed3486f2fdf1c839588711b2c7ee27744e8018288d76ebd1b6ec31fce94323"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 976070765,
+          "offset": 13317935,
+          "bytes": 8943,
+          "language": 0,
+          "sha256": "43d3dd594549f571c093ca94e790b3eb7804138fa149660e51bb94557e9a4206"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_CARD_draw_to_center_player {r}.txtp",
+      "txtp_sha256": "359deee534025c96485a5a342af057dbe98af2e95218ce725f49bf14fc55d5cf",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_CARD_draw_to_center_player {r}.txtp\nsample rate: 32000 Hz\nchannels: 1\nchannel mask: 0x4 / FC\nstream total samples: 83858 (0:02.621 seconds)\nencoding: Custom Vorbis\nlayout: flat\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 48 kbps\nsample type: float\nplay duration: 83858 samples (0:02.621 seconds)\n",
+      "web_gain_db": 14.0
+    },
+    {
+      "kind": "sound-effect",
+      "key": "draw-enemy",
+      "event": "Play_CARD_draw_to_center_opponent",
+      "event_id": 437546479,
+      "banks": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "bank",
+          "id": 3290525096,
+          "offset": 6134094,
+          "bytes": 811225,
+          "language": 0,
+          "sha256": "81a416b2bb05eb7b4832e87297854139f57f1ce4fead6b0488adbf1065aa3b4b"
+        }
+      ],
+      "unity_references": [
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3429326221744778554,
+          "raw_sha256": "b144820738bdfd6827df2b80fcf9b37a544461539a03994c48bbd95e9cf00740",
+          "strings": [
+            "Play_CARD_draw_to_center_opponent"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 7281954704154621235,
+          "raw_sha256": "b144820738bdfd6827df2b80fcf9b37a544461539a03994c48bbd95e9cf00740",
+          "strings": [
+            "Play_CARD_draw_to_center_opponent"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 8986210169335910215,
+          "raw_sha256": "b144820738bdfd6827df2b80fcf9b37a544461539a03994c48bbd95e9cf00740",
+          "strings": [
+            "Play_CARD_draw_to_center_opponent"
+          ]
+        }
+      ],
+      "file": "assets/audio/current/sfx-draw-enemy.ogg",
+      "bytes": 11044,
+      "sha256": "96cdd55db8de58c3b3a2ef35d4ce3825e306ea121365eb56c1609b64ea2b3b8b",
+      "seconds": 1.1334166666666667,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 35934425,
+          "offset": 8646585,
+          "bytes": 6134,
+          "language": 0,
+          "sha256": "ab4a74d718e03845d38af8076ce12423062b077fe3c70e22bb0f9752137fc6a9"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 267645274,
+          "offset": 8163660,
+          "bytes": 4373,
+          "language": 0,
+          "sha256": "3a9f8e261d1fb53f501cc9b00cd687a234167121577763970c2e5ca341b90145"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 322133688,
+          "offset": 3790378,
+          "bytes": 5410,
+          "language": 0,
+          "sha256": "a46d892a82aad9d5a7eceb3a6aeece37868cbcc2650ef0b6e595c7875edf20ff"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 468401441,
+          "offset": 37750937,
+          "bytes": 6208,
+          "language": 0,
+          "sha256": "ee9f9e00c77db4f1cef3e596277f8a62d97809b95782710fd13419abb9f1ce1f"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_CARD_draw_to_center_opponent {r}.txtp",
+      "txtp_sha256": "dc260749695660c63ecf228832941e2eb2e36d985a382e3a8b43b37aaebc2987",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_CARD_draw_to_center_opponent {r}.txtp\nsample rate: 24000 Hz\nchannels: 1\nchannel mask: 0x4 / FC\nstream total samples: 27202 (0:01.133 seconds)\nencoding: Custom Vorbis\nlayout: flat\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 30 kbps\nsample type: float\nplay duration: 27202 samples (0:01.133 seconds)\n",
+      "web_gain_db": 18.2
+    },
+    {
+      "kind": "sound-effect",
+      "key": "summon-enemy",
+      "event": "Play_CARD_summon_reveal_center_opponent",
+      "event_id": 1796356182,
+      "banks": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "bank",
+          "id": 3290525096,
+          "offset": 6134094,
+          "bytes": 811225,
+          "language": 0,
+          "sha256": "81a416b2bb05eb7b4832e87297854139f57f1ce4fead6b0488adbf1065aa3b4b"
+        }
+      ],
+      "unity_references": [
+        {
+          "bundle": "alwaysloaded.bbq",
+          "bundle_sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016",
+          "path_id": -7672141202392123012,
+          "raw_sha256": "73bb956bb0bf4b5a9b18a9b2b8e8f79515b02dd6a5bb065e3d37b0cb4952da43",
+          "strings": [
+            "Play_CARD_summon_reveal_center_opponent"
+          ]
+        },
+        {
+          "bundle": "alwaysloaded.bbq",
+          "bundle_sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016",
+          "path_id": -2134744796569797187,
+          "raw_sha256": "73bb956bb0bf4b5a9b18a9b2b8e8f79515b02dd6a5bb065e3d37b0cb4952da43",
+          "strings": [
+            "Play_CARD_summon_reveal_center_opponent"
+          ]
+        },
+        {
+          "bundle": "alwaysloaded.bbq",
+          "bundle_sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016",
+          "path_id": 6676452518539422095,
+          "raw_sha256": "d6327c2753aacf53c5719de4d23f10e06128bb8e5b16913419b1d66fd30e9667",
+          "strings": [
+            "Play_CARD_summon_reveal_center_opponent"
+          ]
+        }
+      ],
+      "file": "assets/audio/current/sfx-summon-enemy.ogg",
+      "bytes": 32781,
+      "sha256": "5b5df90bc4beaacfdcec1bb78322ec0bf7044bfdc164cb95a7ab8a1f4a0aeb9b",
+      "seconds": 3.102625,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 58186000,
+          "offset": 16986563,
+          "bytes": 28042,
+          "language": 0,
+          "sha256": "e23ea15927f55c14824882d5889107e06b5706f4e91e9fc99889e4909d49e758"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 129991895,
+          "offset": 34813658,
+          "bytes": 30363,
+          "language": 0,
+          "sha256": "5d8b8fc8d262e73da6081d97f87818807cf93bf4436435a2a99f50320f806321"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 195287820,
+          "offset": 26117914,
+          "bytes": 9578,
+          "language": 0,
+          "sha256": "92348a9956ee7c8ff38dd34c803f1228d35070dd89539eae31d3c6d8be981820"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 242505347,
+          "offset": 46320640,
+          "bytes": 10765,
+          "language": 0,
+          "sha256": "2eb0f2f2b62a77f20a4f4e51c3d64bf0efba97cbb6017012a9cfe45f1db5a296"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 280993802,
+          "offset": 23798323,
+          "bytes": 12042,
+          "language": 0,
+          "sha256": "15b261ac541c9994ffaa8c468d1618b275ce90c2a6bb236d7b90685f4db2062b"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 322457915,
+          "offset": 45621459,
+          "bytes": 25859,
+          "language": 0,
+          "sha256": "a0b113cfa47b010e75a02119391ef9d89daea8123ed0dcb1ccc8c066249ca912"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 345249618,
+          "offset": 14405659,
+          "bytes": 19132,
+          "language": 0,
+          "sha256": "aae0ab6e23a5cadc7a1be647ff6eea92a53c0761227489a761fc99b852f069a3"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 495348003,
+          "offset": 45410782,
+          "bytes": 29641,
+          "language": 0,
+          "sha256": "c522943f8e78bfe8c2d46de92bba229b6e56a03706bff89f5928e6fa335e699d"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 643922857,
+          "offset": 3214970,
+          "bytes": 29600,
+          "language": 0,
+          "sha256": "56aae899337195238f3fdbd01ca504b1fa9593762cd3806901f78deda8788b29"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 663494834,
+          "offset": 40098643,
+          "bytes": 10946,
+          "language": 0,
+          "sha256": "f3b327c17063d5c888b0a3d3250be73c24a5611ee9f590d3bd08c2e25b304bf4"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 1017922730,
+          "offset": 5159953,
+          "bytes": 7895,
+          "language": 0,
+          "sha256": "1b0308c23d5807fd9d81ba8d0fd70667fa166f87418447c64e1342d11c462e19"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_CARD_summon_reveal_center_opponent {r}.txtp",
+      "txtp_sha256": "782ff9cbe610f1f1f5506230ce89a055be09be320a39f95a41611a75b453fe73",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_CARD_summon_reveal_center_opponent {r}.txtp\nsample rate: 48000 Hz\nchannels: 2\ninput channels: 2\noutput channels: 1\nchannel mask: 0x4 / FC\nstream total samples: 148926 (0:03.103 seconds)\nencoding: Custom Vorbis\nlayout: mixed (L2[S1])\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 133 kbps\nsample type: float\nplay duration: 148926 samples (0:03.103 seconds)\n",
+      "web_gain_db": 0
+    },
+    {
+      "kind": "sound-effect",
+      "key": "turn",
+      "event": "Play_UI_your_turn",
+      "event_id": 722693436,
+      "banks": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "bank",
+          "id": 3290525096,
+          "offset": 6134094,
+          "bytes": 811225,
+          "language": 0,
+          "sha256": "81a416b2bb05eb7b4832e87297854139f57f1ce4fead6b0488adbf1065aa3b4b"
+        }
+      ],
+      "unity_references": [
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 6739018841470199585,
+          "raw_sha256": "2cb9a46ed082e05ed9c3e53e50fe7c1d580b1bd5583451c9eec295570e45d975",
+          "strings": [
+            "Play_UI_your_turn"
+          ]
+        }
+      ],
+      "file": "assets/audio/current/sfx-turn.ogg",
+      "bytes": 46201,
+      "sha256": "c4216dc26c73083c49d59d132f1af5a8b5d4c26fc41d2889dcba9e716bc861c9",
+      "seconds": 2.5218958333333332,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 227924204,
+          "offset": 40199384,
+          "bytes": 34382,
+          "language": 0,
+          "sha256": "1dc0810fd20c9da890319f2ac0fc1fa2104353b3990d3dc36b3530e751194c6d"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 360957134,
+          "offset": 18406740,
+          "bytes": 44826,
+          "language": 0,
+          "sha256": "d158519f2ab94d06b0d04f767ad383266e472ea7145707a68bd7c9970de7aa2e"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 530404952,
+          "offset": 8168033,
+          "bytes": 51705,
+          "language": 0,
+          "sha256": "274228094e64c5f6b1c0a7d922bd295005f718087cad371c8b5ff1b65ad4dfea"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 583088484,
+          "offset": 3556482,
+          "bytes": 36611,
+          "language": 0,
+          "sha256": "860836b61395ee9ba0f913f9845e89ebf46ac7d6925907aa2fec4e3e7fee6e6c"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 699008696,
+          "offset": 20059901,
+          "bytes": 43828,
+          "language": 0,
+          "sha256": "b9958146fc83cfe3e2e5b20741e0ad37221d554075b341d2e34f581154202163"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 956940380,
+          "offset": 25541191,
+          "bytes": 44162,
+          "language": 0,
+          "sha256": "2956466266b84642ed936670aa50f5fdae649763d705810a2b6f8390a621713c"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 957082268,
+          "offset": 39675906,
+          "bytes": 48358,
+          "language": 0,
+          "sha256": "c0314fce7d55b58c0cf2c4dc642cdf525c44d4b746b88d1071f1c7ba80a27f42"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 1057779920,
+          "offset": 26317104,
+          "bytes": 44390,
+          "language": 0,
+          "sha256": "f530672307ed2a2ad893af54d1afe866c37998c8624aac31191245d1517c06c8"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_UI_your_turn {r}.txtp",
+      "txtp_sha256": "c6a19172aabe8b894003569799a6474634e5863f2a094dc4fa92e53c6ac5741e",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_UI_your_turn {r}.txtp\nsample rate: 48000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nstream total samples: 121051 (0:02.522 seconds)\nencoding: Custom Vorbis\nlayout: flat\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 108 kbps\nsample type: float\nplay duration: 121051 samples (0:02.522 seconds)\n",
+      "web_gain_db": 16.0
+    },
+    {
+      "kind": "sound-effect",
+      "key": "mana",
+      "event": "Play_UI_mana_consume",
+      "event_id": 1342580285,
+      "banks": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "bank",
+          "id": 3290525096,
+          "offset": 6134094,
+          "bytes": 811225,
+          "language": 0,
+          "sha256": "81a416b2bb05eb7b4832e87297854139f57f1ce4fead6b0488adbf1065aa3b4b"
+        }
+      ],
+      "unity_references": [
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -8952408361194877324,
+          "raw_sha256": "99ff7af07128e07c652a1e465e2cb529c9b603ef666e6ba6c9907706d7a8bb49",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -8952408360413925769,
+          "raw_sha256": "212264794e4850bd9c76c41021e0e8b33127c46438593372ab409601c3bafa2c",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -8952408360390963020,
+          "raw_sha256": "8b6d5ff16a5f4007949fe170593793820e3d110bc2da46185d17e6ed20b9b124",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -8952408359914978839,
+          "raw_sha256": "b8abd13911af57937bc87090d9dd461818a3511213dea9eb99377cadcfa5e0a2",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -8952408359180277814,
+          "raw_sha256": "b043a9507ea3e92bbf14a2864efb9ec4b653c0561d48ca56f0e2112118fe9c1e",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -8952408358323280958,
+          "raw_sha256": "50f7111c8c8e1fe209d43d3a729b397579b6dccbde07ba5a07cdb1e5a65ffeaa",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -8952408358220479187,
+          "raw_sha256": "f26e4554cff3d349fd36bb8cf476fab723a4d5403a1a1495b3551169872923c8",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -8952408358162111522,
+          "raw_sha256": "a106075e34f0b0509be3508101ca04ab26f190712c5eb28fc32e35d40b86bee5",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -8952408358124440142,
+          "raw_sha256": "b4d7d3e2f100737eeea96c69b66b121d629c6c2b594bf08264020b114bbcf072",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -8952408357006644130,
+          "raw_sha256": "e10780afbe490bab429c30d0c5ad0a8305eb2c2fb4dd67677a2fe86b7e371608",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751842066689629,
+          "raw_sha256": "8680074d021304f8ef69da8f858e4e9e9248308722b29bd79f69466040bdb22d",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751842057756906,
+          "raw_sha256": "b6a1b455da0975da50169811533e8dfe5db88c540e2af1d8635a21170f5c03e9",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751841709180950,
+          "raw_sha256": "8bf578a06308c1394d10448fba5e1c706010b0e6c8e7d7ab86b6061909c595a0",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751841623503122,
+          "raw_sha256": "28ac75cad43b849fbcd3de0b17445e326bb508c45d31ac800017eed277a6a75b",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751841424562768,
+          "raw_sha256": "a4f422cf700d38e88d55eac8fd7b424a05796e17b4343f7ea7baee06587157ca",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751841122898238,
+          "raw_sha256": "4039e3b374a5b402314b60ccf6af2f43827b409b46bbe5e6763a1348d63b4750",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751841078844530,
+          "raw_sha256": "855b934abe984c821b05841ebdedddeda636ae12464155c06b83eb7c89e54a19",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751841049345390,
+          "raw_sha256": "b7302d2826f2a41ad6a2c179eced4e5fef02861e472b3b53e62ece4650f9cf6c",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751840606050541,
+          "raw_sha256": "c1cfa05d0d3a18eb1a7e80c542b0b788cfc30470668036d402372462cc0bf56f",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751840544083317,
+          "raw_sha256": "5bad36b9babcce98dbf758ee16b0f55b19a61509fa4aae2fd0f94e05f4df35cd",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751840332276042,
+          "raw_sha256": "a4419738c0d7db0e75b612edef70d9bcc1d181d62d826e9931712280d7d4c214",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751840221941973,
+          "raw_sha256": "5c6ec48248709c21a513436db6745311a7feca654ce1e6ce83eafba5e50dee8e",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751839809320235,
+          "raw_sha256": "d50f71f4f15d6a4c62c2a17631de8b21e9eea3b7c43b8470f3da1ee17b6dc6fe",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751839496677727,
+          "raw_sha256": "0e183178e5d840d674f82b1e78d1a7411857858d1a7d4f0866783778449457ab",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751839440324827,
+          "raw_sha256": "856c1f72b9e3cc4c3ac8363ffedb231d897dfab99eece16309f6906a9b744798",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751839338866690,
+          "raw_sha256": "66434a7250ff0f9bb70fdd5df37127b21becd4e03f5f17dab9f823385a6fe988",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751839145457765,
+          "raw_sha256": "081f0cd2e7e8e68d9df2a9976bfbc348986ec477f716743b4c3abb62ca5df4ac",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751838725778254,
+          "raw_sha256": "bf51800552fbe83ef254fa22a0d7b0cb7733ea9cb913ade47885eaffc354ffa4",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751838725513082,
+          "raw_sha256": "c65627bd85ef79efea5cac7ca67544be03ca8c79270a13fc9f0d51c103d4c086",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751838525790031,
+          "raw_sha256": "33dbc12a5657d383054e3b422cf631795532b1c27db2d6d8777680d0fc9e8f2b",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5374746526443881641,
+          "raw_sha256": "fbcead35dde92ca0c545032cf308175173a1faba6624768f62e4164940144921",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336038207947242,
+          "raw_sha256": "3dfe0a79ae21ec579d96c0362b88d36a4536980c1398f3436a96a266dd83da0c",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336038069706726,
+          "raw_sha256": "9279c2e41ac754aee01733d2409662e5b3e769153866fae05bdae2b74e40818a",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336037737817187,
+          "raw_sha256": "76ade3059df2e9f9b752582d5260262348f671c6466df5be691e238a9da34a57",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336037523011364,
+          "raw_sha256": "c3c66d417e63f75aa2854941e3743e7e9316e84a3de758f6982aec5e64b0fbcb",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336037466913232,
+          "raw_sha256": "11d924c2bc5294499a1691c88e9b6d5d83007fa4b6e22c7c62494572a9595ed1",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336037350666381,
+          "raw_sha256": "1e4720822070f16b03ef5c50d28e52e099415faa32e916311488d702aefd0c68",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336037201703565,
+          "raw_sha256": "c3a9d05fc945ddbbdb92ec9df72152ea2b180aeb11caa346a511427be304f540",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336037045910151,
+          "raw_sha256": "c8c671181374bbe87924ad2e0bca968528e230a7305694fc9d0c33d2cc7c4b80",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336036716592669,
+          "raw_sha256": "533fd2d6c0e18737a88a77d5936cef0cc2847e4e4e2b28b578e79e67700b63d9",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336036486877750,
+          "raw_sha256": "fe1bec7d299396137c40be198d6c8606b4b3904d25b94dee1e2c649dc0410620",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336036451024785,
+          "raw_sha256": "3680e48e22bb2524aec8355004d67192a1cb027614ce0ef3378c63b1d8fb201d",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336035946679483,
+          "raw_sha256": "a9f9fc13aad3043331162be69970db2113d684fd6e5614f955f61457f211a6d2",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336035924415363,
+          "raw_sha256": "15abe1f1688c3cdbf9c157c41f0b2ef1f00572200d6b49606ec5ce1700aecc70",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336035778787940,
+          "raw_sha256": "926db492588eab730f6474dea506cf267496a6cab679e95e2de56955b265dc87",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336035285925864,
+          "raw_sha256": "df0c8d11052a5c117efad23d7dbd809a818bd8b6465934e290597ec036da020a",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336035152446129,
+          "raw_sha256": "92fa5510bded4f9295a68746a2ae0cecf71fe45e938069c3e2dd26da74af5fa8",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336034890664972,
+          "raw_sha256": "1c90a0c7da3b29f12f378475ff4f692d711f17155597a12b94505bd0ddfcae97",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336034858894814,
+          "raw_sha256": "de756f4ad309919c2c572796615808fac03f63b641bb0ea95cfaf34bd58353de",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336034599913247,
+          "raw_sha256": "8f73472745adb643323bdd17a46cc1fa356340beacea4955d38d9ce61c63213d",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336034297685976,
+          "raw_sha256": "32e830a144776c2dd82dcc31f22a8fa599fa4c78823d099b29feaabca3e720fc",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3303722391703340609,
+          "raw_sha256": "2b5bdbcf1462c56cb9cb0778a6be281c93a52407be46ca35bfd613d02e403221",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3303722391353599317,
+          "raw_sha256": "84ec882bdaefef5d3a663da2ff5b07b12ee1aa5322b2e6b2b17adae94fbd41c0",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3303722390639088100,
+          "raw_sha256": "c903694b56c1ea83841f0c77beacfdb7453165cb061800a355ca2cb92b516ac5",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3303722390509929949,
+          "raw_sha256": "ee1f1a67e3421df2fb3e325d1599625c45db8b583f4210477a6f098ec51c0fa2",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3303722390086353890,
+          "raw_sha256": "966b612dafcf292002168f57b43fca0aa1bcf7018a96ec56cc56bba24632e95c",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3303722389982704947,
+          "raw_sha256": "904580bd4d3fe9a30d3d1925dedf3d2b610cc853d59235eddb14a523ca727b71",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3303722389970201685,
+          "raw_sha256": "ca4c018068d3a2f13a5fe2ad9d330287655fc94d49b94e15c957d96196a76071",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3303722389389722984,
+          "raw_sha256": "f559a42d157c171bee83e20a0f83197ea5ac63bce3ff5366c70abaf450e38e20",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3303722388340837166,
+          "raw_sha256": "81393e7932c544c71af2fc95df1b13113f4dc27441a6127bb7f188fea82c80b4",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3303722388297049525,
+          "raw_sha256": "d65f4043e611f7e009352122fe27bbe9749cf0b3f506d03a25240d26dde31394",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301301775779889,
+          "raw_sha256": "f42f8eb91a44f9ed4d8658b4a1293d1055e61f223b1f3217e5b21ca02a6ec176",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301302112247547,
+          "raw_sha256": "f15779d869a558ecbcd16842d09c564a02b544188a4e0e55aea8a405900b046c",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301303080218739,
+          "raw_sha256": "95adf2e989dd0201550582d0c7575d391fe2e5b839e2c2f3885fc8537e19686b",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301303281599671,
+          "raw_sha256": "fe3f8b040c9e5399dda2cf0896883153c6658c45137f74053850c3fa3468aa1c",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301303324171975,
+          "raw_sha256": "445652155889e9f37ba9650cc1954323cbd36948eaa42e1f29d4277f670e22c4",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301303692107206,
+          "raw_sha256": "3b043ff2a6bbbb618ac8132725105a08ccb63b2d703f196b10af6dcaf68d7ac2",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301303704065383,
+          "raw_sha256": "5bab65b01509a19781e5a12680bace39ccee9a295133ae403cd0ee9530bd682b",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301303805323071,
+          "raw_sha256": "dee8b9706f2b1f530805c89b7d6615833e66d13823c2e0337e16aebe451d6b8f",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301303808439675,
+          "raw_sha256": "62c33a9077a366e7d2124568da07a09fb801640dd04aaaf89904a3daa922a7a7",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301304059098908,
+          "raw_sha256": "a77871ef2bbcf943d125e782044edbc578224c37d12f2bc482227face85ffce7",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301304084531374,
+          "raw_sha256": "289fc48db68b749f050d290b1ece78530700887ba35e738448aedd66ae1d5d66",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301304089274514,
+          "raw_sha256": "e1c553cfc86dfc70219f004e1361119a3c59085ae81dfb3b655ad908c684308f",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301304094505228,
+          "raw_sha256": "40a4073545b51f861fe1aa9a17d4c0dbc12f502ddd3fdbb0b23d81657c0abe89",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301304645714691,
+          "raw_sha256": "614037d401f833404240bb1f3845578e0509d655d1b5e14a8355d014f2c0120b",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301304660811371,
+          "raw_sha256": "c68eb29da57f91a1c771caa846102d1cafa62c4648efee2fc83d02efdb90def6",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301304760722217,
+          "raw_sha256": "9d669562afb54f2de94e8b9f29890a29a1c1d1f4c175a1fc98e91e28b4808a3b",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301304826691871,
+          "raw_sha256": "9bbc3430aca5f57d84027771ec4fd26bab114cfa513ad1e3d003593219b3db6a",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301304842023091,
+          "raw_sha256": "83c0cfd08b1876691693b8dd74a24688496a6f0726465cc4a094bfe41c653417",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301305346533419,
+          "raw_sha256": "ec0de023dd3162cdcf2694dd9b7766792d071a957b64e42bca0088b01a5a7ccb",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301305741139674,
+          "raw_sha256": "9a039d96a94e8868688b461a0a37c7b4b783732c044d0b9bc12f1651ae39a303",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605690345294132,
+          "raw_sha256": "4c7204fdec181fcc1644135fdd9b4ecfab669eaa2c98c41fbc93a992f03d6fd0",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605690402022115,
+          "raw_sha256": "5ce291d8db709f572a9eefdf1eb1ab04ebffceb6ac30cf45766c931f9f5f1c78",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605690476685347,
+          "raw_sha256": "2314996e2dfe5748f761c75c854128a84107cc854502c7d0d94e7abd070d85dc",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605690629687951,
+          "raw_sha256": "6151b65be07e8ddc18c781c61c51d57b20b3cd24062310edca091f9f91f5b6b1",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605690924442872,
+          "raw_sha256": "4adef651ecc92fb4507f6df930a8337db630c3ceb965f5cfb775e9d8a19e1da1",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605691686960768,
+          "raw_sha256": "d8f061e100555fa5122d106e208157c1b1443b292f233770145d0b77d380641d",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605691797630035,
+          "raw_sha256": "0175974654438b58c1cebcb7bee9270b6b7772346f4fc9c7fd0773d989b259fe",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605691834380998,
+          "raw_sha256": "04c1a593ac25d21c925fad39f0a8b8780a3023076003994c7cd84ed3b8db9d2b",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605692049950859,
+          "raw_sha256": "f0fedcfdc63f251b50eb6696b161bacd5e455b0fe6ded6ea10d6cd77b7614798",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605692157332638,
+          "raw_sha256": "2ea8e926f4b60e4a1e864353a4018d198943929260250eaf928d5c0636677f36",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605692593888178,
+          "raw_sha256": "50ef019b4d405a07d0d598d63e19c165fc5fd52bcdd17ef391b552854d1ae639",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605692638956736,
+          "raw_sha256": "bd59597900965caaaf3b4db84b67268a356169ae9652109e9b8487bb9be106ea",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605692796464214,
+          "raw_sha256": "720726572c7127b6fd27feef0f16379de8010b054e5ad553d7064e58fd6e4d27",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605693049037834,
+          "raw_sha256": "fe1cc1866756193c6da538e8ca4c7f7b4fc89077375a67ca3e0f1c055bbe9c66",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605693414430526,
+          "raw_sha256": "566d425a5abc6e5cfcd620834374083b4b577f88bb02094fdd9360b3fb3a53fe",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605693425496318,
+          "raw_sha256": "712f4dbb396f6e94e02df4d68a57e25de95172da5063632e9b75d627211a4606",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605693632860203,
+          "raw_sha256": "1759fdd2cdd74bde6b09425157fabb89873ac3f0ad7ff03487ba27f1521874ee",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605693730388809,
+          "raw_sha256": "22dcd30d70c3a4c66473660b5a87078ea2b060656818232d5f8fab57d8afe06c",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605693898511475,
+          "raw_sha256": "3fb6221a4b470b2b57869b31df3a2e0f88923b038f255c5523f7586066074826",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605694009218305,
+          "raw_sha256": "8ba7c64d641f8a32d8b466ffe9dd34b2042be9068a73be3995a33ea01beb73ee",
+          "strings": [
+            "Play_UI_mana_consume",
+            "Play_UI_mana_consume2",
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        }
+      ],
+      "file": "assets/audio/current/sfx-mana.ogg",
+      "bytes": 22650,
+      "sha256": "4db5e5854bacec8a987d528be7aff26700e6258f56d715d9b98c6e9f7fbdcfdb",
+      "seconds": 1.9290416666666668,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 58431576,
+          "offset": 17805416,
+          "bytes": 13988,
+          "language": 0,
+          "sha256": "8f1212f3f2429b42fcf9eb64612cc65aaea5c7e02621551c053cbe9f653c5b45"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 300880752,
+          "offset": 4902196,
+          "bytes": 14686,
+          "language": 0,
+          "sha256": "573c3e8512e63801deddf2d3bab799f754e70e3cc81d1d91dfa181c196d02397"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 472996468,
+          "offset": 7243324,
+          "bytes": 14359,
+          "language": 0,
+          "sha256": "6c28f4e09596a38b3751863793a4654c139db92724c41e3510c126185195b4f3"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_UI_mana_consume {r}.txtp",
+      "txtp_sha256": "4f6327be6d18079f1bf8ae044df39a1e94eeff31aab3d417f5b9dcb34155d408",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_UI_mana_consume {r}.txtp\nsample rate: 48000 Hz\nchannels: 1\nchannel mask: 0x4 / FC\nstream total samples: 92594 (0:01.929 seconds)\nencoding: Custom Vorbis\nlayout: flat\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 59 kbps\nsample type: float\nplay duration: 92594 samples (0:01.929 seconds)\n",
+      "web_gain_db": 9.8
+    },
+    {
+      "kind": "sound-effect",
+      "key": "spell-mana",
+      "event": "Play_UI_mana_spell_mana_consume",
+      "event_id": 1784482526,
+      "banks": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "bank",
+          "id": 3290525096,
+          "offset": 6134094,
+          "bytes": 811225,
+          "language": 0,
+          "sha256": "81a416b2bb05eb7b4832e87297854139f57f1ce4fead6b0488adbf1065aa3b4b"
+        }
+      ],
+      "unity_references": [
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -8952408360100129649,
+          "raw_sha256": "26b8e8a8ee9d6871a031111388519c544d1fddeccb305c8825cba757916e5cd6",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -8952408359621565805,
+          "raw_sha256": "9d3c17e8a739743db584eb8c5fd06493e2f3ae2e81371079c0c5a34847983ede",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -8952408358979986793,
+          "raw_sha256": "3380968790ee278d4211ee7dea0e23c255ba6b186d73997518456a6cc1e1871c",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751841889786977,
+          "raw_sha256": "5ac3fbfae2a9291783caead9b04e106aab27e3ed57763643aa877e3f4ff032ca",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751840621899640,
+          "raw_sha256": "36e1ce3f7460f610314c0980a7cd420f6386a63611452a1ceaf4aa8f2e07f4c1",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751840505127184,
+          "raw_sha256": "60ee69f1b150dbd7cb445afc0fd6a258e2247a7f7b73b366c70283feaf2e3c26",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751840308824935,
+          "raw_sha256": "c3955b72f0f7b0fccfbe4fc723cf38463fbc491834e3b6b7872ec85017422a82",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751839204381104,
+          "raw_sha256": "4c68300d60988e83d30ab7e6dcbccbf56065631198ed062d307022dec290dd35",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5882751838444459053,
+          "raw_sha256": "5bb880bb2293808f333a8bbeb9229d7c50ede02297b096d9e20526a9adb075cf",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -5850278837786229833,
+          "raw_sha256": "30aee84d17effe58d2d2162ad5f7d622c89e9f4a8c346400399f7bc2aadd20d8",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336037129865265,
+          "raw_sha256": "9812ae539f75dda89915f051dcd8c11f6c466bdf94ff7ca6036fcab301b6ceb9",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336036861173883,
+          "raw_sha256": "dd3793ff89ce59665eb242191c8e2cbf50046c61b627433966596aa99a6755dd",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336036657771114,
+          "raw_sha256": "8f5eb19129cfc51be70f0afcac7d13778da308c291d245f2982872c3fc0e03b4",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336035642304605,
+          "raw_sha256": "57f7586c09b08fae3e7195214adbc77cdbb53b5e5544fd8bfda9563493f6e043",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336034674644110,
+          "raw_sha256": "99595cb71ece74af4f6e239ed8e34844ba97114974844964405b4767b7f0a810",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336034357509901,
+          "raw_sha256": "ccbb4fec164f1a87084b4fd8d272690ed138dc5189b57185563e95757c262721",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3303722389036876642,
+          "raw_sha256": "d30c4ad381352e99409c543ced99e12163f1f2fde3aad5935038e3d93d23dd62",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3303722388721589127,
+          "raw_sha256": "a6f82c7b61f46815fe367fad769e9d8343994ea682603209fe612638d8140792",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -3303722387977026342,
+          "raw_sha256": "1566e133d9a8eaec04bf9e0f7f9e8dd9dee33e1bc34bab3a4e0cc20c0a7c49dc",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301301930368185,
+          "raw_sha256": "ddd9c799aa786d74848f948e61d8bf27f1a69130ed1bd20e028e930e58d8ad17",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301302178627219,
+          "raw_sha256": "aca09d836efc472e6ca4240cfb3f75f2a989a5f2cbf07aa739884665c6dbb2e0",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301304617213143,
+          "raw_sha256": "21b6c0901c5d849c721d7f87b823d61c3825be3acd91795cce7385fe31bb1436",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301305347932290,
+          "raw_sha256": "ed7abb6aabdafacf8e2ac59a4d9277f314b3948e598a1cd1eea5c8f354334e11",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301305778964604,
+          "raw_sha256": "70ffdd6e41d0710f66d4d0ded1b89ae0fdd6a41cd53a1bfc8966846a2f81a02f",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301305865047058,
+          "raw_sha256": "fc92a3af532e114b4ebdb84b98c65c4b2db38d136b332bbf677e339b2c5e830e",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605690932636270,
+          "raw_sha256": "e02da8124b28aa203499532199e3fd9f0206bb620b5c745ac482de1953a26836",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605691126345662,
+          "raw_sha256": "2068dde6577ff37b09370d18014e1a0f58c70b9d25f37b89cc03d87e8c55a7c2",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605691707911930,
+          "raw_sha256": "852e1884a17e5ddeca751afd39fec32ac244b27ffe185d08af54a4de33bf0a8b",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605692642885318,
+          "raw_sha256": "5bf7c8e05d6baa6d78bcadfd643936fec6fca4bb5b2aa80e1d49c149bb2e42ff",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605693671870199,
+          "raw_sha256": "31c4027bd58f4a078ef2a67aaf0b68ce088609a4e49b4ed15bb00f47dc07b053",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605693712927866,
+          "raw_sha256": "ae1fab7194072f30d2206882923232e893cee5c6a1b38c797db289eb7d1689e8",
+          "strings": [
+            "Play_UI_mana_pip_fill_bottom",
+            "Play_UI_mana_pip_fill_bottom2",
+            "Play_UI_mana_pip_fill_top",
+            "Play_UI_mana_pip_unfill_bottom",
+            "Play_UI_mana_pip_unfill_top",
+            "Play_UI_mana_pip_unlock",
+            "Play_UI_mana_spell_mana_consume",
+            "Play_UI_mana_transfer_to_spell_mana"
+          ]
+        }
+      ],
+      "file": "assets/audio/current/sfx-spell-mana.ogg",
+      "bytes": 19156,
+      "sha256": "738f9bd2af78c7280dcf88064d3680c57157c32d49e677c418edc578155d8d72",
+      "seconds": 1.6387916666666666,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 113506427,
+          "offset": 12380321,
+          "bytes": 13017,
+          "language": 0,
+          "sha256": "392742484a8a339940e3d39fc93ae31c6eaee8b4ec45994ba22ba09d922ec492"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_UI_mana_spell_mana_consume [4043604075=952157989].txtp",
+      "txtp_sha256": "bc53c8e3a4e08f1d52e01a8a542781db3d06cde95c7cfb165e60f3d24263ebfc",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_UI_mana_spell_mana_consume [4043604075=952157989].txtp\nsample rate: 48000 Hz\nchannels: 1\nchannel mask: 0x4 / FC\nstream total samples: 78662 (0:01.639 seconds)\nencoding: Custom Vorbis\nlayout: flat\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 62 kbps\nsample type: float\nplay duration: 78662 samples (0:01.639 seconds)\n",
+      "web_gain_db": 5.300000000000001
+    },
+    {
+      "kind": "sound-effect",
+      "key": "barrier",
+      "event": "Play_KW_barrier_activate",
+      "event_id": 1694702416,
+      "banks": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "bank",
+          "id": 3290525096,
+          "offset": 6134094,
+          "bytes": 811225,
+          "language": 0,
+          "sha256": "81a416b2bb05eb7b4832e87297854139f57f1ce4fead6b0488adbf1065aa3b4b"
+        }
+      ],
+      "unity_references": [
+        {
+          "bundle": "alwaysloaded.bbq",
+          "bundle_sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016",
+          "path_id": 6274008441058867225,
+          "raw_sha256": "40ce78118e62017dd6f51b8fc90cb4256de0d2f8ca91592a0b5f398d0bb8a96d",
+          "strings": [
+            "Play_KW_barrier_deactivate",
+            "Play_KW_barrier_activate"
+          ]
+        }
+      ],
+      "file": "assets/audio/current/sfx-barrier.ogg",
+      "bytes": 22875,
+      "sha256": "61c0ea7b22b07bdfdac6c1c1b641f0b72146bec84c9bf91922eb172ec484156c",
+      "seconds": 2.2523333333333335,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 605736749,
+          "offset": 18201555,
+          "bytes": 16856,
+          "language": 0,
+          "sha256": "1b518e8cf981998311147471de5da47905576838aee3daa7f2b5b6e1be4d9b5b"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_KW_barrier_activate.txtp",
+      "txtp_sha256": "02c5bdcda03e2e1358a9a72804dc2f6f62dbfdec23e09dcf593a3056e8677a66",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_KW_barrier_activate.txtp\nsample rate: 48000 Hz\nchannels: 1\nchannel mask: 0x4 / FC\nstream total samples: 108112 (0:02.252 seconds)\nencoding: Custom Vorbis\nlayout: flat\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 59 kbps\nsample type: float\nplay duration: 108112 samples (0:02.252 seconds)\n",
+      "web_gain_db": 0
+    },
+    {
+      "kind": "sound-effect",
+      "key": "button",
+      "event": "Play_UI_client_gold_button_select",
+      "event_id": 1637350149,
+      "banks": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "bank",
+          "id": 633463039,
+          "offset": 38697456,
+          "bytes": 31517,
+          "language": 0,
+          "sha256": "421b76ae4426a8dfea5643ffa4db7d6f12b5530aa828e90940f7d40c2886cdfc"
+        }
+      ],
+      "unity_references": [
+        {
+          "bundle": "alwaysloaded.bbq",
+          "bundle_sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016",
+          "path_id": -9006603782883690720,
+          "raw_sha256": "dbe591ff90e41808057a5cf64fb28cef01029810d63a50606c4c75b7f1850edb",
+          "strings": [
+            "Play_UI_client_gold_button_hover",
+            "Play_UI_client_gold_button_select"
+          ]
+        },
+        {
+          "bundle": "alwaysloaded.bbq",
+          "bundle_sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016",
+          "path_id": -9006603782761474677,
+          "raw_sha256": "1ddd3844d901f31971ef12f147e554e05d092c7c4bf77525618427ca670fff3b",
+          "strings": [
+            "Play_UI_client_gold_button_hover",
+            "Play_UI_client_gold_button_select"
+          ]
+        },
+        {
+          "bundle": "alwaysloaded.bbq",
+          "bundle_sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016",
+          "path_id": -5244090442243486402,
+          "raw_sha256": "227763252d93eea032129ed6fe8387c8a5d4b48a2495f1255c7b3c4225526b5c",
+          "strings": [
+            "Play_UI_client_gold_button_hover",
+            "Play_UI_client_gold_button_select"
+          ]
+        },
+        {
+          "bundle": "alwaysloaded.bbq",
+          "bundle_sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016",
+          "path_id": -2531090360166557913,
+          "raw_sha256": "1cd05f7a5b9aa144081266d405b01df5321d1d449c62808bbdb9d660d20bc5e3",
+          "strings": [
+            "Play_UI_client_gold_button_hover",
+            "Play_UI_client_gold_button_select"
+          ]
+        },
+        {
+          "bundle": "alwaysloaded.bbq",
+          "bundle_sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016",
+          "path_id": -2531090359480215898,
+          "raw_sha256": "4fae68c1411cdba995c4d7b0fbbaf18627f5078d8840bd95367e778c3461d317",
+          "strings": [
+            "Play_UI_client_gold_button_hover",
+            "Play_UI_client_gold_button_select"
+          ]
+        },
+        {
+          "bundle": "alwaysloaded.bbq",
+          "bundle_sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016",
+          "path_id": -830263445988523636,
+          "raw_sha256": "06e792eb6adab426dcd556fde44bd7f57ebcf797649b5ad33ae306aed32fd8ae",
+          "strings": [
+            "Play_UI_client_mulligan_select",
+            "Play_UI_client_deck_hover",
+            "Play_SFX_UI_client_playbutton_enterqueue",
+            "Play_UI_client_tutorial_button_hover",
+            "Play_UI_client_options_check_box_uncheck",
+            "Play_UI_client_standard_button_hover",
+            "Play_UI_client_options_tab_hover",
+            "Play_UI_client_exit_filter_popup",
+            "Play_UI_client_options_tab_select",
+            "Play_UI_client_into_options_popup_select",
+            "Play_UI_client_gold_button_hover",
+            "Play_UI_client_slider_grab",
+            "Play_UI_client_manafilter_mana_select",
+            "Play_UI_client_manafilter_mana_hover",
+            "Play_UI_client_checkbox_highlight_hover",
+            "Play_UI_client_into_normal_game_select",
+            "Play_UI_client_exit_game_mode_select",
+            "Play_UI_client_concede_select",
+            "Play_UI_client_popup",
+            "Play_UI_client_dropdown_expand",
+            "Play_UI_client_deck_select",
+            "Play_UI_client_gold_button_select",
+            "Play_UI_client_exit_deck_manager_select",
+            "Play_UI_client_quest_click_dice_click",
+            "Play_SFX_UI_client_play_button_hover",
+            "Play_UI_client_quest_click_dice_unclick",
+            "Play_UI_client_options_check_box_check"
+          ]
+        },
+        {
+          "bundle": "alwaysloaded.bbq",
+          "bundle_sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016",
+          "path_id": 6239173449343959587,
+          "raw_sha256": "25a7be28bbcc9ff0d888dd32cc78a4afb8f16c9a6554b0a7f03cbae30bfc5b1e",
+          "strings": [
+            "Play_UI_client_gold_button_hover",
+            "Play_UI_client_gold_button_select"
+          ]
+        },
+        {
+          "bundle": "alwaysloaded.bbq",
+          "bundle_sha256": "c60c08f57a005df6f5205b17a9a74a6f4c0c67a06241d6997a9d2b064e980016",
+          "path_id": 6239173451919712675,
+          "raw_sha256": "8c9a514851eba9702ff50258d498749e2e91f3b9cc2fb640261f80afc66550e0",
+          "strings": [
+            "Play_UI_client_gold_button_hover",
+            "Play_UI_client_gold_button_select"
+          ]
+        }
+      ],
+      "file": "assets/audio/current/sfx-button.ogg",
+      "bytes": 45487,
+      "sha256": "874ff876d7d6d81b16c1ac42376f11e745620fb122d27d1fb4056eb213bc2524",
+      "seconds": 2.8806041666666666,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 34946849,
+          "offset": 42621833,
+          "bytes": 32960,
+          "language": 0,
+          "sha256": "66a0af6c411c5034b6894177caa89f2fcc5d339c25bc0b8b091ac2ca700ae4c1"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_UI_client_gold_button_select.txtp",
+      "txtp_sha256": "23a3c126bed9e55f47cbf858832fbc9e31e08f57758afb15a5d82e6e8de8dda9",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_UI_client_gold_button_select.txtp\nsample rate: 48000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nstream total samples: 138269 (0:02.881 seconds)\nencoding: Custom Vorbis\nlayout: flat\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 91 kbps\nsample type: float\nplay duration: 138269 samples (0:02.881 seconds)\n",
+      "web_gain_db": 4.6
+    },
+    {
+      "kind": "sound-effect",
+      "key": "attack-token",
+      "event": "Play_UI_attack_token_flare",
+      "event_id": 382930688,
+      "banks": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "bank",
+          "id": 3290525096,
+          "offset": 6134094,
+          "bytes": 811225,
+          "language": 0,
+          "sha256": "81a416b2bb05eb7b4832e87297854139f57f1ce4fead6b0488adbf1065aa3b4b"
+        }
+      ],
+      "unity_references": [
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336036949930269,
+          "raw_sha256": "3ef723ee57f2fe3d1d842a6d56d43351c6cd2aa28b3f222cd18c01cb8672f64d",
+          "strings": [
+            "Play_UI_attack_token_flare"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4580336034483608415,
+          "raw_sha256": "425255ee706d2680d11d09711f75889aa22528c886128ba61340ea8edb7b398d",
+          "strings": [
+            "Play_UI_attack_token_flare"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": -4423452921153205139,
+          "raw_sha256": "8656102550769a127415325fcebc4954a9b2cb6857e11f21e0e1958d7a1cd01c",
+          "strings": [
+            "Play_UI_attack_token_flare"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301301749827253,
+          "raw_sha256": "81aa1031361fcf405fbea13f073f0cf7caac37aa0eba10fdf2901c626010793b",
+          "strings": [
+            "Play_UI_attack_token_flare"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 2010301305459508936,
+          "raw_sha256": "2aab13da74140a1a4ebf816cd46c80196f091f636ebfb9729bc213f694e1ca88",
+          "strings": [
+            "Play_UI_attack_token_flare"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605691056182248,
+          "raw_sha256": "0f3976786842dd551972aa7c5d72677b7835ebc1e921c6d3cca8ace2715dc9a0",
+          "strings": [
+            "Play_UI_attack_token_flare"
+          ]
+        },
+        {
+          "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+          "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+          "path_id": 3256605692251647507,
+          "raw_sha256": "e045105158bce57d8e61e834a6401c96922c1e3af0385a9c2353305b26bc93be",
+          "strings": [
+            "Play_UI_attack_token_flare"
+          ]
+        }
+      ],
+      "file": "assets/audio/current/sfx-attack-token.ogg",
+      "bytes": 10690,
+      "sha256": "6afbe94fce302233a87423c93bc4127e8cd8eda3ad26a4bea32c54050bb1add9",
+      "seconds": 0.75,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 477212272,
+          "offset": 45404476,
+          "bytes": 6306,
+          "language": 0,
+          "sha256": "7fdd9bdb170ad4f5599632966f5fbc6f1d4249a73302a6cac467d9ccc96899e4"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_UI_attack_token_flare.txtp",
+      "txtp_sha256": "ca72e601be2986b9b07b934ed01061464bfc6215e44119c7ce61958362d423fa",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_UI_attack_token_flare.txtp\nsample rate: 48000 Hz\nchannels: 1\nchannel mask: 0x4 / FC\nstream total samples: 36000 (0:00.750 seconds)\nencoding: Custom Vorbis\nlayout: flat\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 66 kbps\nsample type: float\nplay duration: 36000 samples (0:00.750 seconds)\n",
+      "web_gain_db": 0
+    },
+    {
+      "kind": "sound-effect",
+      "key": "hit",
+      "event": "Play_IMP_damage_unit_hit",
+      "event_id": 325857231,
+      "banks": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "bank",
+          "id": 3290525096,
+          "offset": 6134094,
+          "bytes": 811225,
+          "language": 0,
+          "sha256": "81a416b2bb05eb7b4832e87297854139f57f1ce4fead6b0488adbf1065aa3b4b"
+        }
+      ],
+      "unity_references": [
+        {
+          "bundle": "cb/9f5a0d803b34877418924fbb1ffb9d.bbq",
+          "bundle_sha256": "448598795a93b7ad645e329e4bd4d5fa64e3d727004458913bd87b9ef7786613",
+          "path_id": 1077337870943468925,
+          "raw_sha256": "55119963bd21791a3bf1ca39dc769501c8bf5abd38cba292f1bafe1e08557712",
+          "strings": [
+            "Play_IMP_damage_unit_hit"
+          ]
+        }
+      ],
+      "file": "assets/audio/current/sfx-hit.ogg",
+      "bytes": 19118,
+      "sha256": "8c71823c5f88e9f3f4461b265ab794cbc081153967553099c0fc09a0c65227bb",
+      "seconds": 1.8648333333333333,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 148152740,
+          "offset": 13688677,
+          "bytes": 444,
+          "language": 0,
+          "sha256": "fd298e7637077538c450bc72c18eb0d1c0e70ae1068536cdf6b91db1741b635b"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 353796876,
+          "offset": 9006100,
+          "bytes": 24725,
+          "language": 0,
+          "sha256": "8f80ae5364c907e69d90d6597a1eafa150a9ab321b66c36a2b653c6aef512ee1"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 649130764,
+          "offset": 46395440,
+          "bytes": 14084,
+          "language": 0,
+          "sha256": "1cc1799dd4699a56d6255af0846109b8beaa77bcbc6465cdd6c61bea8faba499"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 916638856,
+          "offset": 17484184,
+          "bytes": 15316,
+          "language": 0,
+          "sha256": "9189c4e5a30342b344ec976b2abbe408fd79889b5196b191c9b16c1641f3c3aa"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_IMP_damage_unit_hit {r}.txtp",
+      "txtp_sha256": "38e447d01bc7185b48760df949921f2f7d384b9cd0bb1a73641d6d1bad3c1a4c",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_IMP_damage_unit_hit {r}.txtp\nsample rate: 48000 Hz\nchannels: 2\ninput channels: 2\noutput channels: 1\nstream total samples: 89512 (0:01.865 seconds)\nencoding: Custom Vorbis\nlayout: layered (2 layers)\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 84 kbps\nsample type: float\nplay duration: 89512 samples (0:01.865 seconds)\n",
+      "web_gain_db": -6.0
+    },
+    {
+      "kind": "sound-effect",
+      "key": "nexus-hit",
+      "event": "Play_IMP_damage_face_hit",
+      "event_id": 4103507610,
+      "banks": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "bank",
+          "id": 3290525096,
+          "offset": 6134094,
+          "bytes": 811225,
+          "language": 0,
+          "sha256": "81a416b2bb05eb7b4832e87297854139f57f1ce4fead6b0488adbf1065aa3b4b"
+        }
+      ],
+      "unity_references": [
+        {
+          "bundle": "cb/9f5a0d803b34877418924fbb1ffb9d.bbq",
+          "bundle_sha256": "448598795a93b7ad645e329e4bd4d5fa64e3d727004458913bd87b9ef7786613",
+          "path_id": -486834847455794929,
+          "raw_sha256": "78099106923090e401e653114d9e497ddfdd176bfeb49d35c7883eaa26848cea",
+          "strings": [
+            "Play_IMP_damage_face_hit"
+          ]
+        },
+        {
+          "bundle": "cb/9f5a0d803b34877418924fbb1ffb9d.bbq",
+          "bundle_sha256": "448598795a93b7ad645e329e4bd4d5fa64e3d727004458913bd87b9ef7786613",
+          "path_id": 9210847983490067918,
+          "raw_sha256": "441c197344c1f82a92d719ec66825c462b0f1b93ee6436b4b790059656652526",
+          "strings": [
+            "Play_IMP_damage_face_hit"
+          ]
+        }
+      ],
+      "file": "assets/audio/current/sfx-nexus-hit.ogg",
+      "bytes": 22257,
+      "sha256": "8669e9709ef0db17f6026a5cffdb2479d5fb04cfddb0d47f529902c8579d9102",
+      "seconds": 2.332895833333333,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 148152740,
+          "offset": 13688677,
+          "bytes": 444,
+          "language": 0,
+          "sha256": "fd298e7637077538c450bc72c18eb0d1c0e70ae1068536cdf6b91db1741b635b"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 323827654,
+          "offset": 8813739,
+          "bytes": 18115,
+          "language": 0,
+          "sha256": "1fce80b83058615eea6e8ee66d4e98d23d9ec88631d7d35745f254280279909a"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 385817678,
+          "offset": 43863510,
+          "bytes": 20328,
+          "language": 0,
+          "sha256": "029bea3d2e7ec93f1078a25717b4a4ce14dda64852e2d44d0a4193ede39ec991"
+        },
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage0.pck",
+          "package_sha256": "b9a2f7031df58dcf6ee80cc73d344d0ae9c20cf498a7b7181d56f7fc2b2b1a75",
+          "kind": "media",
+          "id": 546328727,
+          "offset": 38906184,
+          "bytes": 20923,
+          "language": 0,
+          "sha256": "bf5810881ad898252965614c638e36b1a06d09fc5307ea45296be6241ca504e7"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_IMP_damage_face_hit {r}.txtp",
+      "txtp_sha256": "e0ed71a4bbb149bed1fc3249a93fafc7aebff786c8766409ab3cf6d7d0e999cd",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_IMP_damage_face_hit {r}.txtp\nsample rate: 48000 Hz\nchannels: 2\ninput channels: 2\noutput channels: 1\nstream total samples: 111979 (0:02.333 seconds)\nencoding: Custom Vorbis\nlayout: layered (2 layers)\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 86 kbps\nsample type: float\nplay duration: 111979 samples (0:02.333 seconds)\n",
+      "web_gain_db": -5.7
+    },
+    {
+      "kind": "sound-effect",
+      "key": "garen-rugged-level-up",
+      "event": "Play_CH_RiftQuest_Garen_ChampLvlUp",
+      "event_id": 2176040566,
+      "banks": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "bank",
+          "id": 3290525097,
+          "offset": 89666116,
+          "bytes": 6152528,
+          "language": 0,
+          "sha256": "5cc0e697d835fcd0ac20571977f04e95bf184939aca81189244c216b0721b899"
+        }
+      ],
+      "unity_references": [
+        {
+          "bundle": "dd/ac402b5670ba0094bd3634406501a2.bbq",
+          "bundle_sha256": "dc97630326972fd21faa5efa60f53849a32d46627f7b19abb11c2edef28b04cd",
+          "path_id": -2869184587956577363,
+          "raw_sha256": "5ea7b71c2453e38ca20a9f686ec0029d8e82991f711a1b7444e07c434ef4a879",
+          "strings": [
+            "Play_CH_RiftQuest_Garen_ChampLvlUp"
+          ]
+        }
+      ],
+      "file": "assets/audio/current/sfx-garen-rugged-level-up.ogg",
+      "bytes": 152358,
+      "sha256": "097e3e201c05ad9edadfe64ebb24c8b696c8b0f22d5ccc6b31efe0f7782b34eb",
+      "seconds": 12.48,
+      "media": [
+        {
+          "source": "cliente_PC_downloads_2026-10-15/live/PatcherData/PatchableFiles/Audio/stage1.pck",
+          "package_sha256": "5f589b1270d0d6301393fcd9d6addf277bdc46f2c49e45fb5ffce04bf8665c58",
+          "kind": "media",
+          "id": 797481960,
+          "offset": 539129782,
+          "bytes": 130649,
+          "language": 0,
+          "sha256": "85d5adeffeba73ca3cc15aee8a3456199dd4ecc3314a5907675017a4a8de4339"
+        }
+      ],
+      "txtp": "pesquisa/revisao_downloads_2026-10-15/audio-work/txtp/Play_CH_RiftQuest_Garen_ChampLvlUp.txtp",
+      "txtp_sha256": "cea8765cd45a28155d928c2765de632d359331129ad82b083f8d9c1995a88699",
+      "decode_log": "decoding C:\\Users\\Usuario\\Documents\\LoR_base_TCG\\pesquisa\\revisao_downloads_2026-10-15\\audio-work\\txtp\\Play_CH_RiftQuest_Garen_ChampLvlUp.txtp\nsample rate: 48000 Hz\nchannels: 2\nchannel mask: 0x3 / FL FR\nstream total samples: 599040 (0:12.480 seconds)\nencoding: Custom Vorbis\nlayout: flat\nmetadata from: Audiokinetic Wwise RIFF header\nbitrate: 83 kbps\nsample type: float\nplay duration: 599040 samples (0:12.480 seconds)\n",
+      "web_gain_db": 0
+    }
+  ],
+  "limits": [
+    "TXTP arrangement approximates Wwise. Runtime RTPC, crossfades and interactive state changes are not reproduced.",
+    "Package voice/external records are inventoried but not converted."
+  ]
+}

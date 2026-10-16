@@ -1,0 +1,183 @@
+.welcome #train,
+.welcome #build-deck {
+  margin-top: 10px;
+  padding: 11px;
+  font-family: Beaufort;
+  font-size: 17px;
+  background: #152731de;
+  border-color: #967a46;
+}
+.welcome #train {
+  color: #fce0a1;
+  border-color: #c9a96b;
+}
+.champion-card {
+  border-color: #e9c568 !important;
+  box-shadow:
+    0 0 0 1px #b5964e,
+    0 0 24px #b88d353b,
+    0 8px 18px #0009 !important;
+}
+.arena .hand .champion-card {
+  box-shadow: none !important;
+  filter: drop-shadow(0 0 7px #d5b76480);
+}
+.champion-badge {
+  position: absolute;
+  top: -13px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2px 7px;
+  font: 700 9px Beaufort;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  background: linear-gradient(#947743, #4d3c23);
+  border: 1px solid #f2d497;
+  color: #fff3c7;
+  z-index: 4;
+}
+.champion-progress {
+  color: #ead3a0;
+  border-top: 1px solid #88794c;
+  padding-top: 9px;
+  font-size: 12px;
+}
+.arena .board.drop-ready,
+.dragging-card .arena #my-board {
+  outline: 2px dashed #e6c985;
+  outline-offset: 8px;
+  background: #c9ad5420;
+  border-radius: 8px;
+}
+.champion-evolution {
+  position: fixed;
+  inset: 12% 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+  background: radial-gradient(ellipse, #142a37fa, #08121bed 65%, transparent);
+  color: #fce4a1;
+  pointer-events: none;
+  z-index: 8;
+}
+.champion-evolution img {
+  height: min(42vh, 340px);
+  width: auto;
+  max-width: 90%;
+  object-fit: contain;
+  filter: drop-shadow(0 0 20px #c9a95880);
+}
+.champion-evolution h2 {
+  font: 700 34px Beaufort;
+  margin: 0;
+  text-shadow: 0 0 20px #ceb36a60;
+}
+.champion-evolution p {
+  font-size: 12px;
+}
+.collection-dialog {
+  width: min(850px, 94vw);
+  max-width: 850px;
+  padding: 25px;
+}
+.collection-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.collection-heading h2 {
+  margin-bottom: 10px;
+}
+.deck-builder-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 18px 0;
+  color: #ebce93;
+}
+.deck-builder-actions button {
+  font-size: 12px;
+}
+.collection-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  max-height: 48vh;
+  overflow: auto;
+  padding: 4px;
+}
+.collection-row {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  border: 1px solid #8b795340;
+  padding: 7px;
+  background: #0b1b26;
+}
+.collection-row img {
+  width: 50px;
+  height: 64px;
+  object-fit: cover;
+  border: 1px solid #aa8d57;
+}
+.collection-row > div {
+  flex: 1;
+  min-width: 0;
+}
+.collection-row strong {
+  display: block;
+  font: 700 15px Beaufort;
+}
+.collection-row small {
+  display: block;
+  color: #a8b9be;
+  font-size: 9px;
+  margin-top: 4px;
+}
+.collection-row button {
+  padding: 4px 10px;
+  font-size: 18px;
+  min-width: 32px;
+}
+.copy-count {
+  font-variant-numeric: tabular-nums;
+}
+.collection-dialog #deck-error {
+  font-size: 12px;
+  color: #f1bd9b;
+  min-height: 18px;
+}
+@media (max-width: 700px) {
+  .champion-evolution {
+    inset: 15% 5%;
+  }
+  .champion-evolution h2 {
+    font-size: 28px;
+  }
+  .collection-list {
+    grid-template-columns: 1fr;
+  }
+  .collection-dialog {
+    padding: 16px;
+  }
+  .collection-heading {
+    gap: 10px;
+  }
+  .collection-heading h2 {
+    font-size: 24px;
+  }
+  .champion-badge {
+    font-size: 7px;
+    top: -11px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .champion-evolution {
+    display: none;
+  }
+}

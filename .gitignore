@@ -1,0 +1,27 @@
+node_modules/
+test-results/
+*.zip
+__pycache__/
+*.pyc
+
+# Credenciais e configuracoes locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.local
+
+# Caches, builds e arquivos temporarios
+.cursor/
+.impeccable/critique/
+.impeccable/live/
+.netlify/
+.vercel/
+.next/
+dist/
+*.log
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store

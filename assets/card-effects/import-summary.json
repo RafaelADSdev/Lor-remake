@@ -1,0 +1,20 @@
+{
+  "groups": 564,
+  "presentableGroups": 557,
+  "particles": 20133,
+  "clips": 4080,
+  "textures": 18804,
+  "materials": 16091,
+  "decodedClips": 4080,
+  "channels": 262467,
+  "uniqueClips": 3435,
+  "uniqueParticleSystems": 19330,
+  "uniqueTextures": 6807,
+  "sourceAnimationClips": 4258,
+  "sourceParticleSystems": 23010,
+  "adaptedUnitSummonAliases": 7,
+  "adapterPhaseLinks": 1683,
+  "exactLinks": 7854,
+  "enabledExactLinks": 2143,
+  "unsupportedClips": []
+}

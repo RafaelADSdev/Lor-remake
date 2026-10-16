@@ -1,0 +1,109 @@
+{
+  "projection": "XY, reflected X, native UV and depth Z; components fitted individually",
+  "rendererSha256": "1d68bc75aad79e622e2daeffa03ae561eeac49197dd4a9939faef4d039a54cce",
+  "modelSha256": "9a517775e29bea76757a2299bdc3c4000798220d2c7a5b79ff7ea1966778dbab",
+  "manaModelSha256": "a28319ab406a4885274b62b9a0c4529d8c9d0071415574d09ded5bc5277a4137",
+  "textureSha256": "f7d5631f1e5bc2cbf27a998a138ccac0073e56339f935389bdc7e5aecda8856b",
+  "records": [
+    {
+      "name": "action-dock",
+      "components": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      ],
+      "bounds": [
+        [
+          80.59714953608247,
+          114.13618046391753
+        ],
+        [
+          -25.741648614432997,
+          25.489539014432992
+        ]
+      ],
+      "triangles": 1940,
+      "sha256": "0555184fd6b1ccc09942ccafa84df74ae064a15f571fd293734c53fde6c334f0"
+    },
+    {
+      "name": "nexus-red-dock",
+      "components": [
+        [
+          5
+        ]
+      ],
+      "bounds": [
+        [
+          -105.36382595670102,
+          -83.53442884329897
+        ],
+        [
+          8.317997794072165,
+          23.227814855927832
+        ]
+      ],
+      "triangles": 85,
+      "sha256": "5b36bb4537414789194c1415cae69009c4b59e9442d645e8c23b62cc647cc5e0"
+    },
+    {
+      "name": "nexus-blue-dock",
+      "components": [
+        [
+          4
+        ]
+      ],
+      "bounds": [
+        [
+          -105.36382595670102,
+          -83.53442884329897
+        ],
+        [
+          -23.10340742654639,
+          -8.319892323453608
+        ]
+      ],
+      "triangles": 95,
+      "sha256": "2dd26fab8073a78c8addc888e76a171f99133072505406dadb6567be90ed0a32"
+    },
+    {
+      "name": "native-tray",
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      "bounds": [
+        [
+          -154.48265068041238,
+          166.83079468041237
+        ],
+        [
+          -24.87757969072165,
+          24.87757969072165
+        ]
+      ],
+      "triangles": 1181,
+      "sha256": "5f40be67d106d462cb9fa68c7e9c3dff9ad59c10d9e611943a3d2f99aaabd335"
+    }
+  ]
+}

@@ -1,0 +1,1204 @@
+{
+  "browser": "155.0.8059.84",
+  "checkedVideos": 133,
+  "remoteRequests": [],
+  "results": [
+    {
+      "id": "events-ruinedking-eventintro-hq",
+      "duration": 9,
+      "width": 960,
+      "height": 444,
+      "currentTime": 4.075094,
+      "decodedFrames": 121,
+      "error": null
+    },
+    {
+      "id": "generic-tpoc-videos-levelup-hq",
+      "duration": 3.166,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.428904,
+      "decodedFrames": 43,
+      "error": null
+    },
+    {
+      "id": "irelia-sentinel-levelup-hq",
+      "duration": 5.317,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.394327,
+      "decodedFrames": 16,
+      "error": null
+    },
+    {
+      "id": "s003-aphelios-levelup-hq",
+      "duration": 4.833,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.199637,
+      "decodedFrames": 66,
+      "error": null
+    },
+    {
+      "id": "s003-trundle-levelup-hq",
+      "duration": 4.866,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.195686,
+      "decodedFrames": 66,
+      "error": null
+    },
+    {
+      "id": "s004-akshan-levelup-hq",
+      "duration": 3.766,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.696774,
+      "decodedFrames": 51,
+      "error": null
+    },
+    {
+      "id": "s004-azir-levelup-hq",
+      "duration": 5.8,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.634694,
+      "decodedFrames": 79,
+      "error": null
+    },
+    {
+      "id": "s004-azir2-levelup-hq",
+      "duration": 6.5,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.929703,
+      "decodedFrames": 88,
+      "error": null
+    },
+    {
+      "id": "s004-ekko-levelup-hq",
+      "duration": 5,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.276131,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s004-irelia-levelup-hq",
+      "duration": 4.533,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.068899,
+      "decodedFrames": 62,
+      "error": null
+    },
+    {
+      "id": "s004-jarvan-levelup-hq",
+      "duration": 4.9,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.21374,
+      "decodedFrames": 5,
+      "error": null
+    },
+    {
+      "id": "s004-kindred-levelup-hq",
+      "duration": 4.133,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.865624,
+      "decodedFrames": 56,
+      "error": null
+    },
+    {
+      "id": "s004-leblanc-levelup-hq",
+      "duration": 5,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.276898,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s004-lissandra-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.260879,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s004-malphite-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.260098,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s004-nasus-levelup-hq",
+      "duration": 4.833,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.200409,
+      "decodedFrames": 66,
+      "error": null
+    },
+    {
+      "id": "s004-nasus2-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.465344,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "s004-pyke-levelup-hq",
+      "duration": 4.666,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.127626,
+      "decodedFrames": 64,
+      "error": null
+    },
+    {
+      "id": "s004-reksai-levelup-pc",
+      "duration": 5,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.258065,
+      "decodedFrames": 8,
+      "error": null
+    },
+    {
+      "id": "s004-renekton-levelup-hq",
+      "duration": 4.733,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.134142,
+      "decodedFrames": 64,
+      "error": null
+    },
+    {
+      "id": "s004-renekton2-levelup-hq",
+      "duration": 5.4,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.435942,
+      "decodedFrames": 73,
+      "error": null
+    },
+    {
+      "id": "s004-sivir-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.26073,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s004-taliyah-levelup-hq",
+      "duration": 5.4,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.435027,
+      "decodedFrames": 73,
+      "error": null
+    },
+    {
+      "id": "s004-viego-levelup-hq",
+      "duration": 3.1,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.399705,
+      "decodedFrames": 42,
+      "error": null
+    },
+    {
+      "id": "s004-zilean-levelup-hq",
+      "duration": 5.333,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.426809,
+      "decodedFrames": 73,
+      "error": null
+    },
+    {
+      "id": "s005-ahri-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.262851,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s005-caitlyn-levelup-hq",
+      "duration": 4.766,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.171819,
+      "decodedFrames": 65,
+      "error": null
+    },
+    {
+      "id": "s005-galio-levelup-hq",
+      "duration": 3.8,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.736686,
+      "decodedFrames": 52,
+      "error": null
+    },
+    {
+      "id": "s005-gnar-levelup-1-hq",
+      "duration": 4.933,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.225095,
+      "decodedFrames": 67,
+      "error": null
+    },
+    {
+      "id": "s005-jayce-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.26083,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s005-kennen-levelup-hq",
+      "duration": 4.733,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.135742,
+      "decodedFrames": 64,
+      "error": null
+    },
+    {
+      "id": "s005-nami-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.263401,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s005-pantheon-levelup-hq",
+      "duration": 5,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.277825,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s005-poppy-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.265651,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s005-rumble-levelup-hq",
+      "duration": 5.333,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.427946,
+      "decodedFrames": 73,
+      "error": null
+    },
+    {
+      "id": "s005-senna-levelup-hq",
+      "duration": 4.6,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.099229,
+      "decodedFrames": 63,
+      "error": null
+    },
+    {
+      "id": "s005-sion-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.264716,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s005-tristana-levelup-hq",
+      "duration": 3.666,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.679168,
+      "decodedFrames": 50,
+      "error": null
+    },
+    {
+      "id": "s005-udyr-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.26499,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s005-veigar-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.465616,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "s005-xerath-levelup-hq",
+      "duration": 5.6,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.528593,
+      "decodedFrames": 24,
+      "error": null
+    },
+    {
+      "id": "s005-xerath2-levelup-hq",
+      "duration": 5.117,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.313742,
+      "decodedFrames": 11,
+      "error": null
+    },
+    {
+      "id": "s005-yuumi-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.465331,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "s005-ziggs-levelup-hq",
+      "duration": 4.733,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.131397,
+      "decodedFrames": 64,
+      "error": null
+    },
+    {
+      "id": "s006-aatrox-levelup-hq",
+      "duration": 5.3,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.402431,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "s006-annie-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.260398,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s006-bard-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.464007,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "s006-evelynn-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.463718,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "s006-gwen-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.465989,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "s006-illaoi-levelup-hq",
+      "duration": 5.1,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.29645,
+      "decodedFrames": 69,
+      "error": null
+    },
+    {
+      "id": "s006-jax-levelup-hq",
+      "duration": 5.666,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.576442,
+      "decodedFrames": 77,
+      "error": null
+    },
+    {
+      "id": "s006-jhin-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.462694,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "s006-kaisa-levelup-hq",
+      "duration": 6.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 3.159866,
+      "decodedFrames": 95,
+      "error": null
+    },
+    {
+      "id": "s006-kayle-levelup-hq",
+      "duration": 5.3,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.394624,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "s006-kayn-levelup-hq",
+      "duration": 5.933,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.697885,
+      "decodedFrames": 81,
+      "error": null
+    },
+    {
+      "id": "s006-masteryi-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.261845,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s006-norra-levelup-hq",
+      "duration": 5.5,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.502224,
+      "decodedFrames": 75,
+      "error": null
+    },
+    {
+      "id": "s006-ornn-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.264307,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s006-poroking-levelup-hq",
+      "duration": 5.3,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.403294,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "s006-ryze-levelup-hq",
+      "duration": 5.3,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.395211,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "s006-seraphine-levelup-hq",
+      "duration": 5.266,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.399197,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "s006-varus-levelup-hq",
+      "duration": 5.5,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.500709,
+      "decodedFrames": 75,
+      "error": null
+    },
+    {
+      "id": "s006-vayne-levelup-hq",
+      "duration": 5.133,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.335167,
+      "decodedFrames": 70,
+      "error": null
+    },
+    {
+      "id": "s007-jack-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.263711,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s007-neeko-levelup-hq",
+      "duration": 5.166,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.327135,
+      "decodedFrames": 70,
+      "error": null
+    },
+    {
+      "id": "s007-nidalee-levelup-hq",
+      "duration": 5.066,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.305547,
+      "decodedFrames": 69,
+      "error": null
+    },
+    {
+      "id": "s007-samira-levelup-hq",
+      "duration": 5.533,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.496384,
+      "decodedFrames": 75,
+      "error": null
+    },
+    {
+      "id": "s007-sett-levelup-hq",
+      "duration": 5,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.280542,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s008-elderdragon-levelup-hq",
+      "duration": 5.366,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.444269,
+      "decodedFrames": 73,
+      "error": null
+    },
+    {
+      "id": "s008-janna-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.261365,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s008-mordekaiser-levelup-hq",
+      "duration": 5.3,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.40311,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "s008-morgana-levelup-hq",
+      "duration": 3.3,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.492555,
+      "decodedFrames": 45,
+      "error": null
+    },
+    {
+      "id": "s008-nilah-levelup-hq",
+      "duration": 5.133,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.337082,
+      "decodedFrames": 70,
+      "error": null
+    },
+    {
+      "id": "s008-volibear-levelup-hq-01",
+      "duration": 5.366,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.444918,
+      "decodedFrames": 73,
+      "error": null
+    },
+    {
+      "id": "s009-lillia-levelup-hq",
+      "duration": 4.766,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.170579,
+      "decodedFrames": 65,
+      "error": null
+    },
+    {
+      "id": "s009-lux-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.261185,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s009-vex-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.261483,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "s010-nunuwillump-levelup-hq",
+      "duration": 2.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.361932,
+      "decodedFrames": 41,
+      "error": null
+    },
+    {
+      "id": "s098-fiddlesticks-levelup-hq",
+      "duration": 4.266,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.926297,
+      "decodedFrames": 58,
+      "error": null
+    },
+    {
+      "id": "s100-genericlevelup-levelup-hq",
+      "duration": 2.3,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.060311,
+      "decodedFrames": 32,
+      "error": null
+    },
+    {
+      "id": "s100-genericlvlup-noxus-levelup-hq",
+      "duration": 2.566,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.165773,
+      "decodedFrames": 34,
+      "error": null
+    },
+    {
+      "id": "s100-genericlvlup-piltoverzaun-levelup-hq",
+      "duration": 4.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.038701,
+      "decodedFrames": 61,
+      "error": null
+    },
+    {
+      "id": "sbevelynn-videos-levelup-hq",
+      "duration": 3.866,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.768177,
+      "decodedFrames": 53,
+      "error": null
+    },
+    {
+      "id": "sbkindred-videos-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.261752,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "sbmasteryi-videos-levelup-hq",
+      "duration": 3.866,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.767487,
+      "decodedFrames": 53,
+      "error": null
+    },
+    {
+      "id": "sbteemo-videos-levelup-v3-hq",
+      "duration": 3.866,
+      "width": 960,
+      "height": 444,
+      "currentTime": 1.76691,
+      "decodedFrames": 53,
+      "error": null
+    },
+    {
+      "id": "sbyasuo-videos-levelup-hq",
+      "duration": 4.4,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.004954,
+      "decodedFrames": 60,
+      "error": null
+    },
+    {
+      "id": "skin-ahri-coven-levelup-hq-01",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.26225,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "skin-anivia-arcade-levelup-hq",
+      "duration": 5.4,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.43273,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "skin-azir-corrupted-levelup-hq",
+      "duration": 5.266,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.397002,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "skin-azir2-corrupted-levelup-hq",
+      "duration": 5.266,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.398408,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "skin-bard-bard-bard-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.461434,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "skin-bard-tftmusic-levelup-hq",
+      "duration": 4.833,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.202656,
+      "decodedFrames": 66,
+      "error": null
+    },
+    {
+      "id": "skin-braum-holiday-levelup-hq",
+      "duration": 5.7,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.566455,
+      "decodedFrames": 77,
+      "error": null
+    },
+    {
+      "id": "skin-caitlyn-pulsefire-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.462162,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "skin-ekko-sandstorm-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.461586,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "skin-elderdragon-heavenscale-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.264874,
+      "decodedFrames": 67,
+      "error": null
+    },
+    {
+      "id": "skin-elise-worldbreaker-levelup-hq",
+      "duration": 5.3,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.394683,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "skin-garen-rugged-levelup-hq",
+      "duration": 5,
+      "width": 1280,
+      "height": 590,
+      "currentTime": 2.278226,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "skin-gwen-starguardian-levelup-hq",
+      "duration": 6.133,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.765963,
+      "decodedFrames": 83,
+      "error": null
+    },
+    {
+      "id": "skin-hecarim-arcade-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.461438,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "skin-irelia-divinesword-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.265007,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "skin-jack-dragonmancer-levelup-hq",
+      "duration": 5.633,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.565538,
+      "decodedFrames": 77,
+      "error": null
+    },
+    {
+      "id": "skin-janna-eclipseknights-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.260793,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "skin-jhin-pulsefire-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.465177,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "skin-jinx-starguardian-levelup-hq",
+      "duration": 5.566,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.530391,
+      "decodedFrames": 76,
+      "error": null
+    },
+    {
+      "id": "skin-kaisa-starguardian-levelup-hq",
+      "duration": 6.033,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.743619,
+      "decodedFrames": 82,
+      "error": null
+    },
+    {
+      "id": "skin-lissandra-coven-levelup-hq",
+      "duration": 5,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.278087,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "skin-lux-battleacademia-levelup-hq",
+      "duration": 5.5,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.504377,
+      "decodedFrames": 75,
+      "error": null
+    },
+    {
+      "id": "skin-luxilluminated-empyrean-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.263812,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "skin-missfortune-arcade-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.463738,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "skin-morgana-coven-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.263818,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "skin-nami-cleric-levelup-hq",
+      "duration": 5.266,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.39887,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "skin-nami-dragonmancer-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.260155,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "skin-nidalee-soulfighter-levelup-hq",
+      "duration": 5.2,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.369227,
+      "decodedFrames": 71,
+      "error": null
+    },
+    {
+      "id": "skin-nilah-eclipseknight-levelup-hq",
+      "duration": 5.1,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.296323,
+      "decodedFrames": 69,
+      "error": null
+    },
+    {
+      "id": "skin-pyke-sandstorm-levelup-hq",
+      "duration": 5.333,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.424806,
+      "decodedFrames": 73,
+      "error": null
+    },
+    {
+      "id": "skin-renekton-corrupted-levelup-hq",
+      "duration": 5.466,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.465395,
+      "decodedFrames": 74,
+      "error": null
+    },
+    {
+      "id": "skin-renekton2-corrupted-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.26401,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "skin-sett-obsidiandragon-levelup-hq",
+      "duration": 5.3,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.402279,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "skin-sett-soulfighter-levelup-hq",
+      "duration": 5.2,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.366893,
+      "decodedFrames": 70,
+      "error": null
+    },
+    {
+      "id": "skin-shen-infernal-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.262762,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "skin-trundle-worldbreaker-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.264666,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "skin-vex-empyrean-levelup-hq",
+      "duration": 4.866,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.191803,
+      "decodedFrames": 66,
+      "error": null
+    },
+    {
+      "id": "skin-vi-gilded-levelup-hq",
+      "duration": 5.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.70204,
+      "decodedFrames": 81,
+      "error": null
+    },
+    {
+      "id": "skin-viego-soulfighter-levelup-hq",
+      "duration": 5.133,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.336158,
+      "decodedFrames": 70,
+      "error": null
+    },
+    {
+      "id": "skin-volibear-eclipse-levelup-hq",
+      "duration": 5.3,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.393724,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "skin-zoe-corrupted-levelup-hq",
+      "duration": 5.3,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.401876,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "skin-zoe-poolparty-levelup-hq",
+      "duration": 5.766,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.598819,
+      "decodedFrames": 77,
+      "error": null
+    },
+    {
+      "id": "spiritblossom-genericlvlup-sbahri-levelup-hq",
+      "duration": 4.966,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.262807,
+      "decodedFrames": 68,
+      "error": null
+    },
+    {
+      "id": "taliyah-poolparty-levelup-hq",
+      "duration": 5.3,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.39531,
+      "decodedFrames": 72,
+      "error": null
+    },
+    {
+      "id": "yasuo-cosmic-levelup-hq",
+      "duration": 5.166,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.327339,
+      "decodedFrames": 70,
+      "error": null
+    },
+    {
+      "id": "zed-darkstar-levelup-hq",
+      "duration": 5.766,
+      "width": 960,
+      "height": 444,
+      "currentTime": 2.603054,
+      "decodedFrames": 78,
+      "error": null
+    }
+  ]
+}

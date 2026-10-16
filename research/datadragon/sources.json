@@ -1,0 +1,79 @@
+[
+  {
+    "set": "set1",
+    "file": "set1-pt_br.json",
+    "url": "https://dd.b.pvp.net/latest/set1/pt_br/data/set1-pt_br.json",
+    "sha256": "03b4d88d61cff14cda1fb41ca5a1f5a1a96347217b40faf03b40a58fb75e93f3",
+    "records": 419
+  },
+  {
+    "set": "set2",
+    "file": "set2-pt_br.json",
+    "url": "https://dd.b.pvp.net/latest/set2/pt_br/data/set2-pt_br.json",
+    "sha256": "832bf1ee5553e72b3df446d675e357a658374ed7d427e81895a902b0c7531371",
+    "records": 172
+  },
+  {
+    "set": "set3",
+    "file": "set3-pt_br.json",
+    "url": "https://dd.b.pvp.net/latest/set3/pt_br/data/set3-pt_br.json",
+    "sha256": "0c4dd809c4a0d17a0cc6165d8c514c8e254c212a8ae889ee8d97144d491e763f",
+    "records": 276
+  },
+  {
+    "set": "set4",
+    "file": "set4-pt_br.json",
+    "url": "https://dd.b.pvp.net/latest/set4/pt_br/data/set4-pt_br.json",
+    "sha256": "990f6d047470a95eb8e80f30a8074d6e4673cd2a2159964582b0dff8cccb509b",
+    "records": 347
+  },
+  {
+    "set": "set5",
+    "file": "set5-pt_br.json",
+    "url": "https://dd.b.pvp.net/latest/set5/pt_br/data/set5-pt_br.json",
+    "sha256": "374fcb2a910502581c7b2f61dd56fdedeec3fa725e91007bdc507081abae1794",
+    "records": 363
+  },
+  {
+    "set": "set6",
+    "file": "set6-pt_br.json",
+    "url": "https://dd.b.pvp.net/latest/set6/pt_br/data/set6-pt_br.json",
+    "sha256": "1ab7cb869ceb0d6b25d017582c1b08978000c15ac07315a24d59fa7fb4419674",
+    "records": 183
+  },
+  {
+    "set": "set6cde",
+    "file": "set6cde-pt_br.json",
+    "url": "https://dd.b.pvp.net/latest/set6cde/pt_br/data/set6cde-pt_br.json",
+    "sha256": "94a5f8cbf1aab9600400eb131d45c965b5ca7e39baac5c1280c940452f1f212c",
+    "records": 289
+  },
+  {
+    "set": "set7",
+    "file": "set7-pt_br.json",
+    "url": "https://dd.b.pvp.net/latest/set7/pt_br/data/set7-pt_br.json",
+    "sha256": "eda6c8da9102e13a44a7898bf387f73c4a54e84624bad2f755a7299b124be38c",
+    "records": 83
+  },
+  {
+    "set": "set7b",
+    "file": "set7b-pt_br.json",
+    "url": "https://dd.b.pvp.net/latest/set7b/pt_br/data/set7b-pt_br.json",
+    "sha256": "f77c59a129f7c29d5e2fe9dd06274a2549a4bb1d26cdcb174dabff1ce288885f",
+    "records": 87
+  },
+  {
+    "set": "set8",
+    "file": "set8-pt_br.json",
+    "url": "https://dd.b.pvp.net/latest/set8/pt_br/data/set8-pt_br.json",
+    "sha256": "e53f26ddc5e77f84c0bdf539a22c6e31d6bb75526b04901d8f3a7a603af67b63",
+    "records": 149
+  },
+  {
+    "set": "set9",
+    "file": "set9-pt_br.json",
+    "url": "https://dd.b.pvp.net/latest/set9/pt_br/data/set9-pt_br.json",
+    "sha256": "9df89547ab37446c74c94878622e9f9e71d25bf42fd070ce4bc09b4d86fb92e5",
+    "records": 144
+  }
+]

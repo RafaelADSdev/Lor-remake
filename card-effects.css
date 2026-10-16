@@ -1,0 +1,17 @@
+/* Native VFX sprites often encode alpha in luminance. Screen composition keeps
+   black mask pixels visually transparent without reading cross-origin pixels. */
+.card-native-effects {
+  position: fixed;
+  inset: 0;
+  z-index: 180;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  contain: strict;
+}
+.card-native-effects--host {
+  position: absolute;
+  z-index: 1;
+}
+@media (prefers-reduced-motion: reduce) {
+  .card-native-effects:not(.card-native-effects--host) { display: none; }
+}

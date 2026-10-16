@@ -1,0 +1,27 @@
+[
+  {
+    "path": "jogo_offline/assets/arenas/hud/mana-pip-full.png",
+    "sha256": "aa60b988c56ca16bd0f879266a925926b9a80c28759b754836c55e935ed1102b",
+    "bytes": 2588
+  },
+  {
+    "path": "jogo_offline/assets/arenas/hud/mana-pip-empty.png",
+    "sha256": "c5bdcd69fde399d5c5104e6c81dc6f4b74619f8cc9e044ef43e4e18ab3b04a14",
+    "bytes": 1521
+  },
+  {
+    "path": "jogo_offline/assets/arenas/hud/mana-pip.obj",
+    "sha256": "ed5783158be23b86fee68b639b0250821f19af1318d6cc4ac774952991ac7143",
+    "bytes": 498
+  },
+  {
+    "path": "jogo_offline/assets/arenas/hud/mana-pip-material.json",
+    "sha256": "09cebbbfe60a91d6f192bd59961e4fadfb49fd86ccc73667e2de14f3363372fd",
+    "bytes": 2206
+  },
+  {
+    "path": "jogo_offline/assets/arenas/hud/mana-pips-sources.json",
+    "sha256": "6072bd39d63cd348710858a38c45b1146ef13e18cbcae86cb4c394f3a27b7872",
+    "bytes": 126687
+  }
+]

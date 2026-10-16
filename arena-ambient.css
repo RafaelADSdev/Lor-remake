@@ -1,0 +1,16 @@
+#arena-ambient {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+#arena-ambient[hidden] {
+  display: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  body:not(.full-motion) #arena-ambient {
+    display: none;
+  }
+}

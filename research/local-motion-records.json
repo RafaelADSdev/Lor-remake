@@ -1,0 +1,1335 @@
+{
+  "method": "Local text parsing and source hashing, guided by REA skill; not decompilation or runtime observation.",
+  "sourceVersion": "CommunityDragon historical snapshot, separately from current client build 7-10-14",
+  "records": [
+    {
+      "path": "communitydragon_historico/arquivos/assets/assetlibrary/cardeffects/cardcreationdeath/shardin/timelines/ShardIn_Activate_Timeline.txt",
+      "sha256": "645538b6027a3feda19cb5dae48350826baeab159a088ed01b48e2b8e6c7b5e7",
+      "fields": [
+        {
+          "line": 30,
+          "text": "double m_FixedDuration = 0"
+        },
+        {
+          "line": 32,
+          "text": "float m_Framerate = 60"
+        },
+        {
+          "line": 33,
+          "text": "int m_DurationMode = 0"
+        }
+      ],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/assetlibrary/cardeffects/combatblock/prefabs/Combat_Block_CardEffect_Activate_Timeline.txt",
+      "sha256": "a31e89af81e5c17c7686ffcb5877a822c86c26ecb467df1f3049e2e16881d928",
+      "fields": [
+        {
+          "line": 18,
+          "text": "double m_FixedDuration = 0"
+        },
+        {
+          "line": 20,
+          "text": "float m_Framerate = 60"
+        },
+        {
+          "line": 21,
+          "text": "int m_DurationMode = 0"
+        }
+      ],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/assetlibrary/cardprofiles/defaults/CardAnimationProfile.txt",
+      "sha256": "d050b2996a1bc8fc9f945325f9212d736a0848fc2e5f8956f783f6069ff89e45",
+      "fields": [
+        {
+          "line": 44,
+          "text": "string RequirementAsJson = \"{\"ForPlayer\":0,\"Enabled\":true}\""
+        },
+        {
+          "line": 68,
+          "text": "string RequirementAsJson = \"{\"ForPlayer\":1,\"Enabled\":true}\""
+        },
+        {
+          "line": 92,
+          "text": "string RequirementAsJson = \"{\"ComparisonType\":2,\"ComparisonMode\":1,\"VariableNameAsString\":\"Enum: Creation Context\",\"ComparisonVariableNameAsString\":\"\",\"ComparisonBool\":false,\"ComparisonInt\":0,\"ComparisonRegionType\":9,\"ComparisonMovementType\":0,\"ComparisonKeywordFlags\":8,\"ComparisonCreationContext\":2,\"Enabled\":true}\""
+        },
+        {
+          "line": 173,
+          "text": "string RequirementAsJson = \"{\"Card\":{\"CardCode\":\"01SI030T2\",\"HasValue\":true},\"CardBelongsTo\":0,\"Enabled\":true}\""
+        },
+        {
+          "line": 197,
+          "text": "string RequirementAsJson = \"{\"Card\":{\"CardCode\":\"01SI030\",\"HasValue\":true},\"CardBelongsTo\":0,\"Enabled\":true}\""
+        },
+        {
+          "line": 240,
+          "text": "string RequirementAsJson = \"{\"RegionType\":11,\"Enabled\":true}\""
+        },
+        {
+          "line": 340,
+          "text": "string RequirementAsJson = \"{\"TriggerName\":\"ChampionSpellShuffle\",\"Enabled\":true}\""
+        },
+        {
+          "line": 345,
+          "text": "string RequirementAsJson = \"{\"ForPlayer\":0,\"Enabled\":true}\""
+        },
+        {
+          "line": 369,
+          "text": "string RequirementAsJson = \"{\"TriggerName\":\"ChampionSpellShuffle\",\"Enabled\":true}\""
+        },
+        {
+          "line": 374,
+          "text": "string RequirementAsJson = \"{\"ForPlayer\":1,\"Enabled\":true}\""
+        },
+        {
+          "line": 417,
+          "text": "string RequirementAsJson = \"{\"TriggerName\":\"Capture\",\"Enabled\":true}\""
+        },
+        {
+          "line": 441,
+          "text": "string RequirementAsJson = \"{\"TriggerName\":\"CostReduce\",\"Enabled\":true}\""
+        },
+        {
+          "line": 465,
+          "text": "string RequirementAsJson = \"{\"TriggerName\":\"DeepBuff\",\"Enabled\":true}\""
+        },
+        {
+          "line": 489,
+          "text": "string RequirementAsJson = \"{\"TriggerName\":\"DrawFromEnemyDeck\",\"Enabled\":true}\""
+        },
+        {
+          "line": 494,
+          "text": "string RequirementAsJson = \"{\"ForPlayer\":0,\"Enabled\":true}\""
+        },
+        {
+          "line": 518,
+          "text": "string RequirementAsJson = \"{\"TriggerName\":\"DrawFromEnemyDeck\",\"Enabled\":true}\""
+        },
+        {
+          "line": 523,
+          "text": "string RequirementAsJson = \"{\"ForPlayer\":1,\"Enabled\":true}\""
+        }
+      ],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/assetlibrary/cardprofiles/defaults/CardSoundProfile.txt",
+      "sha256": "a215b892b7699e550350caa5eb57e67c6f84377ff48b6b96147286f94499d4f6",
+      "fields": [
+        {
+          "line": 23,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 24,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 28,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 44,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 45,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 49,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 65,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 66,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 70,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 86,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 87,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 91,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 107,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 108,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 112,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 128,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 129,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 133,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 149,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 150,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 154,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 170,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 171,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 175,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 191,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 192,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 196,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 212,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 213,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 217,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 233,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 234,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 238,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 254,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 255,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 259,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 275,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 276,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 280,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 296,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 297,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 301,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 317,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 318,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 322,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 338,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 339,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 343,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 359,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 360,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 364,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 380,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 381,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 385,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 401,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 402,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 406,
+          "text": "SoundEventContainer data"
+        },
+        {
+          "line": 422,
+          "text": "BaconSoundEvent SoundEvent"
+        },
+        {
+          "line": 423,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 427,
+          "text": "SoundEventContainer data"
+        }
+      ],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/assetlibrary/cardprofiles/defaults/CardVfxProfile.txt",
+      "sha256": "d991fc72909c18da568f0d9a5e51c9dfc6ce45e2a0aa6d1ddd52a1ad47e9e23b",
+      "fields": [],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/assetlibrary/spells/generic/buff/overrides/Buff.txt",
+      "sha256": "670f53ca89368fabd02c4f4b0832f532cf3e11a639d34bbbd89e4419dd05904b",
+      "fields": [
+        {
+          "line": 18,
+          "text": "string VariableName = \"GO: Self\""
+        },
+        {
+          "line": 46,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 47,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 64,
+          "text": "string VariableName = \"GO Array: Targets\""
+        },
+        {
+          "line": 92,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 93,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 110,
+          "text": "string VariableName = \"Target[]: Targets\""
+        },
+        {
+          "line": 138,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 139,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 156,
+          "text": "string VariableName = \"Int: Num Targets\""
+        },
+        {
+          "line": 184,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 185,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 202,
+          "text": "string VariableName = \"GO: First Target\""
+        },
+        {
+          "line": 230,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 231,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 248,
+          "text": "string VariableName = \"Bool: Fizzled\""
+        },
+        {
+          "line": 276,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 277,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 294,
+          "text": "string VariableName = \"TC: ParentCard\""
+        },
+        {
+          "line": 322,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 323,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 340,
+          "text": "string VariableName = \"bool: IsStackSpell\""
+        },
+        {
+          "line": 368,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 369,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 386,
+          "text": "string VariableName = \"bool: IsBurstSpell\""
+        },
+        {
+          "line": 414,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 415,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 432,
+          "text": "string VariableName = \"Bool: Bloom\""
+        },
+        {
+          "line": 460,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 461,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 478,
+          "text": "string VariableName = \"Bool: Smoke\""
+        },
+        {
+          "line": 506,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 507,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 524,
+          "text": "string VariableName = \"Enum: Wait Setting\""
+        },
+        {
+          "line": 552,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 553,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 570,
+          "text": "string VariableName = \"Float: Event Delay\""
+        },
+        {
+          "line": 598,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 599,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 616,
+          "text": "string VariableName = \"Float: Sequence Delay\""
+        },
+        {
+          "line": 644,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 645,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 662,
+          "text": "string VariableName = \"Float: Release Control Time\""
+        },
+        {
+          "line": 690,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 691,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 708,
+          "text": "string VariableName = \"Bool: Include Nexus\""
+        },
+        {
+          "line": 736,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 737,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 761,
+          "text": "float StartTime = 0"
+        },
+        {
+          "line": 766,
+          "text": "string VariableName = \"Cast\""
+        },
+        {
+          "line": 794,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 795,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 824,
+          "text": "float StartTime = 0"
+        },
+        {
+          "line": 829,
+          "text": "string VariableName = \"Playmat\""
+        },
+        {
+          "line": 857,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 858,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 887,
+          "text": "float StartTime = 0.19"
+        },
+        {
+          "line": 892,
+          "text": "string VariableName = \"Missile\""
+        },
+        {
+          "line": 920,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 921,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 950,
+          "text": "float StartTime = 0.1"
+        },
+        {
+          "line": 955,
+          "text": "string VariableName = \"Impact\""
+        },
+        {
+          "line": 983,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 984,
+          "text": "SoundEventContainer Events"
+        }
+      ],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/assetlibrary/spells/generic/damage/overrides/Damage.txt",
+      "sha256": "b39562f4564829b44b42f1d6af07f856750ba02fcf109b2322316d1308f6acf8",
+      "fields": [
+        {
+          "line": 18,
+          "text": "string VariableName = \"GO: Self\""
+        },
+        {
+          "line": 46,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 47,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 64,
+          "text": "string VariableName = \"GO Array: Targets\""
+        },
+        {
+          "line": 92,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 93,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 110,
+          "text": "string VariableName = \"Target[]: Targets\""
+        },
+        {
+          "line": 138,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 139,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 156,
+          "text": "string VariableName = \"Int: Num Targets\""
+        },
+        {
+          "line": 184,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 185,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 202,
+          "text": "string VariableName = \"GO: First Target\""
+        },
+        {
+          "line": 230,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 231,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 248,
+          "text": "string VariableName = \"Bool: Fizzled\""
+        },
+        {
+          "line": 276,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 277,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 294,
+          "text": "string VariableName = \"TC: ParentCard\""
+        },
+        {
+          "line": 322,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 323,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 340,
+          "text": "string VariableName = \"bool: IsStackSpell\""
+        },
+        {
+          "line": 368,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 369,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 386,
+          "text": "string VariableName = \"bool: IsBurstSpell\""
+        },
+        {
+          "line": 414,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 415,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 432,
+          "text": "string VariableName = \"Bool: Bloom\""
+        },
+        {
+          "line": 460,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 461,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 478,
+          "text": "string VariableName = \"Bool: Smoke\""
+        },
+        {
+          "line": 506,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 507,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 524,
+          "text": "string VariableName = \"Enum: Wait Setting\""
+        },
+        {
+          "line": 552,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 553,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 570,
+          "text": "string VariableName = \"Float: Sequence Delay\""
+        },
+        {
+          "line": 598,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 599,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 616,
+          "text": "string VariableName = \"Bool: Flip Impact Based On Position\""
+        },
+        {
+          "line": 644,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 645,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 662,
+          "text": "string VariableName = \"Float: Release Control Time\""
+        },
+        {
+          "line": 690,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 691,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 708,
+          "text": "string VariableName = \"Float: Event Delay\""
+        },
+        {
+          "line": 736,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 737,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 754,
+          "text": "string VariableName = \"Bool: Include Nexus\""
+        },
+        {
+          "line": 782,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 783,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 807,
+          "text": "float StartTime = 0"
+        },
+        {
+          "line": 812,
+          "text": "string VariableName = \"Cast\""
+        },
+        {
+          "line": 840,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 841,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 870,
+          "text": "float StartTime = 0"
+        },
+        {
+          "line": 875,
+          "text": "string VariableName = \"Playmat\""
+        },
+        {
+          "line": 903,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 904,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 933,
+          "text": "float StartTime = 0.1"
+        },
+        {
+          "line": 938,
+          "text": "string VariableName = \"Missile\""
+        },
+        {
+          "line": 966,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 967,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 996,
+          "text": "float StartTime = 0.2"
+        },
+        {
+          "line": 1001,
+          "text": "string VariableName = \"Impact\""
+        },
+        {
+          "line": 1029,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 1030,
+          "text": "SoundEventContainer Events"
+        }
+      ],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/assetlibrary/spells/generic/heal/overrides/Heal.txt",
+      "sha256": "68481581fcdf867dff5ee4e2973937ed44b568d02bd04873d6826315895e83cd",
+      "fields": [
+        {
+          "line": 18,
+          "text": "string VariableName = \"GO: Self\""
+        },
+        {
+          "line": 46,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 47,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 64,
+          "text": "string VariableName = \"GO Array: Targets\""
+        },
+        {
+          "line": 92,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 93,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 110,
+          "text": "string VariableName = \"Target[]: Targets\""
+        },
+        {
+          "line": 138,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 139,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 156,
+          "text": "string VariableName = \"Int: Num Targets\""
+        },
+        {
+          "line": 184,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 185,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 202,
+          "text": "string VariableName = \"GO: First Target\""
+        },
+        {
+          "line": 230,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 231,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 248,
+          "text": "string VariableName = \"Bool: Fizzled\""
+        },
+        {
+          "line": 276,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 277,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 294,
+          "text": "string VariableName = \"TC: ParentCard\""
+        },
+        {
+          "line": 322,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 323,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 340,
+          "text": "string VariableName = \"bool: IsStackSpell\""
+        },
+        {
+          "line": 368,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 369,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 386,
+          "text": "string VariableName = \"bool: IsBurstSpell\""
+        },
+        {
+          "line": 414,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 415,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 432,
+          "text": "string VariableName = \"Bool: Bloom\""
+        },
+        {
+          "line": 460,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 461,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 478,
+          "text": "string VariableName = \"Bool: Smoke\""
+        },
+        {
+          "line": 506,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 507,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 524,
+          "text": "string VariableName = \"Enum: Wait Setting\""
+        },
+        {
+          "line": 552,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 553,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 570,
+          "text": "string VariableName = \"Float: Event Delay\""
+        },
+        {
+          "line": 598,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 599,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 616,
+          "text": "string VariableName = \"Float: Sequence Delay\""
+        },
+        {
+          "line": 644,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 645,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 662,
+          "text": "string VariableName = \"Float: Release Control Time\""
+        },
+        {
+          "line": 690,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 691,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 708,
+          "text": "string VariableName = \"Bool: Include Nexus\""
+        },
+        {
+          "line": 736,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 737,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 761,
+          "text": "float StartTime = 0"
+        },
+        {
+          "line": 766,
+          "text": "string VariableName = \"Cast\""
+        },
+        {
+          "line": 794,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 795,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 824,
+          "text": "float StartTime = 0"
+        },
+        {
+          "line": 829,
+          "text": "string VariableName = \"Playmat\""
+        },
+        {
+          "line": 857,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 858,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 887,
+          "text": "float StartTime = 0.225"
+        },
+        {
+          "line": 892,
+          "text": "string VariableName = \"Missile\""
+        },
+        {
+          "line": 920,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 921,
+          "text": "SoundEventContainer Events"
+        },
+        {
+          "line": 950,
+          "text": "float StartTime = 0.275"
+        },
+        {
+          "line": 955,
+          "text": "string VariableName = \"Impact\""
+        },
+        {
+          "line": 983,
+          "text": "BaconSoundEvent SpecifiedSoundEvent"
+        },
+        {
+          "line": 984,
+          "text": "SoundEventContainer Events"
+        }
+      ],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/resources/enumsettings/Death_Exit.txt",
+      "sha256": "57104c6480131decdab64d2433b4b611efa26cd656e3d503aaa6241f973c700f",
+      "fields": [],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/resources/enumsettings/Death_MarkedDying.txt",
+      "sha256": "c43dda23c6941fed94281b3272fdd5f18e50083cbdb82792dcc512cac342ed4b",
+      "fields": [],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/resources/enumsettings/StrikeUnit.txt",
+      "sha256": "c7873fdd98b08101a5a59ed1ae3e9076b2e4169b9cec855188339bbcb8f78025",
+      "fields": [],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/resources/enumsettings/SummonReveal.txt",
+      "sha256": "e757095f962cf97766f85faa6622315c97c0244eb40aae98954bde6446cfdee5",
+      "fields": [],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/scriptableobjects/cardeffects/AttackCardEffects.txt",
+      "sha256": "d23cf1c5252c9e28a2df7b1759e6879daa3ae105c715d292c053a365c1b47e74",
+      "fields": [],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/scriptableobjects/cardeffects/BlockCardEffects.txt",
+      "sha256": "064e9cd5dd92390dafa0f21efa71078e803cf2544f3a9b0f76188c5468823fd2",
+      "fields": [],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/scriptableobjects/cardeffects/HandCardEffects.txt",
+      "sha256": "aeaeb0babd92e775f7808f8271743ae6ac17bcf191771717814690314887d315",
+      "fields": [],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/_longpaths/871ef2ac84c8d257d8155455817266f62f90b6b4170c7d2a21d8e168f052a36c/CardDraw_Opponent_FromDeck_CardEffect_Activate_Timeline.txt",
+      "sha256": "be15f295e8e8be5c98e69d937ce07cb98f052e92aa851d19b4e6ac2b0099251b",
+      "fields": [
+        {
+          "line": 30,
+          "text": "double m_FixedDuration = 0.416666666666667"
+        },
+        {
+          "line": 32,
+          "text": "float m_Framerate = 60"
+        },
+        {
+          "line": 33,
+          "text": "int m_DurationMode = 1"
+        }
+      ],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/_longpaths/880c9bef1cc780812e46637b48053bae8d2716e4bca9b07f2e65e64c4d0e388e/SummonReveal_Hand_Activate_Timeline.txt",
+      "sha256": "b886e967bfc4d8c566b437c74be2da74f830dd15d8e09fa66753084fbb4f0ec8",
+      "fields": [
+        {
+          "line": 26,
+          "text": "double m_FixedDuration = 0.0833333333333333"
+        },
+        {
+          "line": 28,
+          "text": "float m_Framerate = 60"
+        },
+        {
+          "line": 29,
+          "text": "int m_DurationMode = 1"
+        }
+      ],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/_longpaths/8f4f230f5d330593c077f629fac2f1792a3ebb82b645870fc3677b0093c28fd0/CardDraw_Local_FromDeck_CardEffect_Activate_Timeline.txt",
+      "sha256": "74d2f2100d63b47e6b27507d8eae90e2350b71bed00c3e24cc7ea215dd539b5d",
+      "fields": [
+        {
+          "line": 34,
+          "text": "double m_FixedDuration = 1"
+        },
+        {
+          "line": 36,
+          "text": "float m_Framerate = 60"
+        },
+        {
+          "line": 37,
+          "text": "int m_DurationMode = 0"
+        }
+      ],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/_longpaths/cf5e07edbd40773bc0b650a9f64d59816e6410cb54287e808718eb0c2fddff98/CardDraw_Local_FromDrawToHand_CardEffect_Activate_Timeline.txt",
+      "sha256": "16f7693a8d0c70c5418c19601799bbefa7e3b4888add907fc4f05b360c01f52b",
+      "fields": [
+        {
+          "line": 30,
+          "text": "double m_FixedDuration = 1"
+        },
+        {
+          "line": 32,
+          "text": "float m_Framerate = 60"
+        },
+        {
+          "line": 33,
+          "text": "int m_DurationMode = 1"
+        }
+      ],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/_longpaths/e731bc5545868d9667572a1cd1581792b0a1bf696164ba7b50ebe22f91d2dcb7/SummonReveal_Unit_Activate_Timeline.txt",
+      "sha256": "b9be3d03621d5ed7d8bc1ee6677609659faf24bb0d28b05bee8cb958c97739fa",
+      "fields": [
+        {
+          "line": 34,
+          "text": "double m_FixedDuration = 0.833333333333333"
+        },
+        {
+          "line": 36,
+          "text": "float m_Framerate = 60"
+        },
+        {
+          "line": 37,
+          "text": "int m_DurationMode = 0"
+        }
+      ],
+      "limitation": "Static CommunityDragon historical export; unresolved PPtr do not establish runtime trajectories or duration."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/assetlibrary/cardeffects/cardcreationdeath/shardin/vfx/CardCreation_Shine_Alpha_TX.png",
+      "sha256": "85abcb363eec5d6f46052fc69b287b3ce5df81d0d19dc41804e8ef50c5ee0ff5",
+      "copiedTo": "assets/lor-motion/creation-shine.png",
+      "limitation": "Original texture reused; shader, blending and playback reconstructed for the browser."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/assetlibrary/cardeffects/cardcreationdeath/deathmarked/vfx/DeathMarked_Crack_Alpha_TX.png",
+      "sha256": "800ded7986414098906af0fe7b4e0354c35fd7767cbdbfd1df1254abbafb20db",
+      "copiedTo": "assets/lor-motion/death-crack.png",
+      "limitation": "Original texture reused; shader, blending and playback reconstructed for the browser."
+    },
+    {
+      "path": "communitydragon_historico/arquivos/assets/art/vfx/textures/flipbooks/pogflashes/Pog_011_Flash_Flipbook_TX.png",
+      "sha256": "1672de7e5ba79c7b76c5031fbb25c6f1acac3c968472f1dee0c681661a308515",
+      "copiedTo": "assets/lor-motion/summon-flash.png",
+      "limitation": "Original texture reused; shader, blending and playback reconstructed for the browser."
+    }
+  ],
+  "unknowns": [
+    "PPtr tracks unresolved across historical Unity containers",
+    "Original curves and transforms",
+    "Effective runtime durations",
+    "Current-client parity",
+    "Original Wwise sound recordings for these events"
+  ]
+}

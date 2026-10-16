@@ -1,0 +1,242 @@
+.opening-hand {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 24px;
+  background: radial-gradient(ellipse, #12323ceb, #061018fa 78%);
+  text-align: center;
+}
+.opening-hand[hidden],
+.spell-stack[hidden],
+#oracle[hidden],
+#oracle-result[hidden] {
+  display: none;
+}
+.opening-hand h2 {
+  font: 700 clamp(28px, 4vw, 48px) Beaufort;
+  color: #ecd59d;
+  margin: 0;
+}
+.opening-hand p {
+  margin: 0;
+  color: #c9d5d5;
+}
+.opening-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 180px));
+  gap: 20px;
+  margin: 20px 0;
+}
+.opening-card {
+  position: relative;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  transition: transform 0.2s;
+}
+.opening-card img {
+  width: 100%;
+  display: block;
+  filter: drop-shadow(0 12px 14px #000b);
+}
+.opening-card span {
+  display: block;
+  font: 700 13px Beaufort;
+  letter-spacing: 2px;
+  padding: 12px 0;
+  color: #c2cecc;
+}
+.opening-card[aria-pressed="true"] {
+  transform: translateY(-12px);
+}
+.opening-card[aria-pressed="true"] img {
+  filter: drop-shadow(0 0 12px #e5a75c);
+}
+.opening-card[aria-pressed="true"] span {
+  color: #ffce80;
+}
+.choosing-hand .arena > :not(.opening-hand):not(.arena-vignette) {
+  visibility: hidden;
+}
+.spell-stack {
+  position: absolute;
+  top: 43%;
+  left: 23%;
+  width: 54%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  z-index: 7;
+  padding: 10px 0;
+}
+.stack-spell {
+  flex: 0 1 64px;
+  width: 64px;
+  min-width: 0;
+  height: 64px;
+  padding: 3px;
+  border-radius: 50%;
+  border: 2px solid #81dbf5;
+  background: #0a2030;
+  box-shadow: 0 0 12px #5ad1e666;
+  position: relative;
+  animation: prepare-spell 0.25s ease-out;
+}
+.stack-spell.hostile {
+  border-color: #f3ac84;
+  box-shadow: 0 0 12px #d4805966;
+}
+.stack-spell img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.stack-spell b {
+  position: absolute;
+  left: -6px;
+  top: -5px;
+  background: #1d3641;
+  border: 1px solid #b3c4c5;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 11px;
+}
+.stack-spell span {
+  display: none;
+}
+.answering-spell .battle-line {
+  top: 38%;
+}
+.oracle-area {
+  position: absolute;
+  left: 2%;
+  top: 45%;
+  z-index: 8;
+  max-width: 220px;
+}
+#oracle {
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  border: 2px solid #78b5cc;
+  color: #a0e7f7;
+  background: #0b2937;
+  font-size: 28px;
+  box-shadow:
+    inset 0 0 12px #51c6dd44,
+    0 0 0 4px #0c1a24;
+}
+#oracle span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+#oracle[aria-expanded="true"] {
+  background: #236078;
+  box-shadow: 0 0 20px #5dc4df77;
+}
+#oracle-result {
+  margin: 12px 0 0;
+  padding: 12px;
+  border: 1px solid #74a1ac;
+  background: #061923f5;
+  font-size: 12px;
+  line-height: 1.6;
+  color: #dfedf0;
+}
+.answering-spell #pass:not(:disabled) {
+  border-color: #b8f0ff;
+  background: radial-gradient(circle at 35% 25%, #cef4ff, #80b9d1 48%, #42738d);
+  color: #102a3c;
+}
+.dragging-attacker .battle-line {
+  pointer-events: auto;
+  outline: 1px solid #e9cb83;
+  background: #a9843c44;
+}
+.dragging-attacker #enemy-board {
+  outline: 1px dashed #e9cb83;
+}
+@keyframes prepare-spell {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media (max-width: 700px) {
+  .opening-hand {
+    padding: 16px;
+    gap: 8px;
+  }
+  .opening-cards {
+    grid-template-columns: repeat(2, minmax(0, 128px));
+    gap: 6px 20px;
+    margin: 8px 0;
+  }
+  .opening-card span {
+    padding: 3px 0;
+    font-size: 11px;
+  }
+  .opening-card[aria-pressed="true"] {
+    transform: translateY(-4px);
+  }
+  .opening-hand p {
+    font-size: 12px;
+  }
+  .spell-stack {
+    left: 20%;
+    width: 60%;
+    top: 44%;
+    gap: 4px;
+  }
+  .stack-spell {
+    width: 36px;
+    height: 36px;
+    flex-basis: 36px;
+  }
+  .stack-spell b {
+    width: 16px;
+    height: 16px;
+    font-size: 9px;
+  }
+  .oracle-area {
+    top: 46%;
+    left: 2%;
+    max-width: 180px;
+  }
+  #oracle {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+    padding: 0;
+  }
+  #oracle-result {
+    font-size: 11px;
+    padding: 8px;
+  }
+  .answering-spell .battle-line {
+    top: 40%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .stack-spell {
+    animation: none;
+  }
+  .opening-card {
+    transition: none;
+  }
+}

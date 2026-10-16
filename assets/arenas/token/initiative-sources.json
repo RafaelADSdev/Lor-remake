@@ -1,0 +1,290 @@
+{
+  "initiativeChain": [
+    {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 2917402135599677833,
+      "type": "GameObject",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/InitiativeTokenRoot.prefab",
+      "rawSha256": "6c6ea2f3fc772931db832e6402e7f18fbda16315a0ae78fa2bfe405c9e69e271",
+      "name": "InitiativeTokenRoot",
+      "exports": [
+        {
+          "file": "GameObject_2917402135599677833.bin",
+          "sha256": "6c6ea2f3fc772931db832e6402e7f18fbda16315a0ae78fa2bfe405c9e69e271"
+        },
+        {
+          "file": "GameObject_2917402135599677833.json",
+          "sha256": "58b7704ee078d36e40d9350d74f47b70109c5d82b72ab471bc1eb22bbcf1662b"
+        }
+      ]
+    },
+    {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 1409966079181695269,
+      "type": "Mesh",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/InitiativeToken_MD.fbx",
+      "rawSha256": "1472f2409e028a7f1ec8064236bad5f7d8ac713ff7b5a78f45122be22a84c92e",
+      "name": "InitiativeToken_MD_mesh",
+      "exports": [
+        {
+          "file": "Mesh_1409966079181695269.bin",
+          "sha256": "1472f2409e028a7f1ec8064236bad5f7d8ac713ff7b5a78f45122be22a84c92e"
+        },
+        {
+          "file": "Mesh_1409966079181695269.json",
+          "sha256": "a970c9e61732940332336959c6bca592986d394fde1dc078a09df9c887ff7c12"
+        },
+        {
+          "file": "Mesh_1409966079181695269.obj",
+          "sha256": "9c098a7b64d2777b4e3481cacfbdabb3e9adcb3e4ae7369127e700938cf61c1c"
+        }
+      ]
+    },
+    {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": -4523325569452152042,
+      "type": "MonoBehaviour",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Timelines/InitiativetToken_Activate_Timeline.playable",
+      "rawSha256": "c978149164f23bb271356688c4d50a383455bdd1991ad2a45ef44b7e812fbef8",
+      "name": "InitiativetToken_Activate_Timeline",
+      "exports": [
+        {
+          "file": "MonoBehaviour_-4523325569452152042.bin",
+          "sha256": "c978149164f23bb271356688c4d50a383455bdd1991ad2a45ef44b7e812fbef8"
+        },
+        {
+          "file": "MonoBehaviour_-4523325569452152042.json",
+          "sha256": "70f15478cc2f2eecec150a3b8d282239287a116d5819c6b06795ccfa3ce0c956"
+        }
+      ]
+    },
+    {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": -4523325567422316303,
+      "type": "AnimationClip",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Timelines/InitiativetToken_Activate_Timeline.playable",
+      "rawSha256": "915e674bfd6945970932f11f5fe1c7c562cfc0ee5456c5db3c7835cacdf688e6",
+      "name": "Recorded",
+      "exports": [
+        {
+          "file": "AnimationClip_-4523325567422316303.bin",
+          "sha256": "915e674bfd6945970932f11f5fe1c7c562cfc0ee5456c5db3c7835cacdf688e6"
+        },
+        {
+          "file": "AnimationClip_-4523325567422316303.json",
+          "sha256": "dd5811da29e9f6516763d77c78ed0be5e8ac01c5c80cdbf3156adf6be01c6837"
+        }
+      ]
+    },
+    {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 2917402138821105814,
+      "type": "MonoBehaviour",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/InitiativeTokenRoot.prefab",
+      "rawSha256": "0569c0e5f7273996712b388909c940ca2d78135745461c56d58feb68d33a4324",
+      "name": "",
+      "exports": [
+        {
+          "file": "MonoBehaviour_2917402138821105814.bin",
+          "sha256": "0569c0e5f7273996712b388909c940ca2d78135745461c56d58feb68d33a4324"
+        },
+        {
+          "file": "MonoBehaviour_2917402138821105814.json",
+          "sha256": "ee722eb93edb164b60f56f20f0b39b5571308045e81bc359ba0919e944bbbe60"
+        }
+      ]
+    },
+    {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": -4523325569985854028,
+      "type": "MonoBehaviour",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Timelines/InitiativetToken_Activate_Timeline.playable",
+      "rawSha256": "2a1db7322dd039ed42dc6dac177d2c5fcc545f51442fa56aea69a42f467ca28c",
+      "name": "Animation Track",
+      "exports": [
+        {
+          "file": "MonoBehaviour_-4523325569985854028.bin",
+          "sha256": "2a1db7322dd039ed42dc6dac177d2c5fcc545f51442fa56aea69a42f467ca28c"
+        },
+        {
+          "file": "MonoBehaviour_-4523325569985854028.json",
+          "sha256": "ba9bbbafb0b13f834a8ff1536dab8de86a0a9734d72a9585bd5ef808af80a14d"
+        }
+      ]
+    },
+    {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 2917402138300679380,
+      "type": "GameObject",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/InitiativeTokenRoot.prefab",
+      "rawSha256": "28a45de342bee0a1846573fa5307b54d17609acc9861cd606b9996b6d6ee0ed9",
+      "name": "InitiativeToken_Animation",
+      "exports": [
+        {
+          "file": "GameObject_2917402138300679380.bin",
+          "sha256": "28a45de342bee0a1846573fa5307b54d17609acc9861cd606b9996b6d6ee0ed9"
+        },
+        {
+          "file": "GameObject_2917402138300679380.json",
+          "sha256": "ca4a0ee3714d0a25a0075f991badda22f175a8c1870c49ccb0240b499e43278c"
+        }
+      ]
+    },
+    {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 2917402138206512218,
+      "type": "MonoBehaviour",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/InitiativeTokenRoot.prefab",
+      "rawSha256": "6d415e3f1c8372b159848dccd20713cacb809db3786e08b43525130ad9ad69da",
+      "name": "",
+      "exports": [
+        {
+          "file": "MonoBehaviour_2917402138206512218.bin",
+          "sha256": "6d415e3f1c8372b159848dccd20713cacb809db3786e08b43525130ad9ad69da"
+        },
+        {
+          "file": "MonoBehaviour_2917402138206512218.json",
+          "sha256": "96dcaf9c0dc434f62cad75f658931f32a274545f8b6d483f43eecb3c618d9e02"
+        }
+      ]
+    },
+    {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 2917402138948965230,
+      "type": "GameObject",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/InitiativeTokenRoot.prefab",
+      "rawSha256": "53805e8f2de52b1c3e26370c8f01d42b8513f35b5fbf62ceba4d9eb3ff1e863d",
+      "name": "Activate",
+      "exports": [
+        {
+          "file": "GameObject_2917402138948965230.bin",
+          "sha256": "53805e8f2de52b1c3e26370c8f01d42b8513f35b5fbf62ceba4d9eb3ff1e863d"
+        },
+        {
+          "file": "GameObject_2917402138948965230.json",
+          "sha256": "2cac5d168c1dc61ddfe9da5d7b4b4fd05dc0172dbf1f9f73029fda465e70da40"
+        }
+      ]
+    },
+    {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 2917402135701261909,
+      "type": "PlayableDirector",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/InitiativeTokenRoot.prefab",
+      "rawSha256": "3855a45bb3ace9521d17f5cc9edf133581ea461a34bef9c11ba3b10f1125ca61",
+      "name": "",
+      "exports": [
+        {
+          "file": "PlayableDirector_2917402135701261909.bin",
+          "sha256": "3855a45bb3ace9521d17f5cc9edf133581ea461a34bef9c11ba3b10f1125ca61"
+        },
+        {
+          "file": "PlayableDirector_2917402135701261909.json",
+          "sha256": "4f97fd7d6b1c695b166d5cf6386d849e6be5c2007eedc546fc1a3b3638b3e15a"
+        }
+      ]
+    },
+    {
+      "bundle": "9f/23c45ff75d1696cdc52ef5fed3e1ce.bbq",
+      "bundleSha256": "72f3d04ca8465bef6d13f4ddbffb673e2d3f99a87d7d416d7e8e98b9eb0aab5f",
+      "pathId": 9040272080616807251,
+      "type": "Texture2D",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/Initiative_Attack_Token_Color_TX_crispmip.png",
+      "rawSha256": "0c4dfdf8a6432edea7797aa5bbcd4c079b53d13f45e84a2336445bc33a332d51",
+      "name": "Initiative_Attack_Token_Color_TX_crispmip",
+      "exports": [
+        {
+          "file": "Texture2D_9040272080616807251.bin",
+          "sha256": "0c4dfdf8a6432edea7797aa5bbcd4c079b53d13f45e84a2336445bc33a332d51"
+        },
+        {
+          "file": "Texture2D_9040272080616807251.json",
+          "sha256": "ca8b7cf9ed115245a5a9aa6908da02afec05766c29590a2d9614687c1fc06b19"
+        },
+        {
+          "file": "Texture2D_9040272080616807251.png",
+          "sha256": "77f696cf65d86b21a6cf7f01f0fdce1c103385fc0e8b0fe1a029e7d71c5b530d"
+        }
+      ]
+    }
+  ],
+  "shield": {
+    "path": "Assets/Art/VFX/Textures/Unique/UI/Round Indicator/Shield_Fill_Right_Alpha_TX.png",
+    "path_id": 402243861861140860,
+    "type": "Texture2D",
+    "bundle": "3e/190a25ad478d1e6d9ef3adb72ccb11.bbq",
+    "bundleSha256": "5d0d2d291e74a4a83a9c12f654523baaa203faa4d525092a0080f0a12770a34d",
+    "exports": [
+      {
+        "file": "shield.bin",
+        "sha256": "eecd9ec647c461b49b5f11eb195d7337ccf6df892d634e77050cf6623b0ce969"
+      },
+      {
+        "file": "shield.json",
+        "sha256": "e7d77a4e1b7e8e490c045d89a450208f8178b1a1ee452f501dbbb259f663ccb6"
+      },
+      {
+        "file": "shield.png",
+        "sha256": "17c221bc8a216897bb69da0f3679f96a88b2828aef0aea7b9fb5e7c67818fafc"
+      }
+    ]
+  },
+  "reaEvidence": "ev_3886a4b56cbf0d22d71820fc554004d0ff43cd0fa4e5dd68e950fb2ec72f5510",
+  "snapshotSha256": "56a9e48cf008bd199878fedeffc835254cfae2d5dc8288d630d8d507b6594479",
+  "transfer": {
+    "pathId": "-4523325567422316303",
+    "duration": 1.0,
+    "path": "RootPos",
+    "positionStart": [
+      88.0,
+      29.0,
+      -2.1900001
+    ],
+    "positionEnd": [
+      88.0,
+      -29.0,
+      -2.2
+    ],
+    "projection": "Native normalized vertical progress, Z arc, X flip and scale; endpoints mapped to DOM sockets; reverse direction mirrored."
+  },
+  "derived": {
+    "initiative.png": "4a495781ff9c96bf9a77baea33b9f912a65d8b9cc3901222862446c3480c7e0b",
+    "defense-shield.png": "c9c6f3cca8b99d338d6b03b4355776751f4060d914b93288ed5bf1713efa011a"
+  },
+  "socketProjection": {
+    "spriteSize": [
+      336,
+      512
+    ],
+    "sockets": [
+      {
+        "center": [
+          139.3421605389149,
+          472.92620982174356
+        ],
+        "radius": 29.824446578667107,
+        "fitResidual": 0.8790566551162762
+      },
+      {
+        "center": [
+          139.5683292755545,
+          38.48777508715165
+        ],
+        "radius": 30.155675985471515,
+        "fitResidual": 1.0824632870108974
+      }
+    ],
+    "housingSha256": "0555184fd6b1ccc09942ccafa84df74ae064a15f571fd293734c53fde6c334f0"
+  },
+  "shieldRendering": "Original shield-alpha contour and native medallion rim; opaque steel fill and brass trim adapted for browser legibility."
+}

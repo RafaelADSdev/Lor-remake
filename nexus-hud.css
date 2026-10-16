@@ -1,0 +1,124 @@
+/* Compact stone-and-brass health housings, composed around the native meshes. */
+.arena .resources .nexus {
+  --nexus-gem-size: clamp(64px, 6.4cqw, 104px);
+  left: 8.1%;
+  top: calc(var(--duel-center) + 10.5cqh);
+  bottom: auto;
+  width: clamp(110px, 9.4cqw, 153px);
+  height: var(--nexus-gem-size);
+  min-height: 0;
+  max-height: none;
+  transform: translateY(-50%);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  isolation: isolate;
+}
+.arena .opponent .nexus {
+  top: calc(var(--duel-center) - 10.5cqh);
+}
+.arena .resources .nexus::before,
+.arena .resources .nexus.has-nexus-model::before {
+  content: "";
+  display: block;
+  inset: 24% -1% 24% 47%;
+  width: auto;
+  height: auto;
+  transform: none;
+  border: 0;
+  border-radius: 0;
+  background: url("assets/arenas/nexus-health-frame.svg") center / 100% 100% no-repeat;
+  box-shadow: none;
+  clip-path: none;
+  opacity: 1;
+  filter: drop-shadow(1px 3px 2px #0009);
+  z-index: 0;
+}
+.arena .resources .nexus::after {
+  display: none;
+}
+.arena .resources .nexus.has-native-dock::before {
+  display: none;
+}
+.nexus-native-dock {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: fill;
+  pointer-events: none;
+  filter: drop-shadow(1px 3px 3px #0008);
+  z-index: 0;
+}
+.arena .nexus-crystal,
+.arena .nexus-fallback {
+  position: absolute;
+  inset: 0 auto auto -1%;
+  width: var(--nexus-gem-size);
+  height: var(--nexus-gem-size);
+  transform: none;
+  object-fit: contain;
+  pointer-events: none;
+  filter: drop-shadow(1px 3px 2px #0009);
+  z-index: 1;
+}
+.arena .nexus.has-nexus-model .nexus-fallback,
+.arena .nexus:not(.has-nexus-model) .nexus-crystal {
+  display: none;
+}
+.arena .resources .nexus b {
+  position: absolute;
+  inset: 50% 6% auto auto;
+  transform: translateY(-50%);
+  font: 700 clamp(24px, 2.45cqw, 38px) / 1 Beaufort;
+  font-variant-numeric: tabular-nums;
+  color: #fffaf0;
+  text-shadow: 0 2px 2px #000b;
+  z-index: 2;
+}
+.arena .resources .nexus:focus-visible {
+  outline: 2px solid #fff0ba;
+  outline-offset: 4px;
+}
+.arena .arena-center-rule {
+  background: linear-gradient(#9f8250, #4c3925 40%, #7e6036 80%, #241e17);
+}
+.arena .arena-center-rule::before {
+  border-color: #967847;
+  background: radial-gradient(circle at 35% 25%, #8f7446, #54442c 55%, #211e19);
+  box-shadow: 0 0 0 2px #30281b, 1px 3px 5px #0008, inset 0 1px 2px #d1b56a55;
+}
+@media (max-width: 700px) {
+  .arena .resources .nexus {
+    --nexus-gem-size: clamp(48px, 10cqw, 64px);
+    left: 1%;
+    width: clamp(84px, 16cqw, 110px);
+    top: calc(var(--duel-center) + 12cqh);
+  }
+  .arena .opponent .nexus {
+    top: calc(var(--duel-center) - 12cqh);
+  }
+  .arena .resources .nexus b {
+    right: 7%;
+    font-size: 23px;
+  }
+  .arena > .player-bar:not(.opponent) > div:first-child {
+    top: calc(var(--duel-center) + 4cqh);
+    bottom: auto;
+    padding: 4px 7px;
+    font-size: 9px;
+    line-height: 1;
+  }
+  .arena > .player-bar:not(.opponent) .eyebrow {
+    display: block;
+    margin: 0;
+  }
+  .arena > .player-bar:not(.opponent) h2 {
+    font-size: 12px;
+    line-height: 1.2;
+    margin: 2px 0 0;
+  }
+}

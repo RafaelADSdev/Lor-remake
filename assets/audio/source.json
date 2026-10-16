@@ -1,0 +1,13 @@
+{
+  "source": "audio_extraido/216316022_d50767d23b.wav",
+  "sha256": "ab6aafd0272ea6682a5fa1b9d189b95ac2f42d42b7e064cac00c5c3cf88d5ebd",
+  "bank": "cliente_PC/live/Game/LoR_Data/StreamingAssets/Audio/GeneratedSoundBanks/Windows/MU_Patcher_stage0.bnk",
+  "bank_sha256": "2c69fe0275d5ed9a84bd307a3bee2844ed500755e87ef52c76ecbbba6c153b77",
+  "media_id": 216316022,
+  "reference_offsets": [
+    1108,
+    1130
+  ],
+  "seconds": 74.18179166666667,
+  "scope": "Faixa do banco MU_Patcher_stage0; não identificada como trilha de batalha."
+}

@@ -1,0 +1,115 @@
+{
+  "scope": "Historical CommunityDragon local archive; not a current-client runtime capture",
+  "files": [
+    {
+      "file": "rift.png",
+      "source": "assets/assetlibrary/playmats/summonersrift/models/SummonersRift_TX_Color.png",
+      "sha256": "5665239f32df969db1de6052e480c095f4a56a994b6c1cc5ae47c0b79ee8ccf8",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "modified": false
+    },
+    {
+      "file": "demacia.png",
+      "source": "assets/assetlibrary/playmats/demacia/models/Demacia_Playmat_TX_Color.png",
+      "sha256": "f0865aad52df1202582470888ac440ca04abcac78e7afa4cc0663433c41801b2",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "modified": false
+    },
+    {
+      "file": "noxus.png",
+      "source": "assets/assetlibrary/playmats/noxus/models/Noxus_Playmat_TX_Color.png",
+      "sha256": "9743a25d6bdc25c93c4aa3b8fc90716f7ee40d3072ec0cf2635bf7627eb29e71",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "modified": false
+    },
+    {
+      "file": "ionia.png",
+      "source": "assets/assetlibrary/playmats/ionia/models/Ionia_TX_Color.png",
+      "sha256": "450f7af67ea0395ee59da7ad28f9bdacde7b01156fbe2438c3dece79ab3277cb",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "modified": false
+    },
+    {
+      "file": "freljord.png",
+      "source": "assets/assetlibrary/playmats/freljord/models/Freljord_TX_Color.png",
+      "sha256": "bf2397d2d569b61595573b4f140b91bf0340395e3a0cab2c9a0803b344b938e1",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "modified": false
+    },
+    {
+      "file": "piltover.png",
+      "source": "assets/assetlibrary/playmats/piltover/models/Piltover_Playmat_TX_Color.png",
+      "sha256": "944baebe2ca08498c52f8aea23613292ec3a90b7ce29271614b0c3cdba6381be",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "modified": false
+    },
+    {
+      "file": "bilgewater.png",
+      "source": "assets/assetlibrary/playmats/bilgewater/models/Bilgewater_TX_Color.png",
+      "sha256": "63a1f66f03c932284c56ec35c6a31431c2e5a3d1909b8e8adca2437e2561c47b",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "modified": false
+    },
+    {
+      "file": "shadowisles.png",
+      "source": "assets/assetlibrary/playmats/shadowisles/models/ShawdowIsles_TX_Color.png",
+      "sha256": "0fe76a02a70aec0a9c40174e62352e7476fc633a053f11c391b870e51d14a6fc",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "modified": false
+    },
+    {
+      "file": "action-button.png",
+      "source": "assets/assetlibrary/playmats/summonersrift/materials/textures/bigbutton/OneButton_Albedo_nomip.png",
+      "sha256": "bf44da9b238d36a5257290cd5f18231ceacc362a85b5a76fdcbfcc7ed94a7e21",
+      "dimensions": [
+        512,
+        512
+      ],
+      "modified": false
+    },
+    {
+      "file": "neutral-ui.png",
+      "source": "assets/assetlibrary/playmats/neutral_playmat/models/Playmat_Neutral_UI_Color.png",
+      "sha256": "6245d75896165f9f2c56f13fbdd83b5167c1a269f2f8908e3c3f311b4bc7685a",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "modified": false
+    },
+    {
+      "file": "cardback.png",
+      "source": "assets/assetlibrary/cardbacks/textures/Summuners_rift_card_back_crispMip.png",
+      "sha256": "5d8b982c80a76a980c830af321841dbe1bfd3cafa215553ff45dfbb7d5b4fc05",
+      "dimensions": [
+        256,
+        512
+      ],
+      "modified": false
+    }
+  ]
+}

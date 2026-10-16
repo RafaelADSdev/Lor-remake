@@ -1,0 +1,394 @@
+[
+  {
+    "path": "Assets/Art/VFX/Materials/UI/Round Indicator/Initiative_Sword.mat",
+    "path_id": -4135816510397222158,
+    "type": "Material",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/Art/VFX/Textures/Unique/UI/Round Indicator/Initiative_Sword.png",
+    "path_id": 61895386264634912,
+    "type": "Texture2D",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/InitiativeTokenRoot.prefab",
+    "path_id": 2917402135599677833,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Materials/InitiativeToken_Flare_MAT.mat",
+    "path_id": -7893697108231574363,
+    "type": "Material",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Materials/InitiativeToken_MAT.mat",
+    "path_id": -4483993645470245919,
+    "type": "Material",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Materials/InitiativeToken_Motes_MAT.mat",
+    "path_id": 7384523690749422509,
+    "type": "Material",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Materials/InitiativeToken_Reflect_MAT.mat",
+    "path_id": -7366056470708820960,
+    "type": "Material",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Materials/InitiativeToken_RingGlowMain_MAT.mat",
+    "path_id": 2412470560633519492,
+    "type": "Material",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Materials/InitiativeToken_RingGlowTop_MAT.mat",
+    "path_id": 9037685764886478219,
+    "type": "Material",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Materials/InitiativeToken_Socket_Initial_MAT.mat",
+    "path_id": 7627777536771133834,
+    "type": "Material",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Materials/InitiativeToken_Socket_Land_MAT.mat",
+    "path_id": 4161914140459890519,
+    "type": "Material",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Materials/InitiativeToken_Trail_MAT.mat",
+    "path_id": 6192776308198227101,
+    "type": "Material",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+    "path_id": 7474042844749095316,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+    "path_id": 7474042845115439113,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+    "path_id": 7474042844184638109,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+    "path_id": 7474042843925982627,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+    "path_id": 7474042844588084729,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+    "path_id": 7474042844643583394,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+    "path_id": 7474042844354001074,
+    "type": "Mesh",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+    "path_id": 7474042847715094673,
+    "type": "Mesh",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+    "path_id": 7474042847456989975,
+    "type": "Mesh",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+    "path_id": 7474042845014311639,
+    "type": "Mesh",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+    "path_id": 7474042844854255786,
+    "type": "Mesh",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/InitiativeToken_MD.fbx",
+    "path_id": 1409966077264261204,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/InitiativeToken_MD.fbx",
+    "path_id": 1409966079181695269,
+    "type": "Mesh",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Prefabs/AttackToken_Base.prefab",
+    "path_id": 4843569356108537886,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Prefabs/InitiativeToken_Base.prefab",
+    "path_id": -6378436035418841580,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Timelines/InitiativetToken_Activate_Timeline.playable",
+    "path_id": -4523325569452152042,
+    "type": "MonoBehaviour",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Timelines/InitiativetToken_Activate_Timeline.playable",
+    "path_id": -4523325569182150486,
+    "type": "AnimationClip",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Timelines/InitiativetToken_Activate_Timeline.playable",
+    "path_id": -4523325567422316303,
+    "type": "AnimationClip",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/VFX/InitiativeToken_Flare_VFX.prefab",
+    "path_id": -853669525631486017,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/VFX/TurnPass_ButtonEdgingGlow_Half_MD.FBX",
+    "path_id": -2557293634842377888,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/VFX/TurnPass_ButtonEdgingGlow_Half_MD.FBX",
+    "path_id": -2557293638212749833,
+    "type": "Mesh",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/VFX/TurnPass_ButtonEdging_Half_MD.FBX",
+    "path_id": 9078180926828116261,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/VFX/TurnPass_ButtonEdging_Half_MD.FBX",
+    "path_id": 9078180927939168104,
+    "type": "Mesh",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/Prefabs/CoreGameplay/ActionLog/ActionLogRoundIndicator.prefab",
+    "path_id": -2984929708162700139,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/Prefabs/Table/TurnPass/Materials/TurnPass_ButtonHitGlow_MAT.mat",
+    "path_id": -1707806725789492413,
+    "type": "Material",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/Prefabs/Table/TurnPass/Materials/TurnPass_ButtonHit_Initial_MAT.mat",
+    "path_id": 379735569122938243,
+    "type": "Material",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/Prefabs/Table/TurnPass/Materials/TurnPass_ButtonHit_MAT.mat",
+    "path_id": -5895849891356966908,
+    "type": "Material",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/Prefabs/Table/TurnPass/Timelines/TurnPass_Effect_Activate_Timeline.playable",
+    "path_id": -2436355063932571977,
+    "type": "MonoBehaviour",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/Prefabs/Table/TurnPass/TurnPass_Effect.prefab",
+    "path_id": -4792403556115883070,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/Prefabs/Table/TurnPass/VFX/Gradient_TurnPass_TX_crispmip.png",
+    "path_id": 559086704544627693,
+    "type": "Texture2D",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/Prefabs/Table/TurnPass/VFX/TurnPass_ButtonEdgingGlow_MD.FBX",
+    "path_id": -81487554877980602,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/Prefabs/Table/TurnPass/VFX/TurnPass_ButtonEdgingGlow_MD.FBX",
+    "path_id": -81487553394844480,
+    "type": "Mesh",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/Prefabs/Table/TurnPass/VFX/TurnPass_ButtonEdging_MD.FBX",
+    "path_id": -5386413268102212659,
+    "type": "GameObject",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/Prefabs/Table/TurnPass/VFX/TurnPass_ButtonEdging_MD.FBX",
+    "path_id": -5386413268021000077,
+    "type": "Mesh",
+    "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+    "bundle_sha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1"
+  },
+  {
+    "path": "Assets/Prefabs/Table/TurnPass/Gradient_CylinderHor4_Clamp_TX.png",
+    "path_id": -2691316736217007194,
+    "type": "Texture2D",
+    "bundle": "38/38173b2aefe6417afe13cb958cc6d2.bbq",
+    "bundle_sha256": "8674e9dd62b7e31cf01b2d7452d9d6086b43a57573709d47a87b43403f930ca1"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Materials/InitiativeToken_RingPulse_MAT.mat",
+    "path_id": -1022926759635040107,
+    "type": "Material",
+    "bundle": "3f/0276df8e6a67d7dcac75e88ff30f8f.bbq",
+    "bundle_sha256": "72d00590df89f157d55b48b9e478aeca29ea5153fcbeadae066246d78fc0e2e2"
+  },
+  {
+    "path": "Assets/Art/VFX/Textures/Unique/UI/Round Indicator/LensFlare_RoundIndicator_LessBright.png",
+    "path_id": -5869577558722213686,
+    "type": "Texture2D",
+    "bundle": "56/4447dade40e6f4d6c0d21bd849fcc3.bbq",
+    "bundle_sha256": "6b4e48168810de903f5dee9b0afc484d6385a7bd34c7ebf49ac73fc30c5eb285"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_MD.fbx",
+    "path_id": 5453010011692374973,
+    "type": "GameObject",
+    "bundle": "63/fc89c52445bb9792aa70926fc73ec7.bbq",
+    "bundle_sha256": "4ecea83bd9760c7827ea5136348b032160b59368ea692d4710463453483d7617"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_MD.fbx",
+    "path_id": 5453010009143892125,
+    "type": "Mesh",
+    "bundle": "63/fc89c52445bb9792aa70926fc73ec7.bbq",
+    "bundle_sha256": "4ecea83bd9760c7827ea5136348b032160b59368ea692d4710463453483d7617"
+  },
+  {
+    "path": "Assets/Art/VFX/Textures/Unique/UI/Round Indicator/Initiative_Shield_Over_Glow.png",
+    "path_id": 248739904029386170,
+    "type": "Texture2D",
+    "bundle": "79/cc2639e33c1b7938c5b818acc145d6.bbq",
+    "bundle_sha256": "4fcdc9780fe0d60d97a14c10318a06a821d9d6cdb142e31c4ae86315e49af69f"
+  },
+  {
+    "path": "Assets/Prefabs/Table/TurnPass/Gradient_Pass.png",
+    "path_id": 9062614046705624092,
+    "type": "Texture2D",
+    "bundle": "93/75d60fffe700f80403db3128e39504.bbq",
+    "bundle_sha256": "e1018f223a76fe432ea8194bd13b4ca7623a7f7e342cbb7fcb943a8e641935d4"
+  },
+  {
+    "path": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/Initiative_Attack_Token_Color_TX_crispmip.png",
+    "path_id": 9040272080616807251,
+    "type": "Texture2D",
+    "bundle": "9f/23c45ff75d1696cdc52ef5fed3e1ce.bbq",
+    "bundle_sha256": "72f3d04ca8465bef6d13f4ddbffb673e2d3f99a87d7d416d7e8e98b9eb0aab5f"
+  },
+  {
+    "path": "Assets/Art/VFX/Textures/Unique/UI/Round Indicator/LensFlare_RoundIndicator_Grad.png",
+    "path_id": -2491705446775983697,
+    "type": "Texture2D",
+    "bundle": "c3/9880f206059573710bfcce3c802f22.bbq",
+    "bundle_sha256": "def86d80f2c72db3a8cc787729cf5f2aedc3602a7160b01571e5466cadd9fbc8"
+  },
+  {
+    "path": "Assets/Art/VFX/Prefabs/UI/Textures/initiative_ring_mask.png",
+    "path_id": -3600868202953201739,
+    "type": "Texture2D",
+    "bundle": "ed/2c17380a85b1bbf78c6f1238cbd928.bbq",
+    "bundle_sha256": "d9d75a0d6cb5d7642f1c56fdb7f8d6df54f0afeea1448cf11382ce6f887a8325"
+  }
+]

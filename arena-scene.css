@@ -1,0 +1,87 @@
+#arena-geometry {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+.arena .arena-surface {
+  /* An opaque embedded image shields the board from black WebGL composites. */
+  z-index: 1;
+  opacity: 1;
+  display: block;
+  object-fit: fill;
+  max-width: none;
+  background: #19332f;
+  /* Fill the field with the central floor, excluding the native HUD cutouts.
+     The parent clips each enlarged half; the Nexus and controls stay fixed. */
+  left: -33.3333%;
+  width: 166.6667%;
+  height: 100%;
+}
+.arena .arena-surface-enemy {
+  top: auto;
+  bottom: 50%;
+}
+.arena .arena-surface-local {
+  top: 50%;
+  bottom: auto;
+}
+.arena-frame {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  max-width: none;
+  object-fit: fill;
+  z-index: 1;
+  pointer-events: none;
+  mask-image:
+    linear-gradient(90deg, #000 0% 13%, transparent 17.5% 82.5%, #000 87% 100%),
+    linear-gradient(180deg, #000 0% 82%, transparent 99%);
+  mask-composite: intersect;
+}
+.arena-frame[hidden] {
+  display: none;
+}
+.arena-frame-enemy {
+  top: 0;
+  transform: rotate(180deg);
+}
+.arena-frame-local {
+  bottom: 0;
+}
+#arena-preview-art {
+  object-fit: fill;
+}
+.arena .arena-center-rule,
+.arena .home-glow,
+.arena .battle-glow {
+  z-index: 3;
+}
+
+/* The two native 1600 × 500 halves form one 8:5 board.
+   Fit the entire playfield, including its HUD, instead of stretching its art. */
+@media (min-width: 1101px) {
+  .in-duel #game {
+    height: 100%;
+    min-height: 0;
+    display: grid;
+    place-items: center;
+    container-type: size;
+  }
+  .in-duel #game > .game-grid {
+    /* Both dimensions resolve against the sized game viewport, never the
+       intrinsic size of the arena (which itself has size containment). */
+    width: min(100cqw, 160cqh);
+    height: min(100cqh, 62.5cqw);
+    margin-inline: auto;
+  }
+  .in-duel #game > .game-grid > .arena {
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    aspect-ratio: auto;
+  }
+}

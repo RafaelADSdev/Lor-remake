@@ -1,0 +1,27 @@
+{
+  "rendererSha256": "f0e82d7d09f92f1d4248c83166733528e65dbbadace39a60a51718d8526f2e4e",
+  "width": 256,
+  "height": 256,
+  "sprites": [
+    {
+      "count": 2634,
+      "sourceMesh": "blue_crystal_-6176179175671571015.obj",
+      "sourceTexture": "BlueCrystal_TX_-7788748656017317295.png",
+      "meshSha256": "f690b2661a27ae50b6d7cfe801a81c7503dcb689b02f86abd9bcfbcf02e0027d",
+      "textureSha256": "04d2071cf6c2ae6bce3a1e22a3c4e2f4f15157dd7bbbba8674a4623a99140cdf",
+      "file": "assets/arenas/nexus/blue.png",
+      "sha256": "202ec8aae179f64ef2a6b29aabd089cc2a67cc773cd02f49c8b9c9f0ead30fa1",
+      "bytes": 50330
+    },
+    {
+      "count": 2592,
+      "sourceMesh": "Red_crystal_479733317668410737.obj",
+      "sourceTexture": "RedCrystal_TX_-7119359608776867456.png",
+      "meshSha256": "1b97b31f436ff8df9ad3b94dcf73927443719209e27a34537c1f8128fdd6ef4b",
+      "textureSha256": "940302539d7b2b94db85c23bc2b9f39699e2a36fa48183bf0bf3d4557c257975",
+      "file": "assets/arenas/nexus/red.png",
+      "sha256": "a41f56557b50b40a7c64aa7c4ca54a81ffbd747405a0caf67c5dc6023c3268bc",
+      "bytes": 43577
+    }
+  ]
+}

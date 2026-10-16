@@ -1,0 +1,902 @@
+[
+  {
+    "key": "rift",
+    "mesh": "assets_extraidos_atualizados_2026-10-15/arenas/summonersrift/Base_-8987956834434535790.obj",
+    "meshSha256": "bb2e17455f590ac6679cae540f1536cbb8cf7225e822e32c26c99eeb8756cd44",
+    "vertices": 4934,
+    "triangles": 3931,
+    "parts": [
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/summonersrift/BaseUI_-1086666529911271629.obj",
+        "sha256": "b665d774b54d588b5b488879b9f341de6f1b56c143b175b92850d02f1d6421de",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/summonersrift/Base_-8987956834434535790.obj",
+        "sha256": "bb2e17455f590ac6679cae540f1536cbb8cf7225e822e32c26c99eeb8756cd44",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "texture": "assets_extraidos_atualizados_2026-10-15/arenas/summonersrift/SummonersRift_TX_Color_901341859771921620.png",
+    "textureSha256": "1f69d2689ab637f7d85b7f9595c637c3fbf63a9f2f133867912f372402896c3f",
+    "bundleSha256": "172ed00b4f189e4d86772a5fd789de98daf8cf92a3ecf38ca65b558c940a6537",
+    "prefabBundleSha256": "172ed00b4f189e4d86772a5fd789de98daf8cf92a3ecf38ca65b558c940a6537",
+    "file": "rift.png",
+    "projection": "adapted orthographic XY; native UVs and static Base/BaseUI/PlaySurface world transforms; camera faces +Z"
+  },
+  {
+    "key": "demacia",
+    "mesh": "assets_extraidos_atualizados_2026-10-15/arenas/demacia/Base_8458898704880681103.obj",
+    "meshSha256": "14c3da7fe1b14107676c6e9543b6638f0f9fcb06321977cd2d6ebdfad7d82f67",
+    "vertices": 2186,
+    "triangles": 2202,
+    "parts": [
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/demacia/BaseUI_-4077485793691265727.obj",
+        "sha256": "18934f277796951c573a2ed922e98a8edbee5870b781626ccea047789755c223",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/demacia/Base_8458898704880681103.obj",
+        "sha256": "14c3da7fe1b14107676c6e9543b6638f0f9fcb06321977cd2d6ebdfad7d82f67",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "texture": "assets_extraidos_atualizados_2026-10-15/arenas/demacia/Demacia_Playmat_TX_Color_7473267562305894686.png",
+    "textureSha256": "8759ed2a480733f836fe3dcb0b4d26dca91ff6ba23909f0b612932956cd4c7a5",
+    "bundleSha256": "97af34d965a1af65083e28298e806cafca89902588bceb4e05a36cc50b2285cf",
+    "prefabBundleSha256": "97af34d965a1af65083e28298e806cafca89902588bceb4e05a36cc50b2285cf",
+    "file": "demacia.png",
+    "projection": "adapted orthographic XY; native UVs and static Base/BaseUI/PlaySurface world transforms; camera faces +Z"
+  },
+  {
+    "key": "noxus",
+    "mesh": "assets_extraidos_atualizados_2026-10-15/arenas/noxus/Base_5211070410647273924.obj",
+    "meshSha256": "56d01a8b0ab4cf0da85b8aba047a82d441c9ca39e8afa2b8c96aeb2920d1f011",
+    "vertices": 2735,
+    "triangles": 1951,
+    "parts": [
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/noxus/BaseUI_-7692233471591838141.obj",
+        "sha256": "079842cd497780826eb7974a9e03b34945075abc4d3f97a6813f52ced3269538",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/noxus/Base_5211070410647273924.obj",
+        "sha256": "56d01a8b0ab4cf0da85b8aba047a82d441c9ca39e8afa2b8c96aeb2920d1f011",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "texture": "assets_extraidos_atualizados_2026-10-15/arenas/noxus/Noxus_Playmat_TX_Color_-6546014275379409318.png",
+    "textureSha256": "5ec4de805a22acf18b79241d6cd904b08abf7770749c34ef95ea06600f9222af",
+    "bundleSha256": "c4d168896e699673cdccf3f90fe99b5b83b49332dd4ca7985916c4a29b2071f9",
+    "prefabBundleSha256": "c4d168896e699673cdccf3f90fe99b5b83b49332dd4ca7985916c4a29b2071f9",
+    "file": "noxus.png",
+    "projection": "adapted orthographic XY; native UVs and static Base/BaseUI/PlaySurface world transforms; camera faces +Z"
+  },
+  {
+    "key": "ionia",
+    "mesh": "assets_extraidos_atualizados_2026-10-15/arenas/ionia/Base_-510354347392301968.obj",
+    "meshSha256": "9e7d7bbc3022cc67cc171cc0130ac843feefbd11551488b14928194d7bb8030a",
+    "vertices": 3911,
+    "triangles": 4142,
+    "parts": [
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/ionia/Base_-510354347392301968.obj",
+        "sha256": "9e7d7bbc3022cc67cc171cc0130ac843feefbd11551488b14928194d7bb8030a",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "texture": "assets_extraidos_atualizados_2026-10-15/arenas/ionia/Ionia_TX_Color_7945738808372008653.png",
+    "textureSha256": "99fee34fc508512de7dbfb92c59b75d8199eed54fb0a0fdc86ea9ae87fc5310a",
+    "bundleSha256": "d3cb90649058641d565486d710298b29c3fee2e2ae328a417c723276190050f4",
+    "prefabBundleSha256": null,
+    "file": "ionia.png",
+    "projection": "adapted orthographic XY; native UVs and static Base/BaseUI/PlaySurface world transforms; camera faces +Z"
+  },
+  {
+    "key": "freljord",
+    "mesh": "assets_extraidos_atualizados_2026-10-15/arenas/freljord/Base_-8946617120072932997.obj",
+    "meshSha256": "2ab71b74c48da7fb4f1b4cb5d0bbe9b0dbcd552ea18c173014d08e2c39d3d655",
+    "vertices": 3777,
+    "triangles": 2756,
+    "parts": [
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/freljord/BaseUI_609819288389593037.obj",
+        "sha256": "4fb5d7d971eb2a5e5a9d58bca8a1f2e91c729577112009cb6f8df720bc7efa1c",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/freljord/Base_-8946617120072932997.obj",
+        "sha256": "2ab71b74c48da7fb4f1b4cb5d0bbe9b0dbcd552ea18c173014d08e2c39d3d655",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "texture": "assets_extraidos_atualizados_2026-10-15/arenas/freljord/Freljord_TX_Color_-34319311818417807.png",
+    "textureSha256": "127984aec2781912fc38fc017ba0ea4b13f80b3331a881ccc4b8a0c4b3ae6da7",
+    "bundleSha256": "d503b0ff5dfe3371d545235c43b6b3c5dbbf07943b56729944b9b8fa4d471894",
+    "prefabBundleSha256": "d503b0ff5dfe3371d545235c43b6b3c5dbbf07943b56729944b9b8fa4d471894",
+    "file": "freljord.png",
+    "projection": "adapted orthographic XY; native UVs and static Base/BaseUI/PlaySurface world transforms; camera faces +Z"
+  },
+  {
+    "key": "piltover",
+    "mesh": "assets_extraidos_atualizados_2026-10-15/arenas/piltover/Base_49914186012627485.obj",
+    "meshSha256": "6e14d397b2063223e2fb9c1534d10baf6459dcd5f642341418ddf847b2bd75d7",
+    "vertices": 7011,
+    "triangles": 7121,
+    "parts": [
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/piltover/BaseUI_-4139602167522475739.obj",
+        "sha256": "6ee46c541635ae34e2fcc5a748feddc5206a08dc87870b6befca0a36f57ba0ed",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/piltover/Base_49914186012627485.obj",
+        "sha256": "6e14d397b2063223e2fb9c1534d10baf6459dcd5f642341418ddf847b2bd75d7",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "texture": "assets_extraidos_atualizados_2026-10-15/arenas/piltover/Piltover_Playmat_TX_Color_-5866912432352839682.png",
+    "textureSha256": "328d62ca451b8e0b1db63557ee9a526a3f67f9684c68517fdbdcf015cae6186a",
+    "bundleSha256": "788aa18c14b2db0456e6a965c697fe6f602c8b1f916b5f69e2e6606644278f23",
+    "prefabBundleSha256": "788aa18c14b2db0456e6a965c697fe6f602c8b1f916b5f69e2e6606644278f23",
+    "file": "piltover.png",
+    "projection": "adapted orthographic XY; native UVs and static Base/BaseUI/PlaySurface world transforms; camera faces +Z"
+  },
+  {
+    "key": "bilgewater",
+    "mesh": "assets_extraidos_atualizados_2026-10-15/arenas/bilgewater/Base_4440207790930291953.obj",
+    "meshSha256": "6cd6280797626d234384397e5686e849b74adb0cb764c843f0a601b1e3419c72",
+    "vertices": 1265,
+    "triangles": 1400,
+    "parts": [
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/bilgewater/BaseUI_8785401842203787144.obj",
+        "sha256": "68dacae385bcf378413274c5449ed85f8a2cc33ab35048eaaaae982d1d3c6123",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/bilgewater/Base_4440207790930291953.obj",
+        "sha256": "6cd6280797626d234384397e5686e849b74adb0cb764c843f0a601b1e3419c72",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "texture": "assets_extraidos_atualizados_2026-10-15/arenas/bilgewater/Bilgewater_TX_Color_-570072116840748705.png",
+    "textureSha256": "1a837c52f4b3e0cb843f87838197e67b87242e8a9ee720f8e1b563500e66ff37",
+    "bundleSha256": "c9567e9b1e9cc69a9ed951394c51bd8a64da6a97c6112e449ba1c7aec00fc25d",
+    "prefabBundleSha256": "c9567e9b1e9cc69a9ed951394c51bd8a64da6a97c6112e449ba1c7aec00fc25d",
+    "file": "bilgewater.png",
+    "projection": "adapted orthographic XY; native UVs and static Base/BaseUI/PlaySurface world transforms; camera faces +Z"
+  },
+  {
+    "key": "shadowisles",
+    "mesh": "assets_extraidos_atualizados_2026-10-15/arenas/shadowisles/Base_2517208419360853436.obj",
+    "meshSha256": "db6e0ad01f6d1e070a4c6854e21920a61586a20fb25c07af7aeb6541b807f7d7",
+    "vertices": 12005,
+    "triangles": 7211,
+    "parts": [
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/shadowisles/Base_2517208419360853436.obj",
+        "sha256": "db6e0ad01f6d1e070a4c6854e21920a61586a20fb25c07af7aeb6541b807f7d7",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "texture": "assets_extraidos_atualizados_2026-10-15/arenas/shadowisles/ShawdowIsles_TX_Color_9099890320981470083.png",
+    "textureSha256": "413dbf56bbe157de7c823a0b85fd73d650e46ae496cf9052a4e26ddabc85cd32",
+    "bundleSha256": "54d2b43770b0ae191dbf28a1e45d992631533906064dccfef98fba81c43bce7c",
+    "prefabBundleSha256": null,
+    "file": "shadowisles.png",
+    "projection": "adapted orthographic XY; native UVs and static Base/BaseUI/PlaySurface world transforms; camera faces +Z"
+  },
+  {
+    "key": "shurima",
+    "mesh": "assets_extraidos_atualizados_2026-10-15/arenas/regionshurima/Base_3216453781292307788.obj",
+    "meshSha256": "306598a517a1a8f7cd89b78437a6d4898bc04df2715170798286508bb8609387",
+    "vertices": 4260,
+    "triangles": 3058,
+    "parts": [
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/regionshurima/BaseUI_1454077307473778364.obj",
+        "sha256": "9b5b19aa1ed9f1b842150d55b23bd3310bc31b33a9d0d63817cf2e37d552cef4",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/regionshurima/Base_3216453781292307788.obj",
+        "sha256": "306598a517a1a8f7cd89b78437a6d4898bc04df2715170798286508bb8609387",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "texture": "assets_extraidos_atualizados_2026-10-15/arenas/regionshurima/RegionShurima_Playmat_Color_TX_-8689939841562753881.png",
+    "textureSha256": "9cfc61ec64ffb986a128122a34e60166b2fb1d527924f15038dda58c8a02c0ff",
+    "bundleSha256": "4fd19d13654c6ac9e52a0f66a11ff817538624492f7452ba4fae4ebfb9d1f803",
+    "prefabBundleSha256": "4fd19d13654c6ac9e52a0f66a11ff817538624492f7452ba4fae4ebfb9d1f803",
+    "file": "shurima.png",
+    "projection": "adapted orthographic XY; native UVs and static Base/BaseUI/PlaySurface world transforms; camera faces +Z"
+  },
+  {
+    "key": "targon",
+    "mesh": "assets_extraidos_atualizados_2026-10-15/arenas/mounttargon/Base_6486735596696864049.obj",
+    "meshSha256": "a43b43f16fa300c65e8ef98d3cb714f48ab50940bdf1c720b06e09b74a114101",
+    "vertices": 1648,
+    "triangles": 1649,
+    "parts": [
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/mounttargon/BaseUI_8173308664107130062.obj",
+        "sha256": "8fd747a8d170ded79c8b632c51dec035195b3d86919a3e9dad8d856cbe2629fc",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/mounttargon/Base_6486735596696864049.obj",
+        "sha256": "a43b43f16fa300c65e8ef98d3cb714f48ab50940bdf1c720b06e09b74a114101",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "texture": "assets_extraidos_atualizados_2026-10-15/arenas/mounttargon/MountTargon_Playmat_TX_Color_3667567702371139589.png",
+    "textureSha256": "00a1144382b01f57c2af8e5a7bfd7447a5fb6ca4613d2acb00f12357efd3e9d0",
+    "bundleSha256": "3aa19422a8f01dd1e1af8a52420f1f6cea830994458e35b6455ce9e1ffe66caf",
+    "prefabBundleSha256": "3aa19422a8f01dd1e1af8a52420f1f6cea830994458e35b6455ce9e1ffe66caf",
+    "file": "targon.png",
+    "projection": "adapted orthographic XY; native UVs and static Base/BaseUI/PlaySurface world transforms; camera faces +Z"
+  },
+  {
+    "key": "bandlecity",
+    "mesh": "assets_extraidos_atualizados_2026-10-15/arenas/bandlecity/Base_-3972977297415080620.obj",
+    "meshSha256": "59301a38cd7cd6e67fac849e425cf7436162b9b2a4ab4bdd72ae649b68672b3b",
+    "vertices": 3000,
+    "triangles": 3743,
+    "parts": [
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/bandlecity/BaseUI_-3194789738307150184.obj",
+        "sha256": "106413d432a36cabd410dc46daf69b7cd6d8f8a9cf80fcde1964c40f1f88528c",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/bandlecity/Base_-3972977297415080620.obj",
+        "sha256": "59301a38cd7cd6e67fac849e425cf7436162b9b2a4ab4bdd72ae649b68672b3b",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/bandlecity/PlaySurface_6274303672734443791.obj",
+        "sha256": "d7f9af537d79d6b76ee87e59a473399fc9883cff1c49cb18968ea29a0419bf58",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "texture": "assets_extraidos_atualizados_2026-10-15/arenas/bandlecity/BandleCity_Playmat_TX_Color_8963404814341553813.png",
+    "textureSha256": "d3bcc2bddea837500e5aed1b2c0c71491ebe952cec787efe29f856f7f65ab9bc",
+    "bundleSha256": "c7bf46fbb40b02b4f5756261ce54100e1e842a64182d70e75fd311be01be9775",
+    "prefabBundleSha256": "c7bf46fbb40b02b4f5756261ce54100e1e842a64182d70e75fd311be01be9775",
+    "file": "bandlecity.png",
+    "projection": "adapted orthographic XY; native UVs and static Base/BaseUI/PlaySurface world transforms; camera faces +Z"
+  },
+  {
+    "key": "zaun",
+    "mesh": "assets_extraidos_atualizados_2026-10-15/arenas/zaun/Base_3719179965893272988.obj",
+    "meshSha256": "089e04c0bb2206d8510864e2e715200b869a5c9497e2b9bbad93ccf0650003e1",
+    "vertices": 13654,
+    "triangles": 15818,
+    "parts": [
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/zaun/BaseUI_5981502308949544540.obj",
+        "sha256": "c9f82a93baf96c0d57c6b27f077903e1fb27cd87a0da03436b561138ef16d503",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/zaun/Base_3719179965893272988.obj",
+        "sha256": "089e04c0bb2206d8510864e2e715200b869a5c9497e2b9bbad93ccf0650003e1",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      {
+        "source": "assets_extraidos_atualizados_2026-10-15/arenas/zaun/PlaySurface_-679070502271132907.obj",
+        "sha256": "67639adaeef13ca61af2b42153957ba930f71354f2b8ae4098ad5929815945a8",
+        "unityWorldTransform": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    ],
+    "texture": "assets_extraidos_atualizados_2026-10-15/arenas/zaun/Zaun_Playmat_Color_TX_1894356134954819427.png",
+    "textureSha256": "dcde76b825d99001ab0c7ee6ad74ecaef596048acc91c2885a93c22b5ff08895",
+    "bundleSha256": "a0e2020da76edb2249c8b7bdd0ddc63904833a7b891485180e9431dfb94f57d6",
+    "prefabBundleSha256": "a0e2020da76edb2249c8b7bdd0ddc63904833a7b891485180e9431dfb94f57d6",
+    "file": "zaun.png",
+    "projection": "adapted orthographic XY; native UVs and static Base/BaseUI/PlaySurface world transforms; camera faces +Z"
+  }
+]

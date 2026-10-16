@@ -1,0 +1,402 @@
+{
+  "texture": {
+    "bundle": "9f/23c45ff75d1696cdc52ef5fed3e1ce.bbq",
+    "bundleSha256": "72f3d04ca8465bef6d13f4ddbffb673e2d3f99a87d7d416d7e8e98b9eb0aab5f",
+    "pathId": 9040272080616807000,
+    "type": "Texture2D",
+    "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/Initiative_Attack_Token_Color_TX_crispmip.png",
+    "rawSha256": "0c4dfdf8a6432edea7797aa5bbcd4c079b53d13f45e84a2336445bc33a332d51",
+    "name": "Initiative_Attack_Token_Color_TX_crispmip",
+    "exports": [
+      {
+        "file": "Texture2D_9040272080616807251.bin",
+        "sha256": "0c4dfdf8a6432edea7797aa5bbcd4c079b53d13f45e84a2336445bc33a332d51"
+      },
+      {
+        "file": "Texture2D_9040272080616807251.json",
+        "sha256": "ca8b7cf9ed115245a5a9aa6908da02afec05766c29590a2d9614687c1fc06b19"
+      },
+      {
+        "file": "Texture2D_9040272080616807251.png",
+        "sha256": "77f696cf65d86b21a6cf7f01f0fdce1c103385fc0e8b0fe1a029e7d71c5b530d"
+      }
+    ]
+  },
+  "flame": {
+    "texture": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 6922009557475949000,
+      "type": "Texture2D",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/AttackToken/VFX/AttackToken_Flame_Alpha_Flipbook_TX_crispmip.png",
+      "rawSha256": "1a7899cf6a65398399492c492af95cc325c580d056e4bb8b72e9ff92f1edaffe",
+      "name": "AttackToken_Flame_Alpha_Flipbook_TX_crispmip",
+      "exports": [
+        {
+          "file": "Texture2D_6922009557475948872.bin",
+          "sha256": "1a7899cf6a65398399492c492af95cc325c580d056e4bb8b72e9ff92f1edaffe"
+        },
+        {
+          "file": "Texture2D_6922009557475948872.json",
+          "sha256": "3373ed4bcdc6eb22ea378b52fd46ccb439f06df45f8891d40a11eb3acbc179e1"
+        },
+        {
+          "file": "Texture2D_6922009557475948872.png",
+          "sha256": "bd3dc1d6a395839c64dcf9e922dc2a6ea1e840ed1247cafc25eb7ea04fa55e42"
+        }
+      ]
+    },
+    "particleSystem": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": -4423452921485605400,
+      "type": "ParticleSystem",
+      "origin": "Assets/Prefabs/Table/AttackTokenRoot.prefab",
+      "rawSha256": "b4cdda2dde8b0b05fdc448be637f03a1e8335a790f4a1f692f4a051f368241d4",
+      "name": "",
+      "exports": [
+        {
+          "file": "ParticleSystem_-4423452921485605215.bin",
+          "sha256": "b4cdda2dde8b0b05fdc448be637f03a1e8335a790f4a1f692f4a051f368241d4"
+        },
+        {
+          "file": "ParticleSystem_-4423452921485605215.json",
+          "sha256": "36813e5d6d7ec5589778aee95053dc47140684142d59c71ef27c1a1f2e118c0d"
+        }
+      ]
+    },
+    "tilesX": 6,
+    "tilesY": 6,
+    "duration": 1,
+    "nativeLifetime": [
+      0.75,
+      1.25
+    ]
+  },
+  "meshes": {
+    "blade": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": -7572842338828070000,
+      "type": "Mesh",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/AttackToken/Rigs/AttackToken_Neutral_RG.fbx",
+      "rawSha256": "91365010420fe8185c828830d61b8861061610276db3ff968003f60a4252f4fa",
+      "name": "AttackToken_MD",
+      "exports": [
+        {
+          "file": "Mesh_-7572842338828069574.bin",
+          "sha256": "91365010420fe8185c828830d61b8861061610276db3ff968003f60a4252f4fa"
+        },
+        {
+          "file": "Mesh_-7572842338828069574.json",
+          "sha256": "c6617ee8fa5d3f873bb9c63fffae08f8010ba839d4aa518bcc8e3f92de57e1b5"
+        },
+        {
+          "file": "Mesh_-7572842338828069574.obj",
+          "sha256": "0bddb76a157a9ccd2694d64b7569ee540b7002228acc219ebb1b1b7e5b736143"
+        }
+      ]
+    },
+    "defense": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 1409966079181695200,
+      "type": "Mesh",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/InitiativeToken_MD.fbx",
+      "rawSha256": "1472f2409e028a7f1ec8064236bad5f7d8ac713ff7b5a78f45122be22a84c92e",
+      "name": "InitiativeToken_MD_mesh",
+      "exports": [
+        {
+          "file": "Mesh_1409966079181695269.bin",
+          "sha256": "1472f2409e028a7f1ec8064236bad5f7d8ac713ff7b5a78f45122be22a84c92e"
+        },
+        {
+          "file": "Mesh_1409966079181695269.json",
+          "sha256": "a970c9e61732940332336959c6bca592986d394fde1dc078a09df9c887ff7c12"
+        },
+        {
+          "file": "Mesh_1409966079181695269.obj",
+          "sha256": "9c098a7b64d2777b4e3481cacfbdabb3e9adcb3e4ae7369127e700938cf61c1c"
+        }
+      ]
+    },
+    "shard1": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 7474042844354001000,
+      "type": "Mesh",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+      "rawSha256": "105137e852b712913907381d2d726fe97b87a882cc527e21e12fbb951107ea14",
+      "name": "AttackToken_Fracture_001",
+      "exports": [
+        {
+          "file": "Mesh_7474042844354001074.bin",
+          "sha256": "105137e852b712913907381d2d726fe97b87a882cc527e21e12fbb951107ea14"
+        },
+        {
+          "file": "Mesh_7474042844354001074.json",
+          "sha256": "a91a5efd03e44f9ca665525a1b49966004e8342712d9a6fa8dfc112b10841f5e"
+        },
+        {
+          "file": "Mesh_7474042844354001074.obj",
+          "sha256": "a1e3f5734a6d4e0d27bfa9035b386063d36a3b045dabb1e8a8256250db53d54d"
+        }
+      ]
+    },
+    "shard2": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 7474042847715095000,
+      "type": "Mesh",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+      "rawSha256": "18eaf9a1159248c75505d4875c11c28c4df72d2e9fdbf72ce8fd7c88b4cd57e3",
+      "name": "AttackToken_Fracture_002",
+      "exports": [
+        {
+          "file": "Mesh_7474042847715094673.bin",
+          "sha256": "18eaf9a1159248c75505d4875c11c28c4df72d2e9fdbf72ce8fd7c88b4cd57e3"
+        },
+        {
+          "file": "Mesh_7474042847715094673.json",
+          "sha256": "b3fa38788ddf8efbfd5835bce0690d13c12eea5a1a3f98e98fc5c7aa973e909c"
+        },
+        {
+          "file": "Mesh_7474042847715094673.obj",
+          "sha256": "2d4d9b8316bf8f425c6815847c33dcf39118e5d832feb19470bcb6a3266c6452"
+        }
+      ]
+    },
+    "shard3": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 7474042847456990000,
+      "type": "Mesh",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+      "rawSha256": "64ba004d8ccbfdb727e957f9c01da6a7ac21e1375861255d92e6d7372de7c6e7",
+      "name": "AttackToken_Fracture_003",
+      "exports": [
+        {
+          "file": "Mesh_7474042847456989975.bin",
+          "sha256": "64ba004d8ccbfdb727e957f9c01da6a7ac21e1375861255d92e6d7372de7c6e7"
+        },
+        {
+          "file": "Mesh_7474042847456989975.json",
+          "sha256": "43e0d76b295b3389f6138a4cb888197bf3e0fc1422302ea59157d25937ed489f"
+        },
+        {
+          "file": "Mesh_7474042847456989975.obj",
+          "sha256": "342fa9f18ce4a0ec48603e9bc7861161d9dc84189f39214a4c40db4db81ff9d7"
+        }
+      ]
+    },
+    "shard4": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 7474042845014312000,
+      "type": "Mesh",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+      "rawSha256": "542663b356d3669b9016285b05521bfc86dfe28e3fa7386739cb9a92a714db26",
+      "name": "AttackToken_Fracture_004",
+      "exports": [
+        {
+          "file": "Mesh_7474042845014311639.bin",
+          "sha256": "542663b356d3669b9016285b05521bfc86dfe28e3fa7386739cb9a92a714db26"
+        },
+        {
+          "file": "Mesh_7474042845014311639.json",
+          "sha256": "700217cc5b7e8cd5bf8a10ae594aff55298e3fb41905b62add7342aa82d4c2e8"
+        },
+        {
+          "file": "Mesh_7474042845014311639.obj",
+          "sha256": "a0a91f9e42579bf600d66f836564ecb2f81e4a9b5559f9c42e09b18f52c0d0cb"
+        }
+      ]
+    },
+    "shard5": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": 7474042844854256000,
+      "type": "Mesh",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Models/AttackToken_Fracture_MD.fbx",
+      "rawSha256": "dfee1edde027cd3bb69c36bd5a5838daee80e5b35d4d7b8d63bb2b3eb8defaa3",
+      "name": "AttackToken_Fracture_005",
+      "exports": [
+        {
+          "file": "Mesh_7474042844854255786.bin",
+          "sha256": "dfee1edde027cd3bb69c36bd5a5838daee80e5b35d4d7b8d63bb2b3eb8defaa3"
+        },
+        {
+          "file": "Mesh_7474042844854255786.json",
+          "sha256": "21bf193ba32c7f365ac63cc19a898a24a364d1c5b084bd3aa77cc33fcfb4a1c2"
+        },
+        {
+          "file": "Mesh_7474042844854255786.obj",
+          "sha256": "b78bfc45dc4162db42d4156c914c971d774c2803859b3cf754d4127a181007e7"
+        }
+      ]
+    }
+  },
+  "clips": {
+    "idle": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": -3216709456795182600,
+      "type": "AnimationClip",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/AttackToken/Animations/AttackToken_Neutral_RG@AttackToken_AN.fbx",
+      "rawSha256": "a309d60e2de5e13c137f1b414251473de7fe02d3047e37df135a753f0d65ab9b",
+      "name": "Idle",
+      "exports": [
+        {
+          "file": "AnimationClip_-3216709456795182560.bin",
+          "sha256": "a309d60e2de5e13c137f1b414251473de7fe02d3047e37df135a753f0d65ab9b"
+        },
+        {
+          "file": "AnimationClip_-3216709456795182560.json",
+          "sha256": "adaa36fb381fe301db507d07480714624ea6646d183c10d9be8e0b0adc5b644b"
+        }
+      ],
+      "duration": 2.000000238418579,
+      "tracks": [
+        "Export/Bones/Root/Main/Sword",
+        "Export/Bones/Root/Main"
+      ]
+    },
+    "punch": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": -3216709458205192700,
+      "type": "AnimationClip",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/AttackToken/Animations/AttackToken_Neutral_RG@AttackToken_AN.fbx",
+      "rawSha256": "179ab361dbfa8ebbf1059ca2a8c877cdbc6c0a6944a619323b07f1e5971c634d",
+      "name": "Punch",
+      "exports": [
+        {
+          "file": "AnimationClip_-3216709458205192947.bin",
+          "sha256": "179ab361dbfa8ebbf1059ca2a8c877cdbc6c0a6944a619323b07f1e5971c634d"
+        },
+        {
+          "file": "AnimationClip_-3216709458205192947.json",
+          "sha256": "cd5de783b7a51a61af7c7cfe2be9c598cad4e82c843e97f7c1e53adb1790af35"
+        }
+      ],
+      "duration": 0.8000001907348633,
+      "tracks": [
+        "Export/Bones/Root/Main/Sword",
+        "Export/Bones/Root/Main"
+      ]
+    },
+    "ignite": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": -3216709459361067500,
+      "type": "AnimationClip",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/AttackToken/Animations/AttackToken_Neutral_RG@AttackToken_AN.fbx",
+      "rawSha256": "e6b337173cb344f2e883a22ec0b15fc1e0a4b61110038875770ecb6bcb321c91",
+      "name": "Ignite",
+      "exports": [
+        {
+          "file": "AnimationClip_-3216709459361067319.bin",
+          "sha256": "e6b337173cb344f2e883a22ec0b15fc1e0a4b61110038875770ecb6bcb321c91"
+        },
+        {
+          "file": "AnimationClip_-3216709459361067319.json",
+          "sha256": "932754bf6cbd36ccf74e4641eee396e876752fa14f0e7facd0828f4cb0dc6bd6"
+        }
+      ],
+      "duration": 0.26666736602783203,
+      "tracks": [
+        "Export/Bones/Root/Main/Sword",
+        "Export/Bones/Root/Main"
+      ]
+    },
+    "assemble": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": -4523325569182150700,
+      "type": "AnimationClip",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/InitiativeToken/Timelines/InitiativetToken_Activate_Timeline.playable",
+      "rawSha256": "4eb350a50adc1db332304f13f59f86245e98cc0b54afcde182a3d0ec53f29483",
+      "name": "Recorded (1)",
+      "exports": [
+        {
+          "file": "AnimationClip_-4523325569182150486.bin",
+          "sha256": "4eb350a50adc1db332304f13f59f86245e98cc0b54afcde182a3d0ec53f29483"
+        },
+        {
+          "file": "AnimationClip_-4523325569182150486.json",
+          "sha256": "05d5252a484b78a73ebd1dabaeaa3f901cd494d490dfe11d1647cf4f5407fbd5"
+        }
+      ],
+      "duration": 1.1166666746139526,
+      "tracks": [
+        "AttackToken_Fracture_MD/AttackToken_Fracture_002",
+        "AttackToken_Fracture_MD/AttackToken_Fracture_001",
+        "AttackToken_Fracture_MD/AttackToken_Fracture_005",
+        "AttackToken_Fracture_MD/AttackToken_Fracture_004",
+        "AttackToken_Fracture_MD/AttackToken_Fracture_003",
+        "AttackToken_Fracture_MD"
+      ]
+    },
+    "consume": {
+      "bundle": "2b/4f2adf1fb53b93fd68946b7ce147f2.bbq",
+      "bundleSha256": "24639eb04ad3ef08b63483f45ef8b1ffb90e455a6024f34043235fb7e30ca7d1",
+      "pathId": -58852017857384700,
+      "type": "AnimationClip",
+      "origin": "Assets/AssetLibrary/Playmats/Neutral_Playmat/AttackToken/Timelines/AttackToken_Unavailable_Activate_Timeline.playable",
+      "rawSha256": "94039b4a0e91ef33159f614bcbd19ccac32e70a4e9649ce6ff3a59bc770469ed",
+      "name": "Recorded",
+      "exports": [
+        {
+          "file": "AnimationClip_-58852017857384705.bin",
+          "sha256": "94039b4a0e91ef33159f614bcbd19ccac32e70a4e9649ce6ff3a59bc770469ed"
+        },
+        {
+          "file": "AnimationClip_-58852017857384705.json",
+          "sha256": "8a615df7e7ecb57a2270d8e8129c6eef915f93f8fae8a511d880929fdafd9ef5"
+        }
+      ],
+      "duration": 0.4166666567325592,
+      "tracks": [
+        "Position/UnavailableVFX/AttackToken_Fracture_MD/AttackToken_Fracture_001",
+        "Position/UnavailableVFX/AttackToken_Fracture_MD/AttackToken_Fracture_002",
+        "Position/UnavailableVFX/AttackToken_Fracture_MD/AttackToken_Fracture_003",
+        "Position/UnavailableVFX/AttackToken_Fracture_MD/AttackToken_Fracture_004",
+        "Position/UnavailableVFX/AttackToken_Fracture_MD/AttackToken_Fracture_005",
+        "Position",
+        "Position/UnavailableVFX/Unavailble_Energy"
+      ]
+    }
+  },
+  "reaEvidence": "ev_9d7cdbcab755bcb4cd2e28b40b27f53c4b2a247c5e1ed07e3924b29f39c7797d",
+  "projection": "OBJ XY/UV; 20 source units per blade sprite; native samples at 60Hz plus key times",
+  "sprites": {
+    "blade": {
+      "sha256": "2038b13629a94dc817c01248179a33f04119c179a066ebd7a2415f92c8e99334",
+      "triangles": 816
+    },
+    "defense": {
+      "sha256": "4a495781ff9c96bf9a77baea33b9f912a65d8b9cc3901222862446c3480c7e0b",
+      "triangles": 816
+    },
+    "shard1": {
+      "sha256": "9f94cb41685c64e1377e68ca16ff74c17f1173984b3405c1cb27829033b4bcaa",
+      "triangles": 100
+    },
+    "shard2": {
+      "sha256": "a6112c162eb62097dfc43fadddc6e4f792ed8ebcc11d46eefbc258176c520781",
+      "triangles": 110
+    },
+    "shard3": {
+      "sha256": "fbc91cc2f1c157d7de6879a6b6aa7c370dd6158fe9985d7b355a3b4dceee461c",
+      "triangles": 208
+    },
+    "shard4": {
+      "sha256": "48e8c87430fe05e3820a355adbe485ed2914a0037b3a4ae7fb1d674d6e6aa2aa",
+      "triangles": 144
+    },
+    "shard5": {
+      "sha256": "04e87fb6f904d18be84db93ed49a146697c4ac8bf23d5a0118d58b02971b28b6",
+      "triangles": 532
+    }
+  }
+}

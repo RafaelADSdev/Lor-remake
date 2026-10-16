@@ -1,0 +1,118 @@
+.arena .board .card.spell-target {
+  outline: 2px solid #95eddf;
+  outline-offset: 5px;
+  box-shadow: 0 0 22px #6be7df88 !important;
+  cursor: crosshair;
+}
+.arena .nexus.spell-target {
+  outline: 3px solid #95eddf;
+  outline-offset: 5px;
+  cursor: crosshair;
+}
+.arena .board .card.spell-target-picked { outline-color: #ffe4a2; box-shadow: 0 0 0 3px #ffe4a288 !important; }
+.arena .board .card.spell-target::after {
+  content: "ESCOLHER ALVO";
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  font: 700 9px Beaufort;
+  white-space: nowrap;
+  color: #c8fff5;
+  background: #103a40;
+  padding: 4px 8px;
+}
+.fx-buff-card {
+  position: fixed;
+  width: 140px;
+  height: 212px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 18px #e4a76488);
+}
+.fx-buff-missile {
+  position: fixed;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #fff3d1;
+  box-shadow:
+    0 0 14px 8px var(--buff-color),
+    0 0 45px 12px var(--buff-color);
+}
+.fx-buff-rune {
+  position: fixed;
+  border: 3px solid var(--buff-color);
+  box-shadow:
+    inset 0 0 24px var(--buff-color),
+    0 0 22px var(--buff-color);
+  clip-path: polygon(
+    15% 0,
+    85% 0,
+    100% 15%,
+    100% 85%,
+    85% 100%,
+    15% 100%,
+    0 85%,
+    0 15%
+  );
+}
+.fx-buff-gain {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff4dc;
+  font: 700 23px Beaufort;
+  white-space: nowrap;
+  text-shadow:
+    0 2px 5px #000,
+    0 0 18px var(--buff-color);
+}
+.fx-buff-spark {
+  position: fixed;
+  width: 4px !important;
+  height: 12px !important;
+  background: #fff1c7;
+  box-shadow: 0 0 8px 2px var(--buff-color);
+}
+.music-volume {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  color: #b6cbd2;
+}
+.music-volume input {
+  width: 65px;
+  accent-color: #d8be85;
+}
+.header-actions {
+  flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+  .fx-buff-card {
+    width: 108px;
+    height: 164px;
+  }
+  .fx-buff-gain {
+    font-size: 17px;
+  }
+  .music-volume input {
+    width: 48px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .fx-buff-card,
+  .fx-buff-missile,
+  .fx-buff-rune,
+  .fx-buff-spark {
+    display: none;
+  }
+}
+.full-motion
+  :is(.fx-buff-card, .fx-buff-missile, .fx-buff-rune, .fx-buff-spark) {
+  display: block;
+}
+.full-motion .champion-evolution {
+  display: flex;
+}

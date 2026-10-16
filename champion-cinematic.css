@@ -1,0 +1,29 @@
+.champion-cinematic {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: #03080df2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+}
+.champion-cinematic video {
+  width: min(100vw, 1600px);
+  max-height: 82vh;
+  object-fit: contain;
+}
+.champion-cinematic p {
+  font: 700 clamp(14px, 2vw, 22px) Beaufort;
+  color: #f0d595;
+  margin: 14px 20px;
+  text-align: center;
+}
+.champion-cinematic button {
+  font: 16px Univers;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  color: #ffe4a8;
+}

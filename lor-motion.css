@@ -1,0 +1,247 @@
+/* Marker/card transitions and source textures, distinct from the arena painting. */
+.fx-reveal {
+  position: fixed;
+  perspective: 900px;
+  pointer-events: none;
+  filter: drop-shadow(0 14px 28px #000b);
+  z-index: 3;
+  transform-origin: 50% 50%;
+}
+.fx-reveal img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.fx-texture {
+  position: fixed;
+  background-size: 100% 100%;
+  background-position: center;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  z-index: 5;
+}
+.fx-reveal-shine {
+  opacity: 0;
+  filter: sepia(0.35);
+  border-radius: 8px;
+}
+.fx-death-crack {
+  z-index: 6;
+}
+.fx-shard {
+  pointer-events: none;
+  filter: drop-shadow(0 3px 4px #0009);
+}
+#effects-layer .fx-combat-card {
+  transform: none;
+}
+.fx-combat-card img {
+  mask-image: none;
+}
+.motion-playing .arena-vignette {
+  background: radial-gradient(ellipse at center, transparent 5%, #06101a66 80%);
+}
+:is(.arena, #effects-layer) .hand .card {
+  height: 190px;
+  width: 126px;
+  flex-basis: 126px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 0;
+}
+:is(.arena, #effects-layer) .hand .card img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  mask-image: none;
+  border-radius: 0;
+}
+:is(.arena, #effects-layer) .hand .card .cost,
+:is(.arena, #effects-layer) .hand .card .card-name,
+:is(.arena, #effects-layer) .hand .card .stats {
+  display: none;
+}
+:is(.arena, #effects-layer) .hand .card[data-type="spell"] {
+  border: 0;
+  border-radius: 0;
+}
+:is(.arena, #effects-layer) .hand .card[data-type="spell"] img {
+  border-radius: 0;
+}
+:is(.arena, #effects-layer) > .board > .card {
+  height: 141px;
+  border-radius: 8px 8px 14px 14px;
+}
+:is(.arena, #effects-layer) > .board > .card img {
+  height: 104px;
+  object-position: 50% 40%;
+}
+:is(.arena, #effects-layer) > .board > .card .cost {
+  display: none;
+}
+:is(.arena, #effects-layer) > .board > .card .card-name {
+  bottom: 20px;
+  font-size: 11px;
+}
+:is(.arena, #effects-layer) > .board > .card .keyword-marks {
+  bottom: 36px;
+}
+.arena .card.attacking {
+  transform: translateY(var(--combat-shift, -18px));
+  border-color: #ecb376;
+}
+.arena .card.blocking {
+  transform: translateY(var(--combat-shift, 18px));
+}
+.deck-stack {
+  position: absolute;
+  right: 4%;
+  width: 43px;
+  height: 64px;
+  z-index: 1;
+  pointer-events: none;
+  border: 2px solid #b59a68;
+  border-radius: 3px;
+  background: radial-gradient(ellipse, #345b6e, #0a1c2e 65%);
+  box-shadow:
+    3px 3px 0 #6b5b3f,
+    5px 5px 0 #0b1b26,
+    7px 7px 0 #6b5b3f,
+    0 10px 12px #000a;
+  display: grid;
+  place-items: center;
+  color: #d0b474;
+  font: 26px Beaufort;
+}
+.deck-stack:after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  border: 1px solid #7a815e;
+}
+.deck-enemy {
+  top: 11%;
+}
+.deck-local {
+  bottom: 5%;
+}
+.combat-links {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+  overflow: visible;
+}
+.combat-links path {
+  fill: none;
+  stroke: #e2cda1;
+  stroke-width: 1.5;
+  stroke-dasharray: 4 5;
+  opacity: 0.65;
+  filter: drop-shadow(0 0 3px #d4b771);
+}
+@media (min-width: 1600px) {
+  :is(.arena, #effects-layer) .hand .card {
+    height: 215px;
+    width: 143px;
+    flex-basis: 143px;
+  }
+  :is(.arena, #effects-layer) > .board > .card {
+    height: 164px;
+  }
+  :is(.arena, #effects-layer) > .board > .card img {
+    height: 124px;
+  }
+}
+@media (max-width: 1100px) {
+  :is(.arena, #effects-layer) .hand .card {
+    height: 170px;
+    width: 113px;
+    flex-basis: 113px;
+  }
+  :is(.arena, #effects-layer) > .board > .card {
+    height: 129px;
+  }
+  :is(.arena, #effects-layer) > .board > .card img {
+    height: 92px;
+  }
+  .deck-stack {
+    right: 4%;
+    width: 36px;
+    height: 52px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 700px) {
+  :is(.arena, #effects-layer) .hand .card {
+    height: 126px;
+    width: 83px;
+    flex-basis: 83px;
+  }
+  :is(.arena, #effects-layer) > .board > .card {
+    height: 117px;
+  }
+  :is(.arena, #effects-layer) > .board > .card img {
+    height: 82px;
+  }
+  :is(.arena, #effects-layer) > .board > .card .card-name {
+    font-size: 9px;
+    bottom: 18px;
+  }
+  :is(.arena, #effects-layer) > .board > .card .keyword-marks {
+    bottom: 33px;
+  }
+  .deck-stack {
+    display: none;
+  }
+  .arena .card.attacking {
+    transform: translateY(-10px);
+  }
+  .arena .card.blocking {
+    transform: translateY(10px);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .arena .card.attacking,
+  .arena .card.blocking {
+    transform: none;
+  }
+  .motion-playing .arena-vignette {
+    background: none;
+  }
+}
+#effects-layer .fx-combat-card img,
+#effects-layer .fx-shard img {
+  height: 75%;
+  object-fit: cover;
+}
+#effects-layer .fx-combat-card .cost,
+#effects-layer .fx-shard .cost {
+  display: none;
+}
+@media (min-width: 701px) {
+  :is(.arena, #effects-layer) > .board > .card {
+    flex-shrink: 1;
+    min-width: 0;
+  }
+}
+@media (max-width: 700px) {
+  .deck-stack {
+    display: grid;
+    width: 23px;
+    height: 34px;
+    right: 3%;
+    font-size: 15px;
+  }
+  .deck-enemy {
+    top: 12.5%;
+  }
+  .deck-local {
+    bottom: 3%;
+  }
+}

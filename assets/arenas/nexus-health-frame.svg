@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 64" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="stone" x2="0" y2="1"><stop stop-color="#4a4438"/><stop offset=".4" stop-color="#242522"/><stop offset="1" stop-color="#101717"/></linearGradient>
+    <linearGradient id="brass" x2="0" y2="1"><stop stop-color="#d3b878"/><stop offset=".45" stop-color="#9a7946"/><stop offset="1" stop-color="#66502f"/></linearGradient>
+  </defs>
+  <path d="m3 5 86-4 6 60-93-4z" fill="url(#stone)" stroke="#241e14" stroke-width="2"/>
+  <path d="m7 9 78-4 5 51-83-3z" fill="#121718" stroke="url(#brass)" stroke-width="2"/>
+  <path d="m11 12 70-3 4 43-74-3z" fill="#101719" stroke="#454334"/>
+  <path d="m8 8 77-4 1 5-75 3z" fill="#c5a66c" opacity=".45"/>
+</svg>

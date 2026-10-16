@@ -1,0 +1,82 @@
+[
+  {
+    "path": "assets_extraidos_atualizados_2026-10-15/arenas/piltover/BaseUI_-4139602167522475739.obj",
+    "sha256": "6ee46c541635ae34e2fcc5a748feddc5206a08dc87870b6befca0a36f57ba0ed",
+    "bytes": 10991
+  },
+  {
+    "path": "assets_extraidos_atualizados_2026-10-15/arenas/piltover/BaseUI_-4139602167522475739.raw.bin",
+    "sha256": "6c0c8ccf5d2a86e11a88fbf50cb254b661aa5b88f737b11bfddcb7463847d9c8",
+    "bytes": 3588
+  },
+  {
+    "path": "assets_extraidos_atualizados_2026-10-15/arenas/piltover/BaseUI_-4139602168128688171.json",
+    "sha256": "7cf6f396f6f1cb021d04fa24ad22c531a8f5a9e7a768e5aa5af3d5bf9380e3aa",
+    "bytes": 442
+  },
+  {
+    "path": "assets_extraidos_atualizados_2026-10-15/arenas/piltover/BaseUI_-4139602168128688171.raw.bin",
+    "sha256": "1889c08276e0e241a9cee99983696ff895cd1b140c8ce6cb73deebff9e68f973",
+    "bytes": 59
+  },
+  {
+    "path": "assets_extraidos_atualizados_2026-10-15/arenas/piltover/Piltover_Gear_1_8487359232554652353.json",
+    "sha256": "754f1fa0184c5a995d5ad3bede93210e1399a794a3ef95deb6e6b26173c89d91",
+    "bytes": 448
+  },
+  {
+    "path": "assets_extraidos_atualizados_2026-10-15/arenas/piltover/Piltover_Gear_1_8487359232554652353.raw.bin",
+    "sha256": "ca979920b74fd413f9286d8a33dd54c8ff6e2e6236d3654a2993a2f7323ed9ee",
+    "bytes": 67
+  },
+  {
+    "path": "assets_extraidos_atualizados_2026-10-15/arenas/piltover/Piltover_Gear_1_8487359235459223492.obj",
+    "sha256": "b6ae4738c32c4607a26f3d1c622cdf34b4c2b210d85d4bdf16113fe05c98f78c",
+    "bytes": 24057
+  },
+  {
+    "path": "assets_extraidos_atualizados_2026-10-15/arenas/piltover/Piltover_Gear_1_8487359235459223492.raw.bin",
+    "sha256": "9482748954ce1b145da76b68c39e6c713a7c69d18ef9f3443924aa73a06e1cb1",
+    "bytes": 8688
+  },
+  {
+    "path": "jogo_offline/assets/arenas/current/piltover.png",
+    "sha256": "328d62ca451b8e0b1db63557ee9a526a3f67f9684c68517fdbdcf015cae6186a",
+    "bytes": 1970888
+  },
+  {
+    "path": "jogo_offline/assets/arenas/neutral-ui.png",
+    "sha256": "6245d75896165f9f2c56f13fbdd83b5167c1a269f2f8908e3c3f311b4bc7685a",
+    "bytes": 413250
+  },
+  {
+    "path": "jogo_offline/assets/arenas/current/sources.json",
+    "sha256": "9918a6ccd575caef31ffea186f388de6a384d9961c86ea79a3bd11e14047aaa3",
+    "bytes": 25645
+  },
+  {
+    "path": "jogo_offline/assets/arenas/hud/ui-tray.obj",
+    "sha256": "4a612792610c68abde7475500393faa78d06b48712b255c5972e7fdfde9bb77e",
+    "bytes": 191579
+  },
+  {
+    "path": "jogo_offline/assets/arenas/hud/spell-mana-tray.obj",
+    "sha256": "92e58820811531476566e033dead4c871d92d0418cd6528fa8360b99a9b4ca32",
+    "bytes": 173656
+  },
+  {
+    "path": "jogo_offline/assets/arenas/hud/neutral-ui.png",
+    "sha256": "f7d5631f1e5bc2cbf27a998a138ccac0073e56339f935389bdc7e5aecda8856b",
+    "bytes": 399988
+  },
+  {
+    "path": "jogo_offline/assets/arenas/hud/neutral-hud-material.json",
+    "sha256": "044323544ba2d8ed61a85cd7067966e13f82c4ac2aaff6a91ec9a249c1e5e5c4",
+    "bytes": 3666
+  },
+  {
+    "path": "jogo_offline/assets/arenas/hud/sources.json",
+    "sha256": "39eb14938fe5e8dd4209ce8cee0513d959be07a5b4b4c247c73711071d204587",
+    "bytes": 29965
+  }
+]

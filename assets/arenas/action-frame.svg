@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300">
+<defs><linearGradient id="metal" x2="1" y2="1"><stop stop-color="#5a5140"/><stop offset=".28" stop-color="#252c2e"/><stop offset=".7" stop-color="#171c20"/><stop offset="1" stop-color="#6c543b"/></linearGradient><linearGradient id="gold"><stop stop-color="#ddbe77"/><stop offset=".5" stop-color="#695132"/><stop offset="1" stop-color="#bfa372"/></linearGradient></defs>
+<path d="M19 9 Q48 10 71 27 L129 39 Q184 66 185 150 Q184 234 129 261 L71 273 Q48 290 19 291 L28 239 Q80 245 102 222 A77 77 0 0 0 102 78 Q80 55 28 61Z" fill="url(#metal)" stroke="url(#gold)" stroke-width="3"/>
+<path d="M26 17 L34 51 Q79 44 110 71 A85 85 0 0 1 110 229 Q79 256 34 249 L26 283 M132 48 Q174 76 175 150 Q174 224 132 252" fill="none" stroke="#90754c" stroke-width="1.5"/>
+<g fill="#192126" stroke="#b29460" stroke-width="2"><circle cx="92" cy="25" r="15"/><circle cx="121" cy="33" r="9"/><circle cx="141" cy="43" r="7"/><circle cx="92" cy="275" r="15"/><circle cx="121" cy="267" r="9"/><circle cx="141" cy="257" r="7"/></g>
+<g stroke="#785f42" stroke-width="6"><path d="M62 52 L65 66 M84 53 L86 68 M107 58 L103 72 M129 69 L120 82 M147 87 L135 97 M160 110 L146 115 M164 135 L151 136 M164 165 L151 164 M160 190 L146 185 M147 213 L135 203 M129 231 L120 218 M107 242 L103 228 M84 247 L86 232 M62 248 L65 234"/></g></svg>

@@ -1,0 +1,679 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Runeterra • Mesa offline</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="arena.css" />
+    <link rel="stylesheet" href="lor-motion.css" />
+    <link rel="stylesheet" href="champions.css" />
+    <link rel="stylesheet" href="duel-ui.css" />
+    <link rel="stylesheet" href="deck-builder.css?v=0.30" />
+    <link rel="stylesheet" href="spell-presentation.css" />
+    <link rel="stylesheet" href="combat-clarity.css?v=0.29" />
+    <link rel="stylesheet" href="arena-themes.css" />
+    <link rel="stylesheet" href="video-motion.css" />
+    <link rel="stylesheet" href="arena-ambient.css?v=0.20" />
+    <link rel="stylesheet" href="champion-cinematic.css" />
+    <link rel="stylesheet" href="duel-polish.css?v=names1" />
+    <link rel="stylesheet" href="arena-scene.css?v=0.25" />
+    <link rel="stylesheet" href="nexus-hud.css?v=0.25" />
+    <link rel="stylesheet" href="duel-outcome.css?v=0.24" />
+    <link rel="stylesheet" href="welcome.css?v=0.30.2" />
+    <link rel="stylesheet" href="header.css?v=2" />
+    <link rel="stylesheet" href="card-effects.css?v=0.29" />
+    <link rel="stylesheet" href="animation-gallery.css?v=0.29" />
+    <link rel="stylesheet" href="attack-token.css?v=5" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="brand">
+        <span class="sigil" aria-hidden="true">
+          <svg viewBox="0 0 56 64" fill="none"><path d="M28 3 51 13v27L28 61 5 40V13L28 3Z"/><path d="m28 9 18 8v21L28 54 10 38V17l18-8Z"/></svg>
+          <span>R</span>
+        </span>
+        <div class="brand-text">
+          <h1>Runeterra</h1>
+          <div class="brand-meta"><span>Arena offline</span><span class="offline">Offline</span></div>
+        </div>
+      </div>
+      <div class="header-actions">
+        <div class="header-preferences" role="group" aria-label="Áudio e efeitos">
+        <button id="motion-toggle" data-label="Efeitos" aria-label="Efeitos: ativados" aria-pressed="true" title="Alternar efeitos visuais">
+          Efeitos: ativados
+        </button>
+        <button id="sound-toggle" data-label="Som" aria-label="Som: desligado" aria-pressed="false" title="Alternar efeitos sonoros">Som: desligado</button>
+        <button
+          id="music-toggle"
+          data-label="Música"
+          aria-label="Música: ativada"
+          aria-pressed="true"
+          title="Alternar música · começa ao entrar no duelo"
+        >
+          Música: ativada
+        </button>
+        <label class="music-volume"
+          ><span class="volume-caption">Volume <output id="music-volume-value" for="music-volume">25%</output></span><input
+            id="music-volume"
+            type="range"
+            min="0"
+            max="100"
+            value="25"
+            aria-label="Volume da música"
+        /></label>
+        </div>
+        <nav class="header-links" aria-label="Navegação do jogo">
+        <button id="journal" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 6C9 4 5 4 3 5v14c3-1 6-1 9 1 3-2 6-2 9-1V5c-2-1-6-1-9 1Zm0 0v14"/></svg>Grimório</button>
+        <button id="help"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-1 .7-1.5 1.2-1.5 2.5M12 16v1"/></svg>Como jogar</button>
+        <button id="menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 3 14 14M3 5l14 14M3 3l1 4 3-3-4-1Zm11 11 5-5m-4 11 5-5M4 20l6-6m4-4L20 4m0 0-4 1 3 3 1-4Z"/></svg>Nova partida</button>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="welcome" class="welcome" aria-labelledby="welcome-title">
+        <div class="welcome-hero">
+        <div class="welcome-art" aria-hidden="true">
+          <img id="welcome-champion-art" src="assets/01DE012.png" alt="" draggable="false" fetchpriority="high" />
+        </div>
+        <div class="welcome-copy">
+          <div class="welcome-mode">
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true">
+              <g class="duel-blade-left"><path d="m5 3 4 1 17 19-3 3L4 7 5 3Z"/><path d="m19 25 6-6m-3 6 5 5m-2-3 3-3"/></g>
+              <g class="duel-blade-right"><path d="m27 3-4 1L6 23l3 3L28 7l-1-4Z"/><path d="m13 25-6-6m3 6-5 5m2-3-3-3"/></g>
+            </svg>
+            <span>Duelo contra bot</span>
+          </div>
+          <h2 id="welcome-title">Escolha seu deck.<em>Domine a arena.</em></h2>
+          <p class="welcome-intro">
+            Prepare sua estratégia e enfrente o bot.<br />Seu próximo duelo começa aqui.
+          </p>
+          <div class="match-setup">
+          <label for="deck-card-filter">Encontrar decks com uma carta</label>
+          <div class="deck-card-search">
+            <input id="deck-card-filter" type="search" list="deck-card-options" autocomplete="off" placeholder="Digite o nome da carta…" aria-describedby="deck-card-status" />
+            <button id="clear-deck-card-filter" type="button" hidden>Limpar filtro</button>
+          </div>
+          <datalist id="deck-card-options"></datalist>
+          <p id="deck-card-status" class="fine" role="status" aria-live="polite"></p>
+          <div id="deck-card-pending" hidden></div>
+          <label for="deck">Escolha seu deck</label
+          ><select id="deck">
+            <option value="demacia">Vanguarda de Demacia · Garen</option>
+            <option value="noxus">Legião de Noxus · Darius</option></select
+          >
+          <p id="deck-summary" class="deck-summary" aria-live="polite"></p>
+          <label for="opponent">Adversário</label
+          ><select id="opponent">
+            <option value="random">Aleatório · sortear a cada partida</option>
+          </select>
+          <p id="opponent-summary" class="fine"></p>
+          <button id="start" class="primary">
+            Jogar contra o bot <span aria-hidden="true">→</span></button>
+          <button id="resume" hidden>Continuar partida salva</button>
+          </div>
+        </div>
+        <div class="welcome-showcase">
+          <div class="champion-caption">
+            <span id="welcome-region">Demacia</span>
+            <h3 id="welcome-champion-name">Garen</h3>
+            <p id="welcome-deck-name">Vanguarda de Demacia</p>
+          </div>
+          <div id="welcome-deck-cards" class="welcome-deck-cards" aria-label="Cartas do deck selecionado"></div>
+        </div>
+        </div>
+        <div class="welcome-lower">
+        <details class="welcome-settings">
+          <summary>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3" fill="currentColor"/><circle cx="15" cy="17" r="3" fill="currentColor"/></svg>
+            <span>Personalizar partida<small>Arena e apresentação do campeão</small></span>
+            <svg class="settings-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </summary>
+          <div class="welcome-settings-grid">
+          <div>
+          <label for="arena-choice">Arena</label>
+          <select id="arena-choice">
+            <option value="auto">Automática · acompanhar os decks</option>
+          </select>
+          </div><div>
+          <label for="arena-renderer">Visual do campo</label>
+          <select id="arena-renderer">
+            <option value="geometry">Geometria original · 3D</option>
+            <option value="light">Texturas · modo leve</option>
+          </select>
+          </div><div>
+          <label for="champion-cinematic">Evolução dos campeões</label>
+          <select id="champion-cinematic">
+            <option value="on" selected>Com animação</option>
+            <option value="off">Sem animação</option>
+          </select>
+          <p class="fine">Campeões evoluem normalmente nas duas opções.</p>
+          </div>
+          <div class="arena-preview">
+            <img
+              id="arena-preview-art"
+              alt=""
+              aria-hidden="true"
+              draggable="false"
+            />
+            <div>
+              <strong id="arena-preview-name"></strong>
+              <p id="arena-preview-description"></p>
+            </div>
+          </div>
+          </div>
+        </details>
+        <div class="welcome-shortcuts">
+          <button id="build-deck" class="welcome-shortcut">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="8" y="3" width="12" height="16" rx="1"/><path d="M5 6H3v15h12v-2M11 8h6m-6 4h6"/></svg>
+            <span><strong>Minha coleção</strong><small>Explore as cartas e monte seu deck</small></span>
+            <svg class="shortcut-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg>
+          </button>
+          <div class="welcome-training">
+          <button id="train">Treinar com Garen <span aria-hidden="true">→</span></button>
+          <p class="fine" id="training-description">
+            Comece com Garen na mão e mana para invocá-lo.
+          </p>
+          </div>
+        </div>
+        <button id="open-animations" class="animation-card-preview">Explorar animações</button>
+          <p class="fine welcome-version">
+            Arena v0.30 · Minha coleção · Decks com as cartas novas
+          </p>
+        </div>
+      </section>
+      <section id="game" hidden>
+        <div class="game-grid">
+          <div class="arena">
+            <div class="arena-scenery" aria-hidden="true">
+              <img
+                id="arena-enemy-surface"
+                class="arena-surface arena-surface-enemy"
+                alt=""
+                draggable="false"
+              />
+              <img
+                id="arena-local-surface"
+                class="arena-surface arena-surface-local"
+                alt=""
+                draggable="false"
+              />
+              <div class="arena-center-rule"></div>
+              <div class="home-glow home-glow-enemy"></div>
+              <div class="home-glow home-glow-local"></div>
+              <div class="battle-glow battle-glow-enemy"></div>
+              <div class="battle-glow battle-glow-local"></div>
+            </div>
+            <span id="arena-caption" class="arena-caption"></span>
+            <div id="arena-hint" class="arena-hint" hidden></div>
+            <section
+              id="opening-hand"
+              class="opening-hand"
+              hidden
+              aria-labelledby="opening-title"
+            >
+              <span class="eyebrow">PREPARE SUA ESTRATÉGIA</span>
+              <h2 id="opening-title">Sua mão inicial</h2>
+              <p>
+                Selecione as cartas que deseja trocar. As outras ficam com você.
+              </p>
+              <div id="opening-cards" class="opening-cards"></div>
+              <button id="confirm-opening" class="primary">
+                Manter mão e começar
+              </button>
+            </section>
+            <div class="arena-vignette" aria-hidden="true"></div>
+            <svg
+              class="combat-links"
+              id="combat-links"
+              aria-hidden="true"
+            ></svg>
+            <div
+              class="deck-stack deck-enemy"
+              id="enemy-deck"
+              aria-label="Deck inimigo"
+            >
+              <span>R</span>
+            </div>
+            <div
+              class="deck-stack deck-local"
+              id="local-deck"
+              aria-label="Seu deck"
+            >
+              <span>R</span>
+            </div>
+            <div class="arena-rune rune-top" aria-hidden="true">◇</div>
+            <div class="arena-rune rune-bottom" aria-hidden="true">◇</div>
+            <div
+              class="round-banner"
+              id="round-banner"
+              aria-hidden="true"
+            ></div>
+            <div class="player-bar opponent">
+              <div>
+                <span class="eyebrow">ADVERSÁRIO</span>
+                <h2 id="bot-name">Bot · Legião de Noxus</h2>
+              </div>
+              <div class="resources" id="bot-resources"></div>
+            </div>
+            <div class="hand-back" id="bot-hand" aria-label="Mão do bot"></div>
+            <div class="lane-heading">
+              <span>CAMPO INIMIGO</span><span id="bot-deck"></span>
+            </div>
+            <div class="board" id="enemy-board"></div>
+            <div class="battle-line">
+              <span id="round-label"></span
+              ><span id="phase-label" role="status"></span
+              ><span id="token-label"></span>
+              <small id="combat-detail" hidden></small>
+            </div>
+            <div
+              id="spell-stack"
+              class="spell-stack"
+              hidden
+              aria-label="Feitiços: ordem de resolução da esquerda para a direita"
+            ></div>
+            <div class="oracle-area">
+              <button
+                id="oracle"
+                aria-expanded="false"
+                aria-controls="oracle-result"
+                hidden
+                title="Prever resultado sem novas respostas"
+              >
+                ◉ <span>Olho do Oráculo</span>
+              </button>
+              <p id="oracle-result" role="status" hidden></p>
+            </div>
+            <div class="board" id="my-board"></div>
+            <div class="lane-heading">
+              <span>SEU CAMPO</span><span id="my-deck"></span>
+            </div>
+            <div class="player-bar">
+              <div>
+                <span class="eyebrow">VOCÊ</span>
+                <h2 id="my-name"></h2>
+              </div>
+              <div class="resources" id="my-resources"></div>
+            </div>
+            <div class="action-strip">
+              <p id="instruction"></p>
+              <div id="action-housing">
+                <button id="cancel" hidden>Cancelar</button
+                ><button id="attack">Preparar ataque</button
+                ><button id="pass" class="primary">Passar</button>
+              </div>
+            </div>
+            <span
+              id="arena-token"
+              role="img"
+              class="arena-token"
+              aria-label="Token de ataque"
+            ></span>
+            <span id="enemy-arena-token" class="arena-token arena-token-enemy" role="img" aria-label="Marcador de ataque e defesa do bot"></span>
+            <span id="initiative-token" class="initiative-token" aria-hidden="true"></span>
+            <div class="hand" id="my-hand"></div>
+          </div>
+          <aside id="grimoire">
+            <div class="aside-heading">
+              <span class="eyebrow">INSPEÇÃO DE CARTA</span><span>↗</span>
+            </div>
+            <div id="inspection">
+              <p class="muted">
+                Passe o cursor ou foque uma carta para ver seus detalhes.
+              </p>
+            </div>
+            <details open class="history">
+              <summary>Histórico do duelo</summary>
+              <ol id="log"></ol>
+            </details>
+            <button id="export">Exportar salvamento</button>
+            <p id="save-status" class="fine" role="status"></p>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <dialog id="help-dialog">
+      <h2>Uma ação de cada vez</h2>
+      <p>
+        Leve o Nexus inimigo de 20 a 0. Vocês alternam ações: jogar uma carta,
+        atacar ou passar. Dois passes seguidos iniciam a próxima rodada.
+      </p>
+      <ol>
+        <li>
+          Clique em uma carta da mão para jogar ou arraste uma unidade para seu
+          campo. É preciso ter mana suficiente. Feitiços de alvo pedem que você
+          clique em uma unidade ou no Nexus inimigo.
+        </li>
+        <li>
+          Você recebe mais mana a cada rodada, até 10. Até 3 de mana não usada
+          ficam reservadas para feitiços.
+        </li>
+        <li>
+          Quando tiver o token de ataque, clique em “Preparar ataque”, marque
+          suas unidades e confirme. O bot escolhe os bloqueadores.
+        </li>
+        <li>
+          No ataque do bot, clique em uma unidade sua e depois no atacante que
+          quer bloquear. Cada unidade bloqueia um atacante. Confirme mesmo se
+          não quiser bloquear.
+        </li>
+      </ol>
+      <p>
+        Até 6 unidades em campo e 10 cartas na mão. Dano nas unidades persiste.
+        Deck vazio ao comprar significa derrota.
+      </p>
+      <p class="fine">
+        Garen evolui após golpear duas vezes e Mobiliza no início da rodada.
+        Darius evolui ao ver o Nexus inimigo com 10 ou menos de vida. Cópias na
+        mão viram feitiços do campeão enquanto ele está em campo. Súbitos
+        preservam sua ação. Rápidos e Súbitos podem ser usados durante seu
+        bloqueio e em resposta a feitiços. Confirme os bloqueios e depois a
+        resolução; ainda é possível responder antes dos golpes. A sequência
+        resolve da esquerda para a direita. O Olho do Oráculo prevê o resultado
+        sem novas respostas. Antes do duelo, selecione até quatro cartas para
+        trocar na mão inicial. Ainda não há campanha nem regras de duelo para
+        todas as cartas do catálogo.
+      </p>
+      <button class="primary" id="close-help">Entendi</button>
+    </dialog>
+    <dialog
+      id="result-dialog"
+      aria-labelledby="result-title"
+      aria-describedby="result-copy"
+    >
+      <div class="result-rays" aria-hidden="true"></div>
+      <div class="result-crest" aria-hidden="true">
+        <svg viewBox="0 0 180 150" fill="none">
+          <path
+            class="crest-wing crest-wing-left"
+            d="M72 42 31 35 47 54 9 50 35 70 20 77 63 91"
+            fill="#172b36"
+            stroke="currentColor"
+            stroke-width="2"
+          />
+          <path
+            class="crest-wing crest-wing-right"
+            d="M108 42 149 35 133 54 171 50 145 70 160 77 117 91"
+            fill="#172b36"
+            stroke="currentColor"
+            stroke-width="2"
+          />
+          <path
+            d="m90 10 40 45-11 53-29 30-29-30-11-53Z"
+            fill="#10202b"
+            stroke="currentColor"
+            stroke-width="3"
+          />
+          <path
+            class="crest-core"
+            d="m90 26 27 34-8 39-19 22-19-22-8-39Z"
+            fill="#467e9f"
+            stroke="currentColor"
+          />
+          <path
+            d="m90 26-8 44 8 51 9-51Zm-27 34 19 10-11 29m46-39-18 10 10 29"
+            stroke="#e6f3ff"
+            stroke-opacity=".55"
+          />
+          <path
+            class="crest-crack"
+            d="m96 34-13 23 18 15-22 23 7 15"
+            stroke="#211223"
+            stroke-width="6"
+          />
+        </svg>
+      </div>
+      <span class="eyebrow">FIM DO DUELO</span>
+      <h2 id="result-title"></h2>
+      <div class="result-rule" aria-hidden="true"></div>
+      <p id="result-copy"></p>
+      <div class="result-actions">
+        <button id="again" class="primary">Jogar novamente</button
+        ><button id="view-result">Ver campo</button>
+      </div>
+    </dialog>
+    <div id="toast" role="alert" hidden></div>
+    <dialog
+      id="collection-dialog"
+      class="collection-dialog"
+      aria-labelledby="builder-title"
+    >
+      <div class="collection-heading">
+        <div>
+          <span class="eyebrow">CARTAS E DECKS</span>
+          <h2 id="builder-title">Minha coleção</h2>
+        </div>
+        <button id="close-collection">Fechar</button>
+      </div>
+      <div class="builder-body">
+        <section class="builder-collection" aria-label="Coleção de cartas">
+          <div class="builder-filters">
+            <label
+              >Mostrar<select id="catalog-source">
+                <option value="official">Minha coleção completa</option>
+                <option value="new">Novas cartas para jogar</option>
+                <option value="playable">Todas as jogáveis no duelo</option>
+                <option value="all">Todas, incluindo cartas geradas</option>
+              </select></label
+            >
+            <label class="builder-search"
+              >Buscar cartas<input
+                id="card-search"
+                type="search"
+                placeholder="Nome ou habilidade…"
+            /></label>
+            <label
+              >Região<select id="card-region">
+                <option value="">Todas</option>
+                <option value="Demacia">Demacia</option>
+                <option value="Noxus">Noxus</option>
+              </select></label
+            >
+            <label
+              >Tipo<select id="card-type">
+                <option value="">Todos</option>
+                <option value="champion">Campeões</option>
+                <option value="follower">Seguidores</option>
+                <option value="spell">Feitiços</option>
+                <option value="landmark">Monumentos</option>
+                <option value="equipment">Equipamentos</option>
+                <option value="ability">Habilidades</option>
+                <option value="trap">Armadilhas</option>
+              </select></label
+            >
+            <label
+              >Mana<select id="card-cost">
+                <option value="">Qualquer</option>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7+</option>
+              </select></label
+            >
+          </div>
+          <p id="collection-count" class="fine" role="status"></p>
+          <div id="collection-list" class="collection-list"></div>
+          <div id="catalog-pagination" hidden>
+            <button id="catalog-previous">Anterior</button
+            ><span id="catalog-page-info"></span
+            ><button id="catalog-next">Próxima</button>
+          </div>
+          <section
+            id="builder-preview"
+            class="builder-preview"
+            aria-label="Detalhes da carta"
+          >
+            <p>
+              Selecione a arte de uma carta para inspecionar suas habilidades.
+            </p>
+          </section>
+        </section>
+        <aside class="builder-deck" aria-label="Cartas do seu deck">
+          <div class="collection-presets">
+            <label for="collection-preset">Decks com as cartas novas</label>
+            <select id="collection-preset"></select>
+            <button id="load-featured-deck">Montar este deck</button>
+          </div>
+          <label for="deck-name">Nome do deck</label
+          ><input id="deck-name" maxlength="48" placeholder="Meu deck" />
+          <strong id="deck-counter" role="status"></strong>
+          <p id="deck-regions"></p>
+          <p id="deck-composition" class="fine"></p>
+          <h3>Curva de mana</h3>
+          <div
+            id="mana-curve"
+            class="mana-curve"
+            aria-label="Quantidade de cartas por custo"
+          ></div>
+          <div id="deck-list" class="builder-deck-list"></div>
+        </aside>
+      </div>
+      <div class="builder-footer">
+        <div class="builder-library">
+          <label for="saved-decks">Meus decks</label
+          ><select id="saved-decks">
+            <option value="">Novo deck</option></select
+          ><button id="new-deck">Novo</button
+          ><button id="load-preset">Usar deck do menu</button
+          ><button id="clear-deck">Limpar deck</button>
+        </div>
+        <p class="fine">
+          40 cartas · até 3 cópias · até 6 campeões · até 2 regiões. Coleção
+          local: <span id="catalog-size"></span> colecionáveis · <span id="duel-catalog-size"></span> com regras de duelo.
+        </p>
+        <p id="deck-error" role="status"></p>
+        <div class="builder-save">
+          <button id="open-deck-code">Importar código LoR</button
+          ><button id="export-deck-code">Exportar código LoR</button>
+          <button id="import-deck">Importar arquivo</button
+          ><input
+            id="deck-file"
+            type="file"
+            accept=".json,application/json"
+            hidden
+          /><button id="export-deck">Exportar deck</button
+          ><button id="save-deck" class="primary">Salvar e usar deck</button>
+        </div>
+      </div>
+    </dialog>
+    <dialog
+      id="deck-code-dialog"
+      class="collection-dialog"
+      aria-labelledby="deck-code-title"
+    >
+      <div class="collection-heading">
+        <div>
+          <span class="eyebrow">FORMATO DE DECK DA RIOT</span>
+          <h2 id="deck-code-title">Importar ou consultar deck</h2>
+        </div>
+        <button id="close-deck-code">Fechar</button>
+      </div>
+      <div class="deck-code-body">
+        <label for="deck-code-examples"
+          >Exemplos oficiais e referências salvas</label
+        ><select id="deck-code-examples">
+          <option value="">Selecione uma lista</option>
+        </select>
+        <label for="deck-code-name">Nome da referência</label
+        ><input id="deck-code-name" maxlength="48" value="Deck importado" />
+        <label for="riot-deck-code">Código LoR</label
+        ><textarea
+          id="riot-deck-code"
+          rows="3"
+          maxlength="2048"
+          spellcheck="false"
+          placeholder="Cole aqui um código de deck do LoR"
+        ></textarea>
+        <button id="read-deck-code">Ler código</button>
+        <p id="deck-code-status" role="status"></p>
+        <div id="deck-code-lines"></div>
+        <p class="fine">
+          Todas as colecionáveis podem ser usadas no editor de Minha coleção.
+          Decks com regras pendentes podem ser salvos; o duelo exige habilidades implementadas.
+        </p>
+        <div class="builder-save">
+          <button id="save-deck-reference" disabled>Guardar referência</button
+          ><button id="use-deck-code" class="primary" disabled>
+            Usar no editor
+          </button>
+        </div>
+      </div>
+    </dialog>
+    <div id="effects-layer" aria-hidden="true"></div>
+    <footer>
+      ACERVO LOCAL / DATA DRAGON PT-BR
+      <span
+        >Protótipo de estudo · Não oficial · Artes e personagens © Riot
+        Games</span
+      >
+    </footer>
+    <script src="cards.js?v=0.30"></script>
+    <script src="official-catalog.js"></script>
+    <script src="card-effects-data.js?v=0.29"></script>
+    <script src="card-effects.js?v=0.29"></script>
+    <script src="cinematic-library-data.js?v=0.29"></script>
+    <script src="champions.js?v=0.29"></script>
+    <script src="engine.js?v=0.29"></script>
+    <script src="opponents.js?v=2"></script>
+    <script src="lor-motion-profile.js"></script>
+    <script src="current-motion-data.js"></script>
+    <script src="current-motion.js"></script>
+    <script src="combat-motion.js"></script>
+    <script src="motion-v3.js"></script>
+    <script src="card-presentation.js?v=0.29"></script>
+    <script src="nexus-data.js"></script>
+    <script src="nexus-fallback-data.js?v=0.24"></script>
+    <script src="nexus-view.js?v=0.24"></script>
+    <script src="assets/arenas/hud/sprites.js"></script>
+    <script src="assets/arenas/hud/mana-pips.js"></script>
+    <script src="arena-hud.js?v=0.29"></script>
+    <script src="assets/arenas/backgrounds/rift.js"></script>
+    <script src="assets/arenas/backgrounds/demacia.js"></script>
+    <script src="assets/arenas/backgrounds/noxus.js"></script>
+    <script src="assets/arenas/backgrounds/ionia.js"></script>
+    <script src="assets/arenas/backgrounds/freljord.js"></script>
+    <script src="assets/arenas/backgrounds/piltover.js"></script>
+    <script src="assets/arenas/backgrounds/bilgewater.js"></script>
+    <script src="assets/arenas/backgrounds/shadowisles.js"></script>
+    <script src="assets/arenas/backgrounds/shurima.js"></script>
+    <script src="assets/arenas/backgrounds/targon.js"></script>
+    <script src="assets/arenas/backgrounds/bandlecity.js"></script>
+    <script src="assets/arenas/backgrounds/zaun.js"></script>
+    <script src="arena-backdrop.js?v=0.25"></script>
+    <script src="arena-ambient-data.js"></script>
+    <script src="arena-ambient.js"></script>
+    <script src="attack-token-data.js"></script>
+    <script src="attack-token.js?v=4"></script>
+    <script src="initiative-token-data.js"></script>
+    <script src="initiative-token.js?v=5"></script>
+    <script src="arena-chrome.js?v=3"></script>
+    <script src="duel-outcome.js?v=0.19"></script>
+    <script src="champion-cinematic.js?v=0.30.1"></script>
+    <script src="champion-presentation.js?v=0.30.1"></script>
+    <script src="duel-ui.js"></script>
+    <audio
+      id="duel-music"
+      src="assets/audio/patcher-theme.wav"
+      loop
+      preload="metadata"
+    ></audio>
+    <script src="regional-audio-data.js"></script>
+    <script src="native-sounds-data.js?v=0.28"></script>
+    <script src="regional-audio.js"></script>
+    <script src="game-audio.js"></script>
+    <script src="combat-view.js"></script>
+    <script src="app.js?v=0.29"></script>
+    <script src="deck-tools.js?v=0.30"></script>
+    <script src="riot-deck-code.js"></script>
+    <script src="collection.js?v=0.30.3"></script>
+    <script src="animation-gallery.js?v=0.29"></script>
+    <script src="welcome-settings-motion.js?v=0.27"></script>
+    <script src="arena-view.js?v=0.23"></script>
+    <script src="arena-scene.js?v=0.18"></script>
+  </body>
+</html>

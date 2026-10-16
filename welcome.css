@@ -1,0 +1,654 @@
+/* The lobby keeps its own layout; arena rules remain in the duel stylesheets. */
+body:not(.in-duel) {
+  background: #080e13;
+}
+body:not(.in-duel) > header {
+  padding: 16px clamp(18px, 3vw, 56px);
+}
+body:not(.in-duel) main {
+  max-width: 1600px;
+  padding: 24px clamp(16px, 3vw, 48px) 24px;
+}
+.welcome {
+  min-height: 0;
+  border-color: #78664480;
+  background: #101a20;
+  box-shadow: 0 18px 64px #0006;
+}
+.welcome[hidden] {
+  display: none;
+}
+.welcome-hero {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(440px, 0.9fr) minmax(0, 1.1fr);
+  min-height: 620px;
+  isolation: isolate;
+  overflow: hidden;
+}
+.welcome-art {
+  z-index: -1;
+  background: #101a20;
+}
+.welcome-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 68% 32%;
+}
+.welcome-art::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      90deg,
+      #0b151b 0%,
+      #0b151bf5 25%,
+      #0b151bba 42%,
+      #0b151b22 65%,
+      transparent 80%
+    ),
+    linear-gradient(0deg, #101a20 0%, #101a2090 15%, transparent 55%);
+}
+.welcome-copy {
+  max-width: none;
+  min-width: 0;
+  padding: 32px 24px 28px clamp(28px, 3.5vw, 52px);
+}
+.welcome-mode {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  padding: 0;
+  color: #e5c789;
+  font-size: 11px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+.welcome-mode > span {
+  white-space: nowrap;
+}
+.welcome-mode > svg {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.welcome-mode::after {
+  content: "";
+  width: 48px;
+  height: 1px;
+  margin-left: 4px;
+  background: #c8aa6866;
+  transform-origin: left;
+}
+.welcome h2 {
+  margin: 20px 0 14px;
+  font:
+    700 clamp(38px, 3.3vw, 50px) / 1.08 Beaufort,
+    Georgia,
+    serif;
+  letter-spacing: -0.025em;
+  text-shadow: 0 3px 22px #0006;
+}
+.welcome h2 em {
+  display: block;
+  color: #e5c789;
+  font-style: normal;
+}
+.welcome .welcome-intro {
+  margin: 0 0 24px;
+  max-width: 420px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: #c3cdd0;
+}
+.match-setup {
+  width: 100%;
+  max-width: 420px;
+}
+.deck-card-search { display: flex; gap: 8px; min-width: 0; }
+.welcome .deck-card-search input { flex: 1; min-width: 0; width: 100%; min-height: 48px; padding: 12px 14px; border: 1px solid #a68b5366; border-radius: 2px; background: #0c171eee; color: #f5e9cf; font: inherit; color-scheme: dark; }
+.welcome #clear-deck-card-filter { flex: 0 0 auto; width: auto; min-height: 48px; margin: 0; padding: 8px 12px; font-size: 12px; }
+.welcome #deck-card-filter { height: 48px; margin: 0; }
+.deck-card-search input:focus-visible { outline: 2px solid #a6e2f5; outline-offset: 2px; }
+.welcome #deck-card-status { margin: 6px 0 14px; min-height: 18px; color: #b9c8cf; font-size: 12px; line-height: 1.5; }
+#deck-card-pending { margin: 0 0 14px; max-height: 144px; overflow: auto; }
+.welcome .deck-pending-choice { width: 100%; min-height: 44px; margin: 0 0 5px; padding: 8px 12px; font-size: 12px; text-align: left; }
+.welcome label {
+  margin: 0 0 8px;
+  color: #e4d8bd;
+  font-size: 13px;
+}
+.welcome select {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  padding: 12px 32px 12px 14px;
+  border: 1px solid #a68b5366;
+  border-radius: 2px;
+  background: #0c171eee;
+  color: #f5e9cf;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  color-scheme: dark;
+}
+.welcome select:hover {
+  border-color: #e5c789;
+}
+.welcome .deck-summary {
+  margin: 6px 0 18px;
+  color: #b9c8cf;
+  font-size: 12px;
+}
+.welcome #opponent-summary {
+  margin: 8px 0 0;
+  color: #aebdc3;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.welcome button {
+  border-radius: 2px;
+}
+.welcome #start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 52px;
+  margin-top: 20px;
+  padding: 14px 19px;
+  font-size: 18px;
+}
+.welcome #start span {
+  font-size: 25px;
+  line-height: 1;
+}
+.welcome #start:hover {
+  background: linear-gradient(#f4dfab, #c4a05b);
+  box-shadow:
+    inset 0 0 0 3px #775c3544,
+    0 10px 28px #0009;
+}
+.welcome #resume {
+  min-height: 44px;
+  padding: 10px 14px;
+  margin-top: 9px;
+  background: #101b23cc;
+  border-color: #a68b5355;
+  font-size: 13px;
+}
+.welcome-showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 24px;
+  padding: 32px clamp(28px, 3.5vw, 52px) 32px 24px;
+  min-width: 0;
+}
+.champion-caption {
+  border-left: 2px solid #d8b978;
+  padding-left: 16px;
+  text-shadow: 0 3px 16px #000;
+}
+.champion-caption > span {
+  display: block;
+  color: #e5c789;
+  font:
+    700 15px Beaufort,
+    Georgia,
+    serif;
+  letter-spacing: 1.5px;
+}
+.champion-caption h3 {
+  margin: 0;
+  font:
+    700 clamp(36px, 3.4vw, 52px) / 1.1 Beaufort,
+    Georgia,
+    serif;
+}
+.welcome .champion-caption p {
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: #e3e4dc;
+}
+.welcome-deck-cards {
+  display: flex;
+  align-items: end;
+  padding: 0 6px 0 0;
+}
+.welcome-deck-cards img {
+  width: clamp(78px, 7vw, 110px);
+  height: auto;
+  margin-left: -22px;
+  filter: drop-shadow(0 7px 10px #000a);
+  transform: rotate(9deg) translateY(-4px);
+}
+.welcome-deck-cards img:first-child {
+  transform: rotate(-10deg) translateY(3px);
+}
+.welcome-deck-cards img:nth-child(2) {
+  transform: rotate(-1deg) translateY(-10px);
+}
+.welcome-lower {
+  position: relative;
+  padding: 0 clamp(28px, 3.5vw, 52px);
+}
+.welcome-settings {
+  border-top: 1px solid #9c875440;
+  border-bottom: 1px solid #9c875440;
+}
+.welcome-settings summary {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 17px 0;
+  color: #eadabd;
+  font-size: 14px;
+  cursor: pointer;
+  list-style: none;
+}
+.welcome-settings summary::-webkit-details-marker {
+  display: none;
+}
+.welcome-settings summary:hover {
+  color: #f5dca6;
+}
+.welcome-settings svg,
+.welcome-shortcut svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #e5c789;
+}
+.welcome-settings summary small {
+  display: inline-block;
+  margin-left: 18px;
+  color: #aebdc3;
+  font-size: 12px;
+}
+.welcome-settings .settings-chevron {
+  margin-left: auto;
+  width: 18px;
+  transition: transform 180ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.welcome-settings[open] .settings-chevron {
+  transform: rotate(180deg);
+}
+.welcome-settings-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  padding: 4px 0 24px;
+}
+.welcome-settings .arena-preview {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+.welcome-settings .arena-preview p {
+  font-size: 12px;
+  max-width: 75ch;
+}
+.welcome-shortcuts {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 20px;
+  padding: 20px 0;
+}
+.welcome #build-deck {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin: 0;
+  min-height: 84px;
+  padding: 16px 20px;
+  text-align: left;
+  border: 1px solid #9c875440;
+  background: #18252c;
+}
+.welcome #build-deck:hover {
+  border-color: #e5c789;
+  background: #20313a;
+}
+.welcome-shortcut strong {
+  display: block;
+  font:
+    700 20px Beaufort,
+    Georgia,
+    serif;
+}
+.welcome-shortcut small {
+  color: #b9c8cf;
+  font-size: 12px;
+  display: block;
+  margin-top: 4px;
+}
+.shortcut-arrow {
+  margin-left: auto;
+  color: #e5c789;
+}
+.welcome-training {
+  min-width: 0;
+  padding: 16px 20px;
+  border: 1px solid #9c875440;
+  background: #111e25;
+}
+.welcome #train {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  min-height: 44px;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  font:
+    700 20px Beaufort,
+    Georgia,
+    serif;
+  color: #e5c789;
+}
+.welcome #train:hover {
+  color: #fff0c9;
+  border-bottom-color: #e5c789;
+}
+.welcome .welcome-training p {
+  margin: 7px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #aebdc3;
+  max-width: 64ch;
+}
+.welcome .welcome-version {
+  margin: 0;
+  padding: 13px 0 16px;
+  border-top: 1px solid #9c875429;
+  color: #aebdc3;
+  font-size: 11px;
+}
+.welcome :focus-visible {
+  outline: 2px solid #83c9e2;
+  outline-offset: 4px;
+}
+.welcome ::selection {
+  background: #e5c789;
+  color: #101a20;
+}
+@keyframes welcome-arrive {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes welcome-card-arrive {
+  from {
+    opacity: 0;
+    translate: 0 16px;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+  }
+}
+@keyframes welcome-line-open {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+@keyframes welcome-blade-left {
+  from {
+    opacity: 0;
+    transform: translate(-3px, -3px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+@keyframes welcome-blade-right {
+  from {
+    opacity: 0;
+    transform: translate(3px, -3px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  body:has(#motion-toggle[aria-pressed="true"]) #welcome:not([hidden]) {
+    --lobby-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  body:has(#motion-toggle[aria-pressed="true"])
+    #welcome:not([hidden])
+    :is(.welcome-mode, h2, .welcome-intro, .match-setup, .champion-caption) {
+    animation: welcome-arrive 420ms var(--lobby-ease) backwards;
+  }
+  body:has(#motion-toggle[aria-pressed="true"]) #welcome h2 {
+    animation-delay: 50ms;
+  }
+  body:has(#motion-toggle[aria-pressed="true"]) #welcome .welcome-intro {
+    animation-delay: 90ms;
+  }
+  body:has(#motion-toggle[aria-pressed="true"]) #welcome .match-setup {
+    animation-delay: 120ms;
+  }
+  body:has(#motion-toggle[aria-pressed="true"]) #welcome .champion-caption {
+    animation-delay: 160ms;
+  }
+  body:has(#motion-toggle[aria-pressed="true"])
+    #welcome
+    .welcome-settings[open]
+    .welcome-settings-grid
+    > div:not(.arena-preview) {
+    animation: welcome-arrive 320ms var(--lobby-ease) backwards;
+  }
+  body:has(#motion-toggle[aria-pressed="true"])
+    #welcome
+    .welcome-settings[open]
+    .welcome-settings-grid
+    > div:nth-child(2) {
+    animation-delay: 40ms;
+  }
+  body:has(#motion-toggle[aria-pressed="true"])
+    #welcome
+    .welcome-settings[open]
+    .welcome-settings-grid
+    > div:nth-child(3) {
+    animation-delay: 80ms;
+  }
+  body:has(#motion-toggle[aria-pressed="true"])
+    #welcome
+    .welcome-settings[open]
+    .arena-preview {
+    animation: welcome-arrive 360ms var(--lobby-ease) 100ms backwards;
+  }
+  body:has(#motion-toggle[aria-pressed="true"]) #welcome .welcome-mode::after {
+    animation: welcome-line-open 380ms var(--lobby-ease) 160ms backwards;
+  }
+  body:has(#motion-toggle[aria-pressed="true"]) #welcome .duel-blade-left {
+    animation: welcome-blade-left 320ms var(--lobby-ease) backwards;
+  }
+  body:has(#motion-toggle[aria-pressed="true"]) #welcome .duel-blade-right {
+    animation: welcome-blade-right 320ms var(--lobby-ease) 60ms backwards;
+  }
+  body:has(#motion-toggle[aria-pressed="true"])
+    #welcome
+    .welcome-deck-cards
+    img {
+    animation: welcome-card-arrive 460ms var(--lobby-ease) 140ms backwards;
+    transition: transform 200ms var(--lobby-ease);
+  }
+  body:has(#motion-toggle[aria-pressed="true"])
+    #welcome
+    .welcome-deck-cards
+    img:nth-child(2) {
+    animation-delay: 200ms;
+  }
+  body:has(#motion-toggle[aria-pressed="true"])
+    #welcome
+    .welcome-deck-cards
+    img:nth-child(3) {
+    animation-delay: 260ms;
+  }
+}
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  body:has(#motion-toggle[aria-pressed="true"]) .welcome #start span,
+  body:has(#motion-toggle[aria-pressed="true"]) .welcome .shortcut-arrow {
+    transition: transform 180ms cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  body:has(#motion-toggle[aria-pressed="true"]) .welcome #start:hover span,
+  body:has(#motion-toggle[aria-pressed="true"])
+    .welcome
+    #build-deck:hover
+    .shortcut-arrow {
+    transform: translateX(4px);
+  }
+  body:has(#motion-toggle[aria-pressed="true"])
+    .welcome
+    .welcome-deck-cards
+    img:hover {
+    transform: translateY(-6px) rotate(0deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .welcome *,
+  .welcome *::before,
+  .welcome *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+body:has(#motion-toggle[aria-pressed="false"]) .welcome *,
+body:has(#motion-toggle[aria-pressed="false"]) .welcome *::before,
+body:has(#motion-toggle[aria-pressed="false"]) .welcome *::after {
+  animation: none !important;
+  transition: none !important;
+}
+@media (max-width: 1100px) {
+  .welcome-hero {
+    grid-template-columns: minmax(380px, 1fr) minmax(0, 1fr);
+  }
+  .welcome-copy {
+    padding-left: 30px;
+  }
+  .welcome-showcase {
+    padding-right: 30px;
+    justify-content: end;
+  }
+  .welcome-deck-cards {
+    display: none;
+  }
+  .champion-caption {
+    text-align: right;
+    border-left: 0;
+    padding-left: 0;
+  }
+  .welcome-settings summary small {
+    display: block;
+    margin: 3px 0 0;
+  }
+}
+@media (max-width: 700px) {
+  body:not(.in-duel) > header {
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 16px;
+  }
+  body:not(.in-duel) .header-actions {
+    width: 100%;
+    max-width: none;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+  body:not(.in-duel) main {
+    padding: 0 12px 12px;
+  }
+  .welcome-hero {
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: 0;
+  }
+  .welcome-art img {
+    height: 350px;
+    object-position: 65% top;
+  }
+  .welcome-art::after {
+    background: linear-gradient(0deg, #101a20 0%, #101a20 48%, #101a200a 94%);
+  }
+  .welcome-showcase {
+    min-height: 205px;
+    padding: 25px 24px 0;
+    align-items: end;
+    justify-content: start;
+  }
+  .champion-caption {
+    text-align: left;
+  }
+  .champion-caption > span {
+    font-size: 12px;
+  }
+  .champion-caption h3 {
+    font-size: 38px;
+  }
+  .welcome .champion-caption p {
+    margin-top: 2px;
+    font-size: 12px;
+  }
+  .welcome-copy {
+    padding: 28px 24px;
+  }
+  .welcome-mode {
+    margin-bottom: 18px;
+    font-size: 10px;
+  }
+  .welcome-mode::after {
+    width: 24px;
+  }
+  .welcome h2 {
+    font-size: clamp(28px, 7.2vw, 44px);
+    margin: 0 0 14px;
+  }
+  .welcome .welcome-intro {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+  .match-setup {
+    max-width: none;
+  }
+  .welcome-lower {
+    padding: 0 24px;
+  }
+  .welcome-settings-grid,
+  .welcome-shortcuts {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 20px;
+  }
+  .welcome-settings summary small {
+    font-size: 11px;
+  }
+  .welcome-settings .arena-preview {
+    align-items: start;
+    flex-direction: column;
+  }
+  .welcome .welcome-version {
+    line-height: 1.7;
+  }
+}

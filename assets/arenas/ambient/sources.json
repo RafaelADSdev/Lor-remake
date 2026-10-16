@@ -1,0 +1,8 @@
+{
+  "mesh": "assets_extraidos_atualizados_2026-10-15/arenas/piltover/Piltover_Gear_1_8487359235459223492.obj",
+  "meshSha256": "b6ae4738c32c4607a26f3d1c622cdf34b4c2b210d85d4bdf16113fe05c98f78c",
+  "textureSha256": "328d62ca451b8e0b1db63557ee9a526a3f67f9684c68517fdbdcf015cae6186a",
+  "spriteSha256": "6b013655971c19d901ceae884506d09d0dec8a3ad8d41e23039b11e58ee01044",
+  "triangles": 200,
+  "projection": "native XY/UV; camera faces +Z; runtime placement/rotation adapted"
+}

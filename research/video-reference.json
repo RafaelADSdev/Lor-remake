@@ -1,0 +1,50 @@
+{
+  "source": "C:\\Users\\Usuario\\Videos\\2026-10-15 11-02-24.mp4",
+  "bytes": 681697561,
+  "sha256": "d159ca427b994964414216ce1a629e8462fff32804068c4a4f170d302eb31fba",
+  "durationSeconds": 386.216667,
+  "width": 2560,
+  "height": 1440,
+  "decoder": "Chrome HTMLVideoElement; local file; sampled frames inspected visually",
+  "sampleWindowsSeconds": [
+    [
+      5,
+      5
+    ],
+    [
+      30,
+      38.6
+    ],
+    [
+      58,
+      63.4
+    ],
+    [
+      90,
+      90
+    ],
+    [
+      120,
+      120
+    ],
+    [
+      180,
+      180
+    ],
+    [
+      240,
+      240
+    ],
+    [
+      300,
+      300
+    ]
+  ],
+  "observations": [
+    "Vertical reserve units, horizontal combat markers; blue defensive highlight",
+    "Warm attack highlight; blue active action orb, grey opponent action",
+    "Confirmation and Nexus result near 37.2-38.6s; floating damage/healing indicators",
+    "Deck backs and crystal volume; attack setup near 58-63.4s"
+  ],
+  "limits": "Samples establish visual states and order, not exact animation curves or full durations. Browser combat timings are adapted. Original video is excluded from distribution."
+}

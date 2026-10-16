@@ -1,0 +1,992 @@
+/* Original atlases are projected in CSS. Positions follow the supplied gameplay references. */
+.arena-preview {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 14px 0 24px;
+  padding: 10px;
+  background: #07151dcc;
+  border: 1px solid #a68b5355;
+}
+#arena-preview-art {
+  width: 150px;
+  height: 68px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  border: 1px solid #8d815d;
+}
+.arena-preview strong {
+  font: 700 17px Beaufort;
+  color: #e9d4a4;
+}
+.arena-preview p {
+  font:
+    12px/1.4 "Segoe UI",
+    sans-serif;
+  margin: 5px 0 0;
+  color: #c0cbcf;
+}
+.welcome-copy {
+  max-width: 800px;
+}
+.welcome label {
+  margin-top: 22px;
+}
+body.in-duel > header {
+  min-height: 48px;
+  padding: 5px 14px;
+  gap: 12px;
+}
+.in-duel header .brand {
+  gap: 8px;
+}
+.in-duel .brand .eyebrow,
+.in-duel h1 em,
+.in-duel .offline {
+  display: none;
+}
+.in-duel h1 {
+  font-size: 20px;
+  margin: 0;
+}
+.in-duel .sigil {
+  width: 28px;
+  height: 28px;
+  font-size: 21px;
+}
+.in-duel .header-actions {
+  gap: 5px;
+}
+.in-duel .header-actions button {
+  font-size: 11px;
+  padding: 6px 9px;
+}
+.in-duel main {
+  padding: 0;
+  max-width: none;
+}
+.in-duel > footer {
+  display: none;
+}
+.arena {
+  container-type: size;
+  height: calc(100dvh - 49px);
+  min-height: 570px;
+  max-height: none;
+  border: 0;
+  border-radius: 0;
+  background: #0b1e20;
+  box-shadow: none;
+  --reserve-gap: clamp(54px, 7.8cqw, 100px);
+  --battle-gap: clamp(74px, 12cqw, 160px);
+}
+.arena-scenery {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  pointer-events: none;
+  overflow: hidden;
+  background: #0b1e20;
+}
+.arena-surface {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-repeat: no-repeat;
+}
+.arena-surface-enemy {
+  top: 0;
+  transform: scaleY(-1);
+}
+.arena-surface-local {
+  bottom: 0;
+}
+.arena-vignette {
+  z-index: -1;
+  background: radial-gradient(ellipse, transparent 45%, #03100e55 100%);
+}
+.arena-center-rule {
+  position: absolute;
+  top: 49.7%;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(#e0ad42, #6e450c 40%, #aa7d22 80%, #2a200b);
+  box-shadow: 0 2px 5px #0008;
+}
+.arena-center-rule::before {
+  content: "";
+  position: absolute;
+  left: 15.2%;
+  top: -15px;
+  width: 34px;
+  height: 34px;
+  border: 3px solid #b4913d;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #b78d29, #62400c 60%, #37250b);
+  box-shadow:
+    0 0 0 3px #4b3519,
+    0 0 15px #0008;
+}
+.arena .arena-rune {
+  display: none;
+}
+.arena-caption {
+  position: absolute;
+  bottom: 6px;
+  right: 14px;
+  font: 10px Beaufort;
+  color: #e5d5a5;
+  text-shadow: 0 1px 4px #000;
+  opacity: 0.8;
+}
+.home-glow,
+.battle-glow {
+  position: absolute;
+  left: 20%;
+  width: 60%;
+  border: 2px solid transparent;
+  pointer-events: none;
+  opacity: 0;
+}
+.home-glow {
+  height: 17%;
+  clip-path: polygon(0 0, 100% 0, 100% 84%, 90% 100%, 10% 100%, 0 84%);
+  border-color: #519bff;
+  background: linear-gradient(
+    10deg,
+    #4f99ff66,
+    transparent 35%,
+    transparent 70%,
+    #4e9bff44
+  );
+  box-shadow:
+    inset 0 -8px 20px #549cff66,
+    0 0 10px #549cff;
+}
+.home-glow-local {
+  bottom: 8%;
+  opacity: 0.7;
+}
+.home-glow-enemy {
+  top: 8%;
+  transform: scaleY(-1);
+  border-color: #fd4555;
+  background: linear-gradient(
+    10deg,
+    #fa374b77,
+    transparent 35%,
+    transparent 70%,
+    #fa374b44
+  );
+  box-shadow: inset 0 -8px 20px #fa374b77;
+}
+.battle-glow {
+  height: 25%;
+  background: linear-gradient(0deg, #e8801722, transparent);
+  border-color: #ffc05b;
+  box-shadow:
+    inset 0 0 12px #ff8a17aa,
+    0 0 10px #ff8a1799;
+}
+.battle-glow-local {
+  bottom: 25%;
+  border-bottom-width: 4px;
+}
+.battle-glow-enemy {
+  top: 25%;
+  border-top-width: 4px;
+  transform: scaleY(-1);
+}
+.arena[data-arena-phase="prepare"] .battle-glow-local,
+.arena[data-arena-phase="attack"] .battle-glow-local,
+.arena[data-arena-phase="defend"] .battle-glow-enemy {
+  opacity: 1;
+}
+.arena[data-arena-phase="attack"] .home-glow-enemy,
+.arena[data-arena-phase="defend"] .home-glow-enemy {
+  opacity: 0.75;
+}
+.arena > .player-bar > div:first-child {
+  left: 1%;
+  bottom: 1%;
+  width: 19%;
+  max-width: 290px;
+  padding: 8px 13px;
+  border: 1px solid #b99555;
+  box-shadow:
+    inset 0 0 0 3px #513d21,
+    0 3px 15px #0008;
+  background: linear-gradient(110deg, #28201ee8, #100f12eb);
+}
+.arena > .player-bar.opponent > div:first-child {
+  top: 1%;
+  bottom: auto;
+  left: 1%;
+}
+.arena .player-bar h2 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font: 700 clamp(12px, 1.5cqw, 22px) Beaufort;
+  color: #e4ca8c;
+}
+.arena .player-bar .eyebrow {
+  color: #b2aaa0;
+  font-size: 8px;
+  letter-spacing: 1.5px;
+}
+.arena .resources .nexus {
+  left: 8.6%;
+  top: 56%;
+  bottom: auto;
+  width: 11%;
+  height: 9%;
+  min-height: 42px;
+  max-height: 70px;
+  padding: 0 5% 0 0;
+  border: 1px solid #b69a58;
+  border-radius: 36px 4px 4px 36px;
+  background: linear-gradient(#14222c, #16212b);
+  box-shadow:
+    0 0 0 3px #3e382b,
+    0 4px 12px #000a;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.arena .opponent .nexus {
+  top: 36%;
+  background: linear-gradient(#322029, #21151c);
+}
+.arena .resources .nexus::before {
+  inset: 50% auto auto -5%;
+  width: clamp(48px, 6.3cqw, 96px);
+  height: clamp(48px, 6.3cqw, 96px);
+  transform: translateY(-50%);
+  border: 4px solid #c7ab6d;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 25%, #a0dbff, #226ce9 55%, #153781);
+  clip-path: none;
+  box-shadow:
+    inset 0 0 0 4px #2b4a69,
+    0 2px 12px #0009;
+  filter: none;
+}
+.arena .resources .nexus::after {
+  content: "";
+  position: absolute;
+  left: -1%;
+  top: 50%;
+  width: clamp(42px, 5.4cqw, 82px);
+  height: clamp(42px, 5.4cqw, 82px);
+  transform: translateY(-50%);
+  background: conic-gradient(
+    from 22deg at 45% 45%,
+    #8bb5ff 0deg 60deg,
+    #2365e1 60deg 110deg,
+    #0e2b84 110deg 170deg,
+    #3d75e9 170deg 225deg,
+    #9be8ff 225deg 280deg,
+    #5591ff 280deg
+  );
+  clip-path: polygon(
+    25% 2%,
+    70% 0,
+    100% 30%,
+    96% 70%,
+    65% 100%,
+    20% 90%,
+    0 55%,
+    3% 25%
+  );
+  box-shadow: 0 0 12px #47bfff;
+  pointer-events: none;
+}
+.arena .opponent .nexus::before {
+  background: radial-gradient(circle at 30% 25%, #ffb8da, #c71e5d 55%, #7b1539);
+  box-shadow:
+    inset 0 0 0 4px #833844,
+    0 2px 12px #0009;
+}
+.arena .opponent .nexus::after {
+  filter: hue-rotate(116deg) saturate(1.1);
+}
+.arena .resources .nexus b {
+  position: absolute;
+  right: 8%;
+  font: 700 clamp(20px, 3cqw, 38px) Beaufort;
+}
+.arena .resources .nexus small {
+  display: none;
+}
+.arena .resources .mana {
+  right: 2.7%;
+  width: 12%;
+  top: 66%;
+  bottom: auto;
+  padding: 6px 0;
+  border: 0;
+  background: #0c1b22cf;
+  border-radius: 5px;
+  font-size: 10px;
+  z-index: 3;
+}
+.arena .opponent .mana {
+  top: 24%;
+}
+.arena .resources .mana strong {
+  font-size: 21px;
+}
+.arena .mana-crystals {
+  gap: 3px;
+  margin: 5px auto 0;
+}
+.arena .gem {
+  width: 9px;
+  height: 11px;
+}
+.arena .bank {
+  font-size: 9px;
+}
+.arena > .board {
+  position: absolute;
+  left: 21%;
+  width: 58%;
+  height: 15%;
+  padding: 0;
+  margin: 0;
+  min-height: 0;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  z-index: 2;
+}
+.arena > #enemy-board {
+  top: 10%;
+}
+.arena > #my-board {
+  top: 72%;
+}
+:is(.arena, #effects-layer) > .board > .card {
+  position: absolute;
+  left: calc(50% + var(--slot, 0) * var(--reserve-gap));
+  top: 0;
+  width: clamp(62px, 6.2cqw, 88px);
+  min-width: 0;
+  height: clamp(84px, 12cqh, 112px);
+  padding: 3px;
+  margin: 0;
+  border: 2px solid #b2a281;
+  border-radius: 3px;
+  background: #111c26;
+  transform: translate(-50%, var(--unit-shift, 0px));
+  box-shadow: 0 4px 8px #0009;
+  transition: none;
+}
+:is(.arena, #effects-layer) > .board > .card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: 0;
+  mask-image: none;
+}
+:is(.arena, #effects-layer) > .board > .card .card-name {
+  display: none;
+}
+:is(.arena, #effects-layer) > .board > .card.on-battlefield {
+  width: clamp(90px, 11cqw, 150px);
+  height: clamp(80px, 15cqh, 120px);
+  left: calc(50% + var(--slot, 0) * var(--battle-gap));
+  border-radius: 5px 5px 2px 2px;
+}
+:is(.arena, #effects-layer)
+  > .board
+  > .card:is(:hover, :focus-visible, .selected, .attacking, .blocking) {
+  transform: translate(-50%, var(--unit-shift, 0px));
+}
+.arena .board .card.on-battlefield img {
+  object-position: center 40%;
+}
+.arena .board .card .stats {
+  position: absolute;
+  top: auto;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  z-index: 3;
+  font: 700 clamp(16px, 2cqw, 28px) Beaufort;
+}
+.arena .board .card.on-battlefield .stats {
+  top: -5px;
+  bottom: auto;
+}
+.arena .board .stats > span {
+  width: 40%;
+  height: 1.23em;
+  padding: 0;
+  border-radius: 0;
+  border: 2px solid #dec586;
+  line-height: 1.05;
+  clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
+  box-shadow: inset 0 0 0 1px #5f4617;
+}
+.arena .board .stats .power {
+  background: linear-gradient(#ffbe3b, #d07907);
+  color: white;
+}
+.arena .board .stats .health {
+  background: linear-gradient(#c72639, #6e0916);
+  color: white;
+}
+.arena .board .champion-badge {
+  font-size: 0;
+  padding: 0;
+  top: auto;
+  bottom: -14px;
+  height: 21px;
+  width: 24px;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  background: #222a2f;
+  border: 1px solid #c3ac6e;
+}
+.arena .board .champion-badge::after {
+  content: "⌃";
+  font-size: 24px;
+  line-height: 1;
+  color: #d0c4a3;
+}
+.arena .board .keyword-marks {
+  top: auto;
+  bottom: 2px;
+  right: 2px;
+  left: auto;
+  width: auto;
+  font-size: 11px;
+  color: #fff2b6;
+  background: #13222abf;
+}
+.arena .board .card .combat-role {
+  top: -20px;
+  font-size: 9px;
+  padding: 2px 5px;
+  max-width: 160%;
+}
+.arena .board .card[data-combat-role="reserve"] .combat-role {
+  display: none;
+}
+.arena .board .card .combat-outcome {
+  bottom: -19px;
+  font-size: 8px;
+}
+.arena .board .empty {
+  visibility: hidden;
+}
+.arena > .lane-heading {
+  display: none;
+}
+.arena > .battle-line,
+:is(.combat-active, .combat-preparing) .arena > .battle-line {
+  top: 46.7%;
+  left: 22%;
+  width: 56%;
+  min-height: 0;
+  padding: 4px 9px;
+  border: 0;
+  background: #11211ecc;
+  border-radius: 3px;
+  z-index: 3;
+  font-size: 10px;
+  line-height: 1.2;
+}
+.arena #phase-label {
+  font-size: 13px;
+  margin: 0 12px;
+}
+:is(.combat-active, .combat-preparing) .arena #phase-label {
+  font-size: 13px;
+}
+.arena #combat-detail {
+  font-size: 9px;
+}
+.arena-hint {
+  position: absolute;
+  right: 18%;
+  top: 40%;
+  z-index: 3;
+  padding: 8px 16px;
+  border: 2px solid #ad965f;
+  background: #10212ae8;
+  color: #f2d69b;
+  font: 700 17px Beaufort;
+  box-shadow: 0 0 12px #0009;
+  pointer-events: none;
+}
+.arena-hint[hidden] {
+  display: none;
+}
+.combat-active .arena-hint {
+  display: none;
+}
+.arena .action-strip > p {
+  bottom: 27%;
+  left: 24%;
+  width: 52%;
+  font-size: 10px;
+  padding: 4px 8px;
+  border-radius: 3px;
+  background: #0a1b21a6;
+  z-index: 3;
+}
+.arena .action-strip > #action-housing {
+  top: 39%;
+  bottom: auto;
+  right: 3%;
+  width: 12%;
+  gap: 10px;
+  z-index: 6;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+#action-housing::before {
+  content: "";
+  position: absolute;
+  left: -30%;
+  top: calc(clamp(80px, 10.5cqw, 147px) * -0.6);
+  width: 160%;
+  height: calc(clamp(80px, 10.5cqw, 147px) * 2.2);
+  background: url("assets/arenas/action-frame.svg") center/100% 100% no-repeat;
+  filter: drop-shadow(0 4px 7px #0009);
+  z-index: -1;
+  pointer-events: none;
+}
+.arena .action-strip #pass {
+  width: clamp(80px, 10.5cqw, 147px);
+  height: clamp(80px, 10.5cqw, 147px);
+  padding: 16px;
+  border: 0;
+  border-radius: 50%;
+  background-image: url("assets/arenas/action-button.png");
+  background-size: 200% 200%;
+  background-position: 0 0;
+  background-color: transparent;
+  color: #f1f8ff;
+  font: 700 clamp(13px, 1.6cqw, 24px) / 1.15 Beaufort;
+  text-transform: uppercase;
+  text-shadow: 0 2px 3px #142648;
+  box-shadow:
+    0 0 0 5px #263038,
+    0 0 0 7px #a0834c,
+    0 0 22px #000a;
+}
+.arena .action-strip #pass:disabled {
+  background-image: url("assets/arenas/action-button.png");
+  background-position: 0 100%;
+  color: #eceff0;
+  border: 0;
+  background-color: transparent;
+  box-shadow:
+    0 0 0 5px #263038,
+    0 0 0 7px #796e54;
+}
+.arena #action-housing.confirming #pass:not(:disabled) {
+  outline: 3px solid #ffbc40;
+  outline-offset: 8px;
+  filter: drop-shadow(0 0 9px #ff9414);
+}
+.arena .action-strip :is(#attack, #cancel) {
+  font-size: 11px;
+  padding: 6px 9px;
+  max-width: 100%;
+  white-space: normal;
+}
+.arena .action-strip #attack:disabled {
+  display: none;
+}
+.arena-token {
+  position: absolute;
+  right: 6%;
+  top: 61%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #9a8c62;
+  border-radius: 50%;
+  color: #abb2b8;
+  background: radial-gradient(#8c9b9f, #25313a);
+  font-size: 27px;
+  text-align: center;
+  line-height: 36px;
+  z-index: 5;
+}
+.arena-token.has-attack {
+  background: radial-gradient(#ffe39b, #936023);
+  color: #fff2b1;
+  filter: drop-shadow(0 0 7px #ff9526);
+}
+.arena > .deck-stack {
+  width: clamp(36px, 5cqw, 76px);
+  height: clamp(65px, 12cqh, 115px);
+  background: url("assets/arenas/cardback.png") center/100% 100%;
+  border: 0;
+  border-radius: 0;
+  box-shadow:
+    2px 3px 1px #a4936e,
+    4px 5px 2px #151b22;
+}
+.arena .deck-stack :is(span),
+.arena .deck-stack::after,
+.arena .back::after {
+  display: none;
+}
+.arena .deck-enemy {
+  top: 10%;
+  right: 18%;
+}
+.arena .deck-local {
+  top: 76%;
+  bottom: auto;
+  left: 15%;
+  right: auto;
+}
+.arena > .hand-back {
+  top: -4%;
+  height: 11%;
+  left: 35%;
+  width: 30%;
+}
+.arena .back {
+  width: 45px;
+  height: 72px;
+  flex: 0 0 45px;
+  background: url("assets/arenas/cardback.png") center/100% 100%;
+  font-size: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.arena > .hand {
+  left: 22%;
+  width: 56%;
+  bottom: -2%;
+  height: 18%;
+  z-index: 7;
+}
+.arena .hand .card {
+  width: clamp(75px, 7.8cqw, 112px);
+  flex-basis: clamp(75px, 7.8cqw, 112px);
+  height: clamp(110px, 18cqh, 154px);
+}
+:is(.arena, #effects-layer) > .hand > .card:hover:not(:disabled),
+:is(.arena, #effects-layer) > .hand > .card:focus-visible {
+  transform: translateY(-38px) rotate(0deg) scale(1.12);
+}
+.arena .hand .card img {
+  height: 100%;
+}
+.arena .oracle-area {
+  top: 48%;
+  left: 13%;
+  width: 55px;
+  z-index: 6;
+}
+.arena #oracle {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 2px solid #aa8c4d;
+  border-radius: 50%;
+  font-size: 26px;
+  background: radial-gradient(#4b8eff, #123cb8 50%, #132836);
+  color: #b9ecff;
+}
+.arena #oracle span {
+  display: none;
+}
+.arena #oracle-result {
+  position: absolute;
+  left: 0;
+  top: 40px;
+  width: 220px;
+  font-size: 11px;
+  z-index: 8;
+  background: #071d2bf5;
+  padding: 12px;
+  border: 1px solid #a4925a;
+}
+.arena .spell-stack {
+  top: 40%;
+  left: 25%;
+  width: 48%;
+  z-index: 8;
+}
+.game-grid > aside {
+  left: 1%;
+  top: 10%;
+}
+@media (prefers-reduced-motion: reduce) {
+  body:not(.full-motion) .arena .board .card {
+    transition: none;
+  }
+}
+@media (max-width: 900px) {
+  .in-duel header .brand {
+    display: none;
+  }
+  .in-duel .header-actions {
+    max-width: none;
+    width: 100%;
+    justify-content: center;
+  }
+  .arena .resources .mana {
+    font-size: 8px;
+  }
+  .arena .resources .mana strong {
+    font-size: 16px;
+  }
+  .arena .resources .mana-crystals {
+    gap: 1px;
+  }
+  .arena .bank {
+    font-size: 8px;
+  }
+  .arena .gem {
+    width: 7px;
+    height: 9px;
+  }
+}
+@media (max-width: 700px) {
+  .arena-preview {
+    gap: 10px;
+  }
+  #arena-preview-art {
+    width: 95px;
+    height: 65px;
+  }
+  .arena-preview strong {
+    font-size: 14px;
+  }
+  .in-duel > header {
+    min-height: 65px;
+    padding: 5px;
+  }
+  .in-duel .header-actions {
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .in-duel .header-actions button {
+    font-size: 9px;
+    padding: 5px;
+  }
+  .in-duel .music-volume {
+    display: none;
+  }
+  .arena {
+    height: calc(100dvh - 68px);
+    min-height: 700px;
+    --reserve-gap: 13cqw;
+    --battle-gap: 13cqw;
+  }
+  .arena > .board {
+    left: 9%;
+    width: 78%;
+    height: 16%;
+  }
+  .arena > #enemy-board {
+    top: 11%;
+  }
+  .arena > #my-board {
+    top: 74%;
+  }
+  :is(.arena, #effects-layer) > .board > .card {
+    width: 11cqw;
+    height: 15cqw;
+    min-height: 57px;
+    padding: 1px;
+  }
+  :is(.arena, #effects-layer) > .board > .card.on-battlefield {
+    width: 12cqw;
+    height: 11cqw;
+    min-height: 48px;
+  }
+  .arena .board .card .stats {
+    font-size: 15px;
+  }
+  .arena .board .card .combat-role {
+    font-size: 6px;
+    padding: 2px;
+    top: -16px;
+  }
+  .arena .board .card .combat-outcome {
+    font-size: 5px;
+    max-width: 150%;
+    overflow: hidden;
+    bottom: -16px;
+  }
+  .arena .board .keyword-marks {
+    font-size: 8px;
+    bottom: -10px;
+  }
+  .arena .board .champion-badge {
+    width: 16px;
+    height: 14px;
+    bottom: -10px;
+  }
+  .arena .board .champion-badge::after {
+    font-size: 15px;
+  }
+  .arena .resources .nexus {
+    left: 1%;
+    width: 20%;
+    height: 5%;
+    min-height: 35px;
+    top: 61%;
+  }
+  .arena .opponent .nexus {
+    top: 38.5%;
+  }
+  .arena .resources .nexus b {
+    font-size: 24px;
+  }
+  .arena .resources .mana {
+    right: 1%;
+    width: 17%;
+    top: 65%;
+  }
+  .arena .opponent .mana {
+    top: 28%;
+  }
+  .arena .resources .mana strong {
+    font-size: 15px;
+  }
+  .arena .gem {
+    width: 6px;
+    height: 8px;
+  }
+  .arena > .player-bar > div:first-child {
+    width: 36%;
+    padding: 4px 8px;
+  }
+  .arena .player-bar h2 {
+    font-size: 11px;
+  }
+  .arena .player-bar .eyebrow {
+    font-size: 6px;
+  }
+  .arena .action-strip > #action-housing {
+    right: 2%;
+    top: 44%;
+    width: 16%;
+    gap: 12px;
+  }
+  #action-housing::before {
+    top: -30px;
+    height: 110px;
+  }
+  .arena .action-strip #pass {
+    width: 13cqw;
+    height: 13cqw;
+    min-width: 48px;
+    min-height: 48px;
+    padding: 4px;
+    font-size: 8px;
+  }
+  .arena .action-strip :is(#attack, #cancel) {
+    font-size: 8px;
+    padding: 5px;
+  }
+  .arena-token {
+    right: 5%;
+    top: 58%;
+    width: 26px;
+    height: 26px;
+    font-size: 19px;
+    line-height: 22px;
+  }
+  .arena > .battle-line,
+  :is(.combat-active, .combat-preparing) .arena > .battle-line {
+    left: 19%;
+    width: 59%;
+    top: 47%;
+    padding: 5px;
+  }
+  .arena #phase-label,
+  :is(.combat-active, .combat-preparing) .arena #phase-label {
+    font-size: 9px;
+    margin: 0;
+  }
+  .arena #round-label,
+  .arena #token-label {
+    font-size: 7px;
+  }
+  .arena #combat-detail {
+    font-size: 7px;
+  }
+  .arena-hint {
+    right: 22%;
+    top: 40%;
+    font-size: 11px;
+    padding: 5px;
+  }
+  .arena .action-strip > p {
+    left: 18%;
+    width: 64%;
+    bottom: 28%;
+    font-size: 9px;
+  }
+  .arena > .hand {
+    width: 78%;
+    left: 11%;
+    bottom: 0;
+    height: 16%;
+  }
+  .arena .hand .card {
+    width: 63px;
+    flex-basis: 63px;
+    height: 93px;
+    margin-left: -18px;
+  }
+  .arena .hand:has(.card:nth-child(7)) .card {
+    margin-left: -32px;
+  }
+  .arena .hand:has(.card:nth-child(9)) .card {
+    margin-left: -40px;
+  }
+  .arena .deck-local {
+    left: 2%;
+  }
+  .arena .deck-enemy {
+    right: 3%;
+  }
+  .arena > .deck-stack {
+    width: 28px;
+    height: 49px;
+  }
+  .arena .oracle-area {
+    left: 2%;
+    top: 48%;
+  }
+  .arena > .hand-back {
+    width: 40%;
+    left: 30%;
+    top: -2%;
+  }
+  .home-glow,
+  .battle-glow {
+    left: 9%;
+    width: 78%;
+  }
+  .arena-caption {
+    font-size: 8px;
+    bottom: 3%;
+    right: 4px;
+    max-width: 22%;
+    text-align: right;
+  }
+}

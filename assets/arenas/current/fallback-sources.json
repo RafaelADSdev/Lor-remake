@@ -1,0 +1,98 @@
+[
+  {
+    "key": "rift",
+    "file": "fallback-rift.png",
+    "sha256": "a08c989d9e2904fc430a744dfc4523d686496c0a719228cd2251e3dafd0a7270",
+    "meshSha256": "bb2e17455f590ac6679cae540f1536cbb8cf7225e822e32c26c99eeb8756cd44",
+    "textureSha256": "1f69d2689ab637f7d85b7f9595c637c3fbf63a9f2f133867912f372402896c3f",
+    "projectionSha256": "325637f1e4430920ffd08d8be0a831514b50bec1fe0c74c0c95d4b9f503bcb0d"
+  },
+  {
+    "key": "demacia",
+    "file": "fallback-demacia.png",
+    "sha256": "32a76cfbd1de9afa611e65726608c3fcc9abed3be0c13f6fae9caf8bd28f0e78",
+    "meshSha256": "14c3da7fe1b14107676c6e9543b6638f0f9fcb06321977cd2d6ebdfad7d82f67",
+    "textureSha256": "8759ed2a480733f836fe3dcb0b4d26dca91ff6ba23909f0b612932956cd4c7a5",
+    "projectionSha256": "325637f1e4430920ffd08d8be0a831514b50bec1fe0c74c0c95d4b9f503bcb0d"
+  },
+  {
+    "key": "noxus",
+    "file": "fallback-noxus.png",
+    "sha256": "f1fe33c2058425b6522d53b9ef84e8134acb5175280c126673a7673b288ed9ee",
+    "meshSha256": "56d01a8b0ab4cf0da85b8aba047a82d441c9ca39e8afa2b8c96aeb2920d1f011",
+    "textureSha256": "5ec4de805a22acf18b79241d6cd904b08abf7770749c34ef95ea06600f9222af",
+    "projectionSha256": "325637f1e4430920ffd08d8be0a831514b50bec1fe0c74c0c95d4b9f503bcb0d"
+  },
+  {
+    "key": "ionia",
+    "file": "fallback-ionia.png",
+    "sha256": "e4f2d5916f966091bdfab2affdc2e155707e6b6197ac4b5913a3e241601b4ad6",
+    "meshSha256": "9e7d7bbc3022cc67cc171cc0130ac843feefbd11551488b14928194d7bb8030a",
+    "textureSha256": "99fee34fc508512de7dbfb92c59b75d8199eed54fb0a0fdc86ea9ae87fc5310a",
+    "projectionSha256": "325637f1e4430920ffd08d8be0a831514b50bec1fe0c74c0c95d4b9f503bcb0d"
+  },
+  {
+    "key": "freljord",
+    "file": "fallback-freljord.png",
+    "sha256": "a0e60245b7b4203b5ad33ffe49b0ade270f4f2d1ebcefff2f2d57277ec8b0d8f",
+    "meshSha256": "2ab71b74c48da7fb4f1b4cb5d0bbe9b0dbcd552ea18c173014d08e2c39d3d655",
+    "textureSha256": "127984aec2781912fc38fc017ba0ea4b13f80b3331a881ccc4b8a0c4b3ae6da7",
+    "projectionSha256": "325637f1e4430920ffd08d8be0a831514b50bec1fe0c74c0c95d4b9f503bcb0d"
+  },
+  {
+    "key": "piltover",
+    "file": "fallback-piltover.png",
+    "sha256": "fee88ced72428459e51c22973feace693f1521be53e9c0fa3bc8ebcced2feb3a",
+    "meshSha256": "6e14d397b2063223e2fb9c1534d10baf6459dcd5f642341418ddf847b2bd75d7",
+    "textureSha256": "328d62ca451b8e0b1db63557ee9a526a3f67f9684c68517fdbdcf015cae6186a",
+    "projectionSha256": "325637f1e4430920ffd08d8be0a831514b50bec1fe0c74c0c95d4b9f503bcb0d"
+  },
+  {
+    "key": "bilgewater",
+    "file": "fallback-bilgewater.png",
+    "sha256": "359b7b7d559b35a2a6e913e4a79ab420b4e02747c889142393c702a0d2497815",
+    "meshSha256": "6cd6280797626d234384397e5686e849b74adb0cb764c843f0a601b1e3419c72",
+    "textureSha256": "1a837c52f4b3e0cb843f87838197e67b87242e8a9ee720f8e1b563500e66ff37",
+    "projectionSha256": "325637f1e4430920ffd08d8be0a831514b50bec1fe0c74c0c95d4b9f503bcb0d"
+  },
+  {
+    "key": "shadowisles",
+    "file": "fallback-shadowisles.png",
+    "sha256": "0d6c414381246aad280ae8297aed03ebbfd48acf0c6741328f644ad0925831e1",
+    "meshSha256": "db6e0ad01f6d1e070a4c6854e21920a61586a20fb25c07af7aeb6541b807f7d7",
+    "textureSha256": "413dbf56bbe157de7c823a0b85fd73d650e46ae496cf9052a4e26ddabc85cd32",
+    "projectionSha256": "325637f1e4430920ffd08d8be0a831514b50bec1fe0c74c0c95d4b9f503bcb0d"
+  },
+  {
+    "key": "shurima",
+    "file": "fallback-shurima.png",
+    "sha256": "26fe9b290f56189ee709924f976648b19d32be7ae1015e47da26585fba24daf8",
+    "meshSha256": "306598a517a1a8f7cd89b78437a6d4898bc04df2715170798286508bb8609387",
+    "textureSha256": "9cfc61ec64ffb986a128122a34e60166b2fb1d527924f15038dda58c8a02c0ff",
+    "projectionSha256": "325637f1e4430920ffd08d8be0a831514b50bec1fe0c74c0c95d4b9f503bcb0d"
+  },
+  {
+    "key": "targon",
+    "file": "fallback-targon.png",
+    "sha256": "71eabc4ca39490deded32355023b11e7f8b9157d25b0a6b56f8ae6b1b4035d73",
+    "meshSha256": "a43b43f16fa300c65e8ef98d3cb714f48ab50940bdf1c720b06e09b74a114101",
+    "textureSha256": "00a1144382b01f57c2af8e5a7bfd7447a5fb6ca4613d2acb00f12357efd3e9d0",
+    "projectionSha256": "325637f1e4430920ffd08d8be0a831514b50bec1fe0c74c0c95d4b9f503bcb0d"
+  },
+  {
+    "key": "bandlecity",
+    "file": "fallback-bandlecity.png",
+    "sha256": "04c118c510b79aba6c2e8871a8374220f0a0db52b256805f8662ad3df74d8277",
+    "meshSha256": "59301a38cd7cd6e67fac849e425cf7436162b9b2a4ab4bdd72ae649b68672b3b",
+    "textureSha256": "d3bcc2bddea837500e5aed1b2c0c71491ebe952cec787efe29f856f7f65ab9bc",
+    "projectionSha256": "325637f1e4430920ffd08d8be0a831514b50bec1fe0c74c0c95d4b9f503bcb0d"
+  },
+  {
+    "key": "zaun",
+    "file": "fallback-zaun.png",
+    "sha256": "baa310c15e8caf77c0d18e85e5f8d3fb730bea13f16a403776e5703ca0d19609",
+    "meshSha256": "089e04c0bb2206d8510864e2e715200b869a5c9497e2b9bbad93ccf0650003e1",
+    "textureSha256": "dcde76b825d99001ab0c7ee6ad74ecaef596048acc91c2885a93c22b5ff08895",
+    "projectionSha256": "325637f1e4430920ffd08d8be0a831514b50bec1fe0c74c0c95d4b9f503bcb0d"
+  }
+]
